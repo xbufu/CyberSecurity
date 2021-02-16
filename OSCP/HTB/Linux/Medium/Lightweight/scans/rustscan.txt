@@ -1,0 +1,68 @@
+Automatically increasing ulimit value to 5000.
+Open 10.10.10.119:80
+Open 10.10.10.119:22
+Starting Script(s)
+Script to be run Some("nmap -vvv -p {{port}} {{ip}}")
+
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-02-16 14:09 EST
+NSE: Loaded 153 scripts for scanning.
+NSE: Script Pre-scanning.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 14:09
+Completed NSE at 14:09, 0.00s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 14:09
+Completed NSE at 14:09, 0.00s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 14:09
+Completed NSE at 14:09, 0.00s elapsed
+Initiating SYN Stealth Scan at 14:09
+Scanning lightweight.htb (10.10.10.119) [2 ports]
+Discovered open port 22/tcp on 10.10.10.119
+Discovered open port 80/tcp on 10.10.10.119
+Completed SYN Stealth Scan at 14:09, 1.10s elapsed (2 total ports)
+Initiating Service scan at 14:09
+Scanning 2 services on lightweight.htb (10.10.10.119)
+Completed Service scan at 14:09, 6.09s elapsed (2 services on 1 host)
+NSE: Script scanning 10.10.10.119.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 14:09
+Completed NSE at 14:09, 5.88s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 14:09
+Completed NSE at 14:09, 1.04s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 14:09
+Completed NSE at 14:09, 0.00s elapsed
+Nmap scan report for lightweight.htb (10.10.10.119)
+Host is up, received user-set (0.040s latency).
+Scanned at 2021-02-16 14:09:25 EST for 15s
+
+PORT   STATE SERVICE REASON         VERSION
+22/tcp open  ssh     syn-ack ttl 63 OpenSSH 7.4 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 19:97:59:9a:15:fd:d2:ac:bd:84:73:c4:29:e9:2b:73 (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDf7K92wk79uG+iF3K0XaLWtJBrMKM/PfpE01tmpOSxwdhbiXQZ1ggfXFOfjSrkNqO/W3apn2SH1IO3jRCUGmEfXUzmTlX7FKDETKKFJuSZFwdphEqxoX/wCZ+NQhBX9bMT817GjQTNPEmkQsuWUD7PcVBYhRSKohP0jbAc464VKbSeiQt6q1I71CxzUtqMnL7pOREvF41+0K0BNtQUJVKxq5Aq0g67Ba8b0UEecOwgS8O4rZeKrfuYHMXnl6n32XrjqliowOSaZl/iYOu3dgkooIEDFDiaEapOW7J71/Ag/96NWzUf1U91QxCIA2GNtAhXT+Bn+ncbFtWxGdh6enL
+|   256 88:58:a1:cf:38:cd:2e:15:1d:2c:7f:72:06:a3:57:67 (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBJ2F5pumDKrMj6rP99uQehJ2kGbw7z54Ydq7uuZ8FgoTw7wJ44SSytCh1jkrQay1jRg0+4Izw0cqUeW93J5kDCc=
+|   256 31:6c:c1:eb:3b:28:0f:ad:d5:79:72:8f:f5:b5:49:db (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGwL0BBmHKyKlj3sRMsytml1etD3lMtofGbdxD8aAh1T
+80/tcp open  http    syn-ack ttl 63 Apache httpd 2.4.6 ((CentOS) OpenSSL/1.0.2k-fips mod_fcgid/2.3.9 PHP/5.4.16)
+| http-methods: 
+|_  Supported Methods: GET HEAD POST
+
+NSE: Script Post-scanning.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 14:09
+Completed NSE at 14:09, 0.00s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 14:09
+Completed NSE at 14:09, 0.00s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 14:09
+Completed NSE at 14:09, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 14.45 seconds
+           Raw packets sent: 4 (176B) | Rcvd: 2 (88B)
+
