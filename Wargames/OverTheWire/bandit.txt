@@ -1,0 +1,64 @@
+# 0
+ssh bandit.labs.overthewire.org -p 2220 -l bandit0
+bandit0:bandit0
+
+#1
+cat ~/readme
+bandit1:boJ9jbbUNNfktd78OOpsqOltutMc3MY1
+
+#2
+cat ~/-
+bandit2:CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
+
+#3
+cat ~/spaces\ in\ this\ filename
+bandit3:UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
+
+#4
+cat ~/inhere/.hidden
+bandit4:pIwrPrtPN36QITSp3EQaw936yaFoFgAB
+
+#5
+file ~/inhere/* | grep ASCII
+bandit5:koReBOKuIDDepwhWk7jZC0RTdopnAYKh
+
+#6
+find ~/inhere -size 1033c ! -executable -exec file {} + | grep ASCII
+bandit6:DXjZPULLxYr17uwoI01bNLQbtFemEgo7
+
+#7
+find / -type f -user bandit7 -group bandit6 -size 33c 2>/dev/null
+bandit7:HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
+
+#8
+grep "millionth" ~/data.txt
+bandit8:cvX2JJa4CFALtqS87jk27qwqGhBM9plV
+
+#9
+sort ~/data.txt | uniq -c | grep " 1 "
+bandit9:UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
+
+#10
+strings ~/data.txt | grep =
+bandit10:truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
+
+#11
+cat ~/data.txt | base64 -d
+bandit11:IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
+
+#12
+cat ~/data.txt | tr "[a-zA-Z]" "[n-za-mN-ZA-M]"
+bandit12:5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
+
+#13
+
+bandit13:8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
+bandit14:4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
+bandit15:BfMYroe26WYalil77FoDi9qh59eK5xNr
+bandit16:cluFn7wTiGryunymYOu4RcffSxQluehd
+bandit18:kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd
+bandit19:IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x
+bandit20:GbKksEFF4yrVs6il55v6gwY5aVje5f0j
+bandit21:gE269g2h3mw3pwgrj0Ha9Uoqen1c9DGr
+bandit22:Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI
+bandit23:jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n

@@ -1,0 +1,22 @@
+# Nmap 7.91 scan initiated Sat Feb 13 13:02:31 2021 as: nmap -T4 -p- -Pn -vvv -oN scans/nmap_allports.txt lacasadepapel.htb
+Warning: 10.129.96.226 giving up on port because retransmission cap hit (6).
+Nmap scan report for lacasadepapel.htb (10.129.96.226)
+Host is up, received user-set (0.044s latency).
+Scanned at 2021-02-13 13:02:31 CET for 963s
+Not shown: 65524 closed ports
+Reason: 65524 conn-refused
+PORT      STATE    SERVICE       REASON
+21/tcp    open     ftp           syn-ack
+22/tcp    open     ssh           syn-ack
+80/tcp    open     http          syn-ack
+443/tcp   open     https         syn-ack
+3308/tcp  filtered tns-server    no-response
+3618/tcp  filtered aairnet-1     no-response
+3790/tcp  filtered quickbooksrds no-response
+5790/tcp  filtered unknown       no-response
+30728/tcp filtered unknown       no-response
+41578/tcp filtered unknown       no-response
+56518/tcp filtered unknown       no-response
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Sat Feb 13 13:18:34 2021 -- 1 IP address (1 host up) scanned in 963.27 seconds

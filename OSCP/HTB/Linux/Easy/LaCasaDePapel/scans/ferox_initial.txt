@@ -1,0 +1,4 @@
+WLD        1l        4w       44c Got 302 for https://lacasadepapel.htb/6bf64cd711e44f4485906ab06c5f64b5 (url length: 32)
+WLD         -         -         - https://lacasadepapel.htb/6bf64cd711e44f4485906ab06c5f64b5 redirects to => http://lacasadepel.htb
+WLD        1l        4w       44c Got 302 for https://lacasadepapel.htb/1734aceb4f90498bbd6f9ea44f4df793952ac8ba75884475bf96d9f1b23d2c0fda5b218e846640dea2662238f239b699 (url length: 96)
+WLD         -         -         - https://lacasadepapel.htb/1734aceb4f90498bbd6f9ea44f4df793952ac8ba75884475bf96d9f1b23d2c0fda5b218e846640dea2662238f239b699 redirects to => http://lacasadepel.htb

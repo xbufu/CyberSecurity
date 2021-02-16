@@ -1,0 +1,5 @@
+/.htaccess (Status: 403)
+/.htaccess.txt (Status: 403)
+/.htpasswd (Status: 403)
+/.htpasswd.txt (Status: 403)
+/index.php (Status: 200)

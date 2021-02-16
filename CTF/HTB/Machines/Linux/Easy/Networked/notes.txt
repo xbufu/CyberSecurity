@@ -1,0 +1,6 @@
+- Apache httpd 2.4.6 ((CentOS) PHP/5.4.16)
+
+- Possible directories from source of /
+
+	upload
+	gallery

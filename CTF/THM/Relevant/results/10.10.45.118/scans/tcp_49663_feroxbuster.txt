@@ -1,0 +1,8 @@
+301        2l       10w      163c http://10.10.45.118:49663/aspnet_client
+301        2l       10w      163c http://10.10.45.118:49663/Aspnet_client
+301        2l       10w      163c http://10.10.45.118:49663/ASPNET_CLIENT
+301        2l       10w      163c http://10.10.45.118:49663/aspnet_Client
+301        2l       10w      174c http://10.10.45.118:49663/aspnet_client/system_web
+301        2l       10w      174c http://10.10.45.118:49663/Aspnet_client/system_web
+301        2l       10w      174c http://10.10.45.118:49663/ASPNET_CLIENT/system_web
+301        2l       10w      174c http://10.10.45.118:49663/aspnet_Client/system_web

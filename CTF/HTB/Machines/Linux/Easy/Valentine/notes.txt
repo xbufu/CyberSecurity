@@ -1,0 +1,10 @@
+Webserver:
+	- Apache 2.2.22
+	- PHP 5.3.10
+	- Found directory /dev
+	- Found encrypted SSH key
+	- 443 vulnerable to heartbleed
+	- Got base64 encoded password for key
+
+Local:
+	- Can get root through dirty cow or running tmux session

@@ -1,0 +1,7 @@
+/favicon.ico (Status: 200)
+/flows (Status: 401)
+/icons (Status: 401)
+/nodes (Status: 401)
+/red (Status: 301)
+/settings (Status: 401)
+/vendor (Status: 301)

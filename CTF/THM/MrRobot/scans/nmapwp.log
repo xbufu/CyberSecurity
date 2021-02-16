@@ -1,0 +1,1 @@
+# Nmap 7.91 scan initiated Fri Dec 11 16:48:31 2020 as: nmap --script=http-wordpress-enum -vvv -oN scans/nmapwp.log 10.10.57.191

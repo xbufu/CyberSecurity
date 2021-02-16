@@ -1,0 +1,5 @@
+403        9l       28w      277c http://10.129.98.81/images/
+403        9l       28w      277c http://10.129.98.81/images/thumbs/
+200        4l       23w      138c http://10.129.98.81/robots.txt
+403        9l       28w      277c http://10.129.98.81/assets/
+403        9l       28w      277c http://10.129.98.81/assets/sass/

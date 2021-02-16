@@ -1,0 +1,5 @@
+403        9l       28w      278c http://10.10.128.245/server-status
+200       72l      197w     2968c http://10.10.128.245/index.php
+200       28l      165w     1332c http://10.10.128.245/index.html
+301        9l       28w      319c http://10.10.128.245/javascript
+401       14l       54w      460c http://10.10.128.245/nagios

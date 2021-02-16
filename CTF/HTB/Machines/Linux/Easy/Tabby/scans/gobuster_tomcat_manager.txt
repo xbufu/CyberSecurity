@@ -1,0 +1,4 @@
+/html (Status: 401)
+/images (Status: 302)
+/status (Status: 401)
+/text (Status: 401)

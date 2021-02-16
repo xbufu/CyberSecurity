@@ -1,0 +1,26 @@
+FTP/21:
+
+Anonymous login allowed
+Got possible username mitch
+
+HTTP/80:
+
+/robots.txt
+Possible username mike
+
+/simple
+CMS Made Simple version 2.2.8
+
+Found possible SQL injection using searchsploit CVE-2019-9053
+
+[+] Salt for password found: 1dac0d92e9fa6bb2
+[+] Username found: mitch
+[+] Email found: admin@admin.com
+[+] Password found: 0c01f4468bd75d7a84c7eb73846e8d96
+[+] Password cracked: secret
+
+SSH credentials:
+
+mitch:secret
+
+Got root through sudo vim

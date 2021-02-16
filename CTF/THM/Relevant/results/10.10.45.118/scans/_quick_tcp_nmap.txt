@@ -1,0 +1,85 @@
+# Nmap 7.91 scan initiated Mon Dec 28 12:36:39 2020 as: nmap -vv --reason -Pn -sV -sC --version-all -oN /home/bufu/THM/Relevant/results/10.10.45.118/scans/_quick_tcp_nmap.txt -oX /home/bufu/THM/Relevant/results/10.10.45.118/scans/xml/_quick_tcp_nmap.xml 10.10.45.118
+Nmap scan report for 10.10.45.118
+Host is up, received user-set (0.040s latency).
+Scanned at 2020-12-28 12:36:39 CET for 52s
+Not shown: 995 filtered ports
+Reason: 995 no-responses
+PORT     STATE SERVICE       REASON  VERSION
+80/tcp   open  http          syn-ack Microsoft IIS httpd 10.0
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/10.0
+|_http-title: IIS Windows Server
+135/tcp  open  msrpc         syn-ack Microsoft Windows RPC
+139/tcp  open  netbios-ssn   syn-ack Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds  syn-ack Windows Server 2016 Standard Evaluation 14393 microsoft-ds
+3389/tcp open  ms-wbt-server syn-ack Microsoft Terminal Services
+| rdp-ntlm-info: 
+|   Target_Name: RELEVANT
+|   NetBIOS_Domain_Name: RELEVANT
+|   NetBIOS_Computer_Name: RELEVANT
+|   DNS_Domain_Name: Relevant
+|   DNS_Computer_Name: Relevant
+|   Product_Version: 10.0.14393
+|_  System_Time: 2020-12-28T11:36:44+00:00
+| ssl-cert: Subject: commonName=Relevant
+| Issuer: commonName=Relevant
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2020-12-27T11:32:19
+| Not valid after:  2021-06-28T11:32:19
+| MD5:   1395 2bf0 b71b cb55 dda8 cd0b b801 3960
+| SHA-1: 25a3 c843 2fcc 575a 6a69 f396 8ca9 2bd0 67ab 05d6
+| -----BEGIN CERTIFICATE-----
+| MIIC1DCCAbygAwIBAgIQZ4nr++2mBIpGfkSSmBsm9jANBgkqhkiG9w0BAQsFADAT
+| MREwDwYDVQQDEwhSZWxldmFudDAeFw0yMDEyMjcxMTMyMTlaFw0yMTA2MjgxMTMy
+| MTlaMBMxETAPBgNVBAMTCFJlbGV2YW50MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A
+| MIIBCgKCAQEAlhGDMn5lhRSmKZVHiMWFWBf1eMZjGQ63CCIpAnzfI1n5N/YiMhf7
+| +x65fltQrccngGTmehXZrOvM+LCmy+JSwo4QWyBuWh6s78GDTsQqda21VW7H6Mr1
+| iip2o82xezyUH/OoqqOFHy/LLniyjmj9987cYjf+ll8N4s6cY+jZl1kLgE/ANECy
+| 5eESdG6mWW9y5xVKvgb3oAdFUikoylQN/wMyKQ0mKuckjLoqFPu6nMSG1AR0PNDe
+| vJ5nrGHD/fxrvpSXvqnt75K3Desjg36RDnGRe5eVNZD7irQhCPXRPMRDtWVNp/sR
+| s0QlmiijySJmKI9CbSQRUudWN/Wao0MSMwIDAQABoyQwIjATBgNVHSUEDDAKBggr
+| BgEFBQcDATALBgNVHQ8EBAMCBDAwDQYJKoZIhvcNAQELBQADggEBAF5oFcpo1cnJ
+| flfpLRCkdgisVWXss/mqxqQkGWzSabJxkc22sqTDrzRixQPfuer0EtEKWfh1wGit
+| HqNKx94Kda2Ikk1yg3khKVpld8WsNgUQc4+YFpxjJFOUcU+ZnXIss4zjNk2xkrq/
+| CuMd0fZKZexraUeDGiBVZfVWpta0Jq5aZFn/cGzqjzs8do22RgXD/4F9ZondRCyR
+| U1FVhVTXZgg4Bbp+zfzTEcLn6mZ0E3yff1qPzdRcvuB/Rw4Mkjy7UQ0YmKtVHbWQ
+| waSkvvG+bPoTOU9mDjd/D4UpdkbciA2j7vxx1XwKk5hHctoQSczlmM4JSBCH+pOJ
+| qLip8ca+cz4=
+|_-----END CERTIFICATE-----
+|_ssl-date: 2020-12-28T11:37:24+00:00; -7s from scanner time.
+Service Info: OSs: Windows, Windows Server 2008 R2 - 2012; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: 1h35m53s, deviation: 3h34m40s, median: -7s
+| p2p-conficker: 
+|   Checking for Conficker.C or higher...
+|   Check 1 (port 51928/tcp): CLEAN (Timeout)
+|   Check 2 (port 40038/tcp): CLEAN (Timeout)
+|   Check 3 (port 35584/udp): CLEAN (Timeout)
+|   Check 4 (port 33023/udp): CLEAN (Timeout)
+|_  0/4 checks are positive: Host is CLEAN or ports are blocked
+| smb-os-discovery: 
+|   OS: Windows Server 2016 Standard Evaluation 14393 (Windows Server 2016 Standard Evaluation 6.3)
+|   Computer name: Relevant
+|   NetBIOS computer name: RELEVANT\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2020-12-28T03:36:45-08:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2020-12-28T11:36:46
+|_  start_date: 2020-12-28T11:32:20
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Dec 28 12:37:31 2020 -- 1 IP address (1 host up) scanned in 51.91 seconds

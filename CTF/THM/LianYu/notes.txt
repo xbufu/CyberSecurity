@@ -1,0 +1,27 @@
+found directory /island
+
+maybe username Lian_Yu
+
+code word vigilante
+
+found hidden directory /island/2100
+
+found /island/2100/green_arrow.ticket
+
+found RTy8yhBQdscX in ticket file
+Base58 encoded
+
+FTP credentials vigilante:!#th3h00d
+
+Magic bytes of Leavemealone picture wrong
+Change to magic bytes for .png file
+
+File revealed
+password
+
+Found hidden files in aa.jpg
+
+SSH credentials
+slade:M3tahuman
+
+Was able to get root by sudo pkexec sh

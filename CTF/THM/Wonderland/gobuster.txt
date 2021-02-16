@@ -1,0 +1,29 @@
+===============================================================
+Gobuster v3.0.1
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
+===============================================================
+[+] Url:            http://10.10.145.252
+[+] Threads:        10
+[+] Wordlist:       /usr/share/wordlists/dirbuster/directory-list-lowercase-2.3-medium.txt
+[+] Status codes:   200,204,301,302,307,401,403
+[+] User Agent:     gobuster/3.0.1
+[+] Timeout:        10s
+===============================================================
+2020/12/03 12:30:15 Starting gobuster
+===============================================================
+/img (Status: 301)
+/r (Status: 301)
+/poem (Status: 301)
+/http%3a%2f%2fwww (Status: 301)
+/http%3a%2f%2fyoutube (Status: 301)
+/http%3a%2f%2fblogs (Status: 301)
+/http%3a%2f%2fblog (Status: 301)
+/**http%3a%2f%2fwww (Status: 301)
+/http%3a%2f%2fcommunity (Status: 301)
+/http%3a%2f%2fradar (Status: 301)
+/http%3a%2f%2fjeremiahgrossman (Status: 301)
+/http%3a%2f%2fweblog (Status: 301)
+/http%3a%2f%2fswik (Status: 301)
+===============================================================
+2020/12/03 12:43:34 Finished
+===============================================================

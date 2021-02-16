@@ -1,0 +1,55 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-01-18 13:00 CET
+NSE: Loaded 48 scripts for scanning.
+NSE: Script Pre-scanning.
+NSE: Starting runlevel 1 (of 2) scan.
+Initiating NSE at 13:00
+Completed NSE at 13:00, 0.00s elapsed
+NSE: Starting runlevel 2 (of 2) scan.
+Initiating NSE at 13:00
+Completed NSE at 13:00, 0.00s elapsed
+Initiating Ping Scan at 13:00
+Scanning irked.htb (10.10.10.117) [2 ports]
+Completed Ping Scan at 13:00, 0.03s elapsed (1 total hosts)
+Initiating Connect Scan at 13:00
+Scanning irked.htb (10.10.10.117) [4 ports]
+Discovered open port 6697/tcp on 10.10.10.117
+Discovered open port 65534/tcp on 10.10.10.117
+Discovered open port 58999/tcp on 10.10.10.117
+Discovered open port 8067/tcp on 10.10.10.117
+Completed Connect Scan at 13:00, 0.03s elapsed (4 total ports)
+Initiating Service scan at 13:00
+Scanning 4 services on irked.htb (10.10.10.117)
+Completed Service scan at 13:00, 11.25s elapsed (4 services on 1 host)
+NSE: Script scanning 10.10.10.117.
+NSE: Starting runlevel 1 (of 2) scan.
+Initiating NSE at 13:00
+Completed NSE at 13:00, 0.06s elapsed
+NSE: Starting runlevel 2 (of 2) scan.
+Initiating NSE at 13:00
+Completed NSE at 13:00, 0.22s elapsed
+Nmap scan report for irked.htb (10.10.10.117)
+Host is up, received syn-ack (0.026s latency).
+Scanned at 2021-01-18 13:00:42 CET for 11s
+
+PORT      STATE SERVICE REASON  VERSION
+6697/tcp  open  irc     syn-ack UnrealIRCd (Admin email djmardov@irked.htb)
+| irc-botnet-channels: 
+|_  ERROR: Closing Link: [10.10.14.21] (Throttled: Reconnecting too fast) -Email djmardov@irked.htb for more information.
+8067/tcp  open  irc     syn-ack UnrealIRCd (Admin email djmardov@irked.htb)
+| irc-botnet-channels: 
+|_  ERROR: Closing Link: [10.10.14.21] (Throttled: Reconnecting too fast) -Email djmardov@irked.htb for more information.
+58999/tcp open  status  syn-ack 1 (RPC #100024)
+65534/tcp open  irc     syn-ack UnrealIRCd (Admin email djmardov@irked.htb)
+| irc-botnet-channels: 
+|_  ERROR: Closing Link: [10.10.14.21] (Throttled: Reconnecting too fast) -Email djmardov@irked.htb for more information.
+
+NSE: Script Post-scanning.
+NSE: Starting runlevel 1 (of 2) scan.
+Initiating NSE at 13:00
+Completed NSE at 13:00, 0.00s elapsed
+NSE: Starting runlevel 2 (of 2) scan.
+Initiating NSE at 13:00
+Completed NSE at 13:00, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 11.87 seconds

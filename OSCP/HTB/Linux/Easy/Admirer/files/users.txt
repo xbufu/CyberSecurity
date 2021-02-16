@@ -1,0 +1,10 @@
+waldo
+admin
+ftpuser
+howard
+bernadette
+leonard
+amy
+rajesh
+penny
+root

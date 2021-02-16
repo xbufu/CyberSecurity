@@ -1,0 +1,3 @@
+/assets (Status: 301)
+/error (Status: 301)
+/images (Status: 301)

@@ -1,0 +1,52 @@
+80/HTTP:
+	- Found ngnix 1.14.2
+	- Found subdomain
+		
+		helpdesk.delivery.htb
+
+	- Found that you need @delivery.htb email in order to access MatterMost server at
+
+		http://delivery.htb:8065
+
+	- Found scp login at
+		
+		/scp/login.php
+
+	- Found that you can email ticketid@delivery.htb to add more information to ticket
+
+	- Use it to gain access to Mattermost server
+
+- Mattermost
+	
+	- Found credentials
+			
+		maildeliverer:Youve_G0t_Mail!
+
+	- Hint that most passwords are a variant of PleaseSubscribe! and can use hashcat rules to crack hashes
+
+osTicket admin panel:
+	
+	- Found hashes
+
+		5b785171bfb34762a933e127630c4860
+		ff0a21fc6fc2488195e16ea854c963ee
+		c3ecacacc7b94f909d04dbfd308a9b93
+		9ecfb4be145d47fda0724f697f35ffaf
+
+Could SSH into machien with maildeliverer
+
+linpeas:
+	
+	Crontab at /root/mail.sh
+	Mysql running
+
+Found SQL credentials from mattermost config
+
+	mmuser:Crack_The_MM_Admin_PW
+
+Root hash
+
+	$2a$10$VM6EeymRxJ29r8Wjkr8Dtev0O.1STWb4.4ScG.anuu7v0EFJwgjjO
+
+	root:PleaseSubscribe!21
+

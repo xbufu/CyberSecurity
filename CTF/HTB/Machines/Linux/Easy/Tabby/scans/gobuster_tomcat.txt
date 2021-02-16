@@ -1,0 +1,3 @@
+/docs (Status: 302)
+/examples (Status: 302)
+/manager (Status: 302)

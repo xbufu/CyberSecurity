@@ -1,0 +1,19 @@
+FTP:
+    Anonymous login allowed
+    Found 2 files
+    Found hint to port 1337 in .txt file
+    Found name fijbxslz in .png file
+
+SMB:
+    Found user chuck but no acces without password
+
+HTTP:
+    /index.html
+        Found link in source  https://www.youtube.com/watch?v=9Gc4QTqslN4
+        Bird is the word 
+    /admin
+        Found possible credentials in source code
+        Y2liYXJ0b3dza2k= : aGVoZWdvdTwdasddHlvdQ==
+        cibartowski:hehegou<.jÇ].[ÝD
+
+

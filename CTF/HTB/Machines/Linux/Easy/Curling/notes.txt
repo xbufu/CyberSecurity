@@ -1,0 +1,30 @@
+HTTP:
+	- Found hint to secret.txt in source of index.php
+		Q3VybGluZzIwMTgh
+
+	- Base64 decodes to
+		Curling2018!
+	
+	- Found usernames "Super User" and Floris
+	
+	- Working credentials
+		floris:Curling2018!
+
+RCE:
+	- Uploaded php reverse shell to template
+
+PrivEsc:
+	- Found /home/floris/password_backup hexdump
+	
+	- Got credentials after reverting hexdump and decompressing
+		floris:5d<wdCbdZu)|hChXll
+	
+	- Got MySQL credentials from /var/www/html/configuration.php
+		floris:mYsQ!P4ssw0rd$yea!
+
+	- Got hash from eslf_users
+		$2y$10$4t3DQSg0DSlKcDEkf1qEcu6nUFEr/gytHfVENwSmZN1MXxE1Ssx.e
+
+	- Found process executing curl -K /home/floris/admin-area/input -o /home/floris/admin-area/report
+
+	- Could edit input file and have it create a malicious crontab to get a reverse shell as root

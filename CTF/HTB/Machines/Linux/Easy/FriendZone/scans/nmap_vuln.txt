@@ -1,0 +1,87 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-01-17 16:43 CET
+NSE: Loaded 105 scripts for scanning.
+NSE: Script Pre-scanning.
+NSE: Starting runlevel 1 (of 2) scan.
+Initiating NSE at 16:43
+NSE Timing: About 50.00% done; ETC: 16:44 (0:00:31 remaining)
+Completed NSE at 16:44, 34.01s elapsed
+NSE: Starting runlevel 2 (of 2) scan.
+Initiating NSE at 16:44
+Completed NSE at 16:44, 0.00s elapsed
+Pre-scan script results:
+| broadcast-avahi-dos: 
+|   Discovered hosts:
+|     224.0.0.251
+|   After NULL UDP avahi packet DoS (CVE-2011-1002).
+|_  Hosts are all up (not vulnerable).
+Initiating Parallel DNS resolution of 1 host. at 16:44
+Completed Parallel DNS resolution of 1 host. at 16:44, 0.04s elapsed
+DNS resolution of 1 IPs took 0.04s. Mode: Async [#: 1, OK: 0, NX: 1, DR: 0, SF: 0, TR: 1, CN: 0]
+Initiating SYN Stealth Scan at 16:44
+Scanning 10.10.10.123 [6 ports]
+Discovered open port 443/tcp on 10.10.10.123
+Discovered open port 80/tcp on 10.10.10.123
+Discovered open port 53/tcp on 10.10.10.123
+Discovered open port 139/tcp on 10.10.10.123
+Discovered open port 445/tcp on 10.10.10.123
+Discovered open port 21/tcp on 10.10.10.123
+Completed SYN Stealth Scan at 16:44, 0.09s elapsed (6 total ports)
+NSE: Script scanning 10.10.10.123.
+NSE: Starting runlevel 1 (of 2) scan.
+Initiating NSE at 16:44
+NSE Timing: About 81.63% done; ETC: 16:44 (0:00:07 remaining)
+Completed NSE at 16:44, 47.84s elapsed
+NSE: Starting runlevel 2 (of 2) scan.
+Initiating NSE at 16:44
+Completed NSE at 16:44, 0.10s elapsed
+Nmap scan report for 10.10.10.123
+Host is up, received user-set (0.032s latency).
+Scanned at 2021-01-17 16:44:02 CET for 48s
+
+PORT    STATE SERVICE      REASON
+21/tcp  open  ftp          syn-ack ttl 63
+|_sslv2-drown: 
+53/tcp  open  domain       syn-ack ttl 63
+80/tcp  open  http         syn-ack ttl 63
+|_http-csrf: Couldn't find any CSRF vulnerabilities.
+|_http-dombased-xss: Couldn't find any DOM based XSS.
+| http-enum: 
+|   /wordpress/: Blog
+|_  /robots.txt: Robots file
+|_http-jsonp-detection: Couldn't find any JSONP endpoints.
+|_http-litespeed-sourcecode-download: Request with null byte did not work. This web server might not be vulnerable
+|_http-stored-xss: Couldn't find any stored XSS vulnerabilities.
+|_http-wordpress-users: [Error] Wordpress installation was not found. We couldn't find wp-login.php
+139/tcp open  netbios-ssn  syn-ack ttl 63
+443/tcp open  https        syn-ack ttl 63
+|_http-csrf: Couldn't find any CSRF vulnerabilities.
+|_http-dombased-xss: Couldn't find any DOM based XSS.
+|_http-jsonp-detection: Couldn't find any JSONP endpoints.
+|_http-litespeed-sourcecode-download: Request with null byte did not work. This web server might not be vulnerable
+|_http-stored-xss: Couldn't find any stored XSS vulnerabilities.
+|_http-wordpress-users: [Error] Wordpress installation was not found. We couldn't find wp-login.php
+|_sslv2-drown: 
+445/tcp open  microsoft-ds syn-ack ttl 63
+
+Host script results:
+|_smb-vuln-ms10-054: false
+|_smb-vuln-ms10-061: false
+| smb-vuln-regsvc-dos: 
+|   VULNERABLE:
+|   Service regsvc in Microsoft Windows systems vulnerable to denial of service
+|     State: VULNERABLE
+|       The service regsvc in Microsoft Windows 2000 systems is vulnerable to denial of service caused by a null deference
+|       pointer. This script will crash the service if it is vulnerable. This vulnerability was discovered by Ron Bowes
+|       while working on smb-enum-sessions.
+|_          
+
+NSE: Script Post-scanning.
+NSE: Starting runlevel 1 (of 2) scan.
+Initiating NSE at 16:44
+Completed NSE at 16:44, 0.00s elapsed
+NSE: Starting runlevel 2 (of 2) scan.
+Initiating NSE at 16:44
+Completed NSE at 16:44, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+Nmap done: 1 IP address (1 host up) scanned in 82.42 seconds
+           Raw packets sent: 6 (264B) | Rcvd: 9 (620B)

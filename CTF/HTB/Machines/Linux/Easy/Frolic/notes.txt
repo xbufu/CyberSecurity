@@ -1,0 +1,105 @@
+SMB:
+	- smbd 4.3.11 ubuntu
+	- Found users
+
+		sahay
+		ayush
+		nobody
+
+1880:
+	- Node-Red 
+	- Possible RCE with authentication
+
+9999:
+	- nginx 1.10.3
+	- login page at 
+
+		/admin
+	
+	- Uses client-side authentication, can read credentials from .js file
+
+		admin:superduperlooperpassword_lol
+
+	- Found phpinfo() page at 
+
+		/test
+
+	- Could access backup files from
+
+		/backup
+
+	- Credentials in user.txt and password.txt
+
+		admin:imnothuman
+
+	- Ook! code at /admin/success.html reveals hidden directory
+
+		/asdiSIAJJ0QWE9JAS
+	
+	- Found Base64 encoded zip file and cracked password
+			
+		password
+
+	- index.php was hex and base64 encoded, reveals brainfuck code, reveals password
+
+		idkwhatispass
+
+	- Found hidden directory from /dev/backup
+
+		/playsms
+
+	- Can login with 
+
+		admin:idkwhatispass
+
+RCE:
+	- https://www.exploit-db.com/exploits/42044
+	
+	- Upload malicious .csv file to phonebook
+
+PrivEsc:
+	- Found MySQL credentials in install.conf from /var/www/html/playsms-1.4.2
+
+		root:ayush
+		root:password
+
+	- Got hash for node-red admin from settings.js in /home/sahay/.node-red
+
+		admin:password
+
+	- Found SUID binary rop
+
+	- Create pattern with "pattern create 100"
+	- Check offset where it segfaulted with "pattern offset <memory address>
+		
+		52
+
+	- Create approriate pattern with python, append stuff to it to see if we can overwrite stuff
+	- Check system arch with "uname -a"
+
+		i686, 32-bit
+
+	- Check for ASLR
+
+		cat /proc/sys/kernel/randomize_va_space
+
+	- Get address of libc with "ldd"
+
+		0xf7db0000
+
+	- Find address of system@@GLIBC_PRIVATE from libc
+
+		readelf -s /lib/i386-linux-gnu/libc.so.6 | grep system
+		0x0003ada0
+
+	- Find address of exit@@GLIBC_2.0 from libc
+
+		readelf -s /lib/i386-linux-gnu/libc.so.6 | grep exit
+		0x0002e9d0
+
+	- Get string containing /bin/sh from libc with hex offset
+
+		strings -atx /lib/i386-linux-gnu/libc.so.6
+		0x15ba0b
+
+	- add system, exit and shellcode to buffer and pack instruct

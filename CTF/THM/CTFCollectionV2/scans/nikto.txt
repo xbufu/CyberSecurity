@@ -1,0 +1,22 @@
+- Nikto v2.1.5
+---------------------------------------------------------------------------
++ Target IP:          10.10.55.228
++ Target Hostname:    ctfcol2.thm
++ Target Port:        80
++ Start Time:         2021-02-09 20:58:10 (GMT1)
+---------------------------------------------------------------------------
++ Server: Apache/2.2.22 (Ubuntu)
++ Retrieved x-powered-by header: PHP/5.3.10-1ubuntu3.26
++ The anti-clickjacking X-Frame-Options header is not present.
++ Uncommon header 'busted' found, with contents: Hey, you found me, take this Easter 6: THM{l37'5_p4r7y_h4rd}
++ Cookie Invited created without the httponly flag
++ Server leaks inodes via ETags, header found with file /robots.txt, inode: 918959, size: 430, mtime: 0x59b73c952bbfd
++ "robots.txt" contains 1 entry which should be manually viewed.
++ DEBUG HTTP verb may show server debugging information. See http://msdn.microsoft.com/en-us/library/e8z01xdh%28VS.80%29.aspx for details.
++ OSVDB-12184: /index.php?=PHPB8B5F2A0-3C92-11d3-A3A9-4C7B08C10000: PHP reveals potentially sensitive information via certain HTTP requests that contain specific QUERY strings.
++ OSVDB-3092: /login/: This might be interesting...
++ OSVDB-3233: /icons/README: Apache default file found.
++ 6544 items checked: 0 error(s) and 10 item(s) reported on remote host
++ End Time:           2021-02-09 21:03:19 (GMT1) (309 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested

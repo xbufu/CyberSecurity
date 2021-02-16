@@ -1,0 +1,47 @@
+# Nmap 7.91 scan initiated Wed Jan 20 14:40:59 2021 as: nmap -Pn -vvv --script=vuln -p 80 -oN scans/nmap_80_vuln.txt 10.10.10.165
+Pre-scan script results:
+| broadcast-avahi-dos: 
+|   Discovered hosts:
+|     224.0.0.251
+|   After NULL UDP avahi packet DoS (CVE-2011-1002).
+|_  Hosts are all up (not vulnerable).
+Nmap scan report for traverxec.htb (10.10.10.165)
+Host is up, received user-set (0.027s latency).
+Scanned at 2021-01-20 14:41:34 CET for 146s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack
+| http-csrf: 
+| Spidering limited to: maxdepth=3; maxpagecount=20; withinhost=traverxec.htb
+|   Found the following possible CSRF vulnerabilities: 
+|     
+|     Path: http://traverxec.htb:80/
+|     Form id: contact-name
+|_    Form action: empty.html
+|_http-dombased-xss: Couldn't find any DOM based XSS.
+| http-enum: 
+|   /css/: Potentially interesting folder w/ directory listing
+|   /icons/: Potentially interesting folder w/ directory listing
+|   /img/: Potentially interesting folder w/ directory listing
+|   /js/: Potentially interesting folder w/ directory listing
+|_  /lib/: Potentially interesting folder w/ directory listing
+|_http-jsonp-detection: Couldn't find any JSONP endpoints.
+|_http-litespeed-sourcecode-download: Request with null byte did not work. This web server might not be vulnerable
+|_http-stored-xss: Couldn't find any stored XSS vulnerabilities.
+| http-vuln-cve2011-3192: 
+|   VULNERABLE:
+|   Apache byterange filter DoS
+|     State: VULNERABLE
+|     IDs:  CVE:CVE-2011-3192  BID:49303
+|       The Apache web server is vulnerable to a denial of service attack when numerous
+|       overlapping byte ranges are requested.
+|     Disclosure date: 2011-08-19
+|     References:
+|       https://www.tenable.com/plugins/nessus/55976
+|       https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3192
+|       https://www.securityfocus.com/bid/49303
+|_      https://seclists.org/fulldisclosure/2011/Aug/175
+|_http-wordpress-users: [Error] Wordpress installation was not found. We couldn't find wp-login.php
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Wed Jan 20 14:44:00 2021 -- 1 IP address (1 host up) scanned in 180.20 seconds

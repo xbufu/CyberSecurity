@@ -1,0 +1,17 @@
+403        9l       28w      277c http://10.129.98.81/admin-dir/.hta
+403        9l       28w      277c http://10.129.98.81/admin-dir/.hta.php
+403        9l       28w      277c http://10.129.98.81/admin-dir/.hta.html
+403        9l       28w      277c http://10.129.98.81/admin-dir/.hta.js
+403        9l       28w      277c http://10.129.98.81/admin-dir/.hta.txt
+403        9l       28w      277c http://10.129.98.81/admin-dir/.htpasswd
+403        9l       28w      277c http://10.129.98.81/admin-dir/.htpasswd.php
+403        9l       28w      277c http://10.129.98.81/admin-dir/.htpasswd.html
+403        9l       28w      277c http://10.129.98.81/admin-dir/.htpasswd.js
+403        9l       28w      277c http://10.129.98.81/admin-dir/.htpasswd.txt
+403        9l       28w      277c http://10.129.98.81/admin-dir/.htaccess
+403        9l       28w      277c http://10.129.98.81/admin-dir/.htaccess.php
+403        9l       28w      277c http://10.129.98.81/admin-dir/.htaccess.html
+403        9l       28w      277c http://10.129.98.81/admin-dir/.htaccess.js
+403        9l       28w      277c http://10.129.98.81/admin-dir/.htaccess.txt
+200       29l       39w      350c http://10.129.98.81/admin-dir/contacts.txt
+200       11l       13w      136c http://10.129.98.81/admin-dir/credentials.txt

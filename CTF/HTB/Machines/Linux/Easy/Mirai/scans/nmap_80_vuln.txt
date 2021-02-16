@@ -1,0 +1,2252 @@
+# Nmap 7.91 scan initiated Mon Jan 18 19:29:17 2021 as: nmap -Pn -vvv --script=vuln -p 80 -oN scans/nmap_80_vuln.txt 10.10.10.48
+Pre-scan script results:
+| broadcast-avahi-dos: 
+|   Discovered hosts:
+|     224.0.0.251
+|   After NULL UDP avahi packet DoS (CVE-2011-1002).
+|_  Hosts are all up (not vulnerable).
+Nmap scan report for mirai.htb (10.10.10.48)
+Host is up, received user-set (0.033s latency).
+Scanned at 2021-01-18 19:29:52 CET for 71s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack
+|_http-csrf: Couldn't find any CSRF vulnerabilities.
+|_http-dombased-xss: Couldn't find any DOM based XSS.
+| http-enum: 
+|   /blog/: Blog
+|   /weblog/: Blog
+|   /weblogs/: Blog
+|   /wordpress/: Blog
+|   /wiki/: Wiki
+|   /mediawiki/: Wiki
+|   /wiki/Main_Page: Wiki
+|   /tikiwiki/: Tikiwiki
+|   /cgi-bin/mj_wwwusr: Majordomo2 Mailing List
+|   /majordomo/mj_wwwusr: Majordomo2 Mailing List
+|   /j2ee/examples/servlets/: Oracle j2ee examples
+|   /j2ee/examples/jsp/: Oracle j2ee examples
+|   /dsc/: Trend Micro Data Loss Prevention Virtual Appliance
+|   /reg_1.htm: Polycom IP phone
+|   /adr.htm: Snom IP Phone
+|   /line_login.htm?l=1: Snom IP Phone
+|   /tbook.csv: Snom IP Phone
+|   /globalSIPsettings.html: Aastra IP Phone
+|   /SIPsettingsLine1.html: Aastra IP Phone
+|   /websvn/: WEBSVN Repository
+|   /repos/: Possible code repository
+|   /repo/: Possible code repository
+|   /svn/: Possible code repository
+|   /cvs/: Possible code repository
+|   /login.stm: Belkin G Wireless Router
+|   /tools_admin.php: D-Link DIR-300
+|   /bsc_lan.php: D-Link DIR-300, DIR-320, DIR-615 revD
+|   /Manage.tri: Linksys WRT54G2
+|   //system.html: CMNC-200 IP Camera
+|   /main_configure.cgi: Intellinet IP Camera
+|   /OvCgi/Toolbar.exe: HP OpenView Network Node Manager
+|   /frontend/x3/: CPanel
+|   /awstatstotals/awstatstotals.php: AWStats Totals
+|   /awstats/awstatstotals.php: AWStats Totals
+|   /awstatstotals.php: AWStats Totals
+|   /awstats/index.php: AWStats Totals
+|   /awstatstotals/index.php: AWStats Totals
+|   /egroupware/: eGroupware
+|   /calendar/cal_search.php: ExtCalendar
+|   /cal_search.php: ExtCalendar
+|   /a_viewusers.php: Andys PHP Knowledgebase
+|   /aphpkb/: Andys PHP Knowledgebase
+|   /webedition/we/include/we_modules/: Web Edition
+|   /webedition/: Web Edition
+|   /Examples/: Possible documentation files
+|   /LightNEasy.php?do=login: LightNEasy
+|   /channel_detail.php: DzTube
+|   /cgi-bin/vcs: Mitel Audio and Web Conferencing (AWC)
+|   /ocsreports/: OCS Inventory
+|   /vbseo.php: vBSEO
+|   /forum/: Forum
+|   /forums/: Forum
+|   /smf/: Forum
+|   /phpbb/: Forum
+|   /manager/: Possible admin folder
+|   /admin.php: Possible admin folder
+|   /admin/: Possible admin folder
+|   /admin/admin/: Possible admin folder
+|   /administrator/: Possible admin folder
+|   /moderator/: Possible admin folder
+|   /webadmin/: Possible admin folder
+|   /adminarea/: Possible admin folder
+|   /bb-admin/: Possible admin folder
+|   /adminLogin/: Possible admin folder
+|   /admin_area/: Possible admin folder
+|   /panel-administracion/: Possible admin folder
+|   /instadmin/: Possible admin folder
+|   /memberadmin/: Possible admin folder
+|   /administratorlogin/: Possible admin folder
+|   /adm/: Possible admin folder
+|   /admin/account.php: Possible admin folder
+|   /admin/index.php: Possible admin folder
+|   /admin/login.php: Possible admin folder
+|   /admin/admin.php: Possible admin folder
+|   /joomla/administrator: Possible admin folder
+|   /login.php: Possible admin folder
+|   /admin_area/admin.php: Possible admin folder
+|   /admin_area/login.php: Possible admin folder
+|   /siteadmin/login.php: Possible admin folder
+|   /siteadmin/index.php: Possible admin folder
+|   /siteadmin/login.html: Possible admin folder
+|   /admin/index.html: Possible admin folder
+|   /admin/login.html: Possible admin folder
+|   /admin/admin.html: Possible admin folder
+|   /admin_area/index.php: Possible admin folder
+|   /bb-admin/index.php: Possible admin folder
+|   /bb-admin/login.php: Possible admin folder
+|   /bb-admin/admin.php: Possible admin folder
+|   /admin/home.php: Possible admin folder
+|   /admin_area/login.html: Possible admin folder
+|   /admin_area/index.html: Possible admin folder
+|   /admin/controlpanel.php: Possible admin folder
+|   /admincp/: Possible admin folder
+|   /admincp/index.asp: Possible admin folder
+|   /admincp/index.html: Possible admin folder
+|   /admincp/login.php: Possible admin folder
+|   /admin/account.html: Possible admin folder
+|   /adminpanel.html: Possible admin folder
+|   /webadmin.html: Possible admin folder
+|   /webadmin/index.html: Possible admin folder
+|   /webadmin/admin.html: Possible admin folder
+|   /webadmin/login.html: Possible admin folder
+|   /admin/admin_login.html: Possible admin folder
+|   /admin_login.html: Possible admin folder
+|   /panel-administracion/login.html: Possible admin folder
+|   /admin/cp.php: Possible admin folder
+|   /cp.php: Possible admin folder
+|   /administrator/index.php: Possible admin folder
+|   /administrator/login.php: Possible admin folder
+|   /nsw/admin/login.php: Possible admin folder
+|   /webadmin/login.php: Possible admin folder
+|   /admin/admin_login.php: Possible admin folder
+|   /admin_login.php: Possible admin folder
+|   /administrator/account.php: Possible admin folder
+|   /administrator.php: Possible admin folder
+|   /admin_area/admin.html: Possible admin folder
+|   /pages/admin/admin-login.php: Possible admin folder
+|   /admin/admin-login.php: Possible admin folder
+|   /admin-login.php: Possible admin folder
+|   /bb-admin/index.html: Possible admin folder
+|   /bb-admin/login.html: Possible admin folder
+|   /bb-admin/admin.html: Possible admin folder
+|   /admin/home.html: Possible admin folder
+|   /modelsearch/login.php: Possible admin folder
+|   /moderator.php: Possible admin folder
+|   /moderator/login.php: Possible admin folder
+|   /moderator/admin.php: Possible admin folder
+|   /account.php: Possible admin folder
+|   /pages/admin/admin-login.html: Possible admin folder
+|   /admin/admin-login.html: Possible admin folder
+|   /admin-login.html: Possible admin folder
+|   /controlpanel.php: Possible admin folder
+|   /admincontrol.php: Possible admin folder
+|   /admin/adminLogin.html: Possible admin folder
+|   /adminLogin.html: Possible admin folder
+|   /home.html: Possible admin folder
+|   /rcjakar/admin/login.php: Possible admin folder
+|   /adminarea/index.html: Possible admin folder
+|   /adminarea/admin.html: Possible admin folder
+|   /webadmin.php: Possible admin folder
+|   /webadmin/index.php: Possible admin folder
+|   /webadmin/admin.php: Possible admin folder
+|   /admin/controlpanel.html: Possible admin folder
+|   /admin.html: Possible admin folder
+|   /admin/cp.html: Possible admin folder
+|   /cp.html: Possible admin folder
+|   /adminpanel.php: Possible admin folder
+|   /moderator.html: Possible admin folder
+|   /administrator/index.html: Possible admin folder
+|   /administrator/login.html: Possible admin folder
+|   /user.html: Possible admin folder
+|   /administrator/account.html: Possible admin folder
+|   /administrator.html: Possible admin folder
+|   /login.html: Possible admin folder
+|   /modelsearch/login.html: Possible admin folder
+|   /moderator/login.html: Possible admin folder
+|   /adminarea/login.html: Possible admin folder
+|   /panel-administracion/index.html: Possible admin folder
+|   /panel-administracion/admin.html: Possible admin folder
+|   /modelsearch/index.html: Possible admin folder
+|   /modelsearch/admin.html: Possible admin folder
+|   /admincontrol/login.html: Possible admin folder
+|   /adm/index.html: Possible admin folder
+|   /adm.html: Possible admin folder
+|   /moderator/admin.html: Possible admin folder
+|   /user.php: Possible admin folder
+|   /account.html: Possible admin folder
+|   /controlpanel.html: Possible admin folder
+|   /admincontrol.html: Possible admin folder
+|   /panel-administracion/login.php: Possible admin folder
+|   /wp-login.php: Possible admin folder
+|   /adminLogin.php: Possible admin folder
+|   /admin/adminLogin.php: Possible admin folder
+|   /adminarea/index.php: Possible admin folder
+|   /adminarea/admin.php: Possible admin folder
+|   /adminarea/login.php: Possible admin folder
+|   /panel-administracion/index.php: Possible admin folder
+|   /panel-administracion/admin.php: Possible admin folder
+|   /modelsearch/index.php: Possible admin folder
+|   /modelsearch/admin.php: Possible admin folder
+|   /admincontrol/login.php: Possible admin folder
+|   /adm/admloginuser.php: Possible admin folder
+|   /admloginuser.php: Possible admin folder
+|   /admin2.php: Possible admin folder
+|   /admin2/login.php: Possible admin folder
+|   /admin2/index.php: Possible admin folder
+|   /adm/index.php: Possible admin folder
+|   /adm.php: Possible admin folder
+|   /affiliate.php: Possible admin folder
+|   /adm_auth.php: Possible admin folder
+|   /memberadmin.php: Possible admin folder
+|   /administratorlogin.php: Possible admin folder
+|   /account.cfm: Possible admin folder
+|   /admin/account.cfm: Possible admin folder
+|   /admin/index.cfm: Possible admin folder
+|   /admin/login.cfm: Possible admin folder
+|   /admin/admin.cfm: Possible admin folder
+|   /admin.cfm: Possible admin folder
+|   /admin/admin_login.cfm: Possible admin folder
+|   /admin_login.cfm: Possible admin folder
+|   /adminpanel.cfm: Possible admin folder
+|   /admin/controlpanel.cfm: Possible admin folder
+|   /admincontrol.cfm: Possible admin folder
+|   /panel-administracion/login.cfm: Possible admin folder
+|   /admin/cp.cfm: Possible admin folder
+|   /pages/admin/admin-login.cfm: Possible admin folder
+|   /admincp/index.cfm: Possible admin folder
+|   /admincp/login.cfm: Possible admin folder
+|   /admin_area/admin.cfm: Possible admin folder
+|   /admin_area/login.cfm: Possible admin folder
+|   /moderator/login.cfm: Possible admin folder
+|   /administrator/login.cfm: Possible admin folder
+|   /moderator.cfm: Possible admin folder
+|   /modelsearch/index.cfm: Possible admin folder
+|   /panel-administracion/admin.cfm: Possible admin folder
+|   /adm/admloginuser.cfm: Possible admin folder
+|   /adm.cfm: Possible admin folder
+|   /adm_auth.cfm: Possible admin folder
+|   /administratorlogin.cfm: Possible admin folder
+|   /webadmin.cfm: Possible admin folder
+|   /webadmin/index.cfm: Possible admin folder
+|   /modelsearch/login.cfm: Possible admin folder
+|   /login.cfm: Possible admin folder
+|   /administrator.cfm: Possible admin folder
+|   /administrator/account.cfm: Possible admin folder
+|   /adminLogin.cfm: Possible admin folder
+|   /siteadmin/login.cfm: Possible admin folder
+|   /admin2/index.cfm: Possible admin folder
+|   /adm/index.cfm: Possible admin folder
+|   /admin_area/index.cfm: Possible admin folder
+|   /bb-admin/index.cfm: Possible admin folder
+|   /bb-admin/login.cfm: Possible admin folder
+|   /bb-admin/admin.cfm: Possible admin folder
+|   /siteadmin/index.cfm: Possible admin folder
+|   /memberadmin.cfm: Possible admin folder
+|   /admin2/login.cfm: Possible admin folder
+|   /admloginuser.cfm: Possible admin folder
+|   /admincontrol/login.cfm: Possible admin folder
+|   /administrator/index.cfm: Possible admin folder
+|   /modelsearch/admin.cfm: Possible admin folder
+|   /panel-administracion/index.cfm: Possible admin folder
+|   /adminarea/login.cfm: Possible admin folder
+|   /adminarea/admin.cfm: Possible admin folder
+|   /adminarea/index.cfm: Possible admin folder
+|   /admin/adminLogin.cfm: Possible admin folder
+|   /webadmin/login.cfm: Possible admin folder
+|   /webadmin/admin.cfm: Possible admin folder
+|   /user.cfm: Possible admin folder
+|   /controlpanel.cfm: Possible admin folder
+|   /moderator/admin.cfm: Possible admin folder
+|   /cp.cfm: Possible admin folder
+|   /admin-login.cfm: Possible admin folder
+|   /admin/admin-login.cfm: Possible admin folder
+|   /admin/home.cfm: Possible admin folder
+|   /adm1n/: Possible admin folder
+|   /4dm1n/: Possible admin folder
+|   /account.asp: Possible admin folder
+|   /admin/account.asp: Possible admin folder
+|   /admin/index.asp: Possible admin folder
+|   /admin/login.asp: Possible admin folder
+|   /admin/admin.asp: Possible admin folder
+|   /admin_area/admin.asp: Possible admin folder
+|   /admin_area/login.asp: Possible admin folder
+|   /admin_area/index.asp: Possible admin folder
+|   /bb-admin/index.asp: Possible admin folder
+|   /bb-admin/login.asp: Possible admin folder
+|   /bb-admin/admin.asp: Possible admin folder
+|   /admin/home.asp: Possible admin folder
+|   /admin/controlpanel.asp: Possible admin folder
+|   /admin.asp: Possible admin folder
+|   /pages/admin/admin-login.asp: Possible admin folder
+|   /admin/admin-login.asp: Possible admin folder
+|   /admin-login.asp: Possible admin folder
+|   /admin/cp.asp: Possible admin folder
+|   /cp.asp: Possible admin folder
+|   /administrator/account.asp: Possible admin folder
+|   /administrator.asp: Possible admin folder
+|   /login.asp: Possible admin folder
+|   /modelsearch/login.asp: Possible admin folder
+|   /moderator.asp: Possible admin folder
+|   /moderator/login.asp: Possible admin folder
+|   /administrator/login.asp: Possible admin folder
+|   /moderator/admin.asp: Possible admin folder
+|   /controlpanel.asp: Possible admin folder
+|   /user.asp: Possible admin folder
+|   /admincp/login.asp: Possible admin folder
+|   /admincontrol.asp: Possible admin folder
+|   /adminpanel.asp: Possible admin folder
+|   /webadmin.asp: Possible admin folder
+|   /webadmin/index.asp: Possible admin folder
+|   /webadmin/admin.asp: Possible admin folder
+|   /webadmin/login.asp: Possible admin folder
+|   /admin/admin_login.asp: Possible admin folder
+|   /admin_login.asp: Possible admin folder
+|   /panel-administracion/login.asp: Possible admin folder
+|   /adminLogin.asp: Possible admin folder
+|   /admin/adminLogin.asp: Possible admin folder
+|   /home.asp: Possible admin folder
+|   /adminarea/index.asp: Possible admin folder
+|   /adminarea/admin.asp: Possible admin folder
+|   /adminarea/login.asp: Possible admin folder
+|   /panel-administracion/index.asp: Possible admin folder
+|   /panel-administracion/admin.asp: Possible admin folder
+|   /modelsearch/index.asp: Possible admin folder
+|   /modelsearch/admin.asp: Possible admin folder
+|   /administrator/index.asp: Possible admin folder
+|   /admincontrol/login.asp: Possible admin folder
+|   /adm/admloginuser.asp: Possible admin folder
+|   /admloginuser.asp: Possible admin folder
+|   /admin2.asp: Possible admin folder
+|   /admin2/login.asp: Possible admin folder
+|   /admin2/index.asp: Possible admin folder
+|   /adm/index.asp: Possible admin folder
+|   /adm.asp: Possible admin folder
+|   /adm_auth.asp: Possible admin folder
+|   /memberadmin.asp: Possible admin folder
+|   /administratorlogin.asp: Possible admin folder
+|   /siteadmin/login.asp: Possible admin folder
+|   /siteadmin/index.asp: Possible admin folder
+|   /account.aspx: Possible admin folder
+|   /admin/account.aspx: Possible admin folder
+|   /admin/index.aspx: Possible admin folder
+|   /admin/login.aspx: Possible admin folder
+|   /admin/admin.aspx: Possible admin folder
+|   /admin_area/admin.aspx: Possible admin folder
+|   /admin_area/login.aspx: Possible admin folder
+|   /admin_area/index.aspx: Possible admin folder
+|   /bb-admin/index.aspx: Possible admin folder
+|   /bb-admin/login.aspx: Possible admin folder
+|   /bb-admin/admin.aspx: Possible admin folder
+|   /admin/home.aspx: Possible admin folder
+|   /admin/controlpanel.aspx: Possible admin folder
+|   /admin.aspx: Possible admin folder
+|   /pages/admin/admin-login.aspx: Possible admin folder
+|   /admin/admin-login.aspx: Possible admin folder
+|   /admin-login.aspx: Possible admin folder
+|   /admin/cp.aspx: Possible admin folder
+|   /cp.aspx: Possible admin folder
+|   /administrator/account.aspx: Possible admin folder
+|   /administrator.aspx: Possible admin folder
+|   /login.aspx: Possible admin folder
+|   /modelsearch/login.aspx: Possible admin folder
+|   /moderator.aspx: Possible admin folder
+|   /moderator/login.aspx: Possible admin folder
+|   /administrator/login.aspx: Possible admin folder
+|   /moderator/admin.aspx: Possible admin folder
+|   /controlpanel.aspx: Possible admin folder
+|   /user.aspx: Possible admin folder
+|   /admincp/index.aspx: Possible admin folder
+|   /admincp/login.aspx: Possible admin folder
+|   /admincontrol.aspx: Possible admin folder
+|   /adminpanel.aspx: Possible admin folder
+|   /webadmin.aspx: Possible admin folder
+|   /webadmin/index.aspx: Possible admin folder
+|   /webadmin/admin.aspx: Possible admin folder
+|   /webadmin/login.aspx: Possible admin folder
+|   /admin/admin_login.aspx: Possible admin folder
+|   /admin_login.aspx: Possible admin folder
+|   /panel-administracion/login.aspx: Possible admin folder
+|   /adminLogin.aspx: Possible admin folder
+|   /admin/adminLogin.aspx: Possible admin folder
+|   /home.aspx: Possible admin folder
+|   /adminarea/index.aspx: Possible admin folder
+|   /adminarea/admin.aspx: Possible admin folder
+|   /adminarea/login.aspx: Possible admin folder
+|   /panel-administracion/index.aspx: Possible admin folder
+|   /panel-administracion/admin.aspx: Possible admin folder
+|   /modelsearch/index.aspx: Possible admin folder
+|   /modelsearch/admin.aspx: Possible admin folder
+|   /administrator/index.aspx: Possible admin folder
+|   /admincontrol/login.aspx: Possible admin folder
+|   /adm/admloginuser.aspx: Possible admin folder
+|   /admloginuser.aspx: Possible admin folder
+|   /admin2.aspx: Possible admin folder
+|   /admin2/login.aspx: Possible admin folder
+|   /admin2/index.aspx: Possible admin folder
+|   /adm/index.aspx: Possible admin folder
+|   /adm.aspx: Possible admin folder
+|   /adm_auth.aspx: Possible admin folder
+|   /memberadmin.aspx: Possible admin folder
+|   /administratorlogin.aspx: Possible admin folder
+|   /siteadmin/login.aspx: Possible admin folder
+|   /siteadmin/index.aspx: Possible admin folder
+|   /account.jsp: Possible admin folder
+|   /admin/index.jsp: Possible admin folder
+|   /admin/login.jsp: Possible admin folder
+|   /admin/admin.jsp: Possible admin folder
+|   /admin_area/admin.jsp: Possible admin folder
+|   /admin_area/login.jsp: Possible admin folder
+|   /admin_area/index.jsp: Possible admin folder
+|   /bb-admin/index.jsp: Possible admin folder
+|   /bb-admin/login.jsp: Possible admin folder
+|   /bb-admin/admin.jsp: Possible admin folder
+|   /admin/home.jsp: Possible admin folder
+|   /admin/controlpanel.jsp: Possible admin folder
+|   /admin.jsp: Possible admin folder
+|   /pages/admin/admin-login.jsp: Possible admin folder
+|   /admin/admin-login.jsp: Possible admin folder
+|   /admin-login.jsp: Possible admin folder
+|   /admin/cp.jsp: Possible admin folder
+|   /cp.jsp: Possible admin folder
+|   /administrator/account.jsp: Possible admin folder
+|   /administrator.jsp: Possible admin folder
+|   /login.jsp: Possible admin folder
+|   /modelsearch/login.jsp: Possible admin folder
+|   /moderator.jsp: Possible admin folder
+|   /moderator/login.jsp: Possible admin folder
+|   /administrator/login.jsp: Possible admin folder
+|   /moderator/admin.jsp: Possible admin folder
+|   /controlpanel.jsp: Possible admin folder
+|   /user.jsp: Possible admin folder
+|   /admincp/index.jsp: Possible admin folder
+|   /admincp/login.jsp: Possible admin folder
+|   /admincontrol.jsp: Possible admin folder
+|   /admin/account.jsp: Possible admin folder
+|   /adminpanel.jsp: Possible admin folder
+|   /webadmin.jsp: Possible admin folder
+|   /webadmin/index.jsp: Possible admin folder
+|   /webadmin/admin.jsp: Possible admin folder
+|   /webadmin/login.jsp: Possible admin folder
+|   /admin/admin_login.jsp: Possible admin folder
+|   /admin_login.jsp: Possible admin folder
+|   /panel-administracion/login.jsp: Possible admin folder
+|   /adminLogin.jsp: Possible admin folder
+|   /admin/adminLogin.jsp: Possible admin folder
+|   /home.jsp: Possible admin folder
+|   /adminarea/index.jsp: Possible admin folder
+|   /adminarea/admin.jsp: Possible admin folder
+|   /adminarea/login.jsp: Possible admin folder
+|   /panel-administracion/index.jsp: Possible admin folder
+|   /panel-administracion/admin.jsp: Possible admin folder
+|   /modelsearch/index.jsp: Possible admin folder
+|   /modelsearch/admin.jsp: Possible admin folder
+|   /administrator/index.jsp: Possible admin folder
+|   /admincontrol/login.jsp: Possible admin folder
+|   /adm/admloginuser.jsp: Possible admin folder
+|   /admloginuser.jsp: Possible admin folder
+|   /admin2.jsp: Possible admin folder
+|   /admin2/login.jsp: Possible admin folder
+|   /admin2/index.jsp: Possible admin folder
+|   /adm/index.jsp: Possible admin folder
+|   /adm.jsp: Possible admin folder
+|   /adm_auth.jsp: Possible admin folder
+|   /memberadmin.jsp: Possible admin folder
+|   /administratorlogin.jsp: Possible admin folder
+|   /siteadmin/login.jsp: Possible admin folder
+|   /siteadmin/index.jsp: Possible admin folder
+|   /admin1.php: Possible admin folder
+|   /administr8.asp: Possible admin folder
+|   /administr8.php: Possible admin folder
+|   /administr8.jsp: Possible admin folder
+|   /administr8.aspx: Possible admin folder
+|   /administr8.cfm: Possible admin folder
+|   /administr8/: Possible admin folder
+|   /administer/: Possible admin folder
+|   /administracao.php: Possible admin folder
+|   /administracao.asp: Possible admin folder
+|   /administracao.aspx: Possible admin folder
+|   /administracao.cfm: Possible admin folder
+|   /administracao.jsp: Possible admin folder
+|   /administracion.php: Possible admin folder
+|   /administracion.asp: Possible admin folder
+|   /administracion.aspx: Possible admin folder
+|   /administracion.jsp: Possible admin folder
+|   /administracion.cfm: Possible admin folder
+|   /administrators/: Possible admin folder
+|   /adminpro/: Possible admin folder
+|   /admins/: Possible admin folder
+|   /admins.cfm: Possible admin folder
+|   /admins.php: Possible admin folder
+|   /admins.jsp: Possible admin folder
+|   /admins.asp: Possible admin folder
+|   /admins.aspx: Possible admin folder
+|   /maintenance/: Possible admin folder
+|   /Lotus_Domino_Admin/: Possible admin folder
+|   /hpwebjetadmin/: Possible admin folder
+|   /_admin/: Possible admin folder
+|   /_administrator/: Possible admin folder
+|   /_administrador/: Possible admin folder
+|   /_admins/: Possible admin folder
+|   /_administrators/: Possible admin folder
+|   /_administradores/: Possible admin folder
+|   /_administracion/: Possible admin folder
+|   /_4dm1n/: Possible admin folder
+|   /_adm1n/: Possible admin folder
+|   /_Admin/: Possible admin folder
+|   /system_administration/: Possible admin folder
+|   /system-administration/: Possible admin folder
+|   /system-admin/: Possible admin folder
+|   /system-admins/: Possible admin folder
+|   /system-administrators/: Possible admin folder
+|   /administracion-sistema/: Possible admin folder
+|   /Administracion/: Possible admin folder
+|   /Admin/: Possible admin folder
+|   /Administrator/: Possible admin folder
+|   /Manager/: Possible admin folder
+|   /Adm/: Possible admin folder
+|   /systemadmin/: Possible admin folder
+|   /AdminLogin.asp: Possible admin folder
+|   /AdminLogin.php: Possible admin folder
+|   /AdminLogin.jsp: Possible admin folder
+|   /AdminLogin.aspx: Possible admin folder
+|   /AdminLogin.cfm: Possible admin folder
+|   /admin108/: Possible admin folder
+|   /pec_admin/: Possible admin folder
+|   /system/admin/: Possible admin folder
+|   /plog-admin/: Possible admin folder
+|   /ESAdmin/: Possible admin folder
+|   /axis2-admin/: Possible admin folder
+|   /_sys/: Possible admin folder
+|   /admin_cp.asp: Possible admin folder
+|   /sitecore/admin/: Possible admin folder
+|   /sitecore/login/admin/: Possible admin folder
+|   /backup/: Possible backup
+|   /backup: Possible backup
+|   /backup.sql: Possible backup
+|   /backup.sql.gz: Possible backup
+|   /backup.sql.bz2: Possible backup
+|   /backup.zip: Possible backup
+|   /backups/: Possible backup
+|   /bak/: Possible backup
+|   /back/: Possible backup
+|   /cache/backup/: Possible backup
+|   /admin/backup/: Possible backup
+|   /dbbackup.txt: Possible backup
+|   /b.sql: Possible database backup
+|   /db.sql: Possible database backup
+|   /ddb.sql: Possible database backup
+|   /users.sql: Possible database backup
+|   /database.sql: Possible database backup
+|   /mysql.sql: Possible database backup
+|   /dump.sql: Possible database backup
+|   /respaldo.sql: Possible database backup
+|   /data.sql: Possible database backup
+|   /old.sql: Possible database backup
+|   /usuarios.sql: Possible database backup
+|   /bdb.sql: Possible database backup
+|   /1.sql: Possible database backup
+|   /admin/download/backup.sql: Possible database backup
+|   /clientaccesspolicy.xml: Microsoft Silverlight crossdomain policy
+|   /atom/: RSS or Atom feed
+|   /atom.aspx: RSS or Atom feed
+|   /atom.php: RSS or Atom feed
+|   /atom.xml: RSS or Atom feed
+|   /atom.jsp: RSS or Atom feed
+|   /rss/: RSS or Atom feed
+|   /rss.aspx: RSS or Atom feed
+|   /rss.php: RSS or Atom feed
+|   /rss.xml: RSS or Atom feed
+|   /rss.jsp: RSS or Atom feed
+|   /etc/passwd: Webroot might be in root folder
+|   /boot.ini: Webroot might be in root folder
+|   /example/: Sample scripts
+|   /examples/: Sample scripts
+|   /iissamples/: Sample scripts
+|   /j2eeexamples/: Sample scripts
+|   /j2eeexamplesjsp/: Sample scripts
+|   /sample/: Sample scripts
+|   /ncsample/: Sample scripts
+|   /fpsample/: Sample scripts
+|   /cmsample/: Sample scripts
+|   /samples/: Sample scripts
+|   /mono/1.1/index.aspx: Sample scripts
+|   /login/: Login page
+|   /login.htm: Login page
+|   /login.jsp: Login page
+|   /test.asp: Test page
+|   /test.class: Test page
+|   /test/: Test page
+|   /test.htm: Test page
+|   /test.html: Test page
+|   /test.php: Test page
+|   /test.txt: Test page
+|   /webmail/: Mail folder
+|   /mail/: Mail folder
+|   /log/: Logs
+|   /log.htm: Logs
+|   /log.php: Logs
+|   /log.asp: Logs
+|   /log.aspx: Logs
+|   /log.jsp: Logs
+|   /logs/: Logs
+|   /logs.htm: Logs
+|   /logs.php: Logs
+|   /logs.asp: Logs
+|   /logs.aspx: Logs
+|   /logs.jsp: Logs
+|   /wwwlog/: Logs
+|   /wwwlogs/: Logs
+|   /mail_log_files/: Logs
+|   /images/rails.png: Ruby on Rails
+|   /mono/: Mono
+|   /robots.txt: Robots file
+|   /crossdomain.xml: Adobe Flash crossdomain policy
+|   /css/cake.generic.css: CakePHP application
+|   /img/cake.icon.gif: CakePHP application
+|   /img/cake.icon.png: CakePHP application
+|   /js/vendors.php: CakePHP application
+|   /cgi-bin/ffileman.cgi?: Ffileman Web File Manager
+|   /fshow.php: Horizon Web App
+|   /admin/upload.php: Admin File Upload
+|   /upload_multiple_js.php: NAS Uploader
+|   /uploadtester.asp: Free ASP Upload Shell
+|   /info.php: Possible information file
+|   /phpinfo.php: Possible information file
+|   /kusabax/manage_page.php: Kusabax Image Board
+|   /plus/lurking.php: phpMyChat Plus
+|   /adm/barra/assetmanager/assetmanager.php: 360 Web Manager
+|   /eyeos/: Possible eyeOS installation
+|   /NETWARE.HTM: Planet FPS-1101
+|   /setup.cgi: Linksys Cisco Wag120n or similar
+|   /debug.cgi: Linksys WRT54G
+|   /ehcp/?op=applyforftpaccount: Easy Hosting Control Panel
+|   /ehcp/?op=applyforaccount: Easy Hosting Control Panel
+|   /ehcp/?op=applyfordomainaccount: Easy Hosting Control Panel
+|   /vhosts/ehcp/?op=applyforftpaccount: Easy Hosting Control Panel
+|   /vhosts/ehcp/?op=applyforaccount: Easy Hosting Control Panel
+|   /vhosts/ehcp/?op=applyfordomainaccount: Easy Hosting Control Panel
+|   /tools_admin.cgi?: D-Link WBR-1310
+|   /appServer/jvmReport.jsf?instanceName=server&pageTitle=JVM%20Report: Oracle GlashFish Server Information
+|   /common/appServer/jvmReport.jsf?pageTitle=JVM%20Report: Oracle GlashFish Server Information
+|   /common/appServer/jvmReport.jsf?reportType=summary&instanceName=server: Oracle GlashFish Server Information
+|   /console/login/loginForm.jsp: Oracle WebLogic Server Administration Console
+|   /browserId/wizardForm.jhtml: Cisco Collaboration Server
+|   /webline/html/forms/callback.jhtml: Cisco Collaboration Server
+|   /webline/html/forms/callbackICM.jhtml: Cisco Collaboration Server
+|   /webline/html/agent/AgentFrame.jhtml: Cisco Collaboration Server
+|   /webline/html/agent/default/badlogin.jhtml: Cisco Collaboration Server
+|   /callme/callForm.jhtml: Cisco Collaboration Server
+|   /webline/html/multichatui/nowDefunctWindow.jhtml: Cisco Collaboration Server
+|   /browserId/wizard.jhtml: Cisco Collaboration Server
+|   /admin/CiscoAdmin.jhtml: Cisco Collaboration Server
+|   /msccallme/mscCallForm.jhtml: Cisco Collaboration Server
+|   /webline/html/admin/wcs/LoginPage.jhtml: Cisco Collaboration Server
+|   /restoreinfo.cgi: Sagem router
+|   /confirminvite.php: phpMyBitTorrent
+|   /sourcebans/: SourceBans - Steam server application
+|   /swfupload/index.php: SWFUpload
+|   /mymarket/shopping/index.php: MyMarket
+|   /myshop_start.php: FozzCom shopping
+|   /piranha/secure/passwd.php3: RedHat Piranha Virtual Server
+|   /cgi-bin/ck/mimencode: ContentKeeper Web Appliance
+|   /cgi-bin/masterCGI?: Alcatel-Lucent OmniPCX Enterprise
+|   /tiny_mce/plugins/filemanager/: Tiny MCE File Upload
+|   /upload/scp/ajax.php: osTicket / AJAX File Upload
+|   /cgi-mod/view_help.cgi: Barracuda Networks Spam & Virus Firewall
+|   /cgi-mod/index.cgi: Barracuda Web Application Firewall
+|   /cgi-mod/smtp_test.cgi: Barracuda IM Firewall
+|   /TopToolArea.html: Alteon OS BBI (Nortell)
+|   /switchSystem.html: Alteon OS BBI (Nortell)
+|   /intruvert/jsp/module/Login.jsp: McAfee Network Security Manager
+|   /ajaxfilemanager/: AJAX File Manager
+|   /upload/data/settings.cdb: CF Image Hosting DB
+|   /fm.php: Simple File Manager
+|   /nagios3/cgi-bin/statuswml.cgi: Nagios3
+|   /nagios3/: Nagios3
+|   /test/logon.html: Jetty
+|   /cal_cat.php: Calendarix
+|   /calendar/cal_cat.php: Calendarix
+|   /cal/cal_cat.php: Calendarix
+|   /private/sdc.tgz: IBM Bladecenter Management Logs
+|   /cacti/: Cacti Web Monitoring
+|   /cgi-bin/awstats.pl: AWStats
+|   /wiki/rankings.php: Bit Weaver
+|   /reqdetails.php: BtiTracker
+|   /shared/help.php: OpenBiblio/WebBiblio Subject Gateway System
+|   /seti.php: PHP SETI@home
+|   /imc/: 3Com Intelligent Management Center
+|   /imcws/: 3Com Intelligent Management Center
+|   /partymgr/: Apache OFBiz
+|   /Base/upload.php: MassMirror Uploader
+|   /Base/example_1.php: MassMirror Uploader
+|   /YUI-upload/html: YUI Images / File Upload
+|   /tools/filemanager/skins/mobile/admin1.template.php: ispCP Omega
+|   /Uploadify/: Uploadify
+|   /syssite/: ShopEx
+|   /updown.php: PHP Uploader Downloader
+|   /modules/docmanager/doctypetemplates/myuploadedfile: Achievo
+|   /ReqWebHelp/advanced/workingSet.jsp: IBM Rational RequisitePro/ReqWebHelp
+|   /dhost/: Novell eDirectory
+|   /engine/api/api.class.php: DatalifeEngine
+|   /jsft_resource.jsf: JSFTemplating/Mojarra Scales/GlassFish Application Server
+|   /scales_static_resource.jsf: JSFTemplating/Mojarra Scales/GlassFish Application Server
+|   /setup/password_required.html: 2WIRE GATEWAY
+|   /zp-core/: Zen Photo
+|   /amember/: aMember
+|   /.hgignore: Revision control ignore file
+|   /.gitignore: Revision control ignore file
+|   /.bzrignore: Revision control ignore file
+|   /S7Web.css: SCADA Siemens PCS7
+|   /Portal0000.htm: SCADA Siemens PCS7
+|   /arcsight/: Arcsight
+|   /arcsight/images/logo-login-arcsight.gif: Arcsight
+|   /arcsight/images/navbar-icon-logout-on.gif: Arcsight
+|   /images/logo-arcsight.gif: Arcsight
+|   /logger/monitor.ftl: Arcsight
+|   /beef/: BeEF Browser Exploitation Framework
+|   /BEEF/: BeEF Browser Exploitation Framework
+|   /beef/images/beef.gif: BeEF Browser Exploitation Framework
+|   /gfx/form_top_left_corner.gif: Secunia NSI
+|   /gfx/logout_24.png: Secunia NSI
+|   /gfx/new_logo.gif: Secunia NSI
+|   /javascript/sorttable.js: Secunia NSI
+|   /images/btn_help_nml.gif: IBM Proventia
+|   /images/hdr_icon_homeG.gif: IBM Proventia
+|   /spControl.php: IBM Proventia
+|   /images/isslogo.gif: IBM Proventia
+|   /deploymentmanager/: IBM Proventia
+|   /i18n/EN/css/foundstone.css: Foundstone
+|   /i18n/EN/images/external_nav_square.gif: Foundstone
+|   /officescan/console/html/cgi/cgiChkMasterPwd.exe: Trend Micro OfficeScan Server
+|   /officescan/console/html/ClientInstall/officescannt.htm: Trend Micro OfficeScan Server
+|   /officescan/console/html/images/icon_refresh.gif: Trend Micro OfficeScan Server
+|   /picts/BC_bwlogorev.gif: BlueCoat Reporter
+|   /picts/menu_leaf.gif: BlueCoat Reporter
+|   /theme/images/en/login1.gif: Fortinet VPN/Firewall
+|   /NessusClient.swf: Nessus
+|   /dotDefender/: dotDefender Web Application Firewall
+|   /actuator/: Spring Boot Actuator endpoint
+|   /auditevents/: Spring Boot Actuator endpoint
+|   /autoconfig/: Spring Boot Actuator endpoint
+|   /beans/: Spring Boot Actuator endpoint
+|   /configprops/: Spring Boot Actuator endpoint
+|   /env/: Spring Boot Actuator endpoint
+|   /flyway/: Spring Boot Actuator endpoint
+|   /health/: Spring Boot Actuator endpoint
+|   /loggers/: Spring Boot Actuator endpoint
+|   /liquibase/: Spring Boot Actuator endpoint
+|   /metrics/: Spring Boot Actuator endpoint
+|   /mappings/: Spring Boot Actuator endpoint
+|   /trace/: Spring Boot Actuator endpoint
+|   /heapdump/: Spring MVC Endpoint
+|   /jolokia/: Spring MVC Endpoint
+|   /vmware/: VMWare
+|   /vmware/imx/vmware_boxes-16x16.png: VMWare
+|   /ui/: VMWare
+|   /ui/imx/vmwareLogo-16x16.png: VMWare
+|   /ui/imx/vmwarePaperBagLogo-16x16.png: VMWare
+|   /ui/vManage.do: VMWare
+|   /client/VMware-viclient.exe: VMWare
+|   /en/welcomeRes.js: VMWare
+|   /citrix/: Citrix
+|   /Citrix/: Citrix
+|   /Citrix/MetaFrame/auth/login.aspx: Citrix
+|   /images/ctxHeader01.jpg: Citrix
+|   /images/Safeword_Token.jpg: Citrix
+|   /sw/auth/login.aspx: Citrix
+|   /vpn/images/AccessGateway.ico: Citrix
+|   /citrix/AccessPlatform/auth/clientscripts/: Citrix
+|   /AccessPlatform/auth/clientscripts/: Citrix
+|   /Citrix//AccessPlatform/auth/clientscripts/cookies.js: Citrix
+|   /Citrix/AccessPlatform/auth/clientscripts/login.js: Citrix
+|   /Citrix/PNAgent/config.xml: Citrix
+|   /cgi-bin/image/shikaku2.png: TeraStation PRO RAID 0/1/5 Network Attached Storage
+|   /config/public/usergrp.gif: AXIS StorPoint
+|   /pictures/buttons/file_view_mark.gif: AXIS StorPoint
+|   /cpqlogin.htm?RedirectUrl=/&RedirectQueryString=: HP System Management Homepage
+|   /hplogo.gif: HP System Management Homepage
+|   /ie_index.htm: HP Integrated Lights Out
+|   /ilo.gif: HP Integrated Lights Out
+|   /images/icon_server_connected.gif: HP Blade Enclosure
+|   /mxhtml/images/signin_logo.gif: HP Insight Manager
+|   /mxhtml/images/status_critical_15.gif: HP Insight Manager
+|   /mxportal/home/en_US/servicetools.gif: HP Insight Manager
+|   /mxportal/home/MxPortalFrames.jsp: HP Insight Manager
+|   /xymon/menu/menu.css: Xymon
+|   /rrc.htm: Raritan Remote Client
+|   /manager/html/upload: Apache Tomcat
+|   /manager/html: Apache Tomcat
+|   /axis2/axis2-web/HappyAxis.jsp: Apache Axis2
+|   /axis2/: Apache Axis2
+|   /happyaxis.jsp: Apache Axis2
+|   /web-console/ServerInfo.jsp: JBoss Console
+|   /web-console/Invoker: JBoss Console
+|   /invoker/JMXInvokerServlet: JBoss Console
+|   /invoker/: JBoss Console
+|   /jmx-console/: JBoss Console
+|   /admin-console/: JBoss Console
+|   /CFIDE/administrator/enter.cfm: ColdFusion Admin Console
+|   /CFIDE/administrator/entman/index.cfm: ColdFusion Admin Console
+|   /cfide/install.cfm: ColdFusion Admin Console
+|   /CFIDE/administrator/archives/index.cfm: ColdFusion Admin Console
+|   /CFIDE/wizards/common/_logintowizard.cfm: ColdFusion Admin Console
+|   /CFIDE/componentutils/login.cfm: ColdFusion Admin Console
+|   /CFIDE/Administrator/startstop.html: ColdFusion Admin Console
+|   /flexfm/: Flex File Manager
+|   /lib/usermanagement/userInfo.php: Testlink TestManagement
+|   /security/xamppsecurity.php: XAMPP
+|   /dm-albums/dm-albums.php: DM FileManager
+|   /x_logo.gif: Xerox printer
+|   /gif/hp.gif: HP Printer
+|   /gif/hp_invent_logo.gif: HP Printer
+|   /gif/printer.gif: HP Printer
+|   /hp/device/this.LCDispatcher: HP Printer
+|   /hp/device/webAccess/index.htm: HP Printer
+|   /PageSelector.class: HP Printer
+|   /images/lexbold.gif: Lexmark Printer
+|   /images/lexlogo.gif: Lexmark Printer
+|   /images/printer.gif: Lexmark Printer
+|   /printer/image: Lexmark Printer
+|   /images/mute_alloff.gif: NEC Projector
+|   /images/pic_bri.gif: NEC Projector
+|   /scanweb/images/scanwebtm.gif: SCAN Web (Webcam)
+|   /view/index.shtml: Axis 212 PTZ Network Camera
+|   /phpmyadmin/: phpMyAdmin
+|   /phpMyAdmin/: phpMyAdmin
+|   /PHPMyAdmin/: phpMyAdmin
+|   /PMA/: phpMyAdmin
+|   /pma/: phpMyAdmin
+|   /dbadmin/: phpMyAdmin
+|   /myadmin/: phpMyAdmin
+|   /php-my-admin/: phpMyAdmin
+|   /phpMyAdmin2/: phpMyAdmin
+|   /phpMyAdmin-2/: phpMyAdmin
+|   /phpMyAdmin-2.2.3/: phpMyAdmin
+|   /phpMyAdmin-2.2.6/: phpMyAdmin
+|   /phpMyAdmin-2.5.1/: phpMyAdmin
+|   /phpMyAdmin-2.5.4/: phpMyAdmin
+|   /phpMyAdmin-2.5.5-rc1/: phpMyAdmin
+|   /phpMyAdmin-2.5.5-rc2/: phpMyAdmin
+|   /phpMyAdmin-2.5.5/: phpMyAdmin
+|   /phpMyAdmin-2.5.5-pl1/: phpMyAdmin
+|   /phpMyAdmin-2.5.6-rc1/: phpMyAdmin
+|   /phpMyAdmin-2.5.6-rc2/: phpMyAdmin
+|   /phpMyAdmin-2.5.6/: phpMyAdmin
+|   /phpMyAdmin-2.5.7/: phpMyAdmin
+|   /phpMyAdmin-2.5.7-pl1/: phpMyAdmin
+|   /phpMyAdmin-2.6.0-alpha/: phpMyAdmin
+|   /phpMyAdmin-2.6.0-alpha2/: phpMyAdmin
+|   /phpMyAdmin-2.6.0-beta1/: phpMyAdmin
+|   /phpMyAdmin-2.6.0-beta2/: phpMyAdmin
+|   /phpMyAdmin-2.6.0-rc1/: phpMyAdmin
+|   /phpMyAdmin-2.6.0-rc2/: phpMyAdmin
+|   /phpMyAdmin-2.6.0-rc3/: phpMyAdmin
+|   /phpMyAdmin-2.6.0/: phpMyAdmin
+|   /phpMyAdmin-2.6.0-pl1/: phpMyAdmin
+|   /phpMyAdmin-2.6.0-pl2/: phpMyAdmin
+|   /phpMyAdmin-2.6.0-pl3/: phpMyAdmin
+|   /phpMyAdmin-2.6.1-rc1/: phpMyAdmin
+|   /phpMyAdmin-2.6.1-rc2/: phpMyAdmin
+|   /phpMyAdmin-2.6.1/: phpMyAdmin
+|   /phpMyAdmin-2.6.1-pl1/: phpMyAdmin
+|   /phpMyAdmin-2.6.1-pl2/: phpMyAdmin
+|   /phpMyAdmin-2.6.1-pl3/: phpMyAdmin
+|   /phpMyAdmin-2.6.2-rc1/: phpMyAdmin
+|   /phpMyAdmin-2.6.2-beta1/: phpMyAdmin
+|   /phpMyAdmin-2.6.2/: phpMyAdmin
+|   /phpMyAdmin-2.6.2-pl1/: phpMyAdmin
+|   /phpMyAdmin-2.6.3/: phpMyAdmin
+|   /phpMyAdmin-2.6.3-rc1/: phpMyAdmin
+|   /phpMyAdmin-2.6.3-pl1/: phpMyAdmin
+|   /phpMyAdmin-2.6.4-rc1/: phpMyAdmin
+|   /phpMyAdmin-2.6.4-pl1/: phpMyAdmin
+|   /phpMyAdmin-2.6.4-pl2/: phpMyAdmin
+|   /phpMyAdmin-2.6.4-pl3/: phpMyAdmin
+|   /phpMyAdmin-2.6.4-pl4/: phpMyAdmin
+|   /phpMyAdmin-2.6.4/: phpMyAdmin
+|   /phpMyAdmin-2.7.0-beta1/: phpMyAdmin
+|   /phpMyAdmin-2.7.0-rc1/: phpMyAdmin
+|   /phpMyAdmin-2.7.0-pl1/: phpMyAdmin
+|   /phpMyAdmin-2.7.0-pl2/: phpMyAdmin
+|   /phpMyAdmin-2.7.0/: phpMyAdmin
+|   /phpMyAdmin-2.8.0-beta1/: phpMyAdmin
+|   /phpMyAdmin-2.8.0-rc1/: phpMyAdmin
+|   /phpMyAdmin-2.8.0-rc2/: phpMyAdmin
+|   /phpMyAdmin-2.8.0/: phpMyAdmin
+|   /phpMyAdmin-2.8.0.1/: phpMyAdmin
+|   /phpMyAdmin-2.8.0.2/: phpMyAdmin
+|   /phpMyAdmin-2.8.0.3/: phpMyAdmin
+|   /phpMyAdmin-2.8.0.4/: phpMyAdmin
+|   /phpMyAdmin-2.8.1-rc1/: phpMyAdmin
+|   /phpMyAdmin-2.8.1/: phpMyAdmin
+|   /phpMyAdmin-2.8.2/: phpMyAdmin
+|   /sqlmanager/: phpMyAdmin
+|   /php-myadmin/: phpMyAdmin
+|   /phpmy-admin/: phpMyAdmin
+|   /mysqladmin/: phpMyAdmin
+|   /mysql-admin/: phpMyAdmin
+|   /websql/: phpMyAdmin
+|   /_phpmyadmin/: phpMyAdmin
+|   /footer1.gif: (possible) Oracle Web server
+|   /homepage.nsf/homePage.gif?OpenImageResource: Lotus Domino
+|   /icons/ecblank.gif: Lotus Domino
+|   /852566C90012664F: Lotus Domino
+|   /admin4.nsf: Lotus Domino
+|   /admin5.nsf: Lotus Domino
+|   /admin.nsf: Lotus Domino
+|   /agentrunner.nsf: Lotus Domino
+|   /alog.nsf: Lotus Domino
+|   /a_domlog.nsf: Lotus Domino
+|   /bookmark.nsf: Lotus Domino
+|   /busytime.nsf: Lotus Domino
+|   /catalog.nsf: Lotus Domino
+|   /certa.nsf: Lotus Domino
+|   /certlog.nsf: Lotus Domino
+|   /certsrv.nsf: Lotus Domino
+|   /chatlog.nsf: Lotus Domino
+|   /clbusy.nsf: Lotus Domino
+|   /cldbdir.nsf: Lotus Domino
+|   /clusta4.nsf: Lotus Domino
+|   /collect4.nsf: Lotus Domino
+|   /da.nsf: Lotus Domino
+|   /dba4.nsf: Lotus Domino
+|   /dclf.nsf: Lotus Domino
+|   /DEASAppDesign.nsf: Lotus Domino
+|   /DEASLog01.nsf: Lotus Domino
+|   /DEASLog02.nsf: Lotus Domino
+|   /DEASLog03.nsf: Lotus Domino
+|   /DEASLog04.nsf: Lotus Domino
+|   /DEASLog05.nsf: Lotus Domino
+|   /DEASLog.nsf: Lotus Domino
+|   /decsadm.nsf: Lotus Domino
+|   /decslog.nsf: Lotus Domino
+|   /DEESAdmin.nsf: Lotus Domino
+|   /dirassist.nsf: Lotus Domino
+|   /doladmin.nsf: Lotus Domino
+|   /domadmin.nsf: Lotus Domino
+|   /domcfg.nsf: Lotus Domino
+|   /domguide.nsf: Lotus Domino
+|   /domlog.nsf: Lotus Domino
+|   /dspug.nsf: Lotus Domino
+|   /events4.nsf: Lotus Domino
+|   /events5.nsf: Lotus Domino
+|   /events.nsf: Lotus Domino
+|   /event.nsf: Lotus Domino
+|   /homepage.nsf: Lotus Domino
+|   /iNotes/Forms5.nsf/$DefaultNav: Lotus Domino
+|   /jotter.nsf: Lotus Domino
+|   /leiadm.nsf: Lotus Domino
+|   /leilog.nsf: Lotus Domino
+|   /leivlt.nsf: Lotus Domino
+|   /log4a.nsf: Lotus Domino
+|   /log.nsf: Lotus Domino
+|   /l_domlog.nsf: Lotus Domino
+|   /mab.nsf: Lotus Domino
+|   /mail10.box: Lotus Domino
+|   /mail1.box: Lotus Domino
+|   /mail2.box: Lotus Domino
+|   /mail3.box: Lotus Domino
+|   /mail4.box: Lotus Domino
+|   /mail5.box: Lotus Domino
+|   /mail6.box: Lotus Domino
+|   /mail7.box: Lotus Domino
+|   /mail8.box: Lotus Domino
+|   /mail9.box: Lotus Domino
+|   /mail.box: Lotus Domino
+|   /msdwda.nsf: Lotus Domino
+|   /mtatbls.nsf: Lotus Domino
+|   /mtstore.nsf: Lotus Domino
+|   /names.nsf: Lotus Domino
+|   /nntppost.nsf: Lotus Domino
+|   /nntp/nd000001.nsf: Lotus Domino
+|   /nntp/nd000002.nsf: Lotus Domino
+|   /nntp/nd000003.nsf: Lotus Domino
+|   /ntsync45.nsf: Lotus Domino
+|   /perweb.nsf: Lotus Domino
+|   /qpadmin.nsf: Lotus Domino
+|   /quickplace/quickplace/main.nsf: Lotus Domino
+|   /reports.nsf: Lotus Domino
+|   /sample/siregw46.nsf: Lotus Domino
+|   /schema50.nsf: Lotus Domino
+|   /setupweb.nsf: Lotus Domino
+|   /setup.nsf: Lotus Domino
+|   /smbcfg.nsf: Lotus Domino
+|   /smconf.nsf: Lotus Domino
+|   /smency.nsf: Lotus Domino
+|   /smhelp.nsf: Lotus Domino
+|   /smmsg.nsf: Lotus Domino
+|   /smquar.nsf: Lotus Domino
+|   /smsolar.nsf: Lotus Domino
+|   /smtime.nsf: Lotus Domino
+|   /smtpibwq.nsf: Lotus Domino
+|   /smtpobwq.nsf: Lotus Domino
+|   /smtp.box: Lotus Domino
+|   /smtp.nsf: Lotus Domino
+|   /smvlog.nsf: Lotus Domino
+|   /srvnam.htm: Lotus Domino
+|   /statmail.nsf: Lotus Domino
+|   /statrep.nsf: Lotus Domino
+|   /stauths.nsf: Lotus Domino
+|   /stautht.nsf: Lotus Domino
+|   /stconfig.nsf: Lotus Domino
+|   /stconf.nsf: Lotus Domino
+|   /stdnaset.nsf: Lotus Domino
+|   /stdomino.nsf: Lotus Domino
+|   /stlog.nsf: Lotus Domino
+|   /streg.nsf: Lotus Domino
+|   /stsrc.nsf: Lotus Domino
+|   /userreg.nsf: Lotus Domino
+|   /vpuserinfo.nsf: Lotus Domino
+|   /webadmin.nsf: Lotus Domino
+|   /web.nsf: Lotus Domino
+|   /.nsf/../winnt/win.ini: Lotus Domino
+|   /icons/ecblank.gif: Lotus Domino
+|   /_layouts/images/helpicon.gif: MS Sharepoint
+|   /Pages/Default.aspx: MS Sharepoint
+|   /PublishingImages/NewsArticleImage.jpg: MS Sharepoint
+|   /_admin/operations.aspx: MS Sharepoint
+|   /_app_bin: MS Sharepoint
+|   /_controltemplates: MS Sharepoint
+|   /_layouts: MS Sharepoint
+|   /_layouts/viewlsts.aspx: MS Sharepoint
+|   /forms/allitems.aspx: MS Sharepoint
+|   /forms/webfldr.aspx: MS Sharepoint
+|   /forms/mod-view.aspx: MS Sharepoint
+|   /forms/my-sub.aspx: MS Sharepoint
+|   /pages/categoryresults.aspx: MS Sharepoint
+|   /categories/viewcategory.aspx: MS Sharepoint
+|   /sitedirectory: MS Sharepoint
+|   /editdocs.aspx: MS Sharepoint
+|   /workflowtasks/allitems.aspx: MS Sharepoint
+|   /lists/tasks/: MS Sharepoint
+|   /categories/allcategories.aspx: MS Sharepoint
+|   /categories/SOMEOTHERDIR/allcategories.aspx: MS Sharepoint
+|   /mycategories.aspx: MS Sharepoint
+|   /lists/: MS Sharepoint
+|   /lists/allitems.aspx: MS Sharepoint
+|   /lists/default.aspx: MS Sharepoint
+|   /lists/allposts.aspx: MS Sharepoint
+|   /lists/archive.aspx: MS Sharepoint
+|   /lists/byauthor.aspx: MS Sharepoint
+|   /lists/calendar.aspx: MS Sharepoint
+|   /lists/mod-view.aspx: MS Sharepoint
+|   /lists/myposts.aspx: MS Sharepoint
+|   /lists/my-sub.aspx: MS Sharepoint
+|   /lists/allcomments.aspx: MS Sharepoint
+|   /lists/mycomments.aspx: MS Sharepoint
+|   /_layouts/userdisp.aspx: MS Sharepoint
+|   /_layouts/help.aspx: MS Sharepoint
+|   /_layouts/download.aspx: MS Sharepoint
+|   /projectserver/Home/HomePage.asp: MS Project Server
+|   /projectserver/images/branding.gif: MS Project Server
+|   /projectserver/images/pgHome.gif: MS Project Server
+|   /projectserver/images/pgTask.gif: MS Project Server
+|   /projectserver/Tasks/Taskspage.asp: MS Project Server
+|   /exchweb/bin/auth/owalogon.asp: Outlook Web Access
+|   /images/outlook.jpg: Outlook Web Access
+|   /owa/8.1.375.2/themes/base/lgntopl.gif: Outlook Web Access
+|   /owa/: Outlook Web Access
+|   /tsweb/: Remote Desktop Web Connection
+|   /reportserver/: Microsoft SQL Report Service
+|   /HW_logo.html: Huawei HG 530
+|   /icons/icon_set_up_2701XX_01.gif: 2WIRE 2701HG
+|   /icons/icon_homeportal_2701XX.gif: 2WIRE 2701HG
+|   /es/images/nav_sl_home_network_01.gif: 2WIRE 2701HG
+|   /en/images/nav_sl_home_network_01.gif: 2WIRE 2701HG
+|   /images/stxx__xl.gif: Thomson TG585
+|   /images/bbc__xl.gif: Thomson TG585
+|   /sdk/../../../../../../../etc/vmware/hostd/vmInventory.xml: Possible path traversal in VMWare (CVE-2009-3733)
+|   /sdk/%2E%2E/%2E%2E/%2E%2E/%2E%2E/%2E%2E/%2E%2E/%2E%2E/etc/vmware/hostd/vmInventory.xml: Possible path traversal in VMWare (CVE-2009-3733)
+|   /../../../../../../../../../../etc/passwd: Possible path traversal in URI
+|   /../../../../../../../../../../boot.ini: Possible path traversal in URI
+|   /.htaccess: Incorrect permissions on .htaccess or .htpasswd files
+|   /.htpasswd: Incorrect permissions on .htaccess or .htpasswd files
+|   /_vti_bin/: Frontpage file or folder
+|   /_vti_cnf/: Frontpage file or folder
+|   /_vti_log/: Frontpage file or folder
+|   /_vti_pvt/: Frontpage file or folder
+|   /_vti_txt/: Frontpage file or folder
+|   /postinfo.html: Frontpage file or folder
+|   /_vti_bin/_vti_aut/author.dll: Frontpage file or folder
+|   /_vti_bin/_vti_aut/author.exe: Frontpage file or folder
+|   /_vti_bin/_vti_aut/dvwssr.dll: Frontpage file or folder
+|   /_vti_bin/_vti_adm/admin.dll: Frontpage file or folder
+|   /_vti_bin/_vti_adm/admin.exe: Frontpage file or folder
+|   /_vti_bin/fpcount.exe?Page=default.asp|Image=3: Frontpage file or folder
+|   /_vti_bin/shtml.dll: Frontpage file or folder
+|   /_vti_bin/shtml.exe: Frontpage file or folder
+|   /_vti_pvt/_x_todo.htm: Frontpage file or folder
+|   /_vti_pvt/_x_todoh.htm: Frontpage file or folder
+|   /_vti_pvt/access.cnf: Frontpage file or folder
+|   /_vti_pvt/administrator.pwd: Frontpage file or folder
+|   /_vti_pvt/administrators.pwd: Frontpage file or folder
+|   /_vti_pvt/authors.pwd: Frontpage file or folder
+|   /_vti_pvt/bots.cnf: Frontpage file or folder
+|   /_vti_pvt/botinfs.cnf: Frontpage file or folder
+|   /_vti_pvt/deptodoc.btr: Frontpage file or folder
+|   /_vti_pvt/doctodep.btr: Frontpage file or folder
+|   /_vti_pvt/frontpg.lck: Frontpage file or folder
+|   /_vti_pvt/linkinfo.cnf: Frontpage file or folder
+|   /_vti_pvt/service.cnf: Frontpage file or folder
+|   /_vti_pvt/service.grp: Frontpage file or folder
+|   /_vti_pvt/service.lck: Frontpage file or folder
+|   /_vti_pvt/service.pwd: Frontpage file or folder
+|   /_vti_pvt/Service.stp: Frontpage file or folder
+|   /_vti_pvt/services.cnf: Frontpage file or folder
+|   /_vti_pvt/services.org: Frontpage file or folder
+|   /_vti_pvt/structure.cnf: Frontpage file or folder
+|   /_vti_pvt/svcacl.cnf: Frontpage file or folder
+|   /_vti_pvt/users.pwd: Frontpage file or folder
+|   /_vti_pvt/uniqueperm.cnf: Frontpage file or folder
+|   /_vti_pvt/writeto.cnf: Frontpage file or folder
+|   /.svn/: Subversion folder
+|   /.svn/text-base/.htaccess.svn-base: Subversion folder
+|   /.svn/text-base/.htpasswd.svn-base: Subversion folder
+|   /.svn/text-base/Web.config.svn-base: Subversion folder
+|   /downloadFile.php: NETGEAR WNDAP350 2.0.1 to 2.0.9 potential file download and SSH root password disclosure
+|   /BackupConfig.php: NETGEAR WNDAP350 2.0.1 to 2.0.9 potential file download and SSH root password disclosure
+|   /cwhp/auditLog.do?file=..\..\..\..\..\..\..\boot.ini: Possible CiscoWorks (CuOM 8.0 and 8.5) Directory traversal (CVE-2011-0966) (Windows)
+|   /cwhp/auditLog.do?file=..\..\..\..\..\..\..\Program%20Files\CSCOpx\MDC\Tomcat\webapps\triveni\WEB-INF\classes\schedule.properties: Possible CiscoWorks (CuOM 8.0 and 8.5) Directory traversal (CVE-2011-0966) (Windows)
+|   /cwhp/auditLog.do?file=..\..\..\..\..\..\..\Program%20Files\CSCOpx\lib\classpath\com\cisco\nm\cmf\dbservice2\DBServer.properties: Possible CiscoWorks (CuOM 8.0 and 8.5) Directory traversal (CVE-2011-0966) (Windows)
+|   /cwhp/auditLog.do?file=..\..\..\..\..\..\..\Program%20Files\CSCOpx\log\dbpwdChange.log: Possible CiscoWorks (CuOM 8.0 and 8.5) Directory traversal (CVE-2011-0966) (Windows)
+|   ..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f/var/mobile/Library/AddressBook/AddressBook.sqlitedb: Possible iPhone/iPod/iPad generic file sharing app Directory Traversal (iOS)
+|   /Info.live.htm: Possible DD-WRT router Information Disclosure (BID 45598)
+|   /CuteSoft_Client/CuteEditor/Load.ashx?type=image&file=../../../web.config: Cute Editor ASP.NET Remote File Disclosure ( CVE 2009-4665 )
+|   /plugins/PluginController.php?path=..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fwindows%2fwin.ini%00: OrangeHRM 2.6.3 Local File Inclusion 
+|   /tiki-listmovies.php?movie=../../../../../../etc/passwd%001234: TikiWiki < 1.9.9 Directory Traversal Vulnerability
+|   /d41d8cd98f00b204e9800998ecf8427e.php: Seagate BlackArmorNAS 110/220/440 Administrator Password Reset Vulnerability
+|   /uir//etc/passwd: Possible D-Link router directory traversal vulnerability (CVE-2018-10822)
+|   /uir//tmp/csman/0: Possible D-Link router plaintext password file exposure (CVE-2018-10824)
+|   /cgi-bin/export_debug_msg.exp: Cisco RV320/RV325 Unauthenticated Diagnostic Data & Configuration Export (CVE-2019-1653)
+|   /cgi-bin/config.exp: Cisco RV320/RV325 Unauthenticated Diagnostic Data & Configuration Export (CVE-2019-1653)
+|   /wp-includes/images/rss.png: Wordpress version 2.2 found.
+|   /wp-includes/js/scriptaculous/sound.js: Wordpress version 2.3 found.
+|   /wp-includes/js/jquery/suggest.js: Wordpress version 2.5 found.
+|   /wp-includes/images/blank.gif: Wordpress version 2.6 found.
+|   /wp-includes/js/comment-reply.js: Wordpress version 2.7 found.
+|   /wp-includes/js/codepress/codepress.js: Wordpress version 2.8 found.
+|   /wp-login.php: Wordpress login page.
+|   /wordpress/wp-login.php: Wordpress login page.
+|   /blog/wp-login.php: Wordpress login page.
+|   /administrator/wp-login.php: Wordpress login page.
+|   /weblog/wp-login.php: Wordpress login page.
+|   /wp-admin/upgrade.php: Wordpress login page.
+|   /changelog.txt: Interesting, a changelog.
+|   /tinymce/changelog.txt: Interesting, a changelog.
+|   /readme.html: Interesting, a readme.
+|   /pligg/readme.html: Interesting, a readme.
+|   /digg/readme.html: Interesting, a readme.
+|   /news/readme.html: Interesting, a readme.
+|   /cmspages.php: 2Point Solutions CMS
+|   /sc_webcat/ecat/cms_view.php: Webcat
+|   /kbcat.cgi: ActivDesk
+|   /sections/reference.inc.php: BrewBlogger
+|   /store.php?action=view_cart: AiCart
+|   /catalog/main.php?cat_id=: Catalog Builder
+|   /forum_answer.php?que_id=1: Guru JustAnswer
+|   /templates1/view_product.php: HB ECommerce
+|   /escort-profile.php: First Escort Marketing CMS
+|   /pages/indexheader.php: Green Pants CMS
+|   /pages/searcher.php: Green Pants CMS
+|   /pages/indexviewentry.php: Green Pants CMS
+|   /tinymcpuk/filemanager/browser.html: CMS Lokomedia
+|   /admin/libraries/ajaxfilemanager/ajaxfilemanager.php: Log1 CMS
+|   /leftmenubody.php: Quicktech
+|   /dsp_page.cfm: Alcassofts SOPHIA CMS
+|   /zikula/index.php: Zikula CMS
+|   /system/admin/header.php: Habari Blog
+|   /system/admin/comments_items.php: Habari Blog
+|   /scripts/fckeditor/editor/filemanager/connectors/test.html: Digitalus CMS/FCKEditor File upload
+|   /scripts/fckeditor/editor/filemanager/connectors/uploadtest.html: Digitalus CMS/FCKEditor File upload
+|   /fckeditor/editor/filemanager/connectors/test.html: phpmotion/FCKeditor File upload
+|   /fckeditor/editor/filemanager/upload/test.html: Geeklog/FCKeditor File upload
+|   /admin/view/javascript/fckeditor/editor/filemanager/connectors/test.html: OpenCart/FCKeditor File upload
+|   /fckeditor/editor/filemanager/connectors/php/config.php: DM File Manager/FCKeditor File upload
+|   /includes/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php: PHPnuke/Remote File Download
+|   /includes/FCKeditor/editor/filemanager/browser/default/connectors/asp/connector.asp: PHPnuke/Remote File Download
+|   /includes/FCKeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx: PHPnuke/Remote File Download
+|   /includes/FCKeditor/editor/filemanager/browser/default/connectors/cfm/connector.cfm: PHPnuke/Remote File Download
+|   /includes/FCKeditor/editor/filemanager/browser/default/connectors/lasso/connector.lasso: PHPnuke/Remote File Download
+|   /includes/FCKeditor/editor/filemanager/browser/default/connectors/perl/connector.cgi: PHPnuke/Remote File Download
+|   /includes/FCKeditor/editor/filemanager/browser/default/connectors/py/connector.py: PHPnuke/Remote File Download
+|   /FCKEditor/editor/filemanager/browser/default/connectors/test.html: EgO or osCMax/FCKeditor File upload
+|   /admin/includes/tiny_mce/plugins/tinybrowser/upload.php: CompactCMS or B-Hind CMS/FCKeditor File upload
+|   /Backstage/Components/FreeTextBox/ftb.imagegallery.aspx: Luftguitar CMS/File upload
+|   /_plugin/fckeditor/editor/filemanager/connectors/test.html: SweetRice/FCKeditor File upload
+|   /html/news_fckeditor/editor/filemanager/upload/php/upload.php: cardinalCms/FCKeditor File upload
+|   /fckeditor/editor/filemanager/connectors/test.html: LightNEasy/FCKeditor File upload
+|   /admin/includes/FCKeditor/editor/filemanager/upload/test.html: ASP Simple Blog / FCKeditor File Upload
+|   /uploadsnaps.php: ZeeMatri/File upload
+|   /upload/includes/js/files/upload.php: Digital College/File upload
+|   /tinybrowser/upload.php: Tinybrowser Remote File Upload
+|   /editor/editor/filemanager/upload/test.html: Tadbir / File Upload
+|   /photogallery_open.php: Heaven Soft CMS
+|   /Providers/HtmlEditorProviders/Fck/fcklinkgallery.aspx: DotNetNuke / File Upload
+|   /assetmanager/assetmanager.asp: Asset Manager/Remote File upload
+|   /Final/login/ava_upl.php: CH-CMS
+|   /Final/login/ava_upl2.php: CH-CMS
+|   /spaw/demo.php: SpawCMS/Remote File upload
+|   /admin/jscript/upload.php: Lizard Cart/Remote File upload
+|   /admin/jscript/upload.html: Lizard Cart/Remote File upload
+|   /admin/jscript/upload.pl: Lizard Cart/Remote File upload
+|   /admin/jscript/upload.asp: Lizard Cart/Remote File upload
+|   /databases/acidcat_3.mdb: Acidcat CMS Database
+|   /mdb-database/dblog.mdb: dBlog Database
+|   /db/users.mdb: BlogWorx Database
+|   /db/: BlogWorx Database
+|   /infusions/avatar_studio/avatar_studio.php: PHP-Fusion Mod avatar_studio
+|   /bnnr.php: vBulletin ads_saed
+|   /vb/bnnr.php: vBulletin ads_saed
+|   /forum/bnnr.php: vBulletin ads_saed
+|   /weblink_cat_list.php: WHMCompleteSolution CMS
+|   /pix/moodlelogo.gif: Moodle files
+|   /admin/environment.xml: Moodle files
+|   /typo3/index.php: Typo3 Installation
+|   /typo3/README.txt: Typo3 Installation
+|   /t3lib/README.txt: Typo3 Installation
+|   /typo3/sysext/t3skin/images/login/typo3logo-white-greyback.gif: Typo3 Installation
+|   /squirrelmail/src/login.php: SquirrelMail
+|   /squirrelmail/images/sm_logo.png: SquirrelMail
+|   /webmail/images/sm_logo.png: SquirrelMail
+|   /skins/default/images/roundcube_logo.png: RoundCube
+|   /archive/flash:home/html/images/Cisco_logo.gif: Cisco SDM
+|   /Default?MAIN=DEVICE: TopAccess Toshiba e-Studio520
+|   /TopAccess/images/RioGrande/Rio_PPC.gif: TopAccess Toshiba e-Studio520
+|   /jwsappmngr.jnlp: netForensics
+|   /nfdesktop.jnlp: netForensics
+|   /nfservlets/servlet/SPSRouterServlet/: netForensics
+|   /na_admin/styles/dfm.css: NetworkAppliance NetApp Release 6.5.3P4
+|   /README: Interesting, a readme.
+|   /README.txt: Interesting, a readme.
+|   /xoda/README: Interesting, a readme.
+|   /docs/README: Interesting, a readme.
+|   /documents/README: Interesting, a readme.
+|   /dms/README: Interesting, a readme.
+|   /status/README: Interesting, a readme.
+|   /statusnet/README: Interesting, a readme.
+|   /twitter/README: Interesting, a readme.
+|   /0/: Potentially interesting folder
+|   /1/: Potentially interesting folder
+|   /2/: Potentially interesting folder
+|   /3/: Potentially interesting folder
+|   /4/: Potentially interesting folder
+|   /5/: Potentially interesting folder
+|   /6/: Potentially interesting folder
+|   /7/: Potentially interesting folder
+|   /8/: Potentially interesting folder
+|   /9/: Potentially interesting folder
+|   /10/: Potentially interesting folder
+|   /a/: Potentially interesting folder
+|   /b/: Potentially interesting folder
+|   /c/: Potentially interesting folder
+|   /d/: Potentially interesting folder
+|   /e/: Potentially interesting folder
+|   /f/: Potentially interesting folder
+|   /g/: Potentially interesting folder
+|   /h/: Potentially interesting folder
+|   /i/: Potentially interesting folder
+|   /j/: Potentially interesting folder
+|   /k/: Potentially interesting folder
+|   /l/: Potentially interesting folder
+|   /m/: Potentially interesting folder
+|   /n/: Potentially interesting folder
+|   /o/: Potentially interesting folder
+|   /p/: Potentially interesting folder
+|   /q/: Potentially interesting folder
+|   /r/: Potentially interesting folder
+|   /s/: Potentially interesting folder
+|   /t/: Potentially interesting folder
+|   /u/: Potentially interesting folder
+|   /v/: Potentially interesting folder
+|   /w/: Potentially interesting folder
+|   /x/: Potentially interesting folder
+|   /y/: Potentially interesting folder
+|   /z/: Potentially interesting folder
+|   /acceso/: Potentially interesting folder
+|   /access/: Potentially interesting folder
+|   /accesswatch/: Potentially interesting folder
+|   /acciones/: Potentially interesting folder
+|   /account/: Potentially interesting folder
+|   /accounting/: Potentially interesting folder
+|   /active/: Potentially interesting folder
+|   /activex/: Potentially interesting folder
+|   /admcgi/: Potentially interesting folder
+|   /admisapi/: Potentially interesting folder
+|   /AdvWebAdmin/: Potentially interesting folder
+|   /agentes/: Potentially interesting folder
+|   /Agent/: Potentially interesting folder
+|   /Agents/: Potentially interesting folder
+|   /AlbumArt_/: Potentially interesting folder
+|   /AlbumArt/: Potentially interesting folder
+|   /Album/: Potentially interesting folder
+|   /allow/: Potentially interesting folder
+|   /analog/: Potentially interesting folder
+|   /anthill/: Potentially interesting folder
+|   /apache/: Potentially interesting folder
+|   /app/: Potentially interesting folder
+|   /applets/: Potentially interesting folder
+|   /appl/: Potentially interesting folder
+|   /application/: Potentially interesting folder
+|   /applications/: Potentially interesting folder
+|   /applmgr/: Potentially interesting folder
+|   /apply/: Potentially interesting folder
+|   /appsec/: Potentially interesting folder
+|   /apps/: Potentially interesting folder
+|   /archive/: Potentially interesting folder
+|   /archives/: Potentially interesting folder
+|   /ar/: Potentially interesting folder
+|   /asa/: Potentially interesting folder
+|   /asp/: Potentially interesting folder
+|   /atc/: Potentially interesting folder
+|   /aut/: Potentially interesting folder
+|   /authadmin/: Potentially interesting folder
+|   /auth/: Potentially interesting folder
+|   /author/: Potentially interesting folder
+|   /authors/: Potentially interesting folder
+|   /aw/: Potentially interesting folder
+|   /ayuda/: Potentially interesting folder
+|   /b2-include/: Potentially interesting folder
+|   /backend/: Potentially interesting folder
+|   /bad/: Potentially interesting folder
+|   /banca/: Potentially interesting folder
+|   /banco/: Potentially interesting folder
+|   /bank/: Potentially interesting folder
+|   /banner01/: Potentially interesting folder
+|   /banner/: Potentially interesting folder
+|   /banners/: Potentially interesting folder
+|   /bar/: Potentially interesting folder
+|   /batch/: Potentially interesting folder
+|   /bb-dnbd/: Potentially interesting folder
+|   /bbv/: Potentially interesting folder
+|   /bdata/: Potentially interesting folder
+|   /bdatos/: Potentially interesting folder
+|   /beta/: Potentially interesting folder
+|   /billpay/: Potentially interesting folder
+|   /bin/: Potentially interesting folder
+|   /binaries/: Potentially interesting folder
+|   /binary/: Potentially interesting folder
+|   /boadmin/: Potentially interesting folder
+|   /boot/: Potentially interesting folder
+|   /bottom/: Potentially interesting folder
+|   /browse/: Potentially interesting folder
+|   /browser/: Potentially interesting folder
+|   /bsd/: Potentially interesting folder
+|   /btauxdir/: Potentially interesting folder
+|   /bug/: Potentially interesting folder
+|   /bugs/: Potentially interesting folder
+|   /bugzilla/: Potentially interesting folder
+|   /buy/: Potentially interesting folder
+|   /buynow/: Potentially interesting folder
+|   /cached/: Potentially interesting folder
+|   /cache/: Potentially interesting folder
+|   /cache-stats/: Potentially interesting folder
+|   /caja/: Potentially interesting folder
+|   /card/: Potentially interesting folder
+|   /cards/: Potentially interesting folder
+|   /cart/: Potentially interesting folder
+|   /cash/: Potentially interesting folder
+|   /caspsamp/: Potentially interesting folder
+|   /catalog/: Potentially interesting folder
+|   /cbi-bin/: Potentially interesting folder
+|   /ccard/: Potentially interesting folder
+|   /ccards/: Potentially interesting folder
+|   /cd-cgi/: Potentially interesting folder
+|   /cd/: Potentially interesting folder
+|   /cdrom/: Potentially interesting folder
+|   /ce_html/: Potentially interesting folder
+|   /cert/: Potentially interesting folder
+|   /certificado/: Potentially interesting folder
+|   /certificate/: Potentially interesting folder
+|   /cfappman/: Potentially interesting folder
+|   /cfdocs/: Potentially interesting folder
+|   /cfide/: Potentially interesting folder
+|   /cgi-914/: Potentially interesting folder
+|   /cgi-915/: Potentially interesting folder
+|   /cgi-auth/: Potentially interesting folder
+|   /cgi-bin2/: Potentially interesting folder
+|   /cgi-bin/: Potentially interesting folder
+|   /cgibin/: Potentially interesting folder
+|   /cgi.cgi/: Potentially interesting folder
+|   /cgi-csc/: Potentially interesting folder
+|   /cgi-exe/: Potentially interesting folder
+|   /cgi/: Potentially interesting folder
+|   /cgi-home/: Potentially interesting folder
+|   /cgi-lib/: Potentially interesting folder
+|   /cgilib/: Potentially interesting folder
+|   /cgi-local/: Potentially interesting folder
+|   /cgi-perl/: Potentially interesting folder
+|   /cgi-scripts/: Potentially interesting folder
+|   /cgiscripts/: Potentially interesting folder
+|   /cgis/: Potentially interesting folder
+|   /cgi-shl/: Potentially interesting folder
+|   /cgi-shop/: Potentially interesting folder
+|   /cgi-sys/: Potentially interesting folder
+|   /cgi-weddico/: Potentially interesting folder
+|   /cgi-win/: Potentially interesting folder
+|   /cgiwin/: Potentially interesting folder
+|   /class/: Potentially interesting folder
+|   /classes/: Potentially interesting folder
+|   /cliente/: Potentially interesting folder
+|   /clientes/: Potentially interesting folder
+|   /client/: Potentially interesting folder
+|   /clients/: Potentially interesting folder
+|   /cm/: Potentially interesting folder
+|   /cobalt-images/: Potentially interesting folder
+|   /code/: Potentially interesting folder
+|   /com/: Potentially interesting folder
+|   /comments/: Potentially interesting folder
+|   /common/: Potentially interesting folder
+|   /communicator/: Potentially interesting folder
+|   /company/: Potentially interesting folder
+|   /comp/: Potentially interesting folder
+|   /compra/: Potentially interesting folder
+|   /compras/: Potentially interesting folder
+|   /compressed/: Potentially interesting folder
+|   /conecta/: Potentially interesting folder
+|   /conf/: Potentially interesting folder
+|   /config/: Potentially interesting folder
+|   /configs/: Potentially interesting folder
+|   /configure/: Potentially interesting folder
+|   /connect/: Potentially interesting folder
+|   /console/: Potentially interesting folder
+|   /contact/: Potentially interesting folder
+|   /contacts/: Potentially interesting folder
+|   /content/: Potentially interesting folder
+|   /content.ie5/: Potentially interesting folder
+|   /controlpanel/: Potentially interesting folder
+|   /core/: Potentially interesting folder
+|   /corp/: Potentially interesting folder
+|   /correo/: Potentially interesting folder
+|   /counter/: Potentially interesting folder
+|   /credit/: Potentially interesting folder
+|   /cron/: Potentially interesting folder
+|   /crons/: Potentially interesting folder
+|   /crypto/: Potentially interesting folder
+|   /CS/: Potentially interesting folder
+|   /csr/: Potentially interesting folder
+|   /css/: Potentially interesting folder
+|   /cuenta/: Potentially interesting folder
+|   /cuentas/: Potentially interesting folder
+|   /currency/: Potentially interesting folder
+|   /cust/: Potentially interesting folder
+|   /customer/: Potentially interesting folder
+|   /customers/: Potentially interesting folder
+|   /custom/: Potentially interesting folder
+|   /CVS/: Potentially interesting folder
+|   /cvsweb/: Potentially interesting folder
+|   /cybercash/: Potentially interesting folder
+|   /darkportal/: Potentially interesting folder
+|   /database/: Potentially interesting folder
+|   /databases/: Potentially interesting folder
+|   /datafiles/: Potentially interesting folder
+|   /dat/: Potentially interesting folder
+|   /data/: Potentially interesting folder
+|   /dato/: Potentially interesting folder
+|   /datos/: Potentially interesting folder
+|   /db/: Potentially interesting folder
+|   /dbase/: Potentially interesting folder
+|   /dcforum/: Potentially interesting folder
+|   /ddreport/: Potentially interesting folder
+|   /ddrint/: Potentially interesting folder
+|   /debug/: Potentially interesting folder
+|   /debugs/: Potentially interesting folder
+|   /default/: Potentially interesting folder
+|   /deleted/: Potentially interesting folder
+|   /delete/: Potentially interesting folder
+|   /demoauct/: Potentially interesting folder
+|   /demomall/: Potentially interesting folder
+|   /demo/: Potentially interesting folder
+|   /demos/: Potentially interesting folder
+|   /demouser/: Potentially interesting folder
+|   /deny/: Potentially interesting folder
+|   /derived/: Potentially interesting folder
+|   /design/: Potentially interesting folder
+|   /dev/: Potentially interesting folder
+|   /devel/: Potentially interesting folder
+|   /development/: Potentially interesting folder
+|   /directories/: Potentially interesting folder
+|   /directory/: Potentially interesting folder
+|   /directorymanager/: Potentially interesting folder
+|   /dir/: Potentially interesting folder
+|   /dl/: Potentially interesting folder
+|   /dm/: Potentially interesting folder
+|   /DMR/: Potentially interesting folder
+|   /dms0/: Potentially interesting folder
+|   /dmsdump/: Potentially interesting folder
+|   /dms/: Potentially interesting folder
+|   /dnn/: Potentially interesting folder
+|   /doc1/: Potentially interesting folder
+|   /doc/: Potentially interesting folder
+|   /doc-html/: Potentially interesting folder
+|   /docs1/: Potentially interesting folder
+|   /docs/: Potentially interesting folder
+|   /DocuColor/: Potentially interesting folder
+|   /documentation/: Potentially interesting folder
+|   /document/: Potentially interesting folder
+|   /documents/: Potentially interesting folder
+|   /dotnetnuke/: Potentially interesting folder
+|   /down/: Potentially interesting folder
+|   /download/: Potentially interesting folder
+|   /downloads/: Potentially interesting folder
+|   /dump/: Potentially interesting folder
+|   /durep/: Potentially interesting folder
+|   /easylog/: Potentially interesting folder
+|   /eforum/: Potentially interesting folder
+|   /ejemplo/: Potentially interesting folder
+|   /ejemplos/: Potentially interesting folder
+|   /emailclass/: Potentially interesting folder
+|   /email/: Potentially interesting folder
+|   /employees/: Potentially interesting folder
+|   /empoyees/: Potentially interesting folder
+|   /empris/: Potentially interesting folder
+|   /enter/: Potentially interesting folder
+|   /envia/: Potentially interesting folder
+|   /enviamail/: Potentially interesting folder
+|   /error/: Potentially interesting folder
+|   /errors/: Potentially interesting folder
+|   /es/: Potentially interesting folder
+|   /estmt/: Potentially interesting folder
+|   /etc/: Potentially interesting folder
+|   /etcpasswd/: Potentially interesting folder
+|   /excel/: Potentially interesting folder
+|   /exc/: Potentially interesting folder
+|   /exchange/: Potentially interesting folder
+|   /exchweb/: Potentially interesting folder
+|   /exec/: Potentially interesting folder
+|   /exe/: Potentially interesting folder
+|   /exit/: Potentially interesting folder
+|   /export/: Potentially interesting folder
+|   /external/: Potentially interesting folder
+|   /extranet/: Potentially interesting folder
+|   /failure/: Potentially interesting folder
+|   /fbsd/: Potentially interesting folder
+|   /fcgi-bin/: Potentially interesting folder
+|   /fcgi/: Potentially interesting folder
+|   /features/: Potentially interesting folder
+|   /fileadmin/: Potentially interesting folder
+|   /file/: Potentially interesting folder
+|   /filemanager/: Potentially interesting folder
+|   /files/: Potentially interesting folder
+|   /find/: Potentially interesting folder
+|   /flash/: Potentially interesting folder
+|   /foldoc/: Potentially interesting folder
+|   /foobar/: Potentially interesting folder
+|   /foo/: Potentially interesting folder
+|   /form/: Potentially interesting folder
+|   /forms/: Potentially interesting folder
+|   /formsmgr/: Potentially interesting folder
+|   /form-totaller/: Potentially interesting folder
+|   /foto/: Potentially interesting folder
+|   /fotos/: Potentially interesting folder
+|   /fpadmin/: Potentially interesting folder
+|   /fpclass/: Potentially interesting folder
+|   /fpdb/: Potentially interesting folder
+|   /fpe/: Potentially interesting folder
+|   /framesets/: Potentially interesting folder
+|   /frames/: Potentially interesting folder
+|   /frontpage/: Potentially interesting folder
+|   /ftp/: Potentially interesting folder
+|   /ftproot/: Potentially interesting folder
+|   /func/: Potentially interesting folder
+|   /function/: Potentially interesting folder
+|   /functions/: Potentially interesting folder
+|   /fun/: Potentially interesting folder
+|   /general/: Potentially interesting folder
+|   /gfx/: Potentially interesting folder
+|   /gif/: Potentially interesting folder
+|   /gifs/: Potentially interesting folder
+|   /global/: Potentially interesting folder
+|   /globals/: Potentially interesting folder
+|   /good/: Potentially interesting folder
+|   /graphics/: Potentially interesting folder
+|   /grocery/: Potentially interesting folder
+|   /guestbook/: Potentially interesting folder
+|   /guest/: Potentially interesting folder
+|   /guests/: Potentially interesting folder
+|   /GXApp/: Potentially interesting folder
+|   /HB/: Potentially interesting folder
+|   /HBTemplates/: Potentially interesting folder
+|   /helpdesk/: Potentially interesting folder
+|   /help/: Potentially interesting folder
+|   /hidden/: Potentially interesting folder
+|   /hide/: Potentially interesting folder
+|   /hitmatic/: Potentially interesting folder
+|   /hit_tracker/: Potentially interesting folder
+|   /hlstats/: Potentially interesting folder
+|   /home/: Potentially interesting folder
+|   /hosted/: Potentially interesting folder
+|   /host/: Potentially interesting folder
+|   /hostingcontroller/: Potentially interesting folder
+|   /hosting/: Potentially interesting folder
+|   /hp/: Potentially interesting folder
+|   /htbin/: Potentially interesting folder
+|   /htdocs/: Potentially interesting folder
+|   /ht/: Potentially interesting folder
+|   /htm/: Potentially interesting folder
+|   /html/: Potentially interesting folder
+|   /http/: Potentially interesting folder
+|   /https/: Potentially interesting folder
+|   /hyperstat/: Potentially interesting folder
+|   /i18n/: Potentially interesting folder
+|   /ibank/: Potentially interesting folder
+|   /ibill/: Potentially interesting folder
+|   /IBMWebAS/: Potentially interesting folder
+|   /icons/: Potentially interesting folder
+|   /idea/: Potentially interesting folder
+|   /ideas/: Potentially interesting folder
+|   /I/: Potentially interesting folder
+|   /iisadmin/: Potentially interesting folder
+|   /image/: Potentially interesting folder
+|   /images/: Potentially interesting folder
+|   /imagenes/: Potentially interesting folder
+|   /imagery/: Potentially interesting folder
+|   /img/: Potentially interesting folder
+|   /imp/: Potentially interesting folder
+|   /import/: Potentially interesting folder
+|   /impreso/: Potentially interesting folder
+|   /inc/: Potentially interesting folder
+|   /include/: Potentially interesting folder
+|   /includes/: Potentially interesting folder
+|   /incoming/: Potentially interesting folder
+|   /index/: Potentially interesting folder
+|   /inet/: Potentially interesting folder
+|   /inf/: Potentially interesting folder
+|   /info/: Potentially interesting folder
+|   /information/: Potentially interesting folder
+|   /in/: Potentially interesting folder
+|   /ingresa/: Potentially interesting folder
+|   /ingreso/: Potentially interesting folder
+|   /install/: Potentially interesting folder
+|   /internal/: Potentially interesting folder
+|   /internet/: Potentially interesting folder
+|   /intranet/: Potentially interesting folder
+|   /inventory/: Potentially interesting folder
+|   /invitado/: Potentially interesting folder
+|   /isapi/: Potentially interesting folder
+|   /j2ee/: Potentially interesting folder
+|   /japidoc/: Potentially interesting folder
+|   /java/: Potentially interesting folder
+|   /javascript/: Potentially interesting folder
+|   /javasdk/: Potentially interesting folder
+|   /javatest/: Potentially interesting folder
+|   /jave/: Potentially interesting folder
+|   /JBookIt/: Potentially interesting folder
+|   /jdbc/: Potentially interesting folder
+|   /job/: Potentially interesting folder
+|   /jrun/: Potentially interesting folder
+|   /jsa/: Potentially interesting folder
+|   /jscript/: Potentially interesting folder
+|   /jserv/: Potentially interesting folder
+|   /js/: Potentially interesting folder
+|   /jslib/: Potentially interesting folder
+|   /jsp/: Potentially interesting folder
+|   /junk/: Potentially interesting folder
+|   /kiva/: Potentially interesting folder
+|   /known/: Potentially interesting folder
+|   /labs/: Potentially interesting folder
+|   /lcgi/: Potentially interesting folder
+|   /lib/: Potentially interesting folder
+|   /libraries/: Potentially interesting folder
+|   /library/: Potentially interesting folder
+|   /libro/: Potentially interesting folder
+|   /license/: Potentially interesting folder
+|   /licenses/: Potentially interesting folder
+|   /links/: Potentially interesting folder
+|   /linux/: Potentially interesting folder
+|   /loader/: Potentially interesting folder
+|   /local/: Potentially interesting folder
+|   /location/: Potentially interesting folder
+|   /locations/: Potentially interesting folder
+|   /logfile/: Potentially interesting folder
+|   /logfiles/: Potentially interesting folder
+|   /logger/: Potentially interesting folder
+|   /logg/: Potentially interesting folder
+|   /logging/: Potentially interesting folder
+|   /logon/: Potentially interesting folder
+|   /logout/: Potentially interesting folder
+|   /lost+found/: Potentially interesting folder
+|   /mailman/: Potentially interesting folder
+|   /mailroot/: Potentially interesting folder
+|   /makefile/: Potentially interesting folder
+|   /manage/: Potentially interesting folder
+|   /management/: Potentially interesting folder
+|   /man/: Potentially interesting folder
+|   /manual/: Potentially interesting folder
+|   /map/: Potentially interesting folder
+|   /maps/: Potentially interesting folder
+|   /marketing/: Potentially interesting folder
+|   /member/: Potentially interesting folder
+|   /members/: Potentially interesting folder
+|   /mem_bin/: Potentially interesting folder
+|   /mem/: Potentially interesting folder
+|   /message/: Potentially interesting folder
+|   /messaging/: Potentially interesting folder
+|   /metacart/: Potentially interesting folder
+|   /microsoft/: Potentially interesting folder
+|   /misc/: Potentially interesting folder
+|   /mkstats/: Potentially interesting folder
+|   /mod/: Potentially interesting folder
+|   /module/: Potentially interesting folder
+|   /modules/: Potentially interesting folder
+|   /movimientos/: Potentially interesting folder
+|   /mpcgi/: Potentially interesting folder
+|   /mqseries/: Potentially interesting folder
+|   /msfpe/: Potentially interesting folder
+|   /ms/: Potentially interesting folder
+|   /msql/: Potentially interesting folder
+|   /Msword/: Potentially interesting folder
+|   /mxhtml/: Potentially interesting folder
+|   /mxportal/: Potentially interesting folder
+|   /my/: Potentially interesting folder
+|   /My%20Shared%20Folder/: Potentially interesting folder
+|   /mysql_admin/: Potentially interesting folder
+|   /mysql/: Potentially interesting folder
+|   /name/: Potentially interesting folder
+|   /names/: Potentially interesting folder
+|   /ncadmin/: Potentially interesting folder
+|   /nchelp/: Potentially interesting folder
+|   /netbasic/: Potentially interesting folder
+|   /netcat/: Potentially interesting folder
+|   /NetDynamic/: Potentially interesting folder
+|   /NetDynamics/: Potentially interesting folder
+|   /net/: Potentially interesting folder
+|   /netmagstats/: Potentially interesting folder
+|   /netscape/: Potentially interesting folder
+|   /netshare/: Potentially interesting folder
+|   /nettracker/: Potentially interesting folder
+|   /network/: Potentially interesting folder
+|   /new/: Potentially interesting folder
+|   /news/: Potentially interesting folder
+|   /News/: Potentially interesting folder
+|   /nextgeneration/: Potentially interesting folder
+|   /nl/: Potentially interesting folder
+|   /notes/: Potentially interesting folder
+|   /noticias/: Potentially interesting folder
+|   /NSearch/: Potentially interesting folder
+|   /objects/: Potentially interesting folder
+|   /odbc/: Potentially interesting folder
+|   /officescan/: Potentially interesting folder
+|   /ojspdemos/: Potentially interesting folder
+|   /old_files/: Potentially interesting folder
+|   /oldfiles/: Potentially interesting folder
+|   /old/: Potentially interesting folder
+|   /oprocmgr-service/: Potentially interesting folder
+|   /oprocmgr-status/: Potentially interesting folder
+|   /oracle/: Potentially interesting folder
+|   /oradata/: Potentially interesting folder
+|   /order/: Potentially interesting folder
+|   /orders/: Potentially interesting folder
+|   /os/: Potentially interesting folder
+|   /out/: Potentially interesting folder
+|   /outgoing/: Potentially interesting folder
+|   /owners/: Potentially interesting folder
+|   /ows-bin/: Potentially interesting folder
+|   /page/: Potentially interesting folder
+|   /_pages/: Potentially interesting folder
+|   /pages/: Potentially interesting folder
+|   /partner/: Potentially interesting folder
+|   /partners/: Potentially interesting folder
+|   /passport/: Potentially interesting folder
+|   /password/: Potentially interesting folder
+|   /passwords/: Potentially interesting folder
+|   /path/: Potentially interesting folder
+|   /payment/: Potentially interesting folder
+|   /payments/: Potentially interesting folder
+|   /pccsmysqladm/: Potentially interesting folder
+|   /PDG_Cart/: Potentially interesting folder
+|   /perl5/: Potentially interesting folder
+|   /perl/: Potentially interesting folder
+|   /personal/: Potentially interesting folder
+|   /pforum/: Potentially interesting folder
+|   /phorum/: Potentially interesting folder
+|   /phpBB/: Potentially interesting folder
+|   /php_classes/: Potentially interesting folder
+|   /phpclassifieds/: Potentially interesting folder
+|   /php/: Potentially interesting folder
+|   /phpimageview/: Potentially interesting folder
+|   /phpnuke/: Potentially interesting folder
+|   /phpPhotoAlbum/: Potentially interesting folder
+|   /phpprojekt/: Potentially interesting folder
+|   /phpSecurePages/: Potentially interesting folder
+|   /pics/: Potentially interesting folder
+|   /pictures/: Potentially interesting folder
+|   /pike/: Potentially interesting folder
+|   /piranha/: Potentially interesting folder
+|   /pls/: Potentially interesting folder
+|   /plsql/: Potentially interesting folder
+|   /plssampleadmin_/: Potentially interesting folder
+|   /plssampleadmin/: Potentially interesting folder
+|   /plssampleadmin_help/: Potentially interesting folder
+|   /plssample/: Potentially interesting folder
+|   /poll/: Potentially interesting folder
+|   /polls/: Potentially interesting folder
+|   /porn/: Potentially interesting folder
+|   /portal/: Potentially interesting folder
+|   /portals/: Potentially interesting folder
+|   /postgres/: Potentially interesting folder
+|   /postnuke/: Potentially interesting folder
+|   /ppwb/: Potentially interesting folder
+|   /printer/: Potentially interesting folder
+|   /printers/: Potentially interesting folder
+|   /privacy/: Potentially interesting folder
+|   /privado/: Potentially interesting folder
+|   /_private/: Potentially interesting folder
+|   /private/: Potentially interesting folder
+|   /priv/: Potentially interesting folder
+|   /prod/: Potentially interesting folder
+|   /projectserver/: Potentially interesting folder
+|   /protected/: Potentially interesting folder
+|   /proxy/: Potentially interesting folder
+|   /prueba/: Potentially interesting folder
+|   /pruebas/: Potentially interesting folder
+|   /prv/: Potentially interesting folder
+|   /pub/: Potentially interesting folder
+|   /_public/: Potentially interesting folder
+|   /public/: Potentially interesting folder
+|   /publica/: Potentially interesting folder
+|   /publicar/: Potentially interesting folder
+|   /publico/: Potentially interesting folder
+|   /publish/: Potentially interesting folder
+|   /purchase/: Potentially interesting folder
+|   /purchases/: Potentially interesting folder
+|   /pw/: Potentially interesting folder
+|   /python/: Potentially interesting folder
+|   /random_banner/: Potentially interesting folder
+|   /rdp/: Potentially interesting folder
+|   /Readme/: Potentially interesting folder
+|   /recycler/: Potentially interesting folder
+|   /registered/: Potentially interesting folder
+|   /register/: Potentially interesting folder
+|   /registry/: Potentially interesting folder
+|   /remote/: Potentially interesting folder
+|   /remove/: Potentially interesting folder
+|   /report/: Potentially interesting folder
+|   /reports/: Potentially interesting folder
+|   /reseller/: Potentially interesting folder
+|   /restricted/: Potentially interesting folder
+|   /retail/: Potentially interesting folder
+|   /reveal/: Potentially interesting folder
+|   /reviews/: Potentially interesting folder
+|   /ROADS/: Potentially interesting folder
+|   /robot/: Potentially interesting folder
+|   /robots/: Potentially interesting folder
+|   /root/: Potentially interesting folder
+|   /rsrc/: Potentially interesting folder
+|   /ruby/: Potentially interesting folder
+|   /sales/: Potentially interesting folder
+|   /save/: Potentially interesting folder
+|   /script/: Potentially interesting folder
+|   /ScriptLibrary/: Potentially interesting folder
+|   /scripts/: Potentially interesting folder
+|   /search/: Potentially interesting folder
+|   /search-ui/: Potentially interesting folder
+|   /sec/: Potentially interesting folder
+|   /secret/: Potentially interesting folder
+|   /secured/: Potentially interesting folder
+|   /secure/: Potentially interesting folder
+|   /security/: Potentially interesting folder
+|   /sell/: Potentially interesting folder
+|   /server/: Potentially interesting folder
+|   /server-info/: Potentially interesting folder
+|   /servers/: Potentially interesting folder
+|   /server_stats/: Potentially interesting folder
+|   /serverstats/: Potentially interesting folder
+|   /server-status/: Potentially interesting folder
+|   /service/: Potentially interesting folder
+|   /services/: Potentially interesting folder
+|   /servicio/: Potentially interesting folder
+|   /servicios/: Potentially interesting folder
+|   /servlet/: Potentially interesting folder
+|   /servlets/: Potentially interesting folder
+|   /session/: Potentially interesting folder
+|   /setup/: Potentially interesting folder
+|   /shared/: Potentially interesting folder
+|   /sharedtemplates/: Potentially interesting folder
+|   /share/: Potentially interesting folder
+|   /shell-cgi/: Potentially interesting folder
+|   /shipping/: Potentially interesting folder
+|   /shop/: Potentially interesting folder
+|   /shopper/: Potentially interesting folder
+|   /show/: Potentially interesting folder
+|   /SilverStream/: Potentially interesting folder
+|   /siteadmin/: Potentially interesting folder
+|   /site/: Potentially interesting folder
+|   /sitemgr/: Potentially interesting folder
+|   /siteminderagent/: Potentially interesting folder
+|   /siteminder/: Potentially interesting folder
+|   /siteserver/: Potentially interesting folder
+|   /sites/: Potentially interesting folder
+|   /sitestats/: Potentially interesting folder
+|   /siteupdate/: Potentially interesting folder
+|   /smreports/: Potentially interesting folder
+|   /smreportsviewer/: Potentially interesting folder
+|   /soapdocs/: Potentially interesting folder
+|   /soap/: Potentially interesting folder
+|   /software/: Potentially interesting folder
+|   /solaris/: Potentially interesting folder
+|   /source/: Potentially interesting folder
+|   /sql/: Potentially interesting folder
+|   /squid/: Potentially interesting folder
+|   /src/: Potentially interesting folder
+|   /srchadm/: Potentially interesting folder
+|   /ssi/: Potentially interesting folder
+|   /ssl/: Potentially interesting folder
+|   /sslkeys/: Potentially interesting folder
+|   /staff/: Potentially interesting folder
+|   /state/: Potentially interesting folder
+|   /stat/: Potentially interesting folder
+|   /statistic/: Potentially interesting folder
+|   /statistics/: Potentially interesting folder
+|   /stats-bin-p/: Potentially interesting folder
+|   /stats/: Potentially interesting folder
+|   /stats_old/: Potentially interesting folder
+|   /status/: Potentially interesting folder
+|   /storage/: Potentially interesting folder
+|   /StoreDB/: Potentially interesting folder
+|   /store/: Potentially interesting folder
+|   /storemgr/: Potentially interesting folder
+|   /stronghold-info/: Potentially interesting folder
+|   /stronghold-status/: Potentially interesting folder
+|   /stuff/: Potentially interesting folder
+|   /style/: Potentially interesting folder
+|   /styles/: Potentially interesting folder
+|   /stylesheet/: Potentially interesting folder
+|   /stylesheets/: Potentially interesting folder
+|   /subir/: Potentially interesting folder
+|   /sun/: Potentially interesting folder
+|   /super_stats/: Potentially interesting folder
+|   /supplier/: Potentially interesting folder
+|   /suppliers/: Potentially interesting folder
+|   /supply/: Potentially interesting folder
+|   /supporter/: Potentially interesting folder
+|   /support/: Potentially interesting folder
+|   /sysadmin/: Potentially interesting folder
+|   /sysbackup/: Potentially interesting folder
+|   /sys/: Potentially interesting folder
+|   /system/: Potentially interesting folder
+|   /systems/: Potentially interesting folder
+|   /tar/: Potentially interesting folder
+|   /target/: Potentially interesting folder
+|   /tarjetas/: Potentially interesting folder
+|   /tech/: Potentially interesting folder
+|   /technote/: Potentially interesting folder
+|   /te_html/: Potentially interesting folder
+|   /temp/: Potentially interesting folder
+|   /template/: Potentially interesting folder
+|   /templates/: Potentially interesting folder
+|   /temporal/: Potentially interesting folder
+|   /test-cgi/: Potentially interesting folder
+|   /testing/: Potentially interesting folder
+|   /tests/: Potentially interesting folder
+|   /testweb/: Potentially interesting folder
+|   /themes/: Potentially interesting folder
+|   /ticket/: Potentially interesting folder
+|   /tickets/: Potentially interesting folder
+|   /tip/: Potentially interesting folder
+|   /tips/: Potentially interesting folder
+|   /tmp/: Potentially interesting folder
+|   /ToDo/: Potentially interesting folder
+|   /tool/: Potentially interesting folder
+|   /tools/: Potentially interesting folder
+|   /TopAccess/: Potentially interesting folder
+|   /top/: Potentially interesting folder
+|   /tpv/: Potentially interesting folder
+|   /trabajo/: Potentially interesting folder
+|   /track/: Potentially interesting folder
+|   /tracking/: Potentially interesting folder
+|   /transfer/: Potentially interesting folder
+|   /transito/: Potentially interesting folder
+|   /transpolar/: Potentially interesting folder
+|   /tree/: Potentially interesting folder
+|   /trees/: Potentially interesting folder
+|   /trick/: Potentially interesting folder
+|   /tricks/: Potentially interesting folder
+|   /u02/: Potentially interesting folder
+|   /unix/: Potentially interesting folder
+|   /unknown/: Potentially interesting folder
+|   /updates/: Potentially interesting folder
+|   /upload/: Potentially interesting folder
+|   /uploads/: Potentially interesting folder
+|   /usage/: Potentially interesting folder
+|   /userdb/: Potentially interesting folder
+|   /user/: Potentially interesting folder
+|   /users/: Potentially interesting folder
+|   /us/: Potentially interesting folder
+|   /usr/: Potentially interesting folder
+|   /ustats/: Potentially interesting folder
+|   /usuario/: Potentially interesting folder
+|   /usuarios/: Potentially interesting folder
+|   /util/: Potentially interesting folder
+|   /utils/: Potentially interesting folder
+|   /vendor/: Potentially interesting folder
+|   /vfs/: Potentially interesting folder
+|   /view/: Potentially interesting folder
+|   /vpn/: Potentially interesting folder
+|   /vti_txt/: Potentially interesting folder
+|   /w2000/: Potentially interesting folder
+|   /w2k/: Potentially interesting folder
+|   /w3perl/: Potentially interesting folder
+|   /w-agora/: Potentially interesting folder
+|   /way-board/: Potentially interesting folder
+|   /web800fo/: Potentially interesting folder
+|   /webaccess/: Potentially interesting folder
+|   /webadmin/: Potentially interesting folder
+|   /webAdmin/: Potentially interesting folder
+|   /webalizer/: Potentially interesting folder
+|   /webapps/: Potentially interesting folder
+|   /WebBank/: Potentially interesting folder
+|   /webboard/: Potentially interesting folder
+|   /WebCalendar/: Potentially interesting folder
+|   /webcart/: Potentially interesting folder
+|   /webcart-lite/: Potentially interesting folder
+|   /webcgi/: Potentially interesting folder
+|   /webdata/: Potentially interesting folder
+|   /webdav/: Potentially interesting folder
+|   /webdb/: Potentially interesting folder
+|   /webDB/: Potentially interesting folder
+|   /web/: Potentially interesting folder
+|   /webimages2/: Potentially interesting folder
+|   /webimages/: Potentially interesting folder
+|   /web-inf/: Potentially interesting folder
+|   /webmaster/: Potentially interesting folder
+|   /webmaster_logs/: Potentially interesting folder
+|   /webMathematica/: Potentially interesting folder
+|   /webpub/: Potentially interesting folder
+|   /webpub-ui/: Potentially interesting folder
+|   /webreports/: Potentially interesting folder
+|   /webreps/: Potentially interesting folder
+|   /webshare/: Potentially interesting folder
+|   /WebShop/: Potentially interesting folder
+|   /website/: Potentially interesting folder
+|   /webstat/: Potentially interesting folder
+|   /webstats/: Potentially interesting folder
+|   /Web_store/: Potentially interesting folder
+|   /webtrace/: Potentially interesting folder
+|   /WebTrend/: Potentially interesting folder
+|   /webtrends/: Potentially interesting folder
+|   /web_usage/: Potentially interesting folder
+|   /win2k/: Potentially interesting folder
+|   /window/: Potentially interesting folder
+|   /windows/: Potentially interesting folder
+|   /win/: Potentially interesting folder
+|   /winnt/: Potentially interesting folder
+|   /word/: Potentially interesting folder
+|   /work/: Potentially interesting folder
+|   /world/: Potentially interesting folder
+|   /wsdocs/: Potentially interesting folder
+|   /WS_FTP/: Potentially interesting folder
+|   /wstats/: Potentially interesting folder
+|   /wusage/: Potentially interesting folder
+|   /www0/: Potentially interesting folder
+|   /www2/: Potentially interesting folder
+|   /www3/: Potentially interesting folder
+|   /www4/: Potentially interesting folder
+|   /www/: Potentially interesting folder
+|   /wwwjoin/: Potentially interesting folder
+|   /wwwrooot/: Potentially interesting folder
+|   /www-sql/: Potentially interesting folder
+|   /wwwstat/: Potentially interesting folder
+|   /wwwstats/: Potentially interesting folder
+|   /xGB/: Potentially interesting folder
+|   /xml/: Potentially interesting folder
+|   /XSL/: Potentially interesting folder
+|   /xtemp/: Potentially interesting folder
+|   /xymon/: Potentially interesting folder
+|   /zb41/: Potentially interesting folder
+|   /zipfiles/: Potentially interesting folder
+|   /zip/: Potentially interesting folder
+|   /_docs/: Potentially interesting folder
+|   /sitecore/shell/sitecore.version.xml: Sitecore.NET login page
+|   /sitecore/login/default.aspx: Sitecore.NET login page
+|   /sitecore/admin/stats.aspx: Sitecore.NET (CMS)
+|   /sitecore/admin/unlock_admin.aspx: Sitecore.NET (CMS)
+|   /sitecore/shell/Applications/shell.xml: Sitecore.NET (CMS)
+|   /sitecore/admin/ShowConfig.aspx: Sitecore.NET (CMS)
+|   /App_Config/Security/Domains.config.xml: Sitecore.NET (CMS)
+|   /App_Config/Security/GlobalRoles.config.xml: Sitecore.NET (CMS)
+|   /sitecore%20modules/staging/service/api.asmx: Sitecore.NET (CMS)
+|   /sitecore%20modules/staging/workdir: Sitecore.NET (CMS)
+|_  /sitecore/system/Settings/Security/Profiles: Sitecore.NET (CMS)
+| http-fileupload-exploiter: 
+|   
+|_    Couldn't find a file-type field.
+|_http-jsonp-detection: Couldn't find any JSONP endpoints.
+|_http-litespeed-sourcecode-download: Request with null byte did not work. This web server might not be vulnerable
+|_http-majordomo2-dir-traversal: ERROR: Script execution failed (use -d to debug)
+| http-phpmyadmin-dir-traversal: 
+|   VULNERABLE:
+|   phpMyAdmin grab_globals.lib.php subform Parameter Traversal Local File Inclusion
+|     State: UNKNOWN (unable to test)
+|     IDs:  CVE:CVE-2005-3299
+|       PHP file inclusion vulnerability in grab_globals.lib.php in phpMyAdmin 2.6.4 and 2.6.4-pl1 allows remote attackers to include local files via the $__redirect parameter, possibly involving the subform array.
+|       
+|     Disclosure date: 2005-10-nil
+|     Extra information:
+|       ../../../../../etc/passwd :
+|   <!DOCTYPE html>
+|   <html>
+|   <head>
+|   	<meta charset='UTF-8'/>
+|   	<title>Website Blocked</title>
+|   	<link rel='stylesheet' href='http://pi.hole/pihole/blockingpage.css'/>
+|   	<link rel='shortcut icon' href='http://pi.hole/admin/img/favicon.png' type='image/png'/>
+|   	<meta name='viewport' content='width=device-width,initial-scale=1.0,maximum-scale=1.0, user-scalable=no'/>
+|   	<meta name='robots' content='noindex,nofollow'/>
+|   </head>
+|   <body id="body">
+|   <header>
+|   	<h1><a href='/'>Website Blocked</a></h1>
+|   </header>
+|   <main>
+|   	<div>Access to the following site has been blocked:<br/>
+|   	<span class='pre msg'>mirai.htb/phpMyAdmin-2.6.4-pl1/libraries/grab_globals.lib.php</span></div>
+|   	<div>If you have an ongoing use for this website, please ask the owner of the Pi-hole in your network to have it whitelisted.</div>
+|   	<input id="domain" type="hidden" value="mirai.htb">
+|   	<input id="quiet" type="hidden" value="yes">
+|   	<button id="btnSearch" class="buttons blocked" type="button" style="visibility: hidden;"></button>
+|   	This page is blocked because it is explicitly contained within the following block list(s):
+|   	<pre id="output" style="width: 100%; height: 100%;" hidden="true"></pre><br/>
+|   	<div class='buttons blocked'>
+|   		<a class='safe33' href='javascript:history.back()'>Go back</a>
+|   		<a class='safe33' id="whitelisting">Whitelist this page</a>
+|   		<a class='safe33' href='javascript:window.close()'>Close window</a>
+|   	</div>
+|   		<div style="width: 98%; text-align: center; padding: 10px;" hidden="true" id="whitelistingform">
+|   			<p>Note that whitelisting domains which are blocked using the wildcard method won't work.</p>
+|   			<p>Password required!</p><br/>
+|   		<form>
+|   			<input name="list" type="hidden" value="white"><br/>
+|   			Domain:<br/>
+|   			<input name="domain" value="mirai.htb" disabled><br/><br/>
+|   			Password:<br/>
+|   			<input type="password" id="pw" name="pw"><br/><br/>
+|   			<button class="buttons33 safe" id="btnAdd" type="button">Whitelist</button>
+|   		</form><br/>
+|   		<pre id="whitelistingoutput" style="width: 100%; height: 100%; padding: 5px;" hidden="true"></pre><br/>
+|   		</div>
+|   </main>
+|   <footer>Generated Mon 6:36 PM, Jan 18 by Pi-hole v3.1.4</footer>
+|   <script src="http://pi.hole/admin/scripts/vendor/jquery.min.js"></script>
+|   <script>
+|   // Create event for when the output is appended to
+|   (function($) {
+|       var origAppend = $.fn.append;
+|   
+|       $.fn.append = function () {
+|           return origAppend.apply(this, arguments).trigger("append");
+|       };
+|   })(jQuery);
+|   </script>
+|   <script src="http://pi.hole/admin/scripts/pi-hole/js/queryads.js"></script>
+|   <script>
+|   function inIframe () {
+|       try {
+|           return window.self !== window.top;
+|       } catch (e) {
+|           return true;
+|       }
+|   }
+|   
+|   // Try to detect if page is loaded within iframe
+|   if(inIframe())
+|   {
+|       // Within iframe
+|       // hide content of page
+|       $('#body').hide();
+|       // remove background
+|       document.body.style.backgroundImage = "none";
+|   }
+|   else
+|   {
+|       // Query adlists
+|       $( "#btnSearch" ).click();
+|   }
+|   
+|   $( "#whitelisting" ).on( "click", function(){ $( "#whitelistingform" ).removeAttr( "hidden" ); });
+|   
+|   // Remove whitelist functionality if the domain was blocked because of a wildcard
+|   $( "#output" ).bind("append", function(){
+|   	if($( "#output" ).contents()[0].data.indexOf("Wildcard blocking") !== -1)
+|   	{
+|   		$( "#whitelisting" ).hide();
+|   		$( "#whitelistingform" ).hide();
+|   	}
+|   });
+|   
+|   function add() {
+|   	var domain = $("#domain");
+|   	var pw = $("#pw");
+|   	if(domain.val().length === 0){
+|   		return;
+|   	}
+|   
+|   	$.ajax({
+|   		url: "/admin/scripts/pi-hole/php/add.php",
+|   		method: "post",
+|   		data: {"domain":domain.val(), "list":"white", "pw":pw.val()},
+|   		success: function(response) {
+|   			$( "#whitelistingoutput" ).removeAttr( "hidden" );
+|   			if(response.indexOf("Pi-hole blocking") !== -1)
+|   			{
+|   				// Reload page after 5 seconds
+|   				setTimeout(function(){window.location.reload(1);}, 5000);
+|   				$( "#whitelistingoutput" ).html("---> Success <---<br/>You may have to flush your DNS cache");
+|   			}
+|   			else
+|   			{
+|   				$( "#whitelistingoutput" ).html("---> "+response+" <---");
+|   			}
+|   
+|   		},
+|   		error: function(jqXHR, exception) {
+|   			$( "#whitelistingoutput" ).removeAttr( "hidden" );
+|   			$( "#whitelistingoutput" ).html("---> Unknown Error <---");
+|   		}
+|   	});
+|   }
+|   // Handle enter button for adding domains
+|   $(document).keypress(function(e) {
+|       if(e.which === 13 && $("#pw").is(":focus")) {
+|           add();
+|       }
+|   });
+|   
+|   // Handle buttons
+|   $("#btnAdd").on("click", function() {
+|       add();
+|   });
+|   </script>
+|   </body>
+|   </html>
+|   
+|     References:
+|       https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2005-3299
+|_      http://www.exploit-db.com/exploits/1244/
+| http-slowloris-check: 
+|   VULNERABLE:
+|   Slowloris DOS attack
+|     State: LIKELY VULNERABLE
+|     IDs:  CVE:CVE-2007-6750
+|       Slowloris tries to keep many connections to the target web server open and hold
+|       them open as long as possible.  It accomplishes this by opening connections to
+|       the target web server and sending a partial request. By doing so, it starves
+|       the http server's resources causing Denial Of Service.
+|       
+|     Disclosure date: 2009-09-17
+|     References:
+|       https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-6750
+|_      http://ha.ckers.org/slowloris/
+|_http-stored-xss: Couldn't find any stored XSS vulnerabilities.
+| http-vuln-cve2010-0738: 
+|_  /jmx-console/: Authentication was not required
+|_http-vuln-cve2017-1001000: ERROR: Script execution failed (use -d to debug)
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Mon Jan 18 19:31:03 2021 -- 1 IP address (1 host up) scanned in 106.37 seconds

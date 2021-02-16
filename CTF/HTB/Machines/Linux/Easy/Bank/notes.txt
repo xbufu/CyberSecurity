@@ -1,0 +1,19 @@
+HTTP:
+	- Found Apache 2.4.7
+	- Found encrypted information at http://bank.htb/balance-transfer
+	- Failed encryption in one of the files reveals login information
+		chris@bank.htb:!##HTBB4nkP4ssw0rd!##
+	- Also able to access support.php and index.php by intercepting response and changing code
+
+DNS:
+	- Found two other subdomains
+		ns.bank.htb
+		chris.bank.htb
+
+	- Possible username chris or email chris@bank.htb
+
+RCE:
+	- Found that .htb files of support tickets can be executed from source of page
+
+PrivEsc:
+	- Got root shell through SUID file /usr/htb/bin/emergency

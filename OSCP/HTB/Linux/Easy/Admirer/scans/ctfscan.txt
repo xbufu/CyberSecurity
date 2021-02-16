@@ -1,0 +1,17 @@
+
+Target: 10.129.98.81
+
+Port   22     open  
+Port   21     open  
+Port   80     open  
+
+Enumerating service and version information ...
+
+PORT     | STATUS   | SERVICE        | VERSION 
+----------------------------------------------------------------------
+21       | open     | ftp            | vsftpd 3.0.3
+80       | open     | http           |         
+22       | open     | ssh            |         
+
+Finished in 13.50 seconds.
+

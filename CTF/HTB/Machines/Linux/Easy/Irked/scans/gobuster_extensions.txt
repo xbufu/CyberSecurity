@@ -1,0 +1,20 @@
+===============================================================
+Gobuster v3.0.1
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
+===============================================================
+[+] Url:            http://irked.htb/
+[+] Threads:        50
+[+] Wordlist:       /usr/share/wordlists/seclists/Discovery/Web-Content/directory-list-lowercase-2.3-big.txt
+[+] Status codes:   200,204,301,302,307,401,403
+[+] User Agent:     gobuster/3.0.1
+[+] Extensions:     bak,sh,txt,js,php,jpg,conf
+[+] Timeout:        10s
+===============================================================
+2021/01/18 11:20:05 Starting gobuster
+===============================================================
+/manual (Status: 301)
+/server-status (Status: 403)
+/logitech-quickcam_w0qqcatrefzc5qqfbdz1qqfclz3qqfposz95112qqfromzr14qqfrppz50qqfsclz1qqfsooz1qqfsopz1qqfssz0qqfstypez1qqftrtz1qqftrvz1qqftsz2qqnojsprzyqqpfidz0qqsaatcz1qqsacatzq2d1qqsacqyopzgeqqsacurz0qqsadisz200qqsaslopz1qqsofocuszbsqqsorefinesearchz1.conf (Status: 403)
+===============================================================
+2021/01/18 12:45:19 Finished
+===============================================================

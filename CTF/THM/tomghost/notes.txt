@@ -1,0 +1,11 @@
+Used CVE-2020-1938 AJP Ghostcat File Inclusion to get credentials
+
+skyfuck:8730281lkjlkjdqlksalks
+
+Found gpg keys
+Bruteforced asc file with john and got password alexandru
+Decrypted credential with password
+
+merlin:asuyusdoiuqoilkda312j31k2j123j1g23g12k3g12kj3gk12jg3k12j3kj123j
+
+Got root through zip

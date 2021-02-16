@@ -1,0 +1,23 @@
+- Found another hostname from certificate
+
+	git.laboratory.htb
+
+- Could register an account with @laboratory.htb email
+
+- Found GitLab Community Edition 12.8.1
+
+- Could get RCE with known exploit chain
+
+- Found user from gitlab-rails console
+
+	dexter
+
+- Could change his password and login
+
+- Found another possible username from todo.txt
+
+	DeeDee
+
+- Got dexter SSH key
+
+- Found SUID binary and abused relative path to get root

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Mon Dec 28 12:36:39 2020 as: nmap -vv -&#45;reason -Pn -A -&#45;osscan-guess -&#45;version-all -p- -oN /home/bufu/THM/Relevant/results/10.10.45.118/scans/_full_tcp_nmap.txt -oX /home/bufu/THM/Relevant/results/10.10.45.118/scans/xml/_full_tcp_nmap.xml 10.10.45.118 -->
+<nmaprun scanner="nmap" args="nmap -vv -&#45;reason -Pn -A -&#45;osscan-guess -&#45;version-all -p- -oN /home/bufu/THM/Relevant/results/10.10.45.118/scans/_full_tcp_nmap.txt -oX /home/bufu/THM/Relevant/results/10.10.45.118/scans/xml/_full_tcp_nmap.xml 10.10.45.118" start="1609155399" startstr="Mon Dec 28 12:36:39 2020" version="7.91" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="2"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1609155399"/>
+<taskend task="NSE" time="1609155399"/>
+<taskbegin task="NSE" time="1609155399"/>
+<taskend task="NSE" time="1609155399"/>
+<taskbegin task="NSE" time="1609155399"/>
+<taskend task="NSE" time="1609155399"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1609155399"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1609155399"/>
+<taskbegin task="Connect Scan" time="1609155399"/>
+<taskprogress task="Connect Scan" time="1609155430" percent="19.79" remaining="126" etc="1609155556"/>
+<taskprogress task="Connect Scan" time="1609155460" percent="47.72" remaining="67" etc="1609155527"/>
+<taskend task="Connect Scan" time="1609155505" extrainfo="65535 total ports"/>
+<taskbegin task="Service scan" time="1609155505"/>
+<taskend task="Service scan" time="1609155567" extrainfo="7 services on 1 host"/>
+<taskbegin task="NSE" time="1609155567"/>
+<taskprogress task="NSE" time="1609155598" percent="99.89" remaining="1" etc="1609155598"/>
+<taskend task="NSE" time="1609155607"/>
+<taskbegin task="NSE" time="1609155607"/>
+<taskend task="NSE" time="1609155607"/>
+<taskbegin task="NSE" time="1609155607"/>
+<taskend task="NSE" time="1609155607"/>
+<host starttime="1609155399" endtime="1609155607"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="10.10.45.118" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="65528">
+<extrareasons reason="no-responses" count="65528"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft IIS httpd" version="10.0" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:internet_information_server:10.0</cpe><cpe>cpe:/o:microsoft:windows</cpe></service><script id="http-methods" output="&#xa;  Supported Methods: OPTIONS TRACE GET HEAD POST&#xa;  Potentially risky methods: TRACE"><table key="Supported Methods">
+<elem>OPTIONS</elem>
+<elem>TRACE</elem>
+<elem>GET</elem>
+<elem>HEAD</elem>
+<elem>POST</elem>
+</table>
+<table key="Potentially risky methods">
+<elem>TRACE</elem>
+</table>
+</script><script id="http-server-header" output="Microsoft-IIS/10.0"><elem>Microsoft-IIS/10.0</elem>
+</script><script id="http-title" output="IIS Windows Server"><elem key="title">IIS Windows Server</elem>
+</script></port>
+<port protocol="tcp" portid="135"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="netbios-ssn" product="Microsoft Windows netbios-ssn" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="microsoft-ds" product="Windows Server 2016 Standard Evaluation 14393 microsoft-ds" ostype="Windows Server 2008 R2 - 2012" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="3389"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ms-wbt-server" product="Microsoft Terminal Services" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service><script id="rdp-ntlm-info" output="&#xa;  Target_Name: RELEVANT&#xa;  NetBIOS_Domain_Name: RELEVANT&#xa;  NetBIOS_Computer_Name: RELEVANT&#xa;  DNS_Domain_Name: Relevant&#xa;  DNS_Computer_Name: Relevant&#xa;  Product_Version: 10.0.14393&#xa;  System_Time: 2020-12-28T11:39:21+00:00"><elem key="Target_Name">RELEVANT</elem>
+<elem key="NetBIOS_Domain_Name">RELEVANT</elem>
+<elem key="NetBIOS_Computer_Name">RELEVANT</elem>
+<elem key="DNS_Domain_Name">Relevant</elem>
+<elem key="DNS_Computer_Name">Relevant</elem>
+<elem key="Product_Version">10.0.14393</elem>
+<elem key="System_Time">2020-12-28T11:39:21+00:00</elem>
+</script><script id="ssl-cert" output="Subject: commonName=Relevant&#xa;Issuer: commonName=Relevant&#xa;Public Key type: rsa&#xa;Public Key bits: 2048&#xa;Signature Algorithm: sha256WithRSAEncryption&#xa;Not valid before: 2020-12-27T11:32:19&#xa;Not valid after:  2021-06-28T11:32:19&#xa;MD5:   1395 2bf0 b71b cb55 dda8 cd0b b801 3960&#xa;SHA-1: 25a3 c843 2fcc 575a 6a69 f396 8ca9 2bd0 67ab 05d6&#xa;-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIC1DCCAbygAwIBAgIQZ4nr++2mBIpGfkSSmBsm9jANBgkqhkiG9w0BAQsFADAT&#xa;MREwDwYDVQQDEwhSZWxldmFudDAeFw0yMDEyMjcxMTMyMTlaFw0yMTA2MjgxMTMy&#xa;MTlaMBMxETAPBgNVBAMTCFJlbGV2YW50MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A&#xa;MIIBCgKCAQEAlhGDMn5lhRSmKZVHiMWFWBf1eMZjGQ63CCIpAnzfI1n5N/YiMhf7&#xa;+x65fltQrccngGTmehXZrOvM+LCmy+JSwo4QWyBuWh6s78GDTsQqda21VW7H6Mr1&#xa;iip2o82xezyUH/OoqqOFHy/LLniyjmj9987cYjf+ll8N4s6cY+jZl1kLgE/ANECy&#xa;5eESdG6mWW9y5xVKvgb3oAdFUikoylQN/wMyKQ0mKuckjLoqFPu6nMSG1AR0PNDe&#xa;vJ5nrGHD/fxrvpSXvqnt75K3Desjg36RDnGRe5eVNZD7irQhCPXRPMRDtWVNp/sR&#xa;s0QlmiijySJmKI9CbSQRUudWN/Wao0MSMwIDAQABoyQwIjATBgNVHSUEDDAKBggr&#xa;BgEFBQcDATALBgNVHQ8EBAMCBDAwDQYJKoZIhvcNAQELBQADggEBAF5oFcpo1cnJ&#xa;flfpLRCkdgisVWXss/mqxqQkGWzSabJxkc22sqTDrzRixQPfuer0EtEKWfh1wGit&#xa;HqNKx94Kda2Ikk1yg3khKVpld8WsNgUQc4+YFpxjJFOUcU+ZnXIss4zjNk2xkrq/&#xa;CuMd0fZKZexraUeDGiBVZfVWpta0Jq5aZFn/cGzqjzs8do22RgXD/4F9ZondRCyR&#xa;U1FVhVTXZgg4Bbp+zfzTEcLn6mZ0E3yff1qPzdRcvuB/Rw4Mkjy7UQ0YmKtVHbWQ&#xa;waSkvvG+bPoTOU9mDjd/D4UpdkbciA2j7vxx1XwKk5hHctoQSczlmM4JSBCH+pOJ&#xa;qLip8ca+cz4=&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;"><table key="subject">
+<elem key="commonName">Relevant</elem>
+</table>
+<table key="issuer">
+<elem key="commonName">Relevant</elem>
+</table>
+<table key="pubkey">
+<elem key="type">rsa</elem>
+<elem key="bits">2048</elem>
+<elem key="modulus">961183327E658514A629954788C5855817F578C663190EB7082229027CDF2359F937F6223217FBFB1EB97E5B50ADC7278064E67A15D9ACEBCCF8B0A6CBE252C28E105B206E5A1EACEFC1834EC42A75ADB5556EC7E8CAF58A2A76A3CDB17B3C941FF3A8AAA3851F2FCB2E78B28E68FDF7CEDC6237FE965F0DE2CE9C63E8D997590B804FC03440B2E5E112746EA6596F72E7154ABE06F7A00745522928CA540DFF0332290D262AE7248CBA2A14FBBA9CC486D404743CD0DEBC9E67AC61C3FDFC6BBE9497BEA9EDEF92B70DEB23837E910E71917B97953590FB8AB42108F5D13CC443B5654DA7FB11B344259A28A3C92266288F426D241152E75637F59AA3431233</elem>
+<elem key="exponent">65537</elem>
+</table>
+<table key="extensions">
+<table>
+<elem key="name">X509v3 Extended Key Usage</elem>
+<elem key="value">TLS Web Server Authentication</elem>
+</table>
+<table>
+<elem key="name">X509v3 Key Usage</elem>
+<elem key="value">Key Encipherment, Data Encipherment</elem>
+</table>
+</table>
+<elem key="sig_algo">sha256WithRSAEncryption</elem>
+<table key="validity">
+<elem key="notBefore">2020-12-27T11:32:19</elem>
+<elem key="notAfter">2021-06-28T11:32:19</elem>
+</table>
+<elem key="md5">13952bf0b71bcb55dda8cd0bb8013960</elem>
+<elem key="sha1">25a3c8432fcc575a6a69f3968ca92bd067ab05d6</elem>
+<elem key="pem">-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIC1DCCAbygAwIBAgIQZ4nr++2mBIpGfkSSmBsm9jANBgkqhkiG9w0BAQsFADAT&#xa;MREwDwYDVQQDEwhSZWxldmFudDAeFw0yMDEyMjcxMTMyMTlaFw0yMTA2MjgxMTMy&#xa;MTlaMBMxETAPBgNVBAMTCFJlbGV2YW50MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A&#xa;MIIBCgKCAQEAlhGDMn5lhRSmKZVHiMWFWBf1eMZjGQ63CCIpAnzfI1n5N/YiMhf7&#xa;+x65fltQrccngGTmehXZrOvM+LCmy+JSwo4QWyBuWh6s78GDTsQqda21VW7H6Mr1&#xa;iip2o82xezyUH/OoqqOFHy/LLniyjmj9987cYjf+ll8N4s6cY+jZl1kLgE/ANECy&#xa;5eESdG6mWW9y5xVKvgb3oAdFUikoylQN/wMyKQ0mKuckjLoqFPu6nMSG1AR0PNDe&#xa;vJ5nrGHD/fxrvpSXvqnt75K3Desjg36RDnGRe5eVNZD7irQhCPXRPMRDtWVNp/sR&#xa;s0QlmiijySJmKI9CbSQRUudWN/Wao0MSMwIDAQABoyQwIjATBgNVHSUEDDAKBggr&#xa;BgEFBQcDATALBgNVHQ8EBAMCBDAwDQYJKoZIhvcNAQELBQADggEBAF5oFcpo1cnJ&#xa;flfpLRCkdgisVWXss/mqxqQkGWzSabJxkc22sqTDrzRixQPfuer0EtEKWfh1wGit&#xa;HqNKx94Kda2Ikk1yg3khKVpld8WsNgUQc4+YFpxjJFOUcU+ZnXIss4zjNk2xkrq/&#xa;CuMd0fZKZexraUeDGiBVZfVWpta0Jq5aZFn/cGzqjzs8do22RgXD/4F9ZondRCyR&#xa;U1FVhVTXZgg4Bbp+zfzTEcLn6mZ0E3yff1qPzdRcvuB/Rw4Mkjy7UQ0YmKtVHbWQ&#xa;waSkvvG+bPoTOU9mDjd/D4UpdkbciA2j7vxx1XwKk5hHctoQSczlmM4JSBCH+pOJ&#xa;qLip8ca+cz4=&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;</elem>
+</script><script id="ssl-date" output="2020-12-28T11:40:01+00:00; -6s from scanner time."><elem key="date">2020-12-28T11:40:01+00:00</elem>
+<elem key="delta">-6.0</elem>
+</script></port>
+<port protocol="tcp" portid="49663"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft IIS httpd" version="10.0" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:internet_information_server:10.0</cpe><cpe>cpe:/o:microsoft:windows</cpe></service><script id="http-methods" output="&#xa;  Supported Methods: OPTIONS TRACE GET HEAD POST&#xa;  Potentially risky methods: TRACE"><table key="Supported Methods">
+<elem>OPTIONS</elem>
+<elem>TRACE</elem>
+<elem>GET</elem>
+<elem>HEAD</elem>
+<elem>POST</elem>
+</table>
+<table key="Potentially risky methods">
+<elem>TRACE</elem>
+</table>
+</script><script id="http-server-header" output="Microsoft-IIS/10.0"><elem>Microsoft-IIS/10.0</elem>
+</script><script id="http-title" output="IIS Windows Server"><elem key="title">IIS Windows Server</elem>
+</script></port>
+<port protocol="tcp" portid="49668"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<hostscript><script id="clock-skew" output="mean: 1h35m54s, deviation: 3h34m41s, median: -6s"><elem key="median">-6</elem>
+<elem key="count">5</elem>
+<elem key="stddev">12881</elem>
+<elem key="mean">5754</elem>
+</script><script id="p2p-conficker" output="&#xa;  Checking for Conficker.C or higher...&#xa;  Check 1 (port 51928/tcp): CLEAN (Timeout)&#xa;  Check 2 (port 40038/tcp): CLEAN (Timeout)&#xa;  Check 3 (port 35584/udp): CLEAN (Timeout)&#xa;  Check 4 (port 33023/udp): CLEAN (Timeout)&#xa;  0/4 checks are positive: Host is CLEAN or ports are blocked&#xa;"/><script id="smb-os-discovery" output="&#xa;  OS: Windows Server 2016 Standard Evaluation 14393 (Windows Server 2016 Standard Evaluation 6.3)&#xa;  Computer name: Relevant&#xa;  NetBIOS computer name: RELEVANT\x00&#xa;  Workgroup: WORKGROUP\x00&#xa;  System time: 2020-12-28T03:39:24-08:00&#xa;"><elem key="os">Windows Server 2016 Standard Evaluation 14393</elem>
+<elem key="lanmanager">Windows Server 2016 Standard Evaluation 6.3</elem>
+<elem key="server">RELEVANT\x00</elem>
+<elem key="date">2020-12-28T03:39:24-08:00</elem>
+<elem key="fqdn">Relevant</elem>
+<elem key="domain_dns">Relevant</elem>
+<elem key="workgroup">WORKGROUP\x00</elem>
+</script><script id="smb-security-mode" output="&#xa;  account_used: guest&#xa;  authentication_level: user&#xa;  challenge_response: supported&#xa;  message_signing: disabled (dangerous, but default)"><elem key="account_used">guest</elem>
+<elem key="authentication_level">user</elem>
+<elem key="challenge_response">supported</elem>
+<elem key="message_signing">disabled</elem>
+</script><script id="smb2-security-mode" output="&#xa;  2.02: &#xa;    Message signing enabled but not required"><table key="2.02">
+<elem>Message signing enabled but not required</elem>
+</table>
+</script><script id="smb2-time" output="&#xa;  date: 2020-12-28T11:39:21&#xa;  start_date: 2020-12-28T11:32:20"><elem key="date">2020-12-28T11:39:21</elem>
+<elem key="start_date">2020-12-28T11:32:20</elem>
+</script></hostscript><times srtt="49781" rttvar="7293" to="100000"/>
+</host>
+<taskbegin task="NSE" time="1609155607"/>
+<taskend task="NSE" time="1609155607"/>
+<taskbegin task="NSE" time="1609155607"/>
+<taskend task="NSE" time="1609155607"/>
+<taskbegin task="NSE" time="1609155607"/>
+<taskend task="NSE" time="1609155607"/>
+<runstats><finished time="1609155607" timestr="Mon Dec 28 12:40:07 2020" summary="Nmap done at Mon Dec 28 12:40:07 2020; 1 IP address (1 host up) scanned in 208.23 seconds" elapsed="208.23" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

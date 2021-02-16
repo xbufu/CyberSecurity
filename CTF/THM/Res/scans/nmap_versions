@@ -1,0 +1,19 @@
+# Nmap 7.91 scan initiated Mon Dec 14 17:50:53 2020 as: nmap --script redis-info -sV -p 6379 -oN scans/nmap_versions -d 10.10.212.205
+--------------- Timing report ---------------
+  hostgroups: min 1, max 100000
+  rtt-timeouts: init 1000, min 100, max 10000
+  max-scan-delay: TCP 1000, UDP 1000, SCTP 1000
+  parallelism: min 0, max 0
+  max-retries: 10, host-timeout: 0
+  min-rate: 0, max-rate: 0
+---------------------------------------------
+Nmap scan report for 10.10.212.205
+Host is up, received syn-ack (0.039s latency).
+Scanned at 2020-12-14 17:50:53 CET for 7s
+
+PORT     STATE SERVICE REASON  VERSION
+6379/tcp open  redis   syn-ack Redis key-value store 6.0.7 (64 bits)
+
+Read from /usr/bin/../share/nmap: nmap-payloads nmap-service-probes nmap-services.
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Dec 14 17:51:00 2020 -- 1 IP address (1 host up) scanned in 6.65 seconds

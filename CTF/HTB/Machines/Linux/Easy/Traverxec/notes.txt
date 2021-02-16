@@ -1,0 +1,23 @@
+80/HTTP:
+	- Found possible username "David White"
+	- Running nostromo 1.9.6
+
+RCE:
+	- Found exploit CVE-2019-16278
+
+PrivEsc:
+	- Found credentials in /var/nostromo/conf/.htpasswd
+		david:$1$e7NfNpNi$A6nCwOTqrNR2oDuIKirRZ/
+	
+	- Cracked hash
+		Nowonly4me
+
+	- Found possible directory in /home/david from /var/nostromo/conf/nhttpd.conf
+		public_www
+
+	- Found backup of david's home directory
+
+	- Cracked SSH key password
+		hunter
+	- Found that user was able to run journalctl as sudo from script in /home/david/bin
+

@@ -1,0 +1,71 @@
+Automatically increasing ulimit value to 5000.
+Open 10.10.10.140:22
+Open 10.10.10.140:80
+Starting Script(s)
+Script to be run Some("nmap -vvv -p {{port}} {{ip}}")
+
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-02-11 20:30 CET
+NSE: Loaded 153 scripts for scanning.
+NSE: Script Pre-scanning.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 20:30
+Completed NSE at 20:30, 0.00s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 20:30
+Completed NSE at 20:30, 0.00s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 20:30
+Completed NSE at 20:30, 0.00s elapsed
+Initiating Connect Scan at 20:30
+Scanning swagshop.htb (10.10.10.140) [2 ports]
+Discovered open port 80/tcp on 10.10.10.140
+Discovered open port 22/tcp on 10.10.10.140
+Completed Connect Scan at 20:30, 0.04s elapsed (2 total ports)
+Initiating Service scan at 20:30
+Scanning 2 services on swagshop.htb (10.10.10.140)
+Completed Service scan at 20:30, 6.09s elapsed (2 services on 1 host)
+NSE: Script scanning 10.10.10.140.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 20:30
+Completed NSE at 20:30, 1.37s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 20:30
+Completed NSE at 20:30, 0.18s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 20:30
+Completed NSE at 20:30, 0.00s elapsed
+Nmap scan report for swagshop.htb (10.10.10.140)
+Host is up, received user-set (0.035s latency).
+Scanned at 2021-02-11 20:30:10 CET for 8s
+
+PORT   STATE SERVICE REASON  VERSION
+22/tcp open  ssh     syn-ack OpenSSH 7.2p2 Ubuntu 4ubuntu2.8 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 b6:55:2b:d2:4e:8f:a3:81:72:61:37:9a:12:f6:24:ec (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCgTCefp89MPJm2oaJqietdslSBur+eCMVQRW19iUL2DQSdZrIctssf/ws4HWN9DuXWB1p7OR9GWQhjeFv+xdb8OLy6EQ72zQOk+cNU9ANi72FZIkpD5A5vHUyhhUSUcnn6hwWMWW4dp6BFVxczAiutSWBVIm2YLmcqwOEOJhfXLVvsVqu8KUmybJQWFaJIeLVHzVgrF1623ekDXMwT7Ktq49RkmqGGE+e4pRy5pWlL2BPVcrSv9nMRDkJTXuoGQ53CRcp9VVi2V7flxTd6547oSPck1N+71Xj/x17sMBDNfwik/Wj3YLjHImAlHNZtSKVUT9Ifqwm973YRV9qtqtGT
+|   256 2e:30:00:7a:92:f0:89:30:59:c1:77:56:ad:51:c0:ba (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBEG18M3bq7HSiI8XlKW9ptWiwOvrIlftuWzPEmynfU6LN26hP/qMJModcHS+idmLoRmZnC5Og9sj5THIf0ZtxPY=
+|   256 4c:50:d5:f2:70:c5:fd:c4:b2:f0:bc:42:20:32:64:34 (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINmmpsnVsVEZ9KB16eRdxpe75vnX8B/AZMmhrN2i4ES7
+80/tcp open  http    syn-ack Apache httpd 2.4.18 ((Ubuntu))
+|_http-favicon: Unknown favicon MD5: 88733EE53676A47FC354A61C32516E82
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: Apache/2.4.18 (Ubuntu)
+|_http-title: Did not follow redirect to http://10.10.10.140/
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+NSE: Script Post-scanning.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 20:30
+Completed NSE at 20:30, 0.00s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 20:30
+Completed NSE at 20:30, 0.00s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 20:30
+Completed NSE at 20:30, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 8.04 seconds
+

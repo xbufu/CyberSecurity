@@ -1,0 +1,2 @@
+200      378l      980w    11510c http://ns.bank.htb/index.html
+403       10l       30w      291c http://ns.bank.htb/server-status

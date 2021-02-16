@@ -1,0 +1,21 @@
+# Nmap 7.91 scan initiated Mon Dec 14 17:15:08 2020 as: nmap -sC -sV -p- -vv -oN scans/nmap_initial 10.10.68.253
+Nmap scan report for 10.10.68.253
+Host is up, received echo-reply ttl 63 (0.041s latency).
+Scanned at 2020-12-14 17:15:08 CET for 34s
+Not shown: 65534 closed ports
+Reason: 65534 resets
+PORT   STATE SERVICE REASON         VERSION
+80/tcp open  http    syn-ack ttl 63 nginx 1.14.0 (Ubuntu)
+| http-git: 
+|   10.10.68.253:80/.git/
+|     Git repository found!
+|_    Repository description: Unnamed repository; edit this file 'description' to name the...
+| http-methods: 
+|_  Supported Methods: GET HEAD
+|_http-server-header: nginx/1.14.0 (Ubuntu)
+|_http-title: Super Awesome Site!
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Dec 14 17:15:42 2020 -- 1 IP address (1 host up) scanned in 33.74 seconds

@@ -1,0 +1,109 @@
+Starting enum4linux v0.8.9 ( http://labs.portcullis.co.uk/application/enum4linux/ ) on Sat Jan 16 12:03:55 2021
+
+ ========================== 
+|    Target Information    |
+ ========================== 
+Target ........... blue.htb
+RID Range ........ 500-550,1000-1050
+Username ......... ''
+Password ......... ''
+Known Usernames .. administrator, guest, krbtgt, domain admins, root, bin, none
+
+
+ ================================================ 
+|    Enumerating Workgroup/Domain on blue.htb    |
+ ================================================ 
+[E] Can't find workgroup/domain
+
+
+ ======================================== 
+|    Nbtstat Information for blue.htb    |
+ ======================================== 
+Looking up status of 10.10.10.40
+No reply from 10.10.10.40
+
+ ================================= 
+|    Session Check on blue.htb    |
+ ================================= 
+[+] Server blue.htb allows sessions using username '', password ''
+[+] Got domain/workgroup name: 
+
+ ======================================= 
+|    Getting domain SID for blue.htb    |
+ ======================================= 
+Could not initialise lsarpc. Error was NT_STATUS_ACCESS_DENIED
+[+] Can't determine if host is part of domain or part of a workgroup
+
+ ================================== 
+|    OS information on blue.htb    |
+ ================================== 
+[+] Got OS info for blue.htb from smbclient: 
+[+] Got OS info for blue.htb from srvinfo:
+Could not initialise srvsvc. Error was NT_STATUS_ACCESS_DENIED
+
+ ========================= 
+|    Users on blue.htb    |
+ ========================= 
+[E] Couldn't find users using querydispinfo: NT_STATUS_ACCESS_DENIED
+
+[E] Couldn't find users using enumdomusers: NT_STATUS_ACCESS_DENIED
+
+ ===================================== 
+|    Share Enumeration on blue.htb    |
+ ===================================== 
+
+	Sharename       Type      Comment
+	---------       ----      -------
+SMB1 disabled -- no workgroup available
+
+[+] Attempting to map shares on blue.htb
+
+ ================================================ 
+|    Password Policy Information for blue.htb    |
+ ================================================ 
+[E] Unexpected error from polenum:
+
+
+[+] Attaching to blue.htb using a NULL share
+
+[+] Trying protocol 139/SMB...
+
+	[!] Protocol failed: Cannot request session (Called Name:BLUE.HTB)
+
+[+] Trying protocol 445/SMB...
+
+	[!] Protocol failed: SMB SessionError: STATUS_ACCESS_DENIED({Access Denied} A process has requested access to an object but has not been granted those access rights.)
+
+
+[E] Failed to get password policy with rpcclient
+
+
+ ========================== 
+|    Groups on blue.htb    |
+ ========================== 
+
+[+] Getting builtin groups:
+
+[+] Getting builtin group memberships:
+
+[+] Getting local groups:
+
+[+] Getting local group memberships:
+
+[+] Getting domain groups:
+
+[+] Getting domain group memberships:
+
+ =================================================================== 
+|    Users on blue.htb via RID cycling (RIDS: 500-550,1000-1050)    |
+ =================================================================== 
+[E] Couldn't get SID: NT_STATUS_ACCESS_DENIED.  RID cycling not possible.
+
+ ========================================= 
+|    Getting printer info for blue.htb    |
+ ========================================= 
+Could not initialise spoolss. Error was NT_STATUS_ACCESS_DENIED
+
+
+enum4linux complete on Sat Jan 16 12:04:18 2021
+

@@ -1,0 +1,13 @@
+# Nmap 7.91 scan initiated Mon Feb 15 16:46:11 2021 as: nmap -vv -p- -Pn -oN scans/nmap_allports.txt 10.129.98.81
+Nmap scan report for 10.129.98.81
+Host is up, received user-set (0.036s latency).
+Scanned at 2021-02-15 16:46:12 EST for 863s
+Not shown: 65532 closed ports
+Reason: 65532 resets
+PORT   STATE SERVICE REASON
+21/tcp open  ftp     syn-ack ttl 63
+22/tcp open  ssh     syn-ack ttl 63
+80/tcp open  http    syn-ack ttl 63
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Mon Feb 15 17:00:35 2021 -- 1 IP address (1 host up) scanned in 863.76 seconds

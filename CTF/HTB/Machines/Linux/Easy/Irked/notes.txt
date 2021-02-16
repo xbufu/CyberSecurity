@@ -1,0 +1,21 @@
+IRC:
+	- Found username bob from ADMIN
+	- Found admin email from nmap scan
+		djmardov@irked.htb
+	
+RCE:
+	- Got RCE with known exploit for IRC version
+
+PrivEsc:
+	- Found possible password in /home/djmardov/Documents/.backup
+		UPupDOWNdownLRlrBAbaSSss
+
+	- Could extract data from irked.jpg from webserver, got pass.txt
+		Kab6h+m+bbp2J:HG
+
+	- Working credentials
+		djmardov:Kab6h+m+bbp2J:HG
+
+	- Found SUID file /usr/bin/viewuser
+	- Create /tmp/listuser with commands to get root shell
+

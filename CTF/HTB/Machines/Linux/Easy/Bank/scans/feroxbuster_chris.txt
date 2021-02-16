@@ -1,0 +1,14 @@
+200      378l      980w    11510c http://chris.bank.htb/index.html
+403       10l       30w      294c http://chris.bank.htb/server-status
+200      378l      980w    11510c http://chris.bank.htb/index.html
+403       10l       30w      294c http://chris.bank.htb/server-status
+403       10l       30w      290c http://chris.bank.htb/.htaccess
+403       10l       30w      295c http://chris.bank.htb/.htaccess.html
+403       10l       30w      293c http://chris.bank.htb/.htaccess.js
+403       10l       30w      294c http://chris.bank.htb/.htaccess.php
+403       10l       30w      294c http://chris.bank.htb/.htaccess.txt
+403       10l       30w      290c http://chris.bank.htb/.htpasswd
+403       10l       30w      295c http://chris.bank.htb/.htpasswd.html
+403       10l       30w      293c http://chris.bank.htb/.htpasswd.js
+403       10l       30w      294c http://chris.bank.htb/.htpasswd.php
+403       10l       30w      294c http://chris.bank.htb/.htpasswd.txt

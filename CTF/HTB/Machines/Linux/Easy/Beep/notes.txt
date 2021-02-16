@@ -1,0 +1,11 @@
+HTTP 80:
+	- Server running Apache 2.2.3 (CentOS)
+	- Elastix login panel at base
+	- RoundCube Webmail login at /mail
+	- Found FreePBX 2.5 in /recordings
+	- Found FreePBX admin panel at /admin
+	- Found FreePBX 2.8.1.4 running in unauthorized page
+	- Found LFI exploit for Elastix and got admin password
+
+Root:
+	- Password found works for root

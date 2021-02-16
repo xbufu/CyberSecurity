@@ -1,0 +1,4 @@
+301        9l       28w      305c http://sneaky.htb/dev
+200       11l       20w      183c http://sneaky.htb/index.html
+200       14l       32w      464c http://sneaky.htb/dev/index.html
+403       10l       30w      290c http://sneaky.htb/server-status

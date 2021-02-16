@@ -1,0 +1,11 @@
+# Nmap 7.91 scan initiated Tue Feb 16 11:27:24 2021 as: nmap --script "pop3-capabilities or pop3-ntlm-info" -sV -p 110 -Pn -vvv -oN scans/nmap_pop3.txt solidstate.htb
+Nmap scan report for solidstate.htb (10.129.98.176)
+Host is up, received user-set (0.036s latency).
+Scanned at 2021-02-16 11:27:24 EST for 179s
+
+PORT    STATE SERVICE REASON         VERSION
+110/tcp open  pop3?   syn-ack ttl 63
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Feb 16 11:30:23 2021 -- 1 IP address (1 host up) scanned in 179.31 seconds

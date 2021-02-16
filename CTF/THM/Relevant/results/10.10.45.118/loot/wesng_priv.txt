@@ -1,0 +1,1551 @@
+Windows Exploit Suggester 0.98 ( https://github.com/bitsadmin/wesng/ )
+[+] Parsing systeminfo output
+[+] Operating System
+    - Name: Windows Server 2016
+    - Generation: 2016
+    - Build: 14393
+    - Version: 1607
+    - Architecture: x64-based
+    - Installed hotfixes (3): KB3192137, KB3211320, KB3213986
+[+] Loading definitions
+    - Creation date of definitions: 20201223
+[+] Determining missing patches
+[+] Filtering duplicate vulnerabilities
+[+] Applying display filters
+[+] Found vulnerabilities
+
+Date: 20161108
+CVE: 
+KB: KB3200970
+Title: Security Update for Windows Authentication Methods
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1235
+KB: KB4516044
+Title: Windows Text Service Framework Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1235
+KB: KB4516044
+Title: Windows Text Service Framework Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1235
+KB: KB4516044
+Title: Windows Text Service Framework Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1235
+KB: KB4516044
+Title: Windows Text Service Framework Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1269
+KB: KB4516044
+Title: Windows ALPC Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1269
+KB: KB4516044
+Title: Windows ALPC Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1269
+KB: KB4516044
+Title: Windows ALPC Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1269
+KB: KB4516044
+Title: Windows ALPC Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20191008
+CVE: CVE-2019-1232
+KB: KB4516044
+Title: Diagnostics Hub Standard Collector Service Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Visual Studio
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20191008
+CVE: CVE-2019-1232
+KB: KB4516044
+Title: Diagnostics Hub Standard Collector Service Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Visual Studio
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20191008
+CVE: CVE-2019-1232
+KB: KB4516044
+Title: Diagnostics Hub Standard Collector Service Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Visual Studio
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20191008
+CVE: CVE-2019-1232
+KB: KB4516044
+Title: Diagnostics Hub Standard Collector Service Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Visual Studio
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20191008
+CVE: CVE-2019-1316
+KB: KB4519335
+Title: Microsoft Windows Setup Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190911
+CVE: CVE-2019-1214
+KB: KB4516044
+Title: Windows Common Log File System Driver Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Common Log File System Driver
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190911
+CVE: CVE-2019-1214
+KB: KB4516044
+Title: Windows Common Log File System Driver Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Common Log File System Driver
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190911
+CVE: CVE-2019-1214
+KB: KB4516044
+Title: Windows Common Log File System Driver Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Common Log File System Driver
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190911
+CVE: CVE-2019-1214
+KB: KB4516044
+Title: Windows Common Log File System Driver Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Common Log File System Driver
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16963
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16963
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16963
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16963
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7226
+KB: KB3200970
+Title: Security Update to Microsoft Virtual Hard Drive
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: https://www.exploit-db.com/exploits/40763/
+
+Date: 20161108
+CVE: CVE-2016-7226
+KB: KB3200970
+Title: VHD Driver Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Virtual Hard Drive
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: https://www.exploit-db.com/exploits/40763/
+
+Date: 20161108
+CVE: CVE-2016-3333
+KB: KB3200970
+Title: Security Update for Common Log File System Driver
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161213
+CVE: CVE-2016-3333
+KB: KB3200970
+Title: Windows Common Log File System Driver Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Common Log File System Driver
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1270
+KB: KB4516044
+Title: Microsoft Windows Store Installer Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1270
+KB: KB4516044
+Title: Microsoft Windows Store Installer Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1270
+KB: KB4516044
+Title: Microsoft Windows Store Installer Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1270
+KB: KB4516044
+Title: Microsoft Windows Store Installer Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1289
+KB: KB4516044
+Title: Windows Update Delivery Optimization Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1289
+KB: KB4516044
+Title: Windows Update Delivery Optimization Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1289
+KB: KB4516044
+Title: Windows Update Delivery Optimization Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1289
+KB: KB4516044
+Title: Windows Update Delivery Optimization Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1268
+KB: KB4516044
+Title: Winlogon Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1268
+KB: KB4516044
+Title: Winlogon Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1268
+KB: KB4516044
+Title: Winlogon Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1268
+KB: KB4516044
+Title: Winlogon Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-3340
+KB: KB3200970
+Title: Security Update for Common Log File System Driver
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161213
+CVE: CVE-2016-3340
+KB: KB3200970
+Title: Windows Common Log File System Driver Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Common Log File System Driver
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1267
+KB: KB4516044
+Title: Microsoft Compatibility Appraiser Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1267
+KB: KB4516044
+Title: Microsoft Compatibility Appraiser Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1267
+KB: KB4516044
+Title: Microsoft Compatibility Appraiser Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1267
+KB: KB4516044
+Title: Microsoft Compatibility Appraiser Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16960
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16960
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16960
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16960
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161213
+CVE: CVE-2016-7238
+KB: KB3200970
+Title: Windows NTLM Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Authentication Methods
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-17097
+KB: KB4593226
+Title: Windows Digital Media Receiver Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Media
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-17097
+KB: KB4593226
+Title: Windows Digital Media Receiver Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Media
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-17097
+KB: KB4593226
+Title: Windows Digital Media Receiver Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Media
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-17097
+KB: KB4593226
+Title: Windows Digital Media Receiver Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Media
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1142
+KB: KB4514354
+Title: .NET Framework Elevation of Privilege Vulnerability
+Affected product: Microsoft .NET Framework 4.8 on Windows Server 2016
+Affected component: .NET Framework
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1142
+KB: KB4516044
+Title: .NET Framework Elevation of Privilege Vulnerability
+Affected product: Microsoft .NET Framework 3.5 on Windows Server 2016
+Affected component: .NET Framework
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1142
+KB: KB4516044
+Title: .NET Framework Elevation of Privilege Vulnerability
+Affected product: Microsoft .NET Framework 3.5 on Windows Server 2016
+Affected component: .NET Framework
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1142
+KB: KB4516044
+Title: .NET Framework Elevation of Privilege Vulnerability
+Affected product: Microsoft .NET Framework 3.5 on Windows Server 2016
+Affected component: .NET Framework
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1142
+KB: KB4516044
+Title: .NET Framework Elevation of Privilege Vulnerability
+Affected product: Microsoft .NET Framework 3.5 on Windows Server 2016
+Affected component: .NET Framework
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16962
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16962
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16962
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16962
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20180801
+CVE: CVE-2018-8202
+KB: KB4346877
+Title: .NET Framework Elevation of Privilege Vulnerability
+Affected product: Microsoft .NET Framework 3.5 on Windows Server 2016
+Affected component: .NET Framework
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20180801
+CVE: CVE-2018-8202
+KB: KB4346877
+Title: .NET Framework Elevation of Privilege Vulnerability
+Affected product: Microsoft .NET Framework 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2016
+Affected component: .NET Framework
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20180801
+CVE: CVE-2018-8202
+KB: KB4346877
+Title: .NET Framework Elevation of Privilege Vulnerability
+Affected product: Microsoft .NET Framework 3.5 on Windows Server 2016
+Affected component: .NET Framework
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20180801
+CVE: CVE-2018-8202
+KB: KB4346877
+Title: .NET Framework Elevation of Privilege Vulnerability
+Affected product: Microsoft .NET Framework 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2016
+Affected component: .NET Framework
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-3343
+KB: KB3200970
+Title: Security Update for Common Log File System Driver
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161213
+CVE: CVE-2016-3343
+KB: KB3200970
+Title: Windows Common Log File System Driver Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Common Log File System Driver
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-3335
+KB: KB3200970
+Title: Security Update for Common Log File System Driver
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161213
+CVE: CVE-2016-3335
+KB: KB3200970
+Title: Windows Common Log File System Driver Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Common Log File System Driver
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7255
+KB: KB3200970
+Title: Security Update for Windows Kernel-Mode Drivers
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Important
+Impact: Elevation of Privilege
+Exploits: https://www.exploit-db.com/exploits/40745/, https://www.exploit-db.com/exploits/40823/, https://www.exploit-db.com/exploits/41015/
+
+Date: 20161213
+CVE: CVE-2016-7255
+KB: KB3200970
+Title: Win32k Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Kernel-Mode Drivers
+Severity: Important
+Impact: Elevation of Privilege
+Exploits: https://www.exploit-db.com/exploits/40745/, https://www.exploit-db.com/exploits/40823/, https://www.exploit-db.com/exploits/41015/
+
+Date: 20200114
+CVE: CVE-2019-1272
+KB: KB4516044
+Title: Windows Data Sharing Service Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20200114
+CVE: CVE-2019-1272
+KB: KB4516044
+Title: Windows Data Sharing Service Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20200114
+CVE: CVE-2019-1272
+KB: KB4516044
+Title: Windows Data Sharing Service Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20200114
+CVE: CVE-2019-1272
+KB: KB4516044
+Title: Windows Data Sharing Service Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161123
+CVE: CVE-2016-7222
+KB: KB3200970
+Title: Task Scheduler Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Task Scheduler
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-3334
+KB: KB3200970
+Title: Security Update for Common Log File System Driver
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161213
+CVE: CVE-2016-3334
+KB: KB3200970
+Title: Windows Common Log File System Driver Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Common Log File System Driver
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-0026
+KB: KB3200970
+Title: Security Update for Common Log File System Driver
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161213
+CVE: CVE-2016-0026
+KB: KB3200970
+Title: Windows Common Log File System Driver Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Common Log File System Driver
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16959
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16959
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16959
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16959
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190911
+CVE: CVE-2019-1215
+KB: KB4516044
+Title: Windows Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190911
+CVE: CVE-2019-1215
+KB: KB4516044
+Title: Windows Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190911
+CVE: CVE-2019-1215
+KB: KB4516044
+Title: Windows Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190911
+CVE: CVE-2019-1215
+KB: KB4516044
+Title: Windows Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7225
+KB: KB3200970
+Title: Security Update to Microsoft Virtual Hard Drive
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: https://www.exploit-db.com/exploits/40764/
+
+Date: 20161108
+CVE: CVE-2016-7225
+KB: KB3200970
+Title: VHD Driver Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Virtual Hard Drive
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: https://www.exploit-db.com/exploits/40764/
+
+Date: 20190910
+CVE: CVE-2019-1278
+KB: KB4516044
+Title: Windows Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1278
+KB: KB4516044
+Title: Windows Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1278
+KB: KB4516044
+Title: Windows Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1278
+KB: KB4516044
+Title: Windows Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-3342
+KB: KB3200970
+Title: Security Update for Common Log File System Driver
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161213
+CVE: CVE-2016-3342
+KB: KB3200970
+Title: Windows Common Log File System Driver Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Common Log File System Driver
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1292
+KB: KB4516044
+Title: Windows Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1292
+KB: KB4516044
+Title: Windows Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1292
+KB: KB4516044
+Title: Windows Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1292
+KB: KB4516044
+Title: Windows Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7224
+KB: KB3200970
+Title: Security Update to Microsoft Virtual Hard Drive
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: https://www.exploit-db.com/exploits/40765/
+
+Date: 20161213
+CVE: CVE-2016-7224
+KB: KB3200970
+Title: VHD Driver Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Virtual Hard Drive
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: https://www.exploit-db.com/exploits/40765/
+
+Date: 20161108
+CVE: CVE-2016-7214
+KB: KB3200970
+Title: Security Update for Windows Kernel-Mode Drivers
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7218
+KB: KB3200970
+Title: Security Update for Windows Kernel-Mode Drivers
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7215
+KB: KB3200970
+Title: Security Update for Windows Kernel-Mode Drivers
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161213
+CVE: CVE-2016-7215
+KB: KB3200970
+Title: Win32k Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Kernel-Mode Drivers
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7184
+KB: KB3200970
+Title: Security Update for Common Log File System Driver
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161213
+CVE: CVE-2016-7184
+KB: KB3200970
+Title: Windows Common Log File System Driver Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Common Log File System Driver
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16958
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16958
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16958
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16958
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7246
+KB: KB3200970
+Title: Security Update for Windows Kernel-Mode Drivers
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161213
+CVE: CVE-2016-7246
+KB: KB3200970
+Title: Win32k Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Kernel-Mode Drivers
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1287
+KB: KB4516044
+Title: Windows Network Connectivity Assistant Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1287
+KB: KB4516044
+Title: Windows Network Connectivity Assistant Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1287
+KB: KB4516044
+Title: Windows Network Connectivity Assistant Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1287
+KB: KB4516044
+Title: Windows Network Connectivity Assistant Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16961
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16961
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16961
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16961
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20200714
+CVE: CVE-2020-1346
+KB: KB4565912
+Title: Windows Modules Installer Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Update Stack
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20200811
+CVE: CVE-2020-1476
+KB: KB4569746
+Title: ASP.NET and .NET Elevation of Privilege Vulnerability
+Affected product: Microsoft .NET Framework 4.8 on Windows Server 2016
+Affected component: .NET Framework
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1285
+KB: KB4516044
+Title: Win32k Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Kernel
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1285
+KB: KB4516044
+Title: Win32k Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Kernel
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1285
+KB: KB4516044
+Title: Win32k Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Kernel
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1285
+KB: KB4516044
+Title: Win32k Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Kernel
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16964
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16964
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16964
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16964
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-3338
+KB: KB3200970
+Title: Security Update for Common Log File System Driver
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161213
+CVE: CVE-2016-3338
+KB: KB3200970
+Title: Windows Common Log File System Driver Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Common Log File System Driver
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-17092
+KB: KB4593226
+Title: Windows Network Connections Service Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-17092
+KB: KB4593226
+Title: Windows Network Connections Service Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-17092
+KB: KB4593226
+Title: Windows Network Connections Service Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-17092
+KB: KB4593226
+Title: Windows Network Connections Service Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7223
+KB: KB3200970
+Title: Security Update to Microsoft Virtual Hard Drive
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161213
+CVE: CVE-2016-7223
+KB: KB3200970
+Title: VHD Driver Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Virtual Hard Drive
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-3332
+KB: KB3200970
+Title: Security Update for Common Log File System Driver
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161213
+CVE: CVE-2016-3332
+KB: KB3200970
+Title: Windows Common Log File System Driver Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Common Log File System Driver
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1271
+KB: KB4516044
+Title: Windows Media Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1271
+KB: KB4516044
+Title: Windows Media Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1271
+KB: KB4516044
+Title: Windows Media Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1271
+KB: KB4516044
+Title: Windows Media Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1256
+KB: KB4516044
+Title: Win32k Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Kernel
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1256
+KB: KB4516044
+Title: Win32k Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Kernel
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1256
+KB: KB4516044
+Title: Win32k Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Kernel
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1256
+KB: KB4516044
+Title: Win32k Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Kernel
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190709
+CVE: CVE-2019-1006
+KB: KB4506986
+Title: WCF/WIF SAML Token Authentication Bypass Vulnerability
+Affected product: Microsoft .NET Framework 4.8 on Windows Server 2016
+Affected component: .NET Framework
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+[+] Missing patches: 9
+    - KB4516044: patches 68 vulnerabilities
+    - KB3200970: patches 39 vulnerabilities
+    - KB4593226: patches 36 vulnerabilities
+    - KB4346877: patches 4 vulnerabilities
+    - KB4519335: patches 1 vulnerability
+    - KB4514354: patches 1 vulnerability
+    - KB4565912: patches 1 vulnerability
+    - KB4569746: patches 1 vulnerability
+    - KB4506986: patches 1 vulnerability
+[+] KB with the most recent release date
+    - ID: KB4593226
+    - Release date: 20201208
+
+[+] Done. Displaying 152 of the 390 vulnerabilities found.

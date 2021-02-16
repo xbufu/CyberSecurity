@@ -1,0 +1,112 @@
+# Nmap 7.91 scan initiated Tue Feb 16 11:37:15 2021 as: nmap -sUV -Pn --top-ports 100 -oN scans/nmap_udp.txt -vvv solidstate.htb
+Increasing send delay for 10.129.98.176 from 400 to 800 due to 11 out of 12 dropped probes since last increase.
+Increasing send delay for 10.129.98.176 from 800 to 1000 due to 11 out of 18 dropped probes since last increase.
+Nmap scan report for solidstate.htb (10.129.98.176)
+Host is up, received user-set (0.037s latency).
+Scanned at 2021-02-16 11:37:15 EST for 278s
+
+PORT      STATE         SERVICE         REASON              VERSION
+7/udp     closed        echo            port-unreach ttl 63
+9/udp     closed        discard         port-unreach ttl 63
+17/udp    closed        qotd            port-unreach ttl 63
+19/udp    closed        chargen         port-unreach ttl 63
+49/udp    closed        tacacs          port-unreach ttl 63
+53/udp    closed        domain          port-unreach ttl 63
+67/udp    closed        dhcps           port-unreach ttl 63
+68/udp    open|filtered dhcpc           no-response
+69/udp    closed        tftp            port-unreach ttl 63
+80/udp    closed        http            port-unreach ttl 63
+88/udp    closed        kerberos-sec    port-unreach ttl 63
+111/udp   closed        rpcbind         port-unreach ttl 63
+120/udp   closed        cfdptkt         port-unreach ttl 63
+123/udp   closed        ntp             port-unreach ttl 63
+135/udp   closed        msrpc           port-unreach ttl 63
+136/udp   closed        profile         port-unreach ttl 63
+137/udp   closed        netbios-ns      port-unreach ttl 63
+138/udp   closed        netbios-dgm     port-unreach ttl 63
+139/udp   closed        netbios-ssn     port-unreach ttl 63
+158/udp   closed        pcmail-srv      port-unreach ttl 63
+161/udp   closed        snmp            port-unreach ttl 63
+162/udp   closed        snmptrap        port-unreach ttl 63
+177/udp   closed        xdmcp           port-unreach ttl 63
+427/udp   closed        svrloc          port-unreach ttl 63
+443/udp   closed        https           port-unreach ttl 63
+445/udp   closed        microsoft-ds    port-unreach ttl 63
+497/udp   closed        retrospect      port-unreach ttl 63
+500/udp   closed        isakmp          port-unreach ttl 63
+514/udp   closed        syslog          port-unreach ttl 63
+515/udp   closed        printer         port-unreach ttl 63
+518/udp   closed        ntalk           port-unreach ttl 63
+520/udp   closed        route           port-unreach ttl 63
+593/udp   closed        http-rpc-epmap  port-unreach ttl 63
+623/udp   closed        asf-rmcp        port-unreach ttl 63
+626/udp   closed        serialnumberd   port-unreach ttl 63
+631/udp   open|filtered ipp             no-response
+996/udp   closed        vsinet          port-unreach ttl 63
+997/udp   closed        maitrd          port-unreach ttl 63
+998/udp   closed        puparp          port-unreach ttl 63
+999/udp   closed        applix          port-unreach ttl 63
+1022/udp  closed        exp2            port-unreach ttl 63
+1023/udp  closed        unknown         port-unreach ttl 63
+1025/udp  closed        blackjack       port-unreach ttl 63
+1026/udp  closed        win-rpc         port-unreach ttl 63
+1027/udp  closed        unknown         port-unreach ttl 63
+1028/udp  closed        ms-lsa          port-unreach ttl 63
+1029/udp  closed        solid-mux       port-unreach ttl 63
+1030/udp  closed        iad1            port-unreach ttl 63
+1433/udp  closed        ms-sql-s        port-unreach ttl 63
+1434/udp  closed        ms-sql-m        port-unreach ttl 63
+1645/udp  closed        radius          port-unreach ttl 63
+1646/udp  closed        radacct         port-unreach ttl 63
+1701/udp  closed        L2TP            port-unreach ttl 63
+1718/udp  closed        h225gatedisc    port-unreach ttl 63
+1719/udp  closed        h323gatestat    port-unreach ttl 63
+1812/udp  closed        radius          port-unreach ttl 63
+1813/udp  closed        radacct         port-unreach ttl 63
+1900/udp  open|filtered upnp            no-response
+2000/udp  closed        cisco-sccp      port-unreach ttl 63
+2048/udp  closed        dls-monitor     port-unreach ttl 63
+2049/udp  closed        nfs             port-unreach ttl 63
+2222/udp  closed        msantipiracy    port-unreach ttl 63
+2223/udp  closed        rockwell-csp2   port-unreach ttl 63
+3283/udp  closed        netassistant    port-unreach ttl 63
+3456/udp  closed        IISrpc-or-vat   port-unreach ttl 63
+3703/udp  closed        adobeserver-3   port-unreach ttl 63
+4444/udp  closed        krb524          port-unreach ttl 63
+4500/udp  closed        nat-t-ike       port-unreach ttl 63
+5000/udp  closed        upnp            port-unreach ttl 63
+5060/udp  closed        sip             port-unreach ttl 63
+5353/udp  open|filtered zeroconf        no-response
+5632/udp  closed        pcanywherestat  port-unreach ttl 63
+9200/udp  closed        wap-wsp         port-unreach ttl 63
+10000/udp closed        ndmp            port-unreach ttl 63
+17185/udp closed        wdbrpc          port-unreach ttl 63
+20031/udp closed        bakbonenetvault port-unreach ttl 63
+30718/udp closed        unknown         port-unreach ttl 63
+31337/udp closed        BackOrifice     port-unreach ttl 63
+32768/udp closed        omad            port-unreach ttl 63
+32769/udp closed        filenet-rpc     port-unreach ttl 63
+32771/udp closed        sometimes-rpc6  port-unreach ttl 63
+32815/udp closed        unknown         port-unreach ttl 63
+33281/udp closed        unknown         port-unreach ttl 63
+49152/udp closed        unknown         port-unreach ttl 63
+49153/udp closed        unknown         port-unreach ttl 63
+49154/udp closed        unknown         port-unreach ttl 63
+49156/udp closed        unknown         port-unreach ttl 63
+49181/udp closed        unknown         port-unreach ttl 63
+49182/udp closed        unknown         port-unreach ttl 63
+49185/udp closed        unknown         port-unreach ttl 63
+49186/udp closed        unknown         port-unreach ttl 63
+49188/udp closed        unknown         port-unreach ttl 63
+49190/udp closed        unknown         port-unreach ttl 63
+49191/udp closed        unknown         port-unreach ttl 63
+49192/udp closed        unknown         port-unreach ttl 63
+49193/udp closed        unknown         port-unreach ttl 63
+49194/udp closed        unknown         port-unreach ttl 63
+49200/udp closed        unknown         port-unreach ttl 63
+49201/udp closed        unknown         port-unreach ttl 63
+65024/udp closed        unknown         port-unreach ttl 63
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Feb 16 11:41:53 2021 -- 1 IP address (1 host up) scanned in 277.54 seconds

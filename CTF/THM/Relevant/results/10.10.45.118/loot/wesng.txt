@@ -1,0 +1,3947 @@
+Windows Exploit Suggester 0.98 ( https://github.com/bitsadmin/wesng/ )
+[+] Parsing systeminfo output
+[+] Operating System
+    - Name: Windows Server 2016
+    - Generation: 2016
+    - Build: 14393
+    - Version: 1607
+    - Architecture: x64-based
+    - Installed hotfixes (3): KB3192137, KB3211320, KB3213986
+[+] Loading definitions
+    - Creation date of definitions: 20201223
+[+] Determining missing patches
+[+] Filtering duplicate vulnerabilities
+[+] Found vulnerabilities
+
+Date: 20161108
+CVE: 
+KB: KB3200970
+Title: Security Update for Windows Authentication Methods
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190709
+CVE: CVE-2019-1083
+KB: KB4506986
+Title: .NET Denial of Service Vulnerability
+Affected product: Microsoft .NET Framework 4.8 on Windows Server 2016
+Affected component: .NET Framework
+Severity: Important
+Impact: Denial of Service
+Exploit: n/a
+
+Date: 20161213
+CVE: CVE-2016-7238
+KB: KB3200970
+Title: Windows NTLM Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Authentication Methods
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1237
+KB: KB4516044
+Title: Chakra Scripting Engine Memory Corruption Vulnerability
+Affected product: Microsoft Edge (EdgeHTML-based) on Windows Server 2016
+Affected component: Microsoft Scripting Engine
+Severity: Moderate
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1237
+KB: KB4516044
+Title: Chakra Scripting Engine Memory Corruption Vulnerability
+Affected product: Microsoft Edge (EdgeHTML-based) on Windows Server 2016
+Affected component: Microsoft Scripting Engine
+Severity: Moderate
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20161213
+CVE: CVE-2016-7237
+KB: KB3200970
+Title: Local Security Authority Subsystem Service Denial of Service Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Authentication Methods
+Severity: Important
+Impact: Denial of Service
+Exploit: https://www.exploit-db.com/exploits/40744/
+
+Date: 20190910
+CVE: CVE-2019-1274
+KB: KB4516044
+Title: Windows Kernel Information Disclosure Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Kernel
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1274
+KB: KB4516044
+Title: Windows Kernel Information Disclosure Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Kernel
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1274
+KB: KB4516044
+Title: Windows Kernel Information Disclosure Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Kernel
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1274
+KB: KB4516044
+Title: Windows Kernel Information Disclosure Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Kernel
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20190911
+CVE: CVE-2019-1214
+KB: KB4516044
+Title: Windows Common Log File System Driver Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Common Log File System Driver
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190911
+CVE: CVE-2019-1214
+KB: KB4516044
+Title: Windows Common Log File System Driver Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Common Log File System Driver
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190911
+CVE: CVE-2019-1214
+KB: KB4516044
+Title: Windows Common Log File System Driver Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Common Log File System Driver
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190911
+CVE: CVE-2019-1214
+KB: KB4516044
+Title: Windows Common Log File System Driver Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Common Log File System Driver
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1245
+KB: KB4516044
+Title: DirectWrite Information Disclosure Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Graphics Component
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1245
+KB: KB4516044
+Title: DirectWrite Information Disclosure Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Graphics Component
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1245
+KB: KB4516044
+Title: DirectWrite Information Disclosure Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Graphics Component
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1245
+KB: KB4516044
+Title: DirectWrite Information Disclosure Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Graphics Component
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1252
+KB: KB4516044
+Title: 
+Affected product: Windows Server 2016
+Affected component: Microsoft Graphics Component
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1252
+KB: KB4516044
+Title: 
+Affected product: Windows Server 2016
+Affected component: Microsoft Graphics Component
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1252
+KB: KB4516044
+Title: 
+Affected product: Windows Server 2016
+Affected component: Microsoft Graphics Component
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1252
+KB: KB4516044
+Title: 
+Affected product: Windows Server 2016
+Affected component: Microsoft Graphics Component
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-17097
+KB: KB4593226
+Title: Windows Digital Media Receiver Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Media
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-17097
+KB: KB4593226
+Title: Windows Digital Media Receiver Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Media
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-17097
+KB: KB4593226
+Title: Windows Digital Media Receiver Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Media
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-17097
+KB: KB4593226
+Title: Windows Digital Media Receiver Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Media
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-3340
+KB: KB3200970
+Title: Security Update for Common Log File System Driver
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161213
+CVE: CVE-2016-3340
+KB: KB3200970
+Title: Windows Common Log File System Driver Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Common Log File System Driver
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20200714
+CVE: CVE-2020-1346
+KB: KB4565912
+Title: Windows Modules Installer Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Update Stack
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190709
+CVE: CVE-2019-1006
+KB: KB4506986
+Title: WCF/WIF SAML Token Authentication Bypass Vulnerability
+Affected product: Microsoft .NET Framework 4.8 on Windows Server 2016
+Affected component: .NET Framework
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20200211
+CVE: CVE-2020-0689
+KB: KB4524244
+Title: Microsoft Secure Boot Security Feature Bypass Vulnerability
+Affected product: Windows Server 2016
+Affected component: Secure Boot
+Severity: Important
+Impact: Security Feature Bypass
+Exploit: n/a
+
+Date: 20181225
+CVE: CVE-2018-8653
+KB: KB4483229
+Title: Scripting Engine Memory Corruption Vulnerability
+Affected product: Internet Explorer 11 on Windows Server 2016
+Affected component: Internet Explorer
+Severity: Moderate
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1240
+KB: KB4516044
+Title: Jet Database Engine Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft JET Database Engine
+Severity: Important
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1240
+KB: KB4516044
+Title: Jet Database Engine Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft JET Database Engine
+Severity: Important
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1240
+KB: KB4516044
+Title: Jet Database Engine Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft JET Database Engine
+Severity: Important
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1240
+KB: KB4516044
+Title: Jet Database Engine Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft JET Database Engine
+Severity: Important
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1221
+KB: KB4516044
+Title: Scripting Engine Memory Corruption Vulnerability
+Affected product: Internet Explorer 11 on Windows Server 2016
+Affected component: Microsoft Scripting Engine
+Severity: Moderate
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1221
+KB: KB4516044
+Title: Scripting Engine Memory Corruption Vulnerability
+Affected product: Internet Explorer 11 on Windows Server 2016
+Affected component: Microsoft Scripting Engine
+Severity: Moderate
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7256
+KB: KB3200970
+Title: Security Update for Microsoft Graphics Component
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7256
+KB: KB3200970
+Title: Security Update for Microsoft Graphics Component
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7256
+KB: KB3200970
+Title: Security Update for Microsoft Graphics Component
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7256
+KB: KB3200970
+Title: Security Update for Microsoft Graphics Component
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20161213
+CVE: CVE-2016-7256
+KB: KB3200970
+Title: Microsoft Graphics Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Graphics Component
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1270
+KB: KB4516044
+Title: Microsoft Windows Store Installer Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1270
+KB: KB4516044
+Title: Microsoft Windows Store Installer Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1270
+KB: KB4516044
+Title: Microsoft Windows Store Installer Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1270
+KB: KB4516044
+Title: Microsoft Windows Store Installer Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-17098
+KB: KB4593226
+Title: Windows GDI+ Information Disclosure Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Graphics Component
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-17098
+KB: KB4593226
+Title: Windows GDI+ Information Disclosure Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Graphics Component
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-17098
+KB: KB4593226
+Title: Windows GDI+ Information Disclosure Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Graphics Component
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-17098
+KB: KB4593226
+Title: Windows GDI+ Information Disclosure Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Graphics Component
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16962
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16962
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16962
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16962
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-3332
+KB: KB3200970
+Title: Security Update for Common Log File System Driver
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161213
+CVE: CVE-2016-3332
+KB: KB3200970
+Title: Windows Common Log File System Driver Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Common Log File System Driver
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7224
+KB: KB3200970
+Title: Security Update to Microsoft Virtual Hard Drive
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: https://www.exploit-db.com/exploits/40765/
+
+Date: 20161213
+CVE: CVE-2016-7224
+KB: KB3200970
+Title: VHD Driver Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Virtual Hard Drive
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: https://www.exploit-db.com/exploits/40765/
+
+Date: 20161108
+CVE: CVE-2016-7218
+KB: KB3200970
+Title: Security Update for Windows Kernel-Mode Drivers
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161213
+CVE: CVE-2016-7218
+KB: KB3200970
+Title: Windows Bowser.sys Information Disclosure Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Kernel-Mode Drivers
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7196
+KB: KB3200970
+Title: Cumulative Security Update for Microsoft Edge
+Affected product: Windows Server 2016  
+Affected component: Microsoft Edge
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20161213
+CVE: CVE-2016-7196
+KB: KB3200970
+Title: Microsoft Browser Memory Corruption Vulnerability
+Affected product: Microsoft Edge (EdgeHTML-based) on Windows Server 2016
+Affected component: Microsoft Browsers
+Severity: Moderate
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20161213
+CVE: CVE-2016-7196
+KB: KB3200970
+Title: Microsoft Browser Memory Corruption Vulnerability
+Affected product: Internet Explorer 11 on Windows Server 2016
+Affected component: Microsoft Browsers
+Severity: Moderate
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1247
+KB: KB4516044
+Title: Jet Database Engine Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft JET Database Engine
+Severity: Important
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1247
+KB: KB4516044
+Title: Jet Database Engine Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft JET Database Engine
+Severity: Important
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1247
+KB: KB4516044
+Title: Jet Database Engine Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft JET Database Engine
+Severity: Important
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1247
+KB: KB4516044
+Title: Jet Database Engine Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft JET Database Engine
+Severity: Important
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1235
+KB: KB4516044
+Title: Windows Text Service Framework Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1235
+KB: KB4516044
+Title: Windows Text Service Framework Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1235
+KB: KB4516044
+Title: Windows Text Service Framework Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1235
+KB: KB4516044
+Title: Windows Text Service Framework Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1268
+KB: KB4516044
+Title: Winlogon Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1268
+KB: KB4516044
+Title: Winlogon Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1268
+KB: KB4516044
+Title: Winlogon Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1268
+KB: KB4516044
+Title: Winlogon Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-3338
+KB: KB3200970
+Title: Security Update for Common Log File System Driver
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161213
+CVE: CVE-2016-3338
+KB: KB3200970
+Title: Windows Common Log File System Driver Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Common Log File System Driver
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1289
+KB: KB4516044
+Title: Windows Update Delivery Optimization Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1289
+KB: KB4516044
+Title: Windows Update Delivery Optimization Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1289
+KB: KB4516044
+Title: Windows Update Delivery Optimization Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1289
+KB: KB4516044
+Title: Windows Update Delivery Optimization Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7246
+KB: KB3200970
+Title: Security Update for Windows Kernel-Mode Drivers
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161213
+CVE: CVE-2016-7246
+KB: KB3200970
+Title: Win32k Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Kernel-Mode Drivers
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7200
+KB: KB3200970
+Title: Cumulative Security Update for Microsoft Edge
+Affected product: Windows Server 2016  
+Affected component: Microsoft Edge
+Severity: Critical
+Impact: Remote Code Execution
+Exploits: https://www.exploit-db.com/exploits/40785/, https://www.exploit-db.com/exploits/40990/
+
+Date: 20161108
+CVE: CVE-2016-7200
+KB: KB3200970
+Title: Scripting Engine Memory Corruption Vulnerability
+Affected product: Microsoft Edge (EdgeHTML-based) on Windows Server 2016
+Affected component: Microsoft Edge
+Severity: Moderate
+Impact: Remote Code Execution
+Exploits: https://www.exploit-db.com/exploits/40785/, https://www.exploit-db.com/exploits/40990/
+
+Date: 20180410
+CVE: ADV180007
+KB: KB4093110
+Title: April 2018 Adobe Flash Security Update
+Affected product: Adobe Flash Player on Windows Server 2016
+Affected component: Adobe Flash Player
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20170314
+CVE: CVE-2017-0143
+KB: KB4016635
+Title: Windows SMB Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploits: https://www.exploit-db.com/exploits/41891/, https://www.exploit-db.com/exploits/41987/, https://www.exploit-db.com/exploits/43970/
+
+Date: 20170613
+CVE: CVE-2017-0143
+KB: KB4022723
+Title: Windows SMB Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploits: https://www.exploit-db.com/exploits/41891/, https://www.exploit-db.com/exploits/41987/, https://www.exploit-db.com/exploits/43970/
+
+Date: 20190910
+CVE: CVE-2019-1291
+KB: KB4516044
+Title: Remote Desktop Client Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows RDP
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1291
+KB: KB4516044
+Title: Remote Desktop Client Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows RDP
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1291
+KB: KB4516044
+Title: Remote Desktop Client Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows RDP
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1291
+KB: KB4516044
+Title: Remote Desktop Client Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows RDP
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-3335
+KB: KB3200970
+Title: Security Update for Common Log File System Driver
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161213
+CVE: CVE-2016-3335
+KB: KB3200970
+Title: Windows Common Log File System Driver Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Common Log File System Driver
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1256
+KB: KB4516044
+Title: Win32k Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Kernel
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1256
+KB: KB4516044
+Title: Win32k Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Kernel
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1256
+KB: KB4516044
+Title: Win32k Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Kernel
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1256
+KB: KB4516044
+Title: Win32k Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Kernel
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-3343
+KB: KB3200970
+Title: Security Update for Common Log File System Driver
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161213
+CVE: CVE-2016-3343
+KB: KB3200970
+Title: Windows Common Log File System Driver Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Common Log File System Driver
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-0026
+KB: KB3200970
+Title: Security Update for Common Log File System Driver
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161213
+CVE: CVE-2016-0026
+KB: KB3200970
+Title: Windows Common Log File System Driver Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Common Log File System Driver
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7209
+KB: KB3200970
+Title: Cumulative Security Update for Microsoft Edge
+Affected product: Windows Server 2016  
+Affected component: Microsoft Edge
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7209
+KB: KB3200970
+Title: Microsoft Browser Spoofing Vulnerability
+Affected product: Microsoft Edge (EdgeHTML-based) on Windows Server 2016
+Affected component: Microsoft Edge
+Severity: Low
+Impact: Spoofing
+Exploit: n/a
+
+Date: 20161213
+CVE: CVE-2016-3263
+KB: KB3200970
+Title: GDI+ Information Disclosure Vulnerability
+Affected product: Windows Server 2016 (Server Core installation)
+Affected component: Microsoft Graphics Component
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-17096
+KB: KB4593226
+Title: Windows NTFS Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows SMB
+Severity: Important
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-17096
+KB: KB4593226
+Title: Windows NTFS Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows SMB
+Severity: Important
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-17096
+KB: KB4593226
+Title: Windows NTFS Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows SMB
+Severity: Important
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-17096
+KB: KB4593226
+Title: Windows NTFS Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows SMB
+Severity: Important
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-17095
+KB: KB4593226
+Title: Hyper-V Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Hyper-V
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-17095
+KB: KB4593226
+Title: Hyper-V Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Hyper-V
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-17095
+KB: KB4593226
+Title: Hyper-V Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Hyper-V
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-17095
+KB: KB4593226
+Title: Hyper-V Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Hyper-V
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1241
+KB: KB4516044
+Title: Jet Database Engine Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft JET Database Engine
+Severity: Important
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1241
+KB: KB4516044
+Title: Jet Database Engine Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft JET Database Engine
+Severity: Important
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1241
+KB: KB4516044
+Title: Jet Database Engine Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft JET Database Engine
+Severity: Important
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1241
+KB: KB4516044
+Title: Jet Database Engine Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft JET Database Engine
+Severity: Important
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20170726
+CVE: ADV170009
+KB: KB4025376
+Title: July 2017 Adobe Flash Security Update
+Affected product: Adobe Flash Player on Windows Server 2016
+Affected component: Adobe Flash Player
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1208
+KB: KB4516044
+Title: VBScript Remote Code Execution Vulnerability
+Affected product: Internet Explorer 11 on Windows Server 2016
+Affected component: Microsoft Scripting Engine
+Severity: Moderate
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1208
+KB: KB4516044
+Title: VBScript Remote Code Execution Vulnerability
+Affected product: Internet Explorer 11 on Windows Server 2016
+Affected component: Microsoft Scripting Engine
+Severity: Moderate
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20161213
+CVE: CVE-2016-7247
+KB: KB3200970
+Title: Secure Boot Component Security Feature Bypass Vulnerability
+Affected product: Windows Server 2016
+Affected component: Boot Manager
+Severity: Important
+Impact: Security Feature Bypass
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16961
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16961
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16961
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16961
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7223
+KB: KB3200970
+Title: Security Update to Microsoft Virtual Hard Drive
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161213
+CVE: CVE-2016-7223
+KB: KB3200970
+Title: VHD Driver Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Virtual Hard Drive
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190220
+CVE: ADV190005
+KB: KB4487006
+Title: Guidance to adjust HTTP/2 SETTINGS frames
+Affected product: Windows Server 2016
+Affected component: Description
+Severity: 
+Impact: Defense in Depth
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7215
+KB: KB3200970
+Title: Security Update for Windows Kernel-Mode Drivers
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161213
+CVE: CVE-2016-7215
+KB: KB3200970
+Title: Win32k Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Kernel-Mode Drivers
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190911
+CVE: CVE-2019-1215
+KB: KB4516044
+Title: Windows Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190911
+CVE: CVE-2019-1215
+KB: KB4516044
+Title: Windows Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190911
+CVE: CVE-2019-1215
+KB: KB4516044
+Title: Windows Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190911
+CVE: CVE-2019-1215
+KB: KB4516044
+Title: Windows Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1298
+KB: KB4516044
+Title: Chakra Scripting Engine Memory Corruption Vulnerability
+Affected product: Microsoft Edge (EdgeHTML-based) on Windows Server 2016
+Affected component: Microsoft Scripting Engine
+Severity: Moderate
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1298
+KB: KB4516044
+Title: Chakra Scripting Engine Memory Corruption Vulnerability
+Affected product: Microsoft Edge (EdgeHTML-based) on Windows Server 2016
+Affected component: Microsoft Scripting Engine
+Severity: Moderate
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16964
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16964
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16964
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16964
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1292
+KB: KB4516044
+Title: Windows Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1292
+KB: KB4516044
+Title: Windows Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1292
+KB: KB4516044
+Title: Windows Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1292
+KB: KB4516044
+Title: Windows Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20200512
+CVE: CVE-2020-1108
+KB: KB4552926
+Title: .NET Core & .NET Framework Denial of Service Vulnerability
+Affected product: Microsoft .NET Framework 4.8 on Windows Server 2016
+Affected component: .NET Core
+Severity: Important
+Impact: Denial of Service
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7208
+KB: KB3200970
+Title: Cumulative Security Update for Microsoft Edge
+Affected product: Windows Server 2016  
+Affected component: Microsoft Edge
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7208
+KB: KB3200970
+Title: Scripting Engine Memory Corruption Vulnerability
+Affected product: Microsoft Edge (EdgeHTML-based) on Windows Server 2016
+Affected component: Microsoft Edge
+Severity: Moderate
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1280
+KB: KB4516044
+Title: LNK Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1280
+KB: KB4516044
+Title: LNK Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1280
+KB: KB4516044
+Title: LNK Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1280
+KB: KB4516044
+Title: LNK Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1138
+KB: KB4516044
+Title: Chakra Scripting Engine Memory Corruption Vulnerability
+Affected product: Microsoft Edge (EdgeHTML-based) on Windows Server 2016
+Affected component: Microsoft Scripting Engine
+Severity: Moderate
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1138
+KB: KB4516044
+Title: Chakra Scripting Engine Memory Corruption Vulnerability
+Affected product: Microsoft Edge (EdgeHTML-based) on Windows Server 2016
+Affected component: Microsoft Scripting Engine
+Severity: Moderate
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7212
+KB: KB3200970
+Title: Security Update for Microsoft Windows
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20161213
+CVE: CVE-2016-7212
+KB: KB3200970
+Title: Windows Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1267
+KB: KB4516044
+Title: Microsoft Compatibility Appraiser Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1267
+KB: KB4516044
+Title: Microsoft Compatibility Appraiser Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1267
+KB: KB4516044
+Title: Microsoft Compatibility Appraiser Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1267
+KB: KB4516044
+Title: Microsoft Compatibility Appraiser Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190213
+CVE: ADV190003
+KB: KB4487038
+Title: February 2019 Adobe Flash Security Update
+Affected product: Adobe Flash Player on Windows Server 2016
+Affected component: Adobe Flash Player
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7239
+KB: KB3200970
+Title: Cumulative Security Update for Microsoft Edge
+Affected product: Windows Server 2016  
+Affected component: Microsoft Edge
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20161213
+CVE: CVE-2016-7239
+KB: KB3200970
+Title: Microsoft Browser Information Disclosure Vulnerability
+Affected product: Internet Explorer 11 on Windows Server 2016
+Affected component: Microsoft Browsers
+Severity: Moderate
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20161213
+CVE: CVE-2016-7239
+KB: KB3200970
+Title: Microsoft Browser Information Disclosure Vulnerability
+Affected product: Microsoft Edge (EdgeHTML-based) on Windows Server 2016
+Affected component: Microsoft Browsers
+Severity: Low
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1293
+KB: KB4516044
+Title: Windows SMB Client Driver Information Disclosure Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Kernel
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1293
+KB: KB4516044
+Title: Windows SMB Client Driver Information Disclosure Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Kernel
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1293
+KB: KB4516044
+Title: Windows SMB Client Driver Information Disclosure Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Kernel
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1293
+KB: KB4516044
+Title: Windows SMB Client Driver Information Disclosure Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Kernel
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7248
+KB: KB3200970
+Title: Security Update for Microsoft Video Control
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7255
+KB: KB3200970
+Title: Security Update for Windows Kernel-Mode Drivers
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Important
+Impact: Elevation of Privilege
+Exploits: https://www.exploit-db.com/exploits/40745/, https://www.exploit-db.com/exploits/40823/, https://www.exploit-db.com/exploits/41015/
+
+Date: 20161213
+CVE: CVE-2016-7255
+KB: KB3200970
+Title: Win32k Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Kernel-Mode Drivers
+Severity: Important
+Impact: Elevation of Privilege
+Exploits: https://www.exploit-db.com/exploits/40745/, https://www.exploit-db.com/exploits/40823/, https://www.exploit-db.com/exploits/41015/
+
+Date: 20190910
+CVE: CVE-2019-1243
+KB: KB4516044
+Title: Jet Database Engine Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft JET Database Engine
+Severity: Important
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1243
+KB: KB4516044
+Title: Jet Database Engine Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft JET Database Engine
+Severity: Important
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1243
+KB: KB4516044
+Title: Jet Database Engine Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft JET Database Engine
+Severity: Important
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1243
+KB: KB4516044
+Title: Jet Database Engine Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft JET Database Engine
+Severity: Important
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20181129
+CVE: ADV180030
+KB: KB4477029
+Title: November 20, 2018 Flash Updates
+Affected product: Adobe Flash Player on Windows Server 2016
+Affected component: Adobe Flash Player
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-17140
+KB: KB4593226
+Title: Windows SMB Information Disclosure Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows SMB
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-17140
+KB: KB4593226
+Title: Windows SMB Information Disclosure Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows SMB
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-17140
+KB: KB4593226
+Title: Windows SMB Information Disclosure Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows SMB
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-17140
+KB: KB4593226
+Title: Windows SMB Information Disclosure Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows SMB
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1250
+KB: KB4516044
+Title: Jet Database Engine Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft JET Database Engine
+Severity: Important
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1250
+KB: KB4516044
+Title: Jet Database Engine Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft JET Database Engine
+Severity: Important
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1250
+KB: KB4516044
+Title: Jet Database Engine Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft JET Database Engine
+Severity: Important
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1250
+KB: KB4516044
+Title: Jet Database Engine Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft JET Database Engine
+Severity: Important
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20180206
+CVE: ADV180004
+KB: KB4074595
+Title: February 2018 Adobe Flash Security Update
+Affected product: Adobe Flash Player on Windows Server 2016
+Affected component: Adobe Flash Player
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7199
+KB: KB3200970
+Title: Cumulative Security Update for Microsoft Edge
+Affected product: Windows Server 2016  
+Affected component: Microsoft Edge
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20161213
+CVE: CVE-2016-7199
+KB: KB3200970
+Title: Microsoft Browser Information Disclosure Vulnerability
+Affected product: Microsoft Edge (EdgeHTML-based) on Windows Server 2016
+Affected component: Microsoft Browsers
+Severity: Low
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20161213
+CVE: CVE-2016-7199
+KB: KB3200970
+Title: Microsoft Browser Information Disclosure Vulnerability
+Affected product: Internet Explorer 11 on Windows Server 2016
+Affected component: Microsoft Browsers
+Severity: Moderate
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7241
+KB: KB3200970
+Title: Cumulative Security Update for Microsoft Edge
+Affected product: Windows Server 2016  
+Affected component: Microsoft Edge
+Severity: Critical
+Impact: Remote Code Execution
+Exploits: http://packetstormsecurity.com/files/139991/Microsoft-Edge-JSON.parse-Information-Leak.html, https://www.exploit-db.com/exploits/40875/
+
+Date: 20161213
+CVE: CVE-2016-7241
+KB: KB3200970
+Title: Microsoft Browser Memory Corruption Vulnerability
+Affected product: Microsoft Edge (EdgeHTML-based) on Windows Server 2016
+Affected component: Microsoft Browsers
+Severity: Moderate
+Impact: Remote Code Execution
+Exploits: http://packetstormsecurity.com/files/139991/Microsoft-Edge-JSON.parse-Information-Leak.html, https://www.exploit-db.com/exploits/40875/
+
+Date: 20161213
+CVE: CVE-2016-7241
+KB: KB3200970
+Title: Microsoft Browser Memory Corruption Vulnerability
+Affected product: Internet Explorer 11 on Windows Server 2016
+Affected component: Microsoft Browsers
+Severity: Moderate
+Impact: Remote Code Execution
+Exploits: http://packetstormsecurity.com/files/139991/Microsoft-Edge-JSON.parse-Information-Leak.html, https://www.exploit-db.com/exploits/40875/
+
+Date: 20200811
+CVE: CVE-2020-1476
+KB: KB4569746
+Title: ASP.NET and .NET Elevation of Privilege Vulnerability
+Affected product: Microsoft .NET Framework 4.8 on Windows Server 2016
+Affected component: .NET Framework
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20171114
+CVE: ADV170019
+KB: KB4048951
+Title: November 2017 Adobe Flash Security Update
+Affected product: Adobe Flash Player on Windows Server 2016
+Affected component: Adobe Flash Player
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7225
+KB: KB3200970
+Title: Security Update to Microsoft Virtual Hard Drive
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: https://www.exploit-db.com/exploits/40764/
+
+Date: 20161108
+CVE: CVE-2016-7225
+KB: KB3200970
+Title: VHD Driver Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Virtual Hard Drive
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: https://www.exploit-db.com/exploits/40764/
+
+Date: 20161108
+CVE: CVE-2016-7217
+KB: KB3200970
+Title: Security Update for Microsoft Graphics Component
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7217
+KB: KB3200970
+Title: Security Update for Microsoft Graphics Component
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7217
+KB: KB3200970
+Title: Security Update for Microsoft Graphics Component
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7217
+KB: KB3200970
+Title: Security Update for Microsoft Graphics Component
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20161213
+CVE: CVE-2016-7217
+KB: KB3200970
+Title: Media Foundation Memory Corruption Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Graphics Component
+Severity: Important
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20201119
+CVE: CVE-2020-17049
+KB: KB4593226
+Title: Kerberos KDC Security Feature Bypass Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Security Feature Bypass
+Exploit: n/a
+
+Date: 20201119
+CVE: CVE-2020-17049
+KB: KB4593226
+Title: Kerberos KDC Security Feature Bypass Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Security Feature Bypass
+Exploit: n/a
+
+Date: 20201119
+CVE: CVE-2020-17049
+KB: KB4593226
+Title: Kerberos KDC Security Feature Bypass Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Security Feature Bypass
+Exploit: n/a
+
+Date: 20201119
+CVE: CVE-2020-17049
+KB: KB4593226
+Title: Kerberos KDC Security Feature Bypass Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Security Feature Bypass
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7210
+KB: KB3200970
+Title: Security Update for Microsoft Graphics Component
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7210
+KB: KB3200970
+Title: Security Update for Microsoft Graphics Component
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7210
+KB: KB3200970
+Title: Security Update for Microsoft Graphics Component
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7210
+KB: KB3200970
+Title: Security Update for Microsoft Graphics Component
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20161213
+CVE: CVE-2016-7210
+KB: KB3200970
+Title: Open Type Font Information Disclosure Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Graphics Component
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20200512
+CVE: CVE-2020-0605
+KB: KB4552926
+Title: .NET Framework Remote Code Execution Vulnerability
+Affected product: Microsoft .NET Framework 4.8 on Windows Server 2016
+Affected component: .NET Framework
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1244
+KB: KB4516044
+Title: DirectWrite Information Disclosure Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Graphics Component
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1244
+KB: KB4516044
+Title: DirectWrite Information Disclosure Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Graphics Component
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1244
+KB: KB4516044
+Title: DirectWrite Information Disclosure Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Graphics Component
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1244
+KB: KB4516044
+Title: DirectWrite Information Disclosure Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Graphics Component
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20201013
+CVE: CVE-2020-16937
+KB: KB4578969
+Title: .NET Framework Information Disclosure Vulnerability
+Affected product: Microsoft .NET Framework 4.8 on Windows Server 2016
+Affected component: .NET Framework
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20201013
+CVE: CVE-2020-16937
+KB: KB4578969
+Title: .NET Framework Information Disclosure Vulnerability
+Affected product: Microsoft .NET Framework 4.8 on Windows Server 2016
+Affected component: .NET Framework
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20201013
+CVE: CVE-2020-16937
+KB: KB4578969
+Title: .NET Framework Information Disclosure Vulnerability
+Affected product: Microsoft .NET Framework 4.8 on Windows Server 2016
+Affected component: .NET Framework
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20201013
+CVE: CVE-2020-16937
+KB: KB4578969
+Title: .NET Framework Information Disclosure Vulnerability
+Affected product: Microsoft .NET Framework 4.8 on Windows Server 2016
+Affected component: .NET Framework
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1290
+KB: KB4516044
+Title: Remote Desktop Client Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows RDP
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1290
+KB: KB4516044
+Title: Remote Desktop Client Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows RDP
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1290
+KB: KB4516044
+Title: Remote Desktop Client Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows RDP
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1290
+KB: KB4516044
+Title: Remote Desktop Client Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows RDP
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7204
+KB: KB3200970
+Title: Cumulative Security Update for Microsoft Edge
+Affected product: Windows Server 2016  
+Affected component: Microsoft Edge
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7204
+KB: KB3200970
+Title: Microsoft Edge Information Disclosure Vulnerability
+Affected product: Microsoft Edge (EdgeHTML-based) on Windows Server 2016
+Affected component: Microsoft Edge
+Severity: Low
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7214
+KB: KB3200970
+Title: Security Update for Windows Kernel-Mode Drivers
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161213
+CVE: CVE-2016-7214
+KB: KB3200970
+Title: Windows Kernel Information Disclosure Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Kernel-Mode Drivers
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7240
+KB: KB3200970
+Title: Cumulative Security Update for Microsoft Edge
+Affected product: Windows Server 2016  
+Affected component: Microsoft Edge
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: https://www.exploit-db.com/exploits/40773/
+
+Date: 20161108
+CVE: CVE-2016-7240
+KB: KB3200970
+Title: Scripting Engine Memory Corruption Vulnerability
+Affected product: Microsoft Edge (EdgeHTML-based) on Windows Server 2016
+Affected component: Microsoft Edge
+Severity: Moderate
+Impact: Remote Code Execution
+Exploit: https://www.exploit-db.com/exploits/40773/
+
+Date: 20190910
+CVE: CVE-2019-1216
+KB: KB4516044
+Title: DirectX Information Disclosure Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Graphics Component
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1216
+KB: KB4516044
+Title: DirectX Information Disclosure Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Graphics Component
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1216
+KB: KB4516044
+Title: DirectX Information Disclosure Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Graphics Component
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1216
+KB: KB4516044
+Title: DirectX Information Disclosure Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Graphics Component
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7201
+KB: KB3200970
+Title: Cumulative Security Update for Microsoft Edge
+Affected product: Windows Server 2016  
+Affected component: Microsoft Edge
+Severity: Critical
+Impact: Remote Code Execution
+Exploits: https://www.exploit-db.com/exploits/40784/, https://www.exploit-db.com/exploits/40990/
+
+Date: 20161108
+CVE: CVE-2016-7201
+KB: KB3200970
+Title: Scripting Engine Memory Corruption Vulnerability
+Affected product: Microsoft Edge (EdgeHTML-based) on Windows Server 2016
+Affected component: Microsoft Edge
+Severity: Moderate
+Impact: Remote Code Execution
+Exploits: https://www.exploit-db.com/exploits/40784/, https://www.exploit-db.com/exploits/40990/
+
+Date: 20190910
+CVE: CVE-2019-1246
+KB: KB4516044
+Title: Jet Database Engine Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft JET Database Engine
+Severity: Important
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1246
+KB: KB4516044
+Title: Jet Database Engine Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft JET Database Engine
+Severity: Important
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1246
+KB: KB4516044
+Title: Jet Database Engine Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft JET Database Engine
+Severity: Important
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1246
+KB: KB4516044
+Title: Jet Database Engine Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft JET Database Engine
+Severity: Important
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20200114
+CVE: CVE-2019-1272
+KB: KB4516044
+Title: Windows Data Sharing Service Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20200114
+CVE: CVE-2019-1272
+KB: KB4516044
+Title: Windows Data Sharing Service Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20200114
+CVE: CVE-2019-1272
+KB: KB4516044
+Title: Windows Data Sharing Service Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20200114
+CVE: CVE-2019-1272
+KB: KB4516044
+Title: Windows Data Sharing Service Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-3333
+KB: KB3200970
+Title: Security Update for Common Log File System Driver
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161213
+CVE: CVE-2016-3333
+KB: KB3200970
+Title: Windows Common Log File System Driver Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Common Log File System Driver
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1219
+KB: KB4516044
+Title: Windows Transaction Manager Information Disclosure Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1219
+KB: KB4516044
+Title: Windows Transaction Manager Information Disclosure Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1219
+KB: KB4516044
+Title: Windows Transaction Manager Information Disclosure Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1219
+KB: KB4516044
+Title: Windows Transaction Manager Information Disclosure Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7203
+KB: KB3200970
+Title: Cumulative Security Update for Microsoft Edge
+Affected product: Windows Server 2016  
+Affected component: Microsoft Edge
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: https://www.exploit-db.com/exploits/40787/
+
+Date: 20161108
+CVE: CVE-2016-7203
+KB: KB3200970
+Title: Scripting Engine Memory Corruption Vulnerability
+Affected product: Microsoft Edge (EdgeHTML-based) on Windows Server 2016
+Affected component: Microsoft Edge
+Severity: Moderate
+Impact: Remote Code Execution
+Exploit: https://www.exploit-db.com/exploits/40787/
+
+Date: 20190910
+CVE: ADV190022
+KB: KB4516115
+Title: September 2019 Adobe Flash Security Update
+Affected product: Adobe Flash Player on Windows Server 2016
+Affected component: Adobe Flash Player
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20201209
+CVE: CVE-2020-16996
+KB: KB4593226
+Title: Kerberos Security Feature Bypass Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Security Feature Bypass
+Exploit: n/a
+
+Date: 20201209
+CVE: CVE-2020-16996
+KB: KB4593226
+Title: Kerberos Security Feature Bypass Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Security Feature Bypass
+Exploit: n/a
+
+Date: 20201209
+CVE: CVE-2020-16996
+KB: KB4593226
+Title: Kerberos Security Feature Bypass Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Security Feature Bypass
+Exploit: n/a
+
+Date: 20201209
+CVE: CVE-2020-16996
+KB: KB4593226
+Title: Kerberos Security Feature Bypass Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Security Feature Bypass
+Exploit: n/a
+
+Date: 20200512
+CVE: CVE-2020-0606
+KB: KB4532933
+Title: .NET Framework Remote Code Execution Vulnerability
+Affected product: Microsoft .NET Framework 4.8 on Windows Server 2016
+Affected component: .NET Framework
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20201013
+CVE: ADV200012
+KB: KB4580325
+Title: October 2020 Adobe Flash Security Update
+Affected product: Adobe Flash Player on Windows Server 2016
+Affected component: Adobe Flash Player
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1271
+KB: KB4516044
+Title: Windows Media Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1271
+KB: KB4516044
+Title: Windows Media Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1271
+KB: KB4516044
+Title: Windows Media Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1271
+KB: KB4516044
+Title: Windows Media Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7243
+KB: KB3200970
+Title: Cumulative Security Update for Microsoft Edge
+Affected product: Windows Server 2016  
+Affected component: Microsoft Edge
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7243
+KB: KB3200970
+Title: Scripting Engine Memory Corruption Vulnerability
+Affected product: Microsoft Edge (EdgeHTML-based) on Windows Server 2016
+Affected component: Microsoft Edge
+Severity: Moderate
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1236
+KB: KB4516044
+Title: VBScript Remote Code Execution Vulnerability
+Affected product: Internet Explorer 11 on Windows Server 2016
+Affected component: Microsoft Scripting Engine
+Severity: Moderate
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1236
+KB: KB4516044
+Title: VBScript Remote Code Execution Vulnerability
+Affected product: Internet Explorer 11 on Windows Server 2016
+Affected component: Microsoft Scripting Engine
+Severity: Moderate
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7198
+KB: KB3200970
+Title: Cumulative Security Update for Microsoft Edge
+Affected product: Windows Server 2016  
+Affected component: Microsoft Edge
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20161213
+CVE: CVE-2016-7198
+KB: KB3200970
+Title: Microsoft Browser Memory Corruption Vulnerability
+Affected product: Microsoft Edge (EdgeHTML-based) on Windows Server 2016
+Affected component: Microsoft Browsers
+Severity: Moderate
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20161213
+CVE: CVE-2016-7198
+KB: KB3200970
+Title: Microsoft Browser Memory Corruption Vulnerability
+Affected product: Internet Explorer 11 on Windows Server 2016
+Affected component: Microsoft Browsers
+Severity: Moderate
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1285
+KB: KB4516044
+Title: Win32k Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Kernel
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1285
+KB: KB4516044
+Title: Win32k Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Kernel
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1285
+KB: KB4516044
+Title: Win32k Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Kernel
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1285
+KB: KB4516044
+Title: Win32k Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Kernel
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20200714
+CVE: CVE-2020-1147
+KB: KB4578969
+Title: .NET Framework, SharePoint Server, and Visual Studio Remote Code Execution Vulnerability
+Affected product: Microsoft .NET Framework 4.8 on Windows Server 2016
+Affected component: .NET Framework
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-17092
+KB: KB4593226
+Title: Windows Network Connections Service Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-17092
+KB: KB4593226
+Title: Windows Network Connections Service Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-17092
+KB: KB4593226
+Title: Windows Network Connections Service Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-17092
+KB: KB4593226
+Title: Windows Network Connections Service Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7226
+KB: KB3200970
+Title: Security Update to Microsoft Virtual Hard Drive
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: https://www.exploit-db.com/exploits/40763/
+
+Date: 20161108
+CVE: CVE-2016-7226
+KB: KB3200970
+Title: VHD Driver Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Virtual Hard Drive
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: https://www.exploit-db.com/exploits/40763/
+
+Date: 20201208
+CVE: CVE-2020-16959
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16959
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16959
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16959
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7195
+KB: KB3200970
+Title: Cumulative Security Update for Microsoft Edge
+Affected product: Windows Server 2016  
+Affected component: Microsoft Edge
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20161213
+CVE: CVE-2016-7195
+KB: KB3200970
+Title: Microsoft Browser Memory Corruption Vulnerability
+Affected product: Microsoft Edge (EdgeHTML-based) on Windows Server 2016
+Affected component: Microsoft Browsers
+Severity: Moderate
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20161213
+CVE: CVE-2016-7195
+KB: KB3200970
+Title: Microsoft Browser Memory Corruption Vulnerability
+Affected product: Internet Explorer 11 on Windows Server 2016
+Affected component: Microsoft Browsers
+Severity: Moderate
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1269
+KB: KB4516044
+Title: Windows ALPC Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1269
+KB: KB4516044
+Title: Windows ALPC Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1269
+KB: KB4516044
+Title: Windows ALPC Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1269
+KB: KB4516044
+Title: Windows ALPC Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1249
+KB: KB4516044
+Title: Jet Database Engine Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft JET Database Engine
+Severity: Important
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1249
+KB: KB4516044
+Title: Jet Database Engine Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft JET Database Engine
+Severity: Important
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1249
+KB: KB4516044
+Title: Jet Database Engine Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft JET Database Engine
+Severity: Important
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1249
+KB: KB4516044
+Title: Jet Database Engine Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft JET Database Engine
+Severity: Important
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1248
+KB: KB4516044
+Title: Jet Database Engine Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft JET Database Engine
+Severity: Important
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1248
+KB: KB4516044
+Title: Jet Database Engine Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft JET Database Engine
+Severity: Important
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1248
+KB: KB4516044
+Title: Jet Database Engine Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft JET Database Engine
+Severity: Important
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1248
+KB: KB4516044
+Title: Jet Database Engine Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft JET Database Engine
+Severity: Important
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-3334
+KB: KB3200970
+Title: Security Update for Common Log File System Driver
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161213
+CVE: CVE-2016-3334
+KB: KB3200970
+Title: Windows Common Log File System Driver Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Common Log File System Driver
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7221
+KB: KB3200970
+Title: Security Update for Microsoft Windows
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1300
+KB: KB4516044
+Title: Chakra Scripting Engine Memory Corruption Vulnerability
+Affected product: Microsoft Edge (EdgeHTML-based) on Windows Server 2016
+Affected component: Microsoft Scripting Engine
+Severity: Moderate
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1300
+KB: KB4516044
+Title: Chakra Scripting Engine Memory Corruption Vulnerability
+Affected product: Microsoft Edge (EdgeHTML-based) on Windows Server 2016
+Affected component: Microsoft Scripting Engine
+Severity: Moderate
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-17138
+KB: KB4593226
+Title: Windows Error Reporting Information Disclosure Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-17138
+KB: KB4593226
+Title: Windows Error Reporting Information Disclosure Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-17138
+KB: KB4593226
+Title: Windows Error Reporting Information Disclosure Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-17138
+KB: KB4593226
+Title: Windows Error Reporting Information Disclosure Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7227
+KB: KB3200970
+Title: Cumulative Security Update for Microsoft Edge
+Affected product: Windows Server 2016  
+Affected component: Microsoft Edge
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20161213
+CVE: CVE-2016-7227
+KB: KB3200970
+Title: Microsoft Browser Information Disclosure Vulnerability
+Affected product: Microsoft Edge (EdgeHTML-based) on Windows Server 2016
+Affected component: Microsoft Browsers
+Severity: Low
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20161213
+CVE: CVE-2016-7227
+KB: KB3200970
+Title: Microsoft Browser Information Disclosure Vulnerability
+Affected product: Internet Explorer 11 on Windows Server 2016
+Affected component: Microsoft Browsers
+Severity: Low
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7222
+KB: KB3200970
+Title: Security Update for Microsoft Windows
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20161123
+CVE: CVE-2016-7222
+KB: KB3200970
+Title: Task Scheduler Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Task Scheduler
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20200512
+CVE: CVE-2020-0646
+KB: KB4532933
+Title: .NET Framework Remote Code Execution Injection Vulnerability
+Affected product: Microsoft .NET Framework 4.8 on Windows Server 2016
+Affected component: .NET Framework
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-0928
+KB: KB4516044
+Title: Windows Hyper-V Denial of Service Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Hyper-V
+Severity: Important
+Impact: Denial of Service
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-0928
+KB: KB4516044
+Title: Windows Hyper-V Denial of Service Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Hyper-V
+Severity: Important
+Impact: Denial of Service
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-0928
+KB: KB4516044
+Title: Windows Hyper-V Denial of Service Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Hyper-V
+Severity: Important
+Impact: Denial of Service
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-0928
+KB: KB4516044
+Title: Windows Hyper-V Denial of Service Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Hyper-V
+Severity: Important
+Impact: Denial of Service
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1278
+KB: KB4516044
+Title: Windows Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1278
+KB: KB4516044
+Title: Windows Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1278
+KB: KB4516044
+Title: Windows Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1278
+KB: KB4516044
+Title: Windows Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16958
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16958
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16958
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16958
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1142
+KB: KB4514354
+Title: .NET Framework Elevation of Privilege Vulnerability
+Affected product: Microsoft .NET Framework 4.8 on Windows Server 2016
+Affected component: .NET Framework
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1142
+KB: KB4516044
+Title: .NET Framework Elevation of Privilege Vulnerability
+Affected product: Microsoft .NET Framework 3.5 on Windows Server 2016
+Affected component: .NET Framework
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1142
+KB: KB4516044
+Title: .NET Framework Elevation of Privilege Vulnerability
+Affected product: Microsoft .NET Framework 3.5 on Windows Server 2016
+Affected component: .NET Framework
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1142
+KB: KB4516044
+Title: .NET Framework Elevation of Privilege Vulnerability
+Affected product: Microsoft .NET Framework 3.5 on Windows Server 2016
+Affected component: .NET Framework
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1142
+KB: KB4516044
+Title: .NET Framework Elevation of Privilege Vulnerability
+Affected product: Microsoft .NET Framework 3.5 on Windows Server 2016
+Affected component: .NET Framework
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20181113
+CVE: CVE-2018-8566
+KB: KB4465659
+Title: BitLocker Security Feature Bypass Vulnerability
+Affected product: Windows Server 2016
+Affected component: BitLocker
+Severity: Important
+Impact: Security Feature Bypass
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7205
+KB: KB3200970
+Title: Security Update for Microsoft Graphics Component
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7205
+KB: KB3200970
+Title: Security Update for Microsoft Graphics Component
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7205
+KB: KB3200970
+Title: Security Update for Microsoft Graphics Component
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7205
+KB: KB3200970
+Title: Security Update for Microsoft Graphics Component
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20161213
+CVE: CVE-2016-7205
+KB: KB3200970
+Title: Windows Animation Manager Memory Corruption Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Graphics Component
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16963
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16963
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16963
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16963
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1220
+KB: KB4516044
+Title: Microsoft Browser Security Feature Bypass Vulnerability
+Affected product: Internet Explorer 11 on Windows Server 2016
+Affected component: Microsoft Browsers
+Severity: Low
+Impact: Security Feature Bypass
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1220
+KB: KB4516044
+Title: Microsoft Browser Security Feature Bypass Vulnerability
+Affected product: Internet Explorer 11 on Windows Server 2016
+Affected component: Microsoft Browsers
+Severity: Low
+Impact: Security Feature Bypass
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1220
+KB: KB4516044
+Title: Microsoft Browser Security Feature Bypass Vulnerability
+Affected product: Microsoft Edge (EdgeHTML-based) on Windows Server 2016
+Affected component: Microsoft Browsers
+Severity: Low
+Impact: Security Feature Bypass
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1220
+KB: KB4516044
+Title: Microsoft Browser Security Feature Bypass Vulnerability
+Affected product: Microsoft Edge (EdgeHTML-based) on Windows Server 2016
+Affected component: Microsoft Browsers
+Severity: Low
+Impact: Security Feature Bypass
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1287
+KB: KB4516044
+Title: Windows Network Connectivity Assistant Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1287
+KB: KB4516044
+Title: Windows Network Connectivity Assistant Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1287
+KB: KB4516044
+Title: Windows Network Connectivity Assistant Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1287
+KB: KB4516044
+Title: Windows Network Connectivity Assistant Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16960
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16960
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16960
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-16960
+KB: KB4593226
+Title: Windows Backup Engine Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Backup Engine
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190709
+CVE: CVE-2019-1113
+KB: KB4506986
+Title: .NET Framework Remote Code Execution Vulnerability
+Affected product: Microsoft .NET Framework 4.8 on Windows Server 2016
+Affected component: .NET Framework
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7202
+KB: KB3200970
+Title: Cumulative Security Update for Microsoft Edge
+Affected product: Windows Server 2016  
+Affected component: Microsoft Edge
+Severity: Critical
+Impact: Remote Code Execution
+Exploits: https://www.exploit-db.com/exploits/40786/, https://www.exploit-db.com/exploits/40793/
+
+Date: 20161213
+CVE: CVE-2016-7202
+KB: KB3200970
+Title: Scripting Engine Memory Corruption Vulnerability
+Affected product: Microsoft Edge (EdgeHTML-based) on Windows Server 2016
+Affected component: Microsoft Browsers
+Severity: Moderate
+Impact: Remote Code Execution
+Exploits: https://www.exploit-db.com/exploits/40786/, https://www.exploit-db.com/exploits/40793/
+
+Date: 20180801
+CVE: CVE-2018-8202
+KB: KB4346877
+Title: .NET Framework Elevation of Privilege Vulnerability
+Affected product: Microsoft .NET Framework 3.5 on Windows Server 2016
+Affected component: .NET Framework
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20180801
+CVE: CVE-2018-8202
+KB: KB4346877
+Title: .NET Framework Elevation of Privilege Vulnerability
+Affected product: Microsoft .NET Framework 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2016
+Affected component: .NET Framework
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20180801
+CVE: CVE-2018-8202
+KB: KB4346877
+Title: .NET Framework Elevation of Privilege Vulnerability
+Affected product: Microsoft .NET Framework 3.5 on Windows Server 2016
+Affected component: .NET Framework
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20180801
+CVE: CVE-2018-8202
+KB: KB4346877
+Title: .NET Framework Elevation of Privilege Vulnerability
+Affected product: Microsoft .NET Framework 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2016
+Affected component: .NET Framework
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20191008
+CVE: CVE-2019-1316
+KB: KB4519335
+Title: Microsoft Windows Setup Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Windows
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-3342
+KB: KB3200970
+Title: Security Update for Common Log File System Driver
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161213
+CVE: CVE-2016-3342
+KB: KB3200970
+Title: Windows Common Log File System Driver Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Common Log File System Driver
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1286
+KB: KB4516044
+Title: Windows GDI Information Disclosure Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Graphics Component
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1286
+KB: KB4516044
+Title: Windows GDI Information Disclosure Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Graphics Component
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1286
+KB: KB4516044
+Title: Windows GDI Information Disclosure Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Graphics Component
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1286
+KB: KB4516044
+Title: Windows GDI Information Disclosure Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft Graphics Component
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1254
+KB: KB4516044
+Title: Windows Hyper-V Information Disclosure Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Hyper-V
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1254
+KB: KB4516044
+Title: Windows Hyper-V Information Disclosure Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Hyper-V
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1254
+KB: KB4516044
+Title: Windows Hyper-V Information Disclosure Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Hyper-V
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1254
+KB: KB4516044
+Title: Windows Hyper-V Information Disclosure Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Hyper-V
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1242
+KB: KB4516044
+Title: Jet Database Engine Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft JET Database Engine
+Severity: Important
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1242
+KB: KB4516044
+Title: Jet Database Engine Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft JET Database Engine
+Severity: Important
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1242
+KB: KB4516044
+Title: Jet Database Engine Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft JET Database Engine
+Severity: Important
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1242
+KB: KB4516044
+Title: Jet Database Engine Remote Code Execution Vulnerability
+Affected product: Windows Server 2016
+Affected component: Microsoft JET Database Engine
+Severity: Important
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1282
+KB: KB4516044
+Title: Windows Common Log File System Driver Information Disclosure Vulnerability
+Affected product: Windows Server 2016
+Affected component: Common Log File System Driver
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1282
+KB: KB4516044
+Title: Windows Common Log File System Driver Information Disclosure Vulnerability
+Affected product: Windows Server 2016
+Affected component: Common Log File System Driver
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1282
+KB: KB4516044
+Title: Windows Common Log File System Driver Information Disclosure Vulnerability
+Affected product: Windows Server 2016
+Affected component: Common Log File System Driver
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20190910
+CVE: CVE-2019-1282
+KB: KB4516044
+Title: Windows Common Log File System Driver Information Disclosure Vulnerability
+Affected product: Windows Server 2016
+Affected component: Common Log File System Driver
+Severity: Important
+Impact: Information Disclosure
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7184
+KB: KB3200970
+Title: Security Update for Common Log File System Driver
+Affected product: Windows Server 2016
+Affected component: 
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20161213
+CVE: CVE-2016-7184
+KB: KB3200970
+Title: Windows Common Log File System Driver Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Common Log File System Driver
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-17099
+KB: KB4593226
+Title: Windows Lock Screen Security Feature Bypass Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Lock Screen
+Severity: Important
+Impact: Security Feature Bypass
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-17099
+KB: KB4593226
+Title: Windows Lock Screen Security Feature Bypass Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Lock Screen
+Severity: Important
+Impact: Security Feature Bypass
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-17099
+KB: KB4593226
+Title: Windows Lock Screen Security Feature Bypass Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Lock Screen
+Severity: Important
+Impact: Security Feature Bypass
+Exploit: n/a
+
+Date: 20201208
+CVE: CVE-2020-17099
+KB: KB4593226
+Title: Windows Lock Screen Security Feature Bypass Vulnerability
+Affected product: Windows Server 2016
+Affected component: Windows Lock Screen
+Severity: Important
+Impact: Security Feature Bypass
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7242
+KB: KB3200970
+Title: Cumulative Security Update for Microsoft Edge
+Affected product: Windows Server 2016  
+Affected component: Microsoft Edge
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20161108
+CVE: CVE-2016-7242
+KB: KB3200970
+Title: Scripting Engine Memory Corruption Vulnerability
+Affected product: Microsoft Edge (EdgeHTML-based) on Windows Server 2016
+Affected component: Microsoft Edge
+Severity: Moderate
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20191008
+CVE: CVE-2019-1232
+KB: KB4516044
+Title: Diagnostics Hub Standard Collector Service Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Visual Studio
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20191008
+CVE: CVE-2019-1232
+KB: KB4516044
+Title: Diagnostics Hub Standard Collector Service Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Visual Studio
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20191008
+CVE: CVE-2019-1232
+KB: KB4516044
+Title: Diagnostics Hub Standard Collector Service Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Visual Studio
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20191008
+CVE: CVE-2019-1232
+KB: KB4516044
+Title: Diagnostics Hub Standard Collector Service Elevation of Privilege Vulnerability
+Affected product: Windows Server 2016
+Affected component: Visual Studio
+Severity: Important
+Impact: Elevation of Privilege
+Exploit: n/a
+
+[+] Missing patches: 26
+    - KB4516044: patches 178 vulnerabilities
+    - KB3200970: patches 110 vulnerabilities
+    - KB4593226: patches 68 vulnerabilities
+    - KB4578969: patches 5 vulnerabilities
+    - KB4346877: patches 4 vulnerabilities
+    - KB4506986: patches 3 vulnerabilities
+    - KB4552926: patches 2 vulnerabilities
+    - KB4532933: patches 2 vulnerabilities
+    - KB4565912: patches 1 vulnerability
+    - KB4524244: patches 1 vulnerability
+    - KB4483229: patches 1 vulnerability
+    - KB4093110: patches 1 vulnerability
+    - KB4016635: patches 1 vulnerability
+    - KB4022723: patches 1 vulnerability
+    - KB4025376: patches 1 vulnerability
+    - KB4487006: patches 1 vulnerability
+    - KB4487038: patches 1 vulnerability
+    - KB4477029: patches 1 vulnerability
+    - KB4074595: patches 1 vulnerability
+    - KB4569746: patches 1 vulnerability
+    - KB4048951: patches 1 vulnerability
+    - KB4516115: patches 1 vulnerability
+    - KB4580325: patches 1 vulnerability
+    - KB4514354: patches 1 vulnerability
+    - KB4465659: patches 1 vulnerability
+    - KB4519335: patches 1 vulnerability
+[+] KB with the most recent release date
+    - ID: KB4593226
+    - Release date: 20201209
+
+[+] Done. Displaying 390 of the 390 vulnerabilities found.

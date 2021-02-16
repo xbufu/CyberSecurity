@@ -1,0 +1,26 @@
+Open ports:
+	
+	22/TCP 		SSH
+	25/TCP 		SMTP
+	80/TCP 		HTTP
+	443/TCP 	SSL/HTTPS
+	5667/TCP	 tcpwrapped
+
+HTTP:
+	Convert element names to numbers
+	Ag Hg Ta Sb Po Pd Hg Pt Lr
+	047 080 073 051 084 046 080 078 103
+	Converts to /PI3T.PNg
+
+	After converting to .ppm and running it led to credentials
+	nagiosadmin:n3p3UQ&9BjLp4$7uhWdY
+
+	Found /nagiosxi/ in source of index.html
+	Redirects to Nagios XI login page
+
+Leverage CVE-2019-15949 in metasploit to get shell or
+
+Manual way:
+php/webapps/47299.php
+install php-curl and php-dom and switch to http
+disable ssl

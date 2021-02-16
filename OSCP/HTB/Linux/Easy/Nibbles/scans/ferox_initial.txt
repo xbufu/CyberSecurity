@@ -1,0 +1,12 @@
+403       11l       32w      299c http://nibbles.htb/server-status
+403       11l       32w      295c http://nibbles.htb/.htaccess
+403       11l       32w      299c http://nibbles.htb/.htaccess.php
+403       11l       32w      300c http://nibbles.htb/.htaccess.html
+403       11l       32w      298c http://nibbles.htb/.htaccess.js
+403       11l       32w      299c http://nibbles.htb/.htaccess.txt
+200       16l        9w       93c http://nibbles.htb/index.html
+403       11l       32w      295c http://nibbles.htb/.htpasswd
+403       11l       32w      299c http://nibbles.htb/.htpasswd.php
+403       11l       32w      300c http://nibbles.htb/.htpasswd.html
+403       11l       32w      298c http://nibbles.htb/.htpasswd.js
+403       11l       32w      299c http://nibbles.htb/.htpasswd.txt

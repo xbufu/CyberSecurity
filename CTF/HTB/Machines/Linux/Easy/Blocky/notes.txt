@@ -1,0 +1,29 @@
+80:
+	- Apache 2.4.18
+	- Found WordPress 4.8
+	- Found user notch
+	- Found wordpress login
+		/wp-admin
+
+	- Found phpMyAdmin login
+		/pypmyadmin
+
+	- phpMyAdmin version 4.5.4.1
+
+	- Found downloadable files at /plugins/files/BlockyCore.jar
+
+	- Found credentials after decompiling
+		root:8YsqfCTnvxAUeduzjNSXe22
+	
+	- Work for phpMyAdmin
+
+	- Found hash for wordpress user notch
+		$P$BiVoTj899ItS1EZnMhqeqVbrZI4Oq0/
+
+RCE:
+	- SSH with 
+		notch:8YsqfCTnvxAUeduzjNSXe22
+	
+PrivEsc:
+	- Notch can run all commands with sudo
+

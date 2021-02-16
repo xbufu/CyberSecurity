@@ -1,0 +1,49 @@
+[*] ssh found on tcp/22.
+
+
+
+[*] http found on tcp/80.
+
+
+- Default Apache webpage
+- Got Apache version 2.4.29 running on Ubuntu from error message
+
+Found phpMyAdmin login page at /phpmyadmin/
+Found wordpress blog at /blog/
+Need to add internal.thm to /etc/hosts to access links
+Discovered wordpress login at http://internal.thm/blog/wp-login.php
+
+Wordpress version 5.4.2
+Bruteforced credentials with wpscan
+
+admin:my2boys
+
+Got RCE with php reverse shell in themes
+
+Found user aubreanna
+
+Found MySQL credentials
+
+wordpress:wordpress123 in /var/www/html/wordpress/wp-config.php
+phpmyadmin:B2Ud4fEOZmVq in /etc/phpmyadmin/config-db.php
+
+admin hash $P$BOFWK.UcwNR/tV/nZZvSA6j3bz/WIp/
+
+Found credentials in /opt/wp-save.txt
+
+aubreanna:bubb13guM!@#123
+
+jenkins.txt in home directory indicates that Jenkins service is running on 172.17.0.2:8080
+use SSH tunnel to expose port to local machine
+
+ssh -L 5555:127.0.0.1:8080 aubreanna@internal.thm
+
+Could bruteforce Jenkins login form
+
+admin:spongebob
+
+Got RCE through script console
+
+Found root credentials in /opt/note.txt
+
+root:tr0ub13guM!@#123

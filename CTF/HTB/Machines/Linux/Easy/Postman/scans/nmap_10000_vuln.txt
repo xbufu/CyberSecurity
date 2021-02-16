@@ -1,0 +1,32 @@
+# Nmap 7.91 scan initiated Thu Jan 21 17:19:26 2021 as: nmap --script=vuln -p 10000 -Pn -vvv -oN scans/nmap_10000_vuln.txt postman
+Pre-scan script results:
+| broadcast-avahi-dos: 
+|   Discovered hosts:
+|     224.0.0.251
+|   After NULL UDP avahi packet DoS (CVE-2011-1002).
+|_  Hosts are all up (not vulnerable).
+Nmap scan report for postman (10.10.10.160)
+Host is up, received user-set (0.049s latency).
+rDNS record for 10.10.10.160: postman.htb
+Scanned at 2021-01-21 17:20:00 CET for 11s
+
+PORT      STATE SERVICE          REASON
+10000/tcp open  snet-sensor-mgmt syn-ack
+| http-vuln-cve2006-3392: 
+|   VULNERABLE:
+|   Webmin File Disclosure
+|     State: VULNERABLE (Exploitable)
+|     IDs:  CVE:CVE-2006-3392
+|       Webmin before 1.290 and Usermin before 1.220 calls the simplify_path function before decoding HTML.
+|       This allows arbitrary files to be read, without requiring authentication, using "..%01" sequences
+|       to bypass the removal of "../" directory traversal sequences.
+|       
+|     Disclosure date: 2006-06-29
+|     References:
+|       http://www.exploit-db.com/exploits/1997/
+|       http://www.rapid7.com/db/modules/auxiliary/admin/webmin/file_disclosure
+|_      https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2006-3392
+|_sslv2-drown: 
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Thu Jan 21 17:20:11 2021 -- 1 IP address (1 host up) scanned in 45.00 seconds

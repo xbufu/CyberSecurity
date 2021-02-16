@@ -1,0 +1,164 @@
+[1m[38;2;0;255;0m.[38;2;0;255;6m-[38;2;0;255;13m-[38;2;0;255;19m-[38;2;0;255;25m-[38;2;0;255;32m.[38;2;0;255;38m [38;2;0;255;45m.[38;2;0;255;51m-[38;2;0;255;57m.[38;2;0;255;64m [38;2;0;255;70m.[38;2;0;255;76m-[38;2;0;255;83m.[38;2;0;255;89m [38;2;0;255;96m.[38;2;0;255;102m-[38;2;0;255;108m-[38;2;0;255;115m-[38;2;0;255;121m-[38;2;0;255;127m.[38;2;0;255;134m.[38;2;0;255;140m-[38;2;0;255;147m-[38;2;0;255;153m-[38;2;0;255;159m.[38;2;0;255;166m [38;2;0;255;172m [38;2;0;255;178m.[38;2;0;255;185m-[38;2;0;255;191m-[38;2;0;255;198m-[38;2;0;255;204m-[38;2;0;255;210m.[38;2;0;255;217m [38;2;0;255;223m.[38;2;0;255;229m-[38;2;0;255;236m-[38;2;0;255;242m-[38;2;0;255;249m.[38;2;0;255;255m [38;2;0;249;255m [38;2;0;242;255m [38;2;0;236;255m.[38;2;0;230;255m-[38;2;0;223;255m-[38;2;0;217;255m.[38;2;0;210;255m [38;2;0;204;255m [38;2;0;198;255m.[38;2;0;191;255m-[38;2;0;185;255m.[38;2;0;179;255m [38;2;0;172;255m.[38;2;0;166;255m-[38;2;0;159;255m.[0m
+[38;2;0;255;0m|[38;2;0;255;6m [38;2;0;255;13m{[38;2;0;255;19m}[38;2;0;255;25m [38;2;0;255;32m [38;2;0;255;38m}[38;2;0;255;45m|[38;2;0;255;51m [38;2;0;255;57m{[38;2;0;255;64m [38;2;0;255;70m}[38;2;0;255;76m [38;2;0;255;83m|[38;2;0;255;89m{[38;2;0;255;96m [38;2;0;255;102m{[38;2;0;255;108m_[38;2;0;255;115m_[38;2;0;255;121m [38;2;0;255;127m{[38;2;0;255;134m_[38;2;0;255;140m [38;2;0;255;147m [38;2;0;255;153m [38;2;0;255;159m_[38;2;0;255;166m}[38;2;0;255;172m{[38;2;0;255;178m [38;2;0;255;185m{[38;2;0;255;191m_[38;2;0;255;198m_[38;2;0;255;204m [38;2;0;255;210m [38;2;0;255;217m/[38;2;0;255;223m [38;2;0;255;229m [38;2;0;255;236m_[38;2;0;255;242m_[38;2;0;255;249m_[38;2;0;255;255m}[38;2;0;249;255m [38;2;0;242;255m/[38;2;0;236;255m [38;2;0;230;255m{[38;2;0;223;255m}[38;2;0;217;255m [38;2;0;210;255m\[38;2;0;204;255m [38;2;0;198;255m|[38;2;0;191;255m [38;2;0;185;255m [38;2;0;179;255m`[38;2;0;172;255m|[38;2;0;166;255m [38;2;0;159;255m|[0m
+[38;2;0;255;0m|[38;2;0;255;6m [38;2;0;255;13m.[38;2;0;255;19m-[38;2;0;255;25m.[38;2;0;255;32m [38;2;0;255;38m\[38;2;0;255;45m|[38;2;0;255;51m [38;2;0;255;57m{[38;2;0;255;64m_[38;2;0;255;70m}[38;2;0;255;76m [38;2;0;255;83m|[38;2;0;255;89m.[38;2;0;255;96m-[38;2;0;255;102m.[38;2;0;255;108m_[38;2;0;255;115m}[38;2;0;255;121m [38;2;0;255;127m}[38;2;0;255;134m [38;2;0;255;140m|[38;2;0;255;147m [38;2;0;255;153m|[38;2;0;255;159m [38;2;0;255;166m [38;2;0;255;172m.[38;2;0;255;178m-[38;2;0;255;185m.[38;2;0;255;191m_[38;2;0;255;198m}[38;2;0;255;204m [38;2;0;255;210m}[38;2;0;255;217m\[38;2;0;255;223m [38;2;0;255;229m [38;2;0;255;236m [38;2;0;255;242m [38;2;0;255;249m [38;2;0;255;255m}[38;2;0;249;255m/[38;2;0;242;255m [38;2;0;236;255m [38;2;0;230;255m/[38;2;0;223;255m\[38;2;0;217;255m [38;2;0;210;255m [38;2;0;204;255m\[38;2;0;198;255m|[38;2;0;191;255m [38;2;0;185;255m|[38;2;0;179;255m\[38;2;0;172;255m [38;2;0;166;255m [38;2;0;159;255m|[0m
+[38;2;0;255;0m`[38;2;0;255;6m-[38;2;0;255;13m'[38;2;0;255;19m [38;2;0;255;25m`[38;2;0;255;32m-[38;2;0;255;38m'[38;2;0;255;45m`[38;2;0;255;51m-[38;2;0;255;57m-[38;2;0;255;64m-[38;2;0;255;70m-[38;2;0;255;76m-[38;2;0;255;83m'[38;2;0;255;89m`[38;2;0;255;96m-[38;2;0;255;102m-[38;2;0;255;108m-[38;2;0;255;115m-[38;2;0;255;121m'[38;2;0;255;127m [38;2;0;255;134m [38;2;0;255;140m`[38;2;0;255;147m-[38;2;0;255;153m'[38;2;0;255;159m [38;2;0;255;166m [38;2;0;255;172m`[38;2;0;255;178m-[38;2;0;255;185m-[38;2;0;255;191m-[38;2;0;255;198m-[38;2;0;255;204m'[38;2;0;255;210m [38;2;0;255;217m [38;2;0;255;223m`[38;2;0;255;229m-[38;2;0;255;236m-[38;2;0;255;242m-[38;2;0;255;249m'[38;2;0;255;255m [38;2;0;249;255m`[38;2;0;242;255m-[38;2;0;236;255m'[38;2;0;230;255m [38;2;0;223;255m [38;2;0;217;255m`[38;2;0;210;255m-[38;2;0;204;255m'[38;2;0;198;255m`[38;2;0;191;255m-[38;2;0;185;255m'[38;2;0;179;255m [38;2;0;172;255m`[38;2;0;166;255m-[38;2;0;159;255m'[0m
+[38;2;0;255;0mT[38;2;0;255;6mh[38;2;0;255;13me[38;2;0;255;19m [38;2;0;255;25mM[38;2;0;255;32mo[38;2;0;255;38md[38;2;0;255;45me[38;2;0;255;51mr[38;2;0;255;57mn[38;2;0;255;64m [38;2;0;255;70mD[38;2;0;255;76ma[38;2;0;255;83my[38;2;0;255;89m [38;2;0;255;96mP[38;2;0;255;102mo[38;2;0;255;108mr[38;2;0;255;115mt[38;2;0;255;121m [38;2;0;255;127mS[38;2;0;255;134mc[38;2;0;255;140ma[38;2;0;255;147mn[38;2;0;255;153mn[38;2;0;255;159me[38;2;0;255;166mr[38;2;0;255;172m.[0m[0m
+[1m[38;2;255;255;0m_[38;2;249;255;0m_[38;2;242;255;0m_[38;2;236;255;0m_[38;2;230;255;0m_[38;2;223;255;0m_[38;2;217;255;0m_[38;2;210;255;0m_[38;2;204;255;0m_[38;2;198;255;0m_[38;2;191;255;0m_[38;2;185;255;0m_[38;2;179;255;0m_[38;2;172;255;0m_[38;2;166;255;0m_[38;2;159;255;0m_[38;2;153;255;0m_[38;2;147;255;0m_[38;2;140;255;0m_[38;2;134;255;0m_[38;2;128;255;0m_[38;2;121;255;0m_[38;2;115;255;0m_[38;2;108;255;0m_[38;2;102;255;0m_[38;2;96;255;0m_[38;2;89;255;0m_[38;2;83;255;0m_[38;2;77;255;0m_[38;2;70;255;0m_[38;2;64;255;0m_[38;2;57;255;0m_[38;2;51;255;0m_[38;2;45;255;0m_[38;2;38;255;0m_[38;2;32;255;0m_[38;2;26;255;0m_[38;2;19;255;0m_[38;2;13;255;0m_[38;2;6;255;0m_[0m
+[38;2;255;255;0m:[38;2;249;255;0m [38;2;242;255;0mh[38;2;236;255;0mt[38;2;230;255;0mt[38;2;223;255;0mp[38;2;217;255;0ms[38;2;210;255;0m:[38;2;204;255;0m/[38;2;198;255;0m/[38;2;191;255;0md[38;2;185;255;0mi[38;2;179;255;0ms[38;2;172;255;0mc[38;2;166;255;0mo[38;2;159;255;0mr[38;2;153;255;0md[38;2;147;255;0m.[38;2;140;255;0mg[38;2;134;255;0mg[38;2;128;255;0m/[38;2;121;255;0mG[38;2;115;255;0mF[38;2;108;255;0mr[38;2;102;255;0mQ[38;2;96;255;0ms[38;2;89;255;0mG[38;2;83;255;0my[38;2;77;255;0m [38;2;70;255;0m [38;2;64;255;0m [38;2;57;255;0m [38;2;51;255;0m [38;2;45;255;0m [38;2;38;255;0m [38;2;32;255;0m [38;2;26;255;0m [38;2;19;255;0m [38;2;13;255;0m [38;2;6;255;0m:[0m
+[38;2;255;255;0m:[38;2;249;255;0m [38;2;242;255;0mh[38;2;236;255;0mt[38;2;230;255;0mt[38;2;223;255;0mp[38;2;217;255;0ms[38;2;210;255;0m:[38;2;204;255;0m/[38;2;198;255;0m/[38;2;191;255;0mg[38;2;185;255;0mi[38;2;179;255;0mt[38;2;172;255;0mh[38;2;166;255;0mu[38;2;159;255;0mb[38;2;153;255;0m.[38;2;147;255;0mc[38;2;140;255;0mo[38;2;134;255;0mm[38;2;128;255;0m/[38;2;121;255;0mR[38;2;115;255;0mu[38;2;108;255;0ms[38;2;102;255;0mt[38;2;96;255;0mS[38;2;89;255;0mc[38;2;83;255;0ma[38;2;77;255;0mn[38;2;70;255;0m/[38;2;64;255;0mR[38;2;57;255;0mu[38;2;51;255;0ms[38;2;45;255;0mt[38;2;38;255;0mS[38;2;32;255;0mc[38;2;26;255;0ma[38;2;19;255;0mn[38;2;13;255;0m [38;2;6;255;0m:[0m
+[38;2;255;255;0m [38;2;249;255;0m-[38;2;242;255;0m-[38;2;236;255;0m-[38;2;230;255;0m-[38;2;223;255;0m-[38;2;217;255;0m-[38;2;210;255;0m-[38;2;204;255;0m-[38;2;198;255;0m-[38;2;191;255;0m-[38;2;185;255;0m-[38;2;179;255;0m-[38;2;172;255;0m-[38;2;166;255;0m-[38;2;159;255;0m-[38;2;153;255;0m-[38;2;147;255;0m-[38;2;140;255;0m-[38;2;134;255;0m-[38;2;128;255;0m-[38;2;121;255;0m-[38;2;115;255;0m-[38;2;108;255;0m-[38;2;102;255;0m-[38;2;96;255;0m-[38;2;89;255;0m-[38;2;83;255;0m-[38;2;77;255;0m-[38;2;70;255;0m-[38;2;64;255;0m-[38;2;57;255;0m-[38;2;51;255;0m-[38;2;45;255;0m-[38;2;38;255;0m-[38;2;32;255;0m-[38;2;26;255;0m-[38;2;19;255;0m-[38;2;13;255;0m-[0m[0m
+Please contribute more quotes to our GitHub https://github.com/rustscan/rustscan
+
+[1;34m[~][0m The config file is expected to be at "/root/.rustscan.toml"
+[1;34m[~][0m Automatically increasing ulimit value to 5000.
+Open 10.10.10.216:80
+Open 10.10.10.216:22
+Open 10.10.10.216:443
+[1;34m[~][0m Starting Script(s)
+[1;38;2;0;255;9m[>][0m Script to be run Some("nmap -vvv -p {{port}} {{ip}}")
+
+[1;34m[~][0m Starting Nmap 7.91 ( https://nmap.org ) at 2021-01-22 17:53 CET
+NSE: Loaded 153 scripts for scanning.
+NSE: Script Pre-scanning.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 17:53
+Completed NSE at 17:53, 0.00s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 17:53
+Completed NSE at 17:53, 0.00s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 17:53
+Completed NSE at 17:53, 0.00s elapsed
+Initiating SYN Stealth Scan at 17:53
+Scanning laboratory.htb (10.10.10.216) [3 ports]
+Discovered open port 443/tcp on 10.10.10.216
+Discovered open port 22/tcp on 10.10.10.216
+Discovered open port 80/tcp on 10.10.10.216
+Completed SYN Stealth Scan at 17:53, 0.23s elapsed (3 total ports)
+Initiating Service scan at 17:53
+Scanning 3 services on laboratory.htb (10.10.10.216)
+Completed Service scan at 17:54, 12.43s elapsed (3 services on 1 host)
+Initiating OS detection (try #1) against laboratory.htb (10.10.10.216)
+Retrying OS detection (try #2) against laboratory.htb (10.10.10.216)
+Initiating Traceroute at 17:54
+Completed Traceroute at 17:54, 0.07s elapsed
+Initiating Parallel DNS resolution of 1 host. at 17:54
+Completed Parallel DNS resolution of 1 host. at 17:54, 0.04s elapsed
+DNS resolution of 1 IPs took 0.04s. Mode: Async [#: 1, OK: 0, NX: 1, DR: 0, SF: 0, TR: 1, CN: 0]
+NSE: Script scanning 10.10.10.216.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 17:54
+Completed NSE at 17:54, 4.47s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 17:54
+Completed NSE at 17:54, 1.13s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 17:54
+Completed NSE at 17:54, 0.00s elapsed
+Nmap scan report for laboratory.htb (10.10.10.216)
+Host is up, received user-set (0.055s latency).
+Scanned at 2021-01-22 17:53:55 CET for 23s
+
+PORT    STATE SERVICE  REASON         VERSION
+22/tcp  open  ssh      syn-ack ttl 63 OpenSSH 8.2p1 Ubuntu 4ubuntu0.1 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   3072 25:ba:64:8f:79:9d:5d:95:97:2c:1b:b2:5e:9b:55:0d (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDgQJSAqI9ACg4p9MsJK16MppJCzCqsvfEqplchcPyLstzX6Mq0fiB2cmoPcSq2759YEKmgRUBgXvNaJQYD4gAe+W3FAMlSzIsZTo7WnOEsucWgqNbto2aDibHV0UxKDNd8rncw8O6FknuvpRItw1/vNT87E3sPQRrpeO6jpvdzZlOou0bBu3/VE8TmS9Vnx4flNPeB1gs+Ll2FWzSQXVgHK5nIIiiZaHDu1KWNj26JcDLqvP1AcGxW11hl3enBW4kq9PJZY5mcV0RGXFWKue4BGT9L5qDaeIX2x2OQ5kALhn/xJvV/4KbW6unhiX0g2kC4yZZnp7pBNtV1KfE4FAHc5Xwcl0Gab7KO3rKTIjP9PDyPSRbiE2sp2bJVi9G8uvZKS/2wI3FIIsI8j6oXkoWTXBL4YhbU+iMCr3YdxwHcJ1UkVUWdc89wg6+VOG1yvn2NgbHVWyTcz7DttGY46zxN/wz5mmC0yZ/I7bLiIGxCwtBGpD+rkOOYXTU1h9W1L+s=
+|   256 28:00:89:05:55:f9:a2:ea:3c:7d:70:ea:4d:ea:60:0f (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBIWsY50adCl+HUi6y+6Q0088DEjPAKeQn5Hr654JBzJ7WDmY9Kh464bkQDFkz6d2sLKkN1z37jJ2ttb/aIiGWbQ=
+|   256 77:20:ff:e9:46:c0:68:92:1a:0b:21:29:d1:53:aa:87 (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKhTZ8nCERubc+P4OLUhXA13B0i7oYI/lhvt1uwMuDPl
+80/tcp  open  http     syn-ack ttl 63 Apache httpd 2.4.41
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+|_http-title: Did not follow redirect to https://laboratory.htb/
+443/tcp open  ssl/http syn-ack ttl 63 Apache httpd 2.4.41 ((Ubuntu))
+| http-methods: 
+|_  Supported Methods: GET POST OPTIONS HEAD
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+|_http-title: The Laboratory
+| ssl-cert: Subject: commonName=laboratory.htb
+| Subject Alternative Name: DNS:git.laboratory.htb
+| Issuer: commonName=laboratory.htb
+| Public Key type: rsa
+| Public Key bits: 4096
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2020-07-05T10:39:28
+| Not valid after:  2024-03-03T10:39:28
+| MD5:   2873 91a5 5022 f323 4b95 df98 b61a eb6c
+| SHA-1: 0875 3a7e eef6 8f50 0349 510d 9fbf abc3 c70a a1ca
+| -----BEGIN CERTIFICATE-----
+| MIIE4TCCAsmgAwIBAgIUWcpHILpGTrJgl2qd8bAUHpzVmnkwDQYJKoZIhvcNAQEL
+| BQAwGTEXMBUGA1UEAwwObGFib3JhdG9yeS5odGIwHhcNMjAwNzA1MTAzOTI4WhcN
+| MjQwMzAzMTAzOTI4WjAZMRcwFQYDVQQDDA5sYWJvcmF0b3J5Lmh0YjCCAiIwDQYJ
+| KoZIhvcNAQEBBQADggIPADCCAgoCggIBAL48PMhB8KanqCnLpdhppNVYWJ/lLckS
+| g+1VIhn1b1p6AjiuSj+HWC5i8dtaJaWypGCDFqrN3+wwy3R/G9J/40+BzRtUoX4E
+| 4LImI7z5NIVAksBXKl4VxhB+vEJNljrLr3EZM1MmBTFL/2o628IAmKmo7mu+DjZ3
+| +iauuRCMsTTmCjzpoBoWzcOO05+dedYCbc3P2gv6Ajc3XONajmEseX3xjHZOmMIf
+| sN4Wr7s4o/cOhwswjtFxmiE3UKV2q2bHLXtyzy2ch3P7xZCAgtHCjFNmrDyxd5uR
+| 5SVgIwh0K3BDaoD3mTt7AzIjvT8XJLV46DgeJxGNEQRxqBbKz9JfYoX+dOpK6cq1
+| N3/FnEHRn/NDravqOGzFCfuRCBo3O58na+6Seod8qro9O9rbHMqLVt+3RK19Ys8B
+| q4BBwEAthLBua5gwDIUgzPrVtGE1VvdAadvsPV5OKp3C/BT3SIDgecZoEAEwei1Y
+| Gx/7uV4+LIQOv+VirsuFrUrZKYEsoWR3TVnN5QijjW6VxJc0CVpjNb0r1hKNLZdt
+| LyhpqrPHevM/F8QmQ9L4bwlbtn2ZMVgs/jySYZy95QzZ0Pof8cCujEABJNsj8Chp
+| s36Em00ihwnp64wVqQrGVqkRkminUmEezrAbqmIsMf7kEh+5JR49cBrIVpbzwwE9
+| qBCYTk66LFw3AgMBAAGjITAfMB0GA1UdEQQWMBSCEmdpdC5sYWJvcmF0b3J5Lmh0
+| YjANBgkqhkiG9w0BAQsFAAOCAgEAPyE779gsfBsAE9R2C3Sdh9IDkknSHA18Mj2M
+| QMJDREjkdRVFCgsZ1cTo/qMOKGaBh+NkzgTTP4D0w//NADt3B72ihnjVY5cQlAWN
+| XvhrXYnEFmvoHChDLpbDwk32PstkCoDWXXIzDLx3O0q4u0JojCQkpbKVGlaqMrLs
+| wOTE/A0f68U+Z8CS5VUX+MSkG4wnsQrrywyGxif0RuuCh9AAuIvmcqy0uSBD70+c
+| L0bfKKKbz1PEB8tCin69nMZmOFcIC9lbesjaynEvccoHzDp5lhHlUdC+UPHH+xCS
+| WO1W0rqXvOxd4wdjH95FOrMkvwCbMMLQHYaHuDPS276FTiAPpWaPEB+FJFlfvUk5
+| K8bHKu8DuHRFUn45ocM10bWPTv1HunXMTIwVYZlk8sELk2nEnQRU3V6PQaZcZ7ao
+| Ss4CWb8n3gBUK9tFT7jKtY92tDHVgA4xOJPA+5iaywJv/SHiFZqlg4oUFnVXFqCr
+| 9UVIxY0lD19kgFtKdZwskf/4hYoUMIc4HDR3smD2mSMA8LM4sGvAcfEQrfyuOTOl
+| SX1p9J3bFm4KjweThqAHDazDYCuovigGq08M/OoFbyHQzpQknTZH5gXxo3dwUEnO
+| 1n/rzqnLQaB+668enfCFrbZcuCKHXhRDGVraOLax54JZrnih0EN7Pd03J3yQv1xg
+| sOJcO+0=
+|_-----END CERTIFICATE-----
+| tls-alpn: 
+|_  http/1.1
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+OS fingerprint not ideal because: Missing a closed TCP port so results incomplete
+Aggressive OS guesses: Linux 4.15 - 5.6 (92%), Linux 5.0 (92%), Linux 5.0 - 5.4 (91%), Linux 5.3 - 5.4 (91%), Linux 2.6.32 (91%), Linux 5.0 - 5.3 (90%), Crestron XPanel control system (90%), Linux 5.4 (89%), ASUS RT-N56U WAP (Linux 3.4) (87%), Linux 3.1 (87%)
+No exact OS matches for host (test conditions non-ideal).
+TCP/IP fingerprint:
+SCAN(V=7.91%E=4%D=1/22%OT=22%CT=%CU=%PV=Y%DS=2%DC=T%G=N%TM=600B033A%P=x86_64-pc-linux-gnu)
+SEQ(SP=108%GCD=1%ISR=10E%TI=Z%II=I%TS=A)
+OPS(O1=M54DST11NW7%O2=M54DST11NW7%O3=M54DNNT11NW7%O4=M54DST11NW7%O5=M54DST11NW7%O6=M54DST11)
+WIN(W1=FE88%W2=FE88%W3=FE88%W4=FE88%W5=FE88%W6=FE88)
+ECN(R=Y%DF=Y%TG=40%W=FAF0%O=M54DNNSNW7%CC=Y%Q=)
+T1(R=Y%DF=Y%TG=40%S=O%A=S+%F=AS%RD=0%Q=)
+T2(R=N)
+T3(R=N)
+T4(R=Y%DF=Y%TG=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)
+U1(R=N)
+IE(R=Y%DFI=N%TG=40%CD=S)
+
+Uptime guess: 18.146 days (since Mon Jan  4 14:23:37 2021)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=264 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using port 443/tcp)
+HOP RTT      ADDRESS
+1   36.41 ms 10.10.14.1
+2   61.72 ms laboratory.htb (10.10.10.216)
+
+NSE: Script Post-scanning.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 17:54
+Completed NSE at 17:54, 0.00s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 17:54
+Completed NSE at 17:54, 0.00s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 17:54
+Completed NSE at 17:54, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 24.43 seconds
+           Raw packets sent: 81 (7.176KB) | Rcvd: 34 (2.200KB)
+

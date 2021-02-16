@@ -1,0 +1,3 @@
+FTP: anonymous login allowed, potential RCE exploit with metasploit but did not work and no files in server
+
+SMB: got root with smb usermap in metasploit

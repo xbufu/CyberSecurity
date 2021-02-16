@@ -1,0 +1,23 @@
+HTTP:
+	- Found hint to DDoS protection at index
+	- 1 disallowed entry in /robots.txt : /writeup
+	- Page uses CMS Made Simple
+	- Page source says copyright is from 2019
+	- Found SQL Injection vuln from same year
+	- Found username
+		jkr
+
+	- Found email
+		jkr@writeup.htb
+
+	- Found password hash and salt
+		62def4866937f08cc13bab43bb14e6f7:5a599ef579066807
+
+RCE:
+	- Use cracked credentials to SSH into machine
+		jkr:raykayjay9
+
+PrivEsc:
+	- Found writeable PATH
+	- Found unusual MOTD job running uname without full path
+

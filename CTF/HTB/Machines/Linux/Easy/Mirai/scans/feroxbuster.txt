@@ -1,0 +1,13 @@
+200        1l        1w       18c http://10.10.10.48/versions
+301        0l        0w        0c http://10.10.10.48/admin
+200      145l     2311w    14164c http://10.10.10.48/admin/LICENSE
+200        1l        1w        0c http://10.10.10.48/admin/api.php
+301        0l        0w        0c http://10.10.10.48/admin/img
+200      280l      980w        0c http://10.10.10.48/admin/help.php
+301        0l        0w        0c http://10.10.10.48/admin/scripts
+301        0l        0w        0c http://10.10.10.48/admin/style
+200      280l      980w        0c http://10.10.10.48/admin/list.php
+200      302l      962w        0c http://10.10.10.48/admin/index.php
+200      280l      980w        0c http://10.10.10.48/admin/debug.php
+200      280l      980w        0c http://10.10.10.48/admin/queries.php
+200      280l      980w        0c http://10.10.10.48/admin/settings.php

@@ -1,0 +1,77 @@
+Starting enum4linux v0.8.9 ( http://labs.portcullis.co.uk/application/enum4linux/ ) on Sat Nov 21 13:22:28 2020
+
+ ========================== 
+|    Target Information    |
+ ========================== 
+Target ........... 10.10.79.33
+RID Range ........ 500-550,1000-1050
+Username ......... ''
+Password ......... ''
+Known Usernames .. administrator, guest, krbtgt, domain admins, root, bin, none
+
+
+ =================================================== 
+|    Enumerating Workgroup/Domain on 10.10.79.33    |
+ =================================================== 
+[+] Got domain/workgroup name: WORKGROUP
+
+ ==================================== 
+|    Session Check on 10.10.79.33    |
+ ==================================== 
+[+] Server 10.10.79.33 allows sessions using username '', password ''
+
+ ========================================== 
+|    Getting domain SID for 10.10.79.33    |
+ ========================================== 
+Domain Name: WORKGROUP
+Domain Sid: (NULL SID)
+[+] Can't determine if host is part of domain or part of a workgroup
+
+ ============================ 
+|    Users on 10.10.79.33    |
+ ============================ 
+index: 0x1 RID: 0x3e8 acb: 0x00000010 Account: milesdyson	Name: 	Desc: 
+
+user:[milesdyson] rid:[0x3e8]
+
+ ========================================== 
+|    Machine Enumeration on 10.10.79.33    |
+ ========================================== 
+[E] Internal error.  Not implmented in this version of enum4linux.
+
+ ======================================== 
+|    Share Enumeration on 10.10.79.33    |
+ ======================================== 
+
+	Sharename       Type      Comment
+	---------       ----      -------
+	print$          Disk      Printer Drivers
+	anonymous       Disk      Skynet Anonymous Share
+	milesdyson      Disk      Miles Dyson Personal Share
+	IPC$            IPC       IPC Service (skynet server (Samba, Ubuntu))
+SMB1 disabled -- no workgroup available
+
+[+] Attempting to map shares on 10.10.79.33
+//10.10.79.33/print$	Mapping: DENIED, Listing: N/A
+//10.10.79.33/anonymous	Mapping: OK, Listing: OK
+//10.10.79.33/milesdyson	Mapping: DENIED, Listing: N/A
+//10.10.79.33/IPC$	[E] Can't understand response:
+NT_STATUS_OBJECT_NAME_NOT_FOUND listing \*
+
+ ============================= 
+|    Groups on 10.10.79.33    |
+ ============================= 
+
+[+] Getting builtin groups:
+
+[+] Getting builtin group memberships:
+
+[+] Getting local groups:
+
+[+] Getting local group memberships:
+
+[+] Getting domain groups:
+
+[+] Getting domain group memberships:
+enum4linux complete on Sat Nov 21 13:22:35 2020
+

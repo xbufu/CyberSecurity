@@ -1,0 +1,19 @@
+FTP:
+	- Running Windows
+	- Anonymous login allowed
+	- Found user flag in /Users/Public/user.txt
+	- Found Paessler PRTG Network Monitor
+	- Found admin credentials for netmon in "/users/all users/paessler/prtg network monitor/PRTG Configuration.old.bak"
+
+		prtgadmin:PrTg@dmin2018
+
+	- Credentials do not work, but seeing as machine was released in 2019 try different pattern. Found working credentials
+
+		prtgadmin:PrTg@dmin2019
+
+RCE:
+	- Used ps1 script to execute code through a new notification
+	- Needed to UTF-16LE and base64 encode payload to get shell
+	- Used reverse shell from nishang
+
+	cat shell.ps1 | iconv -t UTF-16LE | base64 -w0 | xclip -selection clipboard

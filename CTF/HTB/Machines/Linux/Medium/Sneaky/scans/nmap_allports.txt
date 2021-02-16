@@ -1,0 +1,11 @@
+# Nmap 7.91 scan initiated Sun Feb  7 15:49:06 2021 as: nmap -p- -Pn -vvv -oN ../scans/nmap_allports.txt sneaky.htb
+Nmap scan report for sneaky.htb (10.10.10.20)
+Host is up, received user-set (0.045s latency).
+Scanned at 2021-02-07 15:49:06 CET for 59s
+Not shown: 65534 closed ports
+Reason: 65534 resets
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 63
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Sun Feb  7 15:50:05 2021 -- 1 IP address (1 host up) scanned in 59.19 seconds

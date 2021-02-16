@@ -1,0 +1,33 @@
+# Nmap 7.91 scan initiated Sun Feb  7 15:51:12 2021 as: nmap -sU -p1-1000 -vvv -oN ../scans/nmap_udp.txt -T4 sneaky.htb
+Warning: 10.10.10.20 giving up on port because retransmission cap hit (6).
+Increasing send delay for 10.10.10.20 from 100 to 200 due to 11 out of 11 dropped probes since last increase.
+Increasing send delay for 10.10.10.20 from 200 to 400 due to 11 out of 11 dropped probes since last increase.
+Increasing send delay for 10.10.10.20 from 400 to 800 due to 11 out of 11 dropped probes since last increase.
+Nmap scan report for sneaky.htb (10.10.10.20)
+Host is up, received echo-reply ttl 63 (0.037s latency).
+Scanned at 2021-02-07 15:51:12 CET for 1061s
+Not shown: 981 closed ports
+Reason: 981 port-unreaches
+PORT    STATE         SERVICE         REASON
+23/udp  open|filtered telnet          no-response
+37/udp  open|filtered time            no-response
+41/udp  open|filtered graphics        no-response
+112/udp open|filtered mcidas          no-response
+161/udp open|filtered snmp            no-response
+226/udp open|filtered unknown         no-response
+372/udp open|filtered ulistserv       no-response
+424/udp open|filtered opc-job-track   no-response
+451/udp open|filtered sfs-smp-net     no-response
+458/udp open|filtered appleqtc        no-response
+521/udp open|filtered ripng           no-response
+712/udp open|filtered tbrpf           no-response
+716/udp open|filtered pana            no-response
+751/udp open|filtered kerberos_master no-response
+767/udp open|filtered phonebook       no-response
+851/udp open|filtered unknown         no-response
+909/udp open|filtered unknown         no-response
+997/udp open|filtered maitrd          no-response
+998/udp open|filtered puparp          no-response
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Sun Feb  7 16:08:53 2021 -- 1 IP address (1 host up) scanned in 1060.73 seconds

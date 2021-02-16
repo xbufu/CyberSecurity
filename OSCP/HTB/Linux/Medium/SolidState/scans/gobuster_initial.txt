@@ -1,0 +1,5 @@
+/about.html (Status: 200)
+/services.html (Status: 200)
+/images (Status: 301)
+/index.html (Status: 200)
+/assets (Status: 301)

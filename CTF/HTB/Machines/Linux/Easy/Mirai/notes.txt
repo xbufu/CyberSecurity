@@ -1,0 +1,4 @@
+- Found Pi hole running on webserver from /admin
+- Used default credentials to SSH into it
+	pi:raspberry
+- Could run all commands as sudo without password

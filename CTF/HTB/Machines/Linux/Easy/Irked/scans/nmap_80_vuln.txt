@@ -1,0 +1,24 @@
+# Nmap 7.91 scan initiated Mon Jan 18 10:19:43 2021 as: nmap -Pn -vvv --script=vuln -p 80 -oN scans/nmap_80_vuln.txt 10.10.10.117
+Pre-scan script results:
+| broadcast-avahi-dos: 
+|   Discovered hosts:
+|     224.0.0.251
+|   After NULL UDP avahi packet DoS (CVE-2011-1002).
+|_  Hosts are all up (not vulnerable).
+Nmap scan report for irked.htb (10.10.10.117)
+Host is up, received user-set (0.026s latency).
+Scanned at 2021-01-18 10:20:17 CET for 21s
+
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack
+|_http-csrf: Couldn't find any CSRF vulnerabilities.
+|_http-dombased-xss: Couldn't find any DOM based XSS.
+| http-enum: 
+|_  /manual/: Potentially interesting folder
+|_http-jsonp-detection: Couldn't find any JSONP endpoints.
+|_http-litespeed-sourcecode-download: Request with null byte did not work. This web server might not be vulnerable
+|_http-stored-xss: Couldn't find any stored XSS vulnerabilities.
+|_http-wordpress-users: [Error] Wordpress installation was not found. We couldn't find wp-login.php
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Mon Jan 18 10:20:38 2021 -- 1 IP address (1 host up) scanned in 55.08 seconds

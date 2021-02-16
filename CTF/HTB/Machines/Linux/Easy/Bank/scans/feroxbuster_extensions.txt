@@ -1,0 +1,10 @@
+301        9l       28w      304c http://bank.htb/assets
+301        9l       28w      305c http://bank.htb/uploads
+301        9l       28w      314c http://bank.htb/balance-transfer
+302      188l      319w     7322c http://bank.htb/index.php
+403       10l       30w      288c http://bank.htb/server-status
+301        9l       28w      308c http://bank.htb/assets/css
+302        0l        0w        0c http://bank.htb/logout.php
+302       83l      186w     3291c http://bank.htb/support.php
+301        9l       28w      301c http://bank.htb/inc
+301        9l       28w      314c http://bank.htb/assets/css/theme

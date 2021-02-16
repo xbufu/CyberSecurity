@@ -1,0 +1,37 @@
+SMB:
+	- Running Ubuntu
+
+	- Allows anonymous login
+
+	- Found accessible shares:
+		general
+		Development
+
+	- Found users:
+		friend
+		nobody
+
+	- Found credentials in "general" share
+		admin:WORKWORKHhallelujah@#
+		
+HTTP:
+	- Server is running Ubuntu Apache 2.4.29
+	- Found directory
+		wordpress
+DNS:
+	- Enumerating zone transfers with dig reveals subdomains
+	- Add them to hosts file
+	- Can now access administrator panel and upload files
+
+RCE:
+	- Uploaded php-reverse-shell on Development SMB share
+	- Executed it through LFI without extension
+
+PrivEsc:
+	- Found credentials in /var/www/mysql_data.conf
+		friend:Agpyu12!0.213$
+	- Logged in as friend via SSH
+	- Found /usr/lib/python2.7/os.py fully writeable and owned by root
+	- Found /opt/server_admin/reporter.py getting executed with pspy
+	- Uses os library
+	- Got root through adding reverse shell in os.py

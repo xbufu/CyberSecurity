@@ -1,0 +1,42 @@
+WhatWeb report for http://10.10.45.118:80
+Status    : 200 OK
+Title     : IIS Windows Server
+IP        : 10.10.45.118
+Country   : RESERVED, ZZ
+
+Summary   : HTTPServer[Microsoft-IIS/10.0], X-Powered-By[ASP.NET], Microsoft-IIS[10.0]
+
+Detected Plugins:
+[ HTTPServer ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	String       : Microsoft-IIS/10.0 (from server string)
+
+[ Microsoft-IIS ]
+	Microsoft Internet Information Services (IIS) for Windows 
+	Server is a flexible, secure and easy-to-manage Web server 
+	for hosting anything on the Web. From media streaming to 
+	web application hosting, IIS's scalable and open 
+	architecture is ready to handle the most demanding tasks. 
+
+	Version      : 10.0
+	Website     : http://www.iis.net/
+
+[ X-Powered-By ]
+	X-Powered-By HTTP header 
+
+	String       : ASP.NET (from x-powered-by string)
+
+HTTP Headers:
+	HTTP/1.1 200 OK
+	Content-Type: text/html
+	Last-Modified: Sat, 25 Jul 2020 15:05:21 GMT
+	Accept-Ranges: bytes
+	ETag: "2db43349562d61:0"
+	Server: Microsoft-IIS/10.0
+	X-Powered-By: ASP.NET
+	Date: Mon, 28 Dec 2020 11:37:25 GMT
+	Connection: close
+	Content-Length: 703
+	

@@ -1,0 +1,6 @@
+tcp/445/nmap-smb - Nmap script found a potential vulnerability. (State: VULNERABLE)
+
+tcp/80/nmap-http - Identified HTTP Server: Microsoft-IIS/10.0
+
+tcp/49663/nmap-http - Identified HTTP Server: Microsoft-IIS/10.0
+

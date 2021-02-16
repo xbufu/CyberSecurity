@@ -1,0 +1,6 @@
+Show network mounts:
+
+showmount -e $IP
+
+root:7QvbvBTvwPspUK
+willow:U0ZZJLGYhNAT2s

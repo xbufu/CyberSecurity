@@ -1,0 +1,74 @@
+nmap -vv --reason -Pn -sU -A --top-ports=20 --version-all -oN "/home/bufu/THM/Relevant/results/10.10.45.118/scans/_top_20_udp_nmap.txt" -oX "/home/bufu/THM/Relevant/results/10.10.45.118/scans/xml/_top_20_udp_nmap.xml" 10.10.45.118
+
+nmap -vv --reason -Pn -A --osscan-guess --version-all -p- -oN "/home/bufu/THM/Relevant/results/10.10.45.118/scans/_full_tcp_nmap.txt" -oX "/home/bufu/THM/Relevant/results/10.10.45.118/scans/xml/_full_tcp_nmap.xml" 10.10.45.118
+
+nmap -vv --reason -Pn -sV -sC --version-all -oN "/home/bufu/THM/Relevant/results/10.10.45.118/scans/_quick_tcp_nmap.txt" -oX "/home/bufu/THM/Relevant/results/10.10.45.118/scans/xml/_quick_tcp_nmap.xml" 10.10.45.118
+
+if [ "False" == "True" ]; then sslscan --show-certificate --no-colour 10.10.45.118:80 2>&1 | tee "/home/bufu/THM/Relevant/results/10.10.45.118/scans/tcp_80_sslscan.txt"; fi
+
+nmap -vv --reason -Pn -sV -p 80 --script="banner,(http* or ssl*) and not (brute or broadcast or dos or external or http-slowloris* or fuzzer)" -oN "/home/bufu/THM/Relevant/results/10.10.45.118/scans/tcp_80_http_nmap.txt" -oX "/home/bufu/THM/Relevant/results/10.10.45.118/scans/xml/tcp_80_http_nmap.xml" 10.10.45.118
+
+curl -sSik http://10.10.45.118:80/ -m 10 2>&1 | tee "/home/bufu/THM/Relevant/results/10.10.45.118/scans/tcp_80_http_index.html"
+
+curl -sSik http://10.10.45.118:80/robots.txt -m 10 2>&1 | tee "/home/bufu/THM/Relevant/results/10.10.45.118/scans/tcp_80_http_robots.txt"
+
+if hash wkhtmltoimage 2> /dev/null; then wkhtmltoimage --format png http://10.10.45.118:80/ /home/bufu/THM/Relevant/results/10.10.45.118/scans/tcp_80_http_screenshot.png; fi
+
+whatweb --color=never --no-errors -a 3 -v http://10.10.45.118:80 2>&1 | tee "/home/bufu/THM/Relevant/results/10.10.45.118/scans/tcp_80_http_whatweb.txt"
+
+nikto -ask=no -h http://10.10.45.118:80 2>&1 | tee "/home/bufu/THM/Relevant/results/10.10.45.118/scans/tcp_80_http_nikto.txt"
+
+if [[ `gobuster -h 2>&1 | grep -F "mode (dir)"` ]]; then gobuster -u http://10.10.45.118:80/ -w /usr/share/seclists/Discovery/Web-Content/common.txt -e -k -l -s "200,204,301,302,307,401,403" -x "txt,html,php,asp,aspx,jsp" -o "/home/bufu/THM/Relevant/results/10.10.45.118/scans/tcp_80_http_gobuster.txt"; else gobuster dir -u http://10.10.45.118:80/ -w /usr/share/seclists/Discovery/Web-Content/common.txt -z -k -l -x "txt,html,php,asp,aspx,jsp" -o "/home/bufu/THM/Relevant/results/10.10.45.118/scans/tcp_80_http_gobuster.txt"; fi
+
+if [ "False" == "True" ]; then sslscan --show-certificate --no-colour 10.10.45.118:135 2>&1 | tee "/home/bufu/THM/Relevant/results/10.10.45.118/scans/tcp_135_sslscan.txt"; fi
+
+nmap -vv --reason -Pn -sV -p 135 --script="banner,msrpc-enum,rpc-grind,rpcinfo" -oN "/home/bufu/THM/Relevant/results/10.10.45.118/scans/tcp_135_rpc_nmap.txt" -oX "/home/bufu/THM/Relevant/results/10.10.45.118/scans/xml/tcp_135_rpc_nmap.xml" 10.10.45.118
+
+if [ "False" == "True" ]; then sslscan --show-certificate --no-colour 10.10.45.118:139 2>&1 | tee "/home/bufu/THM/Relevant/results/10.10.45.118/scans/tcp_139_sslscan.txt"; fi
+
+nmap -vv --reason -Pn -sV -p 139 --script="banner,(nbstat or smb* or ssl*) and not (brute or broadcast or dos or external or fuzzer)" --script-args="unsafe=1" -oN "/home/bufu/THM/Relevant/results/10.10.45.118/scans/tcp_139_smb_nmap.txt" -oX "/home/bufu/THM/Relevant/results/10.10.45.118/scans/xml/tcp_139_smb_nmap.xml" 10.10.45.118
+
+enum4linux -a -M -l -d 10.10.45.118 2>&1 | tee "/home/bufu/THM/Relevant/results/10.10.45.118/scans/enum4linux.txt"
+
+smbclient -L\\ -N -I 10.10.45.118 2>&1 | tee "/home/bufu/THM/Relevant/results/10.10.45.118/scans/smbclient.txt"
+
+smbmap -H 10.10.45.118 -P 139 2>&1 | tee -a "/home/bufu/THM/Relevant/results/10.10.45.118/scans/smbmap-share-permissions.txt"; smbmap -u null -p "" -H 10.10.45.118 -P 139 2>&1 | tee -a "/home/bufu/THM/Relevant/results/10.10.45.118/scans/smbmap-share-permissions.txt"
+
+smbmap -H 10.10.45.118 -P 139 -R 2>&1 | tee -a "/home/bufu/THM/Relevant/results/10.10.45.118/scans/smbmap-list-contents.txt"; smbmap -u null -p "" -H 10.10.45.118 -P 139 -R 2>&1 | tee -a "/home/bufu/THM/Relevant/results/10.10.45.118/scans/smbmap-list-contents.txt"
+
+smbmap -H 10.10.45.118 -P 139 -x "ipconfig /all" 2>&1 | tee -a "/home/bufu/THM/Relevant/results/10.10.45.118/scans/smbmap-execute-command.txt"; smbmap -u null -p "" -H 10.10.45.118 -P 139 -x "ipconfig /all" 2>&1 | tee -a "/home/bufu/THM/Relevant/results/10.10.45.118/scans/smbmap-execute-command.txt"
+
+if [ "False" == "True" ]; then sslscan --show-certificate --no-colour 10.10.45.118:445 2>&1 | tee "/home/bufu/THM/Relevant/results/10.10.45.118/scans/tcp_445_sslscan.txt"; fi
+
+nmap -vv --reason -Pn -sV -p 445 --script="banner,(nbstat or smb* or ssl*) and not (brute or broadcast or dos or external or fuzzer)" --script-args="unsafe=1" -oN "/home/bufu/THM/Relevant/results/10.10.45.118/scans/tcp_445_smb_nmap.txt" -oX "/home/bufu/THM/Relevant/results/10.10.45.118/scans/xml/tcp_445_smb_nmap.xml" 10.10.45.118
+
+smbmap -H 10.10.45.118 -P 445 2>&1 | tee -a "/home/bufu/THM/Relevant/results/10.10.45.118/scans/smbmap-share-permissions.txt"; smbmap -u null -p "" -H 10.10.45.118 -P 445 2>&1 | tee -a "/home/bufu/THM/Relevant/results/10.10.45.118/scans/smbmap-share-permissions.txt"
+
+smbmap -H 10.10.45.118 -P 445 -R 2>&1 | tee -a "/home/bufu/THM/Relevant/results/10.10.45.118/scans/smbmap-list-contents.txt"; smbmap -u null -p "" -H 10.10.45.118 -P 445 -R 2>&1 | tee -a "/home/bufu/THM/Relevant/results/10.10.45.118/scans/smbmap-list-contents.txt"
+
+smbmap -H 10.10.45.118 -P 445 -x "ipconfig /all" 2>&1 | tee -a "/home/bufu/THM/Relevant/results/10.10.45.118/scans/smbmap-execute-command.txt"; smbmap -u null -p "" -H 10.10.45.118 -P 445 -x "ipconfig /all" 2>&1 | tee -a "/home/bufu/THM/Relevant/results/10.10.45.118/scans/smbmap-execute-command.txt"
+
+if [ "False" == "True" ]; then sslscan --show-certificate --no-colour 10.10.45.118:3389 2>&1 | tee "/home/bufu/THM/Relevant/results/10.10.45.118/scans/tcp_3389_sslscan.txt"; fi
+
+nmap -vv --reason -Pn -sV -p 3389 --script="banner,(rdp* or ssl*) and not (brute or broadcast or dos or external or fuzzer)" -oN "/home/bufu/THM/Relevant/results/10.10.45.118/scans/tcp_3389_rdp_nmap.txt" -oX "/home/bufu/THM/Relevant/results/10.10.45.118/scans/xml/tcp_3389_rdp_nmap.xml" 10.10.45.118
+
+if [ "False" == "True" ]; then sslscan --show-certificate --no-colour 10.10.45.118:49663 2>&1 | tee "/home/bufu/THM/Relevant/results/10.10.45.118/scans/tcp_49663_sslscan.txt"; fi
+
+nmap -vv --reason -Pn -sV -p 49663 --script="banner,(http* or ssl*) and not (brute or broadcast or dos or external or http-slowloris* or fuzzer)" -oN "/home/bufu/THM/Relevant/results/10.10.45.118/scans/tcp_49663_http_nmap.txt" -oX "/home/bufu/THM/Relevant/results/10.10.45.118/scans/xml/tcp_49663_http_nmap.xml" 10.10.45.118
+
+curl -sSik http://10.10.45.118:49663/ -m 10 2>&1 | tee "/home/bufu/THM/Relevant/results/10.10.45.118/scans/tcp_49663_http_index.html"
+
+curl -sSik http://10.10.45.118:49663/robots.txt -m 10 2>&1 | tee "/home/bufu/THM/Relevant/results/10.10.45.118/scans/tcp_49663_http_robots.txt"
+
+if hash wkhtmltoimage 2> /dev/null; then wkhtmltoimage --format png http://10.10.45.118:49663/ /home/bufu/THM/Relevant/results/10.10.45.118/scans/tcp_49663_http_screenshot.png; fi
+
+whatweb --color=never --no-errors -a 3 -v http://10.10.45.118:49663 2>&1 | tee "/home/bufu/THM/Relevant/results/10.10.45.118/scans/tcp_49663_http_whatweb.txt"
+
+nikto -ask=no -h http://10.10.45.118:49663 2>&1 | tee "/home/bufu/THM/Relevant/results/10.10.45.118/scans/tcp_49663_http_nikto.txt"
+
+if [[ `gobuster -h 2>&1 | grep -F "mode (dir)"` ]]; then gobuster -u http://10.10.45.118:49663/ -w /usr/share/seclists/Discovery/Web-Content/common.txt -e -k -l -s "200,204,301,302,307,401,403" -x "txt,html,php,asp,aspx,jsp" -o "/home/bufu/THM/Relevant/results/10.10.45.118/scans/tcp_49663_http_gobuster.txt"; else gobuster dir -u http://10.10.45.118:49663/ -w /usr/share/seclists/Discovery/Web-Content/common.txt -z -k -l -x "txt,html,php,asp,aspx,jsp" -o "/home/bufu/THM/Relevant/results/10.10.45.118/scans/tcp_49663_http_gobuster.txt"; fi
+
+if [ "False" == "True" ]; then sslscan --show-certificate --no-colour 10.10.45.118:49668 2>&1 | tee "/home/bufu/THM/Relevant/results/10.10.45.118/scans/tcp_49668_sslscan.txt"; fi
+
+nmap -vv --reason -Pn -sV -p 49668 --script="banner,msrpc-enum,rpc-grind,rpcinfo" -oN "/home/bufu/THM/Relevant/results/10.10.45.118/scans/tcp_49668_rpc_nmap.txt" -oX "/home/bufu/THM/Relevant/results/10.10.45.118/scans/xml/tcp_49668_rpc_nmap.xml" 10.10.45.118
+

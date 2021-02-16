@@ -1,0 +1,2 @@
+/info.php (Status: 200)
+/phptest.php (Status: 200)

@@ -1,0 +1,387 @@
+[-] Date & Time: 17/01/2021 19:55:43
+[I] Threads: 5
+[-] Target: http://10.10.10.150 (10.10.10.150)
+[v] Requesting Not Existing Pages ...
+[v] Checking if the website is in HTTPS ...
+[M] Website Not in HTTPS: http://10.10.10.150
+[v] Checking headers ...
+[I] Server: Apache/2.4.29 (Ubuntu)
+[L] X-Frame-Options: Not Enforced
+[I] Strict-Transport-Security: Not Enforced
+[I] X-Content-Security-Policy: Not Enforced
+[I] X-Content-Type-Options: Not Enforced
+[v] Checking Robots.txt File ...
+[L] No Robots.txt Found
+[I] CMS Detection: Joomla
+[v] Checking Joomla version ...
+[I] Joomla Version: 3.8.8
+[v] Core vulnerabilities for version 4.0.0-beta6
+[v] Core vulnerabilities for version 4.0.0-beta5
+[v] Core vulnerabilities for version 4.0.0-beta4
+[v] Core vulnerabilities for version 4.0.0-beta3
+[v] Core vulnerabilities for version 4.0.0-beta2
+[v] Core vulnerabilities for version 4.0.0-beta
+[v] Core vulnerabilities for version 4.0.0-alpha10
+[v] Core vulnerabilities for version 4.0.0-alpha9
+[v] Core vulnerabilities for version 4.0.0-alpha8
+[v] Core vulnerabilities for version 4.0.0-alpha7
+[v] Core vulnerabilities for version 4.0.0-alpha6
+[v] Core vulnerabilities for version 4.0.0-alpha5
+[v] Core vulnerabilities for version 4.0.0-alpha4x
+[v] Core vulnerabilities for version 4.0.0-alpha4
+[v] Core vulnerabilities for version 4.0.0-alpha3
+[v] Core vulnerabilities for version 4.0.0-alpha2
+[v] Core vulnerabilities for version 4.0.0-alpha1
+[v] Core vulnerabilities for version 3.10.0-alpha4
+[v] Core vulnerabilities for version 3.10.0-alpha3
+[v] Core vulnerabilities for version 3.10.0-alpha2
+[v] Core vulnerabilities for version 3.10.0-alpha1
+[v] Core vulnerabilities for version 3.9.24-rc2
+[v] Core vulnerabilities for version 3.9.24-rc
+[v] Core vulnerabilities for version 3.9.23-rc2
+[v] Core vulnerabilities for version 3.9.23-rc
+[v] Core vulnerabilities for version 3.9.23
+[v] Core vulnerabilities for version 3.9.22-rc
+[v] Core vulnerabilities for version 3.9.22
+[v] Core vulnerabilities for version 3.9.21-rc
+[v] Core vulnerabilities for version 3.9.21
+[v] Core vulnerabilities for version 3.9.20-rc
+[v] Core vulnerabilities for version 3.9.20
+[v] Core vulnerabilities for version 3.9.19-rc
+[v] Core vulnerabilities for version 3.9.19
+[v] Core vulnerabilities for version 3.9.18
+[v] Core vulnerabilities for version 3.9.17-rc
+[v] Core vulnerabilities for version 3.9.17
+[v] Core vulnerabilities for version 3.9.16-rc
+[v] Core vulnerabilities for version 3.9.16
+[v] Core vulnerabilities for version 3.9.15-rc
+[v] Core vulnerabilities for version 3.9.15
+[v] Core vulnerabilities for version 3.9.14-rc
+[v] Core vulnerabilities for version 3.9.14
+[v] Core vulnerabilities for version 3.9.10
+[v] Core vulnerabilities for version 3.9.9-rc
+[v] Core vulnerabilities for version 3.9.9
+[v] Core vulnerabilities for version 3.9.8
+[v] Core vulnerabilities for version 3.9.7-rc
+[v] Core vulnerabilities for version 3.9.7
+[M]  EDB-ID: 48198 "Joomla! 3.9.0 < 3.9.7 - CSV Injection"
+[v] Core vulnerabilities for version 3.9.6-rc2
+[v] Core vulnerabilities for version 3.9.6-rc
+[v] Core vulnerabilities for version 3.9.6
+[v] Core vulnerabilities for version 3.9.5-rc
+[v] Core vulnerabilities for version 3.9.5
+[v] Core vulnerabilities for version 3.9.4-rc
+[v] Core vulnerabilities for version 3.9.4
+[M]  EDB-ID: 46710 "Joomla! Core 1.5.0 - 3.9.4 - Directory Traversal / Authenticated Arbitrary File Deletion"
+[v] Core vulnerabilities for version 3.9.3-rc
+[v] Core vulnerabilities for version 3.9.3
+[v] Core vulnerabilities for version 3.9.2-rc
+[v] Core vulnerabilities for version 3.9.2
+[v] Core vulnerabilities for version 3.9.1-rc
+[v] Core vulnerabilities for version 3.9.1
+[M]  EDB-ID: 46200 "Joomla! Core 3.9.1 - Persistent Cross-Site Scripting in Global Configuration Textfilter Settings"
+[M]  EDB-ID: 47632 "Joomla! 3.9.13 - 'Host' Header Injection"
+[M]  EDB-ID: 48263 "Joomla! com_fabrik 3.9.11 - Directory Traversal"
+[v] Core vulnerabilities for version 3.9.0-rc2
+[v] Core vulnerabilities for version 3.9.0-rc
+[v] Core vulnerabilities for version 3.9.0-beta4
+[v] Core vulnerabilities for version 3.9.0-beta3
+[v] Core vulnerabilities for version 3.9.0-beta2
+[v] Core vulnerabilities for version 3.9.0-beta
+[v] Core vulnerabilities for version 3.9.0-alpha
+[v] Core vulnerabilities for version 3.9.0
+[v] Core vulnerabilities for version 3.8.10
+[v] Core vulnerabilities for version 3.8.9-rc
+[v] Core vulnerabilities for version 3.8.9
+[v] Core vulnerabilities for version 3.8.8-rc
+[v] Core vulnerabilities for version 3.8.8
+[v] Checking Joomla template ...
+[I] Joomla Website Template: protostar
+[v] Searching vulnerable theme (protostar) from local ExploitDB repository ...
+[I] Joomla Administrator Template: isis
+[v] Searching vulnerable theme (isis) from local ExploitDB repository ...
+[v] Checking Joomla old configuration files ...
+[v] Checking Autocomplete Off on the login page ...
+[I] Autocomplete Off Not Found: http://10.10.10.150/administrator/index.php
+[v] Checking Joomla default files ...
+[-] Joomla Default Files: 
+[-] Joomla is likely to have a large number of default files
+[-] Would you like to list them all?
+[y/N]: [v] Checking Joomla modules in the index page
+[-] Searching Joomla Components ...
+[v] Searching vulnerable plugins from local ExploitDB repository ...
+[I] Checking for Directory Listing Enabled ...
+[v] Checking directory listing: 
+[v] Checking directory listing: /.git
+[v] Checking directory listing: /.git/branches
+[v] Checking directory listing: /.git/hooks
+[v] Checking directory listing: /.git/info
+[v] Checking directory listing: /.git/logs
+[v] Checking directory listing: /.git/objects
+[v] Checking directory listing: /.git/refs
+[v] Checking directory listing: /.github
+[v] Checking directory listing: /.github/ISSUE_TEMPLATE
+[v] Checking directory listing: /administrator
+[v] Checking directory listing: /administrator/cache
+[v] Checking directory listing: /administrator/components
+[L] http://10.10.10.150/administrator/components
+[v] Checking directory listing: /administrator/help
+[L] http://10.10.10.150/administrator/help
+[v] Checking directory listing: /administrator/includes
+[L] http://10.10.10.150/administrator/includes
+[v] Checking directory listing: /administrator/language
+[L] http://10.10.10.150/administrator/language
+[v] Checking directory listing: /administrator/logs
+[v] Checking directory listing: /administrator/manifests
+[L] http://10.10.10.150/administrator/manifests
+[v] Checking directory listing: /administrator/modules
+[L] http://10.10.10.150/administrator/modules
+[v] Checking directory listing: /administrator/templates
+[L] http://10.10.10.150/administrator/templates
+[v] Checking directory listing: /bin
+[v] Checking directory listing: /build
+[v] Checking directory listing: /build/bootstrap
+[v] Checking directory listing: /build/jenkins
+[v] Checking directory listing: /build/less
+[v] Checking directory listing: /build/phpcs
+[v] Checking directory listing: /build/travis
+[v] Checking directory listing: /cache
+[v] Checking directory listing: /cli
+[v] Checking directory listing: /components
+[v] Checking directory listing: /components/com_ajax
+[L] http://10.10.10.150/components/com_ajax
+[v] Checking directory listing: /components/com_banners
+[L] http://10.10.10.150/components/com_banners
+[v] Checking directory listing: /components/com_config
+[L] http://10.10.10.150/components/com_config
+[v] Checking directory listing: /components/com_contact
+[L] http://10.10.10.150/components/com_contact
+[v] Checking directory listing: /components/com_content
+[L] http://10.10.10.150/components/com_content
+[v] Checking directory listing: /components/com_contenthistory
+[L] http://10.10.10.150/components/com_contenthistory
+[v] Checking directory listing: /components/com_fields
+[L] http://10.10.10.150/components/com_fields
+[v] Checking directory listing: /components/com_finder
+[L] http://10.10.10.150/components/com_finder
+[v] Checking directory listing: /components/com_mailto
+[L] http://10.10.10.150/components/com_mailto
+[v] Checking directory listing: /components/com_media
+[L] http://10.10.10.150/components/com_media
+[v] Checking directory listing: /components/com_menus
+[L] http://10.10.10.150/components/com_menus
+[v] Checking directory listing: /components/com_modules
+[L] http://10.10.10.150/components/com_modules
+[v] Checking directory listing: /components/com_newsfeeds
+[L] http://10.10.10.150/components/com_newsfeeds
+[v] Checking directory listing: /components/com_privacy
+[v] Checking directory listing: /components/com_search
+[L] http://10.10.10.150/components/com_search
+[v] Checking directory listing: /components/com_tags
+[L] http://10.10.10.150/components/com_tags
+[v] Checking directory listing: /components/com_users
+[L] http://10.10.10.150/components/com_users
+[v] Checking directory listing: /components/com_wrapper
+[L] http://10.10.10.150/components/com_wrapper
+[v] Checking directory listing: /images
+[v] Checking directory listing: /images/banners
+[L] http://10.10.10.150/images/banners
+[v] Checking directory listing: /images/headers
+[L] http://10.10.10.150/images/headers
+[v] Checking directory listing: /images/sampledata
+[L] http://10.10.10.150/images/sampledata
+[v] Checking directory listing: /includes
+[v] Checking directory listing: /installation
+[v] Checking directory listing: /installation/application
+[v] Checking directory listing: /installation/cache
+[v] Checking directory listing: /installation/controller
+[v] Checking directory listing: /installation/form
+[v] Checking directory listing: /installation/helper
+[v] Checking directory listing: /installation/html
+[v] Checking directory listing: /installation/language
+[v] Checking directory listing: /installation/model
+[v] Checking directory listing: /installation/response
+[v] Checking directory listing: /installation/sql
+[v] Checking directory listing: /installation/template
+[v] Checking directory listing: /installation/view
+[v] Checking directory listing: /language
+[v] Checking directory listing: /language/en-GB
+[L] http://10.10.10.150/language/en-GB
+[v] Checking directory listing: /language/overrides
+[v] Checking directory listing: /layouts
+[v] Checking directory listing: /layouts/joomla
+[L] http://10.10.10.150/layouts/joomla
+[v] Checking directory listing: /layouts/libraries
+[L] http://10.10.10.150/layouts/libraries
+[v] Checking directory listing: /layouts/plugins
+[L] http://10.10.10.150/layouts/plugins
+[v] Checking directory listing: /libraries
+[v] Checking directory listing: /libraries/cms
+[L] http://10.10.10.150/libraries/cms
+[v] Checking directory listing: /libraries/fof
+[L] http://10.10.10.150/libraries/fof
+[v] Checking directory listing: /libraries/idna_convert
+[L] http://10.10.10.150/libraries/idna_convert
+[v] Checking directory listing: /libraries/joomla
+[L] http://10.10.10.150/libraries/joomla
+[v] Checking directory listing: /libraries/legacy
+[L] http://10.10.10.150/libraries/legacy
+[v] Checking directory listing: /libraries/php-encryption
+[L] http://10.10.10.150/libraries/php-encryption
+[v] Checking directory listing: /libraries/phpass
+[L] http://10.10.10.150/libraries/phpass
+[v] Checking directory listing: /libraries/phputf8
+[L] http://10.10.10.150/libraries/phputf8
+[v] Checking directory listing: /libraries/src
+[L] http://10.10.10.150/libraries/src
+[v] Checking directory listing: /libraries/vendor
+[L] http://10.10.10.150/libraries/vendor
+[v] Checking directory listing: /media
+[v] Checking directory listing: /media/cms
+[L] http://10.10.10.150/media/cms
+[v] Checking directory listing: /media/com_associations
+[L] http://10.10.10.150/media/com_associations
+[v] Checking directory listing: /media/com_contact
+[L] http://10.10.10.150/media/com_contact
+[v] Checking directory listing: /media/com_content
+[L] http://10.10.10.150/media/com_content
+[v] Checking directory listing: /media/com_contenthistory
+[L] http://10.10.10.150/media/com_contenthistory
+[v] Checking directory listing: /media/com_fields
+[L] http://10.10.10.150/media/com_fields
+[v] Checking directory listing: /media/com_finder
+[L] http://10.10.10.150/media/com_finder
+[v] Checking directory listing: /media/com_joomlaupdate
+[L] http://10.10.10.150/media/com_joomlaupdate
+[v] Checking directory listing: /media/com_menus
+[L] http://10.10.10.150/media/com_menus
+[v] Checking directory listing: /media/com_modules
+[L] http://10.10.10.150/media/com_modules
+[v] Checking directory listing: /media/com_wrapper
+[L] http://10.10.10.150/media/com_wrapper
+[v] Checking directory listing: /media/contacts
+[L] http://10.10.10.150/media/contacts
+[v] Checking directory listing: /media/editors
+[L] http://10.10.10.150/media/editors
+[v] Checking directory listing: /media/jui
+[L] http://10.10.10.150/media/jui
+[v] Checking directory listing: /media/mailto
+[L] http://10.10.10.150/media/mailto
+[v] Checking directory listing: /media/media
+[L] http://10.10.10.150/media/media
+[v] Checking directory listing: /media/mod_languages
+[L] http://10.10.10.150/media/mod_languages
+[v] Checking directory listing: /media/mod_sampledata
+[L] http://10.10.10.150/media/mod_sampledata
+[v] Checking directory listing: /media/overrider
+[L] http://10.10.10.150/media/overrider
+[v] Checking directory listing: /media/plg_captcha_recaptcha
+[L] http://10.10.10.150/media/plg_captcha_recaptcha
+[v] Checking directory listing: /media/plg_captcha_recaptcha_invisible
+[v] Checking directory listing: /media/plg_quickicon_extensionupdate
+[L] http://10.10.10.150/media/plg_quickicon_extensionupdate
+[v] Checking directory listing: /media/plg_quickicon_joomlaupdate
+[L] http://10.10.10.150/media/plg_quickicon_joomlaupdate
+[v] Checking directory listing: /media/plg_quickicon_privacycheck
+[v] Checking directory listing: /media/plg_system_highlight
+[L] http://10.10.10.150/media/plg_system_highlight
+[v] Checking directory listing: /media/plg_system_stats
+[L] http://10.10.10.150/media/plg_system_stats
+[v] Checking directory listing: /media/plg_twofactorauth_totp
+[v] Checking directory listing: /media/system
+[L] http://10.10.10.150/media/system
+[v] Checking directory listing: /modules
+[v] Checking directory listing: /modules/mod_articles_archive
+[L] http://10.10.10.150/modules/mod_articles_archive
+[v] Checking directory listing: /modules/mod_articles_categories
+[L] http://10.10.10.150/modules/mod_articles_categories
+[v] Checking directory listing: /modules/mod_articles_category
+[L] http://10.10.10.150/modules/mod_articles_category
+[v] Checking directory listing: /modules/mod_articles_latest
+[L] http://10.10.10.150/modules/mod_articles_latest
+[v] Checking directory listing: /modules/mod_articles_news
+[L] http://10.10.10.150/modules/mod_articles_news
+[v] Checking directory listing: /modules/mod_articles_popular
+[L] http://10.10.10.150/modules/mod_articles_popular
+[v] Checking directory listing: /modules/mod_banners
+[L] http://10.10.10.150/modules/mod_banners
+[v] Checking directory listing: /modules/mod_breadcrumbs
+[L] http://10.10.10.150/modules/mod_breadcrumbs
+[v] Checking directory listing: /modules/mod_custom
+[L] http://10.10.10.150/modules/mod_custom
+[v] Checking directory listing: /modules/mod_feed
+[L] http://10.10.10.150/modules/mod_feed
+[v] Checking directory listing: /modules/mod_finder
+[L] http://10.10.10.150/modules/mod_finder
+[v] Checking directory listing: /modules/mod_footer
+[L] http://10.10.10.150/modules/mod_footer
+[v] Checking directory listing: /modules/mod_languages
+[L] http://10.10.10.150/modules/mod_languages
+[v] Checking directory listing: /modules/mod_login
+[L] http://10.10.10.150/modules/mod_login
+[v] Checking directory listing: /modules/mod_menu
+[L] http://10.10.10.150/modules/mod_menu
+[v] Checking directory listing: /modules/mod_random_image
+[L] http://10.10.10.150/modules/mod_random_image
+[v] Checking directory listing: /modules/mod_related_items
+[L] http://10.10.10.150/modules/mod_related_items
+[v] Checking directory listing: /modules/mod_search
+[L] http://10.10.10.150/modules/mod_search
+[v] Checking directory listing: /modules/mod_stats
+[L] http://10.10.10.150/modules/mod_stats
+[v] Checking directory listing: /modules/mod_syndicate
+[L] http://10.10.10.150/modules/mod_syndicate
+[v] Checking directory listing: /modules/mod_tags_popular
+[L] http://10.10.10.150/modules/mod_tags_popular
+[v] Checking directory listing: /modules/mod_tags_similar
+[L] http://10.10.10.150/modules/mod_tags_similar
+[v] Checking directory listing: /modules/mod_users_latest
+[L] http://10.10.10.150/modules/mod_users_latest
+[v] Checking directory listing: /modules/mod_whosonline
+[L] http://10.10.10.150/modules/mod_whosonline
+[v] Checking directory listing: /modules/mod_wrapper
+[L] http://10.10.10.150/modules/mod_wrapper
+[v] Checking directory listing: /plugins
+[v] Checking directory listing: /plugins/actionlog
+[v] Checking directory listing: /plugins/authentication
+[L] http://10.10.10.150/plugins/authentication
+[v] Checking directory listing: /plugins/captcha
+[L] http://10.10.10.150/plugins/captcha
+[v] Checking directory listing: /plugins/content
+[L] http://10.10.10.150/plugins/content
+[v] Checking directory listing: /plugins/editors
+[L] http://10.10.10.150/plugins/editors
+[v] Checking directory listing: /plugins/editors-xtd
+[L] http://10.10.10.150/plugins/editors-xtd
+[v] Checking directory listing: /plugins/extension
+[L] http://10.10.10.150/plugins/extension
+[v] Checking directory listing: /plugins/fields
+[L] http://10.10.10.150/plugins/fields
+[v] Checking directory listing: /plugins/finder
+[L] http://10.10.10.150/plugins/finder
+[v] Checking directory listing: /plugins/installer
+[L] http://10.10.10.150/plugins/installer
+[v] Checking directory listing: /plugins/privacy
+[v] Checking directory listing: /plugins/quickicon
+[L] http://10.10.10.150/plugins/quickicon
+[v] Checking directory listing: /plugins/sampledata
+[L] http://10.10.10.150/plugins/sampledata
+[v] Checking directory listing: /plugins/search
+[L] http://10.10.10.150/plugins/search
+[v] Checking directory listing: /plugins/system
+[L] http://10.10.10.150/plugins/system
+[v] Checking directory listing: /plugins/twofactorauth
+[L] http://10.10.10.150/plugins/twofactorauth
+[v] Checking directory listing: /plugins/user
+[L] http://10.10.10.150/plugins/user
+[v] Checking directory listing: /templates
+[v] Checking directory listing: /templates/beez3
+[v] Checking directory listing: /templates/protostar
+[v] Checking directory listing: /templates/system
+[v] Checking directory listing: /tests
+[v] Checking directory listing: /tests/codeception
+[v] Checking directory listing: /tests/javascript
+[v] Checking directory listing: /tests/unit
+[v] Checking directory listing: /tmp
+[-] Date & Time: 17/01/2021 20:03:57
+[-] Completed in: 0:08:13

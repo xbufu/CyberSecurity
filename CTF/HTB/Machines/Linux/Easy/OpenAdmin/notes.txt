@@ -1,0 +1,26 @@
+80:
+	- Apache 2.4.29
+	- Found OpenNetAdmin 18.1.1
+
+RCE:
+	- LFI with known exploit for version
+
+PrivEsc:
+	- Found DB creds in /opt/ona/www/local/config/database_settings.inc.php
+		ona_sys:n1nj4W4rri0R!
+
+	- Found more credentials in database:
+		guest:test
+		admin:admin
+
+	- Could reuse password for jimmy user
+		jimmy:n1nj4W4rri0R!
+
+	- Another password in /var/www/internal/main.php
+		Revealed
+
+	- Found some service running on 52846
+	- Could get joannas SSH key by curling http://127.0.0.1/main.php
+	- Alternative: forward port to local machine
+		ssh jimmy@openadmin.htb -L 52846:127.0.0.1:52846
+	- Could get root by abusing sudo nano

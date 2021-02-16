@@ -1,0 +1,16 @@
+Found anonymous login on ftp
+.info.txt -> ROT13 yielded nothing
+
+robots.txt on webserver found weird hex encoded string
+
+found double  base64 encoded string in /joomla/_files
+
+found sar2html in _test
+
+got rce and found ssh credentials in log.txt
+
+basterd:superduperp@$$
+
+stoner:superduperp@$$no1knows
+
+Got root through find

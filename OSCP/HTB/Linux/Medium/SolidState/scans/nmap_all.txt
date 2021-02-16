@@ -1,0 +1,31 @@
+# Nmap 7.91 scan initiated Tue Feb 16 11:46:15 2021 as: nmap -T4 -vv -p- -sV -oN scans/nmap_all.txt solidstate.htb
+Warning: 10.129.98.176 giving up on port because retransmission cap hit (6).
+Nmap scan report for solidstate.htb (10.129.98.176)
+Host is up, received reset ttl 63 (0.029s latency).
+Scanned at 2021-02-16 11:46:16 EST for 1238s
+Not shown: 65517 closed ports
+Reason: 65517 resets
+PORT      STATE    SERVICE REASON         VERSION
+22/tcp    open     ssh     syn-ack ttl 63 OpenSSH 7.4p1 Debian 10+deb9u1 (protocol 2.0)
+25/tcp    open     smtp?   syn-ack ttl 63
+80/tcp    open     http    syn-ack ttl 63 Apache httpd 2.4.25 ((Debian))
+110/tcp   open     pop3?   syn-ack ttl 63
+119/tcp   open     nntp?   syn-ack ttl 63
+4555/tcp  open     rsip?   syn-ack ttl 63
+7065/tcp  filtered unknown no-response
+10717/tcp filtered unknown no-response
+11646/tcp filtered unknown no-response
+12096/tcp filtered unknown no-response
+18931/tcp filtered unknown no-response
+18972/tcp filtered unknown no-response
+23147/tcp filtered unknown no-response
+23957/tcp filtered unknown no-response
+24732/tcp filtered unknown no-response
+32565/tcp filtered unknown no-response
+39382/tcp filtered unknown no-response
+63388/tcp filtered unknown no-response
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Feb 16 12:06:54 2021 -- 1 IP address (1 host up) scanned in 1239.17 seconds

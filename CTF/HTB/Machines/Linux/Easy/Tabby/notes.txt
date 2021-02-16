@@ -1,0 +1,23 @@
+80/HTTP:
+	- Found Apache 2.4.41
+	- Found LFI from source at http://megahosting.htb/news.php?file=
+
+8080/Tomcat:
+	- Tomcat 9
+	- Found that Tomcat 9 on Ubuntu stores credentials in /usr/share/tomcat9/etc/tomcat-users.xml
+		
+		tomcat:$3cureP4s5w0rd123!
+	
+	- Could access host-manager but not manager
+	- Can access text interface at /manager/text
+
+RCE:
+	- Upload shell through text interface
+
+PrivEsc:
+	- Found backup file in /var/html/
+	- Bruteforced password to zip file
+
+		ash:admin@it
+
+	- Used LXD container priv esc to get root

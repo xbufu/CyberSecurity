@@ -1,0 +1,56 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-01-17 17:13 CET
+NSE: Loaded 153 scripts for scanning.
+NSE: Script Pre-scanning.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 17:13
+Completed NSE at 17:13, 0.00s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 17:13
+Completed NSE at 17:13, 0.00s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 17:13
+Completed NSE at 17:13, 0.00s elapsed
+Initiating Parallel DNS resolution of 1 host. at 17:13
+Completed Parallel DNS resolution of 1 host. at 17:13, 0.04s elapsed
+DNS resolution of 1 IPs took 0.04s. Mode: Async [#: 1, OK: 0, NX: 1, DR: 0, SF: 0, TR: 1, CN: 0]
+Initiating Connect Scan at 17:13
+Scanning 10.10.10.123 [1 port]
+Discovered open port 80/tcp on 10.10.10.123
+Completed Connect Scan at 17:13, 0.03s elapsed (1 total ports)
+Initiating Service scan at 17:13
+Scanning 1 service on 10.10.10.123
+Completed Service scan at 17:14, 6.06s elapsed (1 service on 1 host)
+NSE: Script scanning 10.10.10.123.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 17:14
+Completed NSE at 17:14, 0.52s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 17:14
+Completed NSE at 17:14, 0.11s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 17:14
+Completed NSE at 17:14, 0.00s elapsed
+Nmap scan report for 10.10.10.123
+Host is up, received user-set (0.026s latency).
+Scanned at 2021-01-17 17:13:59 CET for 7s
+
+PORT   STATE SERVICE REASON  VERSION
+80/tcp open  http    syn-ack Apache httpd 2.4.29 ((Ubuntu))
+| http-methods: 
+|_  Supported Methods: GET POST OPTIONS HEAD
+|_http-server-header: Apache/2.4.29 (Ubuntu)
+|_http-title: Friend Zone Escape software
+
+NSE: Script Post-scanning.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 17:14
+Completed NSE at 17:14, 0.00s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 17:14
+Completed NSE at 17:14, 0.00s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 17:14
+Completed NSE at 17:14, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 7.05 seconds

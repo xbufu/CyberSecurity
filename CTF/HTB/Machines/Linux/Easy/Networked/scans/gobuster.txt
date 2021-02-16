@@ -1,0 +1,6 @@
+/index.php (Status: 200)
+/uploads (Status: 301)
+/photos.php (Status: 200)
+/upload.php (Status: 200)
+/lib.php (Status: 200)
+/backup (Status: 301)

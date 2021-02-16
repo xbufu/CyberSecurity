@@ -1,0 +1,3 @@
+Found webshell at /dev/phpbash.php
+Could run sudo without password as scriptmanager
+Found cronjob executing all python scripts in /scripts as root

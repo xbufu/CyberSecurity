@@ -1,0 +1,20 @@
+SSH port 22 open
+HTTP port 80 open
+
+Found img folder
+found hint in white rabbit image
+found directory /r/a/b/b/i/t
+found SSH credentials in pagesource
+
+alice:HowDothTheLittleCrocodileImproveHisShiningTail
+
+Can execute python script as rabbit
+Manipulated random python library to get shell as rabbit
+
+SUID binary executed data command without absolute path
+export our own path and gain shell as Hatter
+
+hatter:WhyIsARavenLikeAWritingDesk?
+
+Got root through exploiting perl setuid capability
+/usr/bin/perl5.26.1 -e 'use POSIX (setuid); POSIX::setuid(0); exec "/bin/bash -p";'

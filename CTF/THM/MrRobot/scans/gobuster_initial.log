@@ -1,0 +1,26 @@
+===============================================================
+Gobuster v3.0.1
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
+===============================================================
+[+] Url:            http://10.10.57.191
+[+] Threads:        10
+[+] Wordlist:       /opt/big.txt
+[+] Status codes:   200,204,301,302,307,401,403
+[+] User Agent:     gobuster/3.0.1
+[+] Extensions:     html,php,js,txt
+[+] Timeout:        10s
+===============================================================
+2020/12/11 16:35:56 Starting gobuster
+===============================================================
+/.htaccess (Status: 403)
+/.htaccess.js (Status: 403)
+/.htaccess.txt (Status: 403)
+/.htaccess.html (Status: 403)
+/.htaccess.php (Status: 403)
+/.htpasswd (Status: 403)
+/.htpasswd.php (Status: 403)
+/.htpasswd.js (Status: 403)
+/.htpasswd.txt (Status: 403)
+/.htpasswd.html (Status: 403)
+/0 (Status: 301)
+/0000 (Status: 301)

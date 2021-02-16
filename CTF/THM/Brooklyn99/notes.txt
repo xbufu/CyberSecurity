@@ -1,0 +1,13 @@
+Found SSH and FTP
+
+Anonymous login on FTP allowed
+
+Got a hint from file in FTP server
+
+username jake
+
+Bruteforced with hydra and got credentials
+
+jake:987654321
+
+Got root through sudo with less

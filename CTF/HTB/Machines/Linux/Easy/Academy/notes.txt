@@ -1,0 +1,49 @@
+- Found admin login at 
+	
+	/admin.php
+
+- Found regular login at
+
+	/login.php
+
+- Found hidden parameter for roleID at
+
+	/register.php
+
+- Could change ID for new account and login to admin panel
+
+- Found another subdomain in task list
+
+	dev-staging-01.academy.htb
+
+- Found Laraver
+
+- Could exploit known vuln to get RCE
+
+- Interesting files on system:
+
+	/etc/mysql/mysql.conf.d/mysqld.cnf
+	/etc/mysql/my.cnf
+	/var/www/html/htb-academy-dev-01/vendor/swiftmailer/swiftmailer/tests/_samples/smime/sign2.crt
+	/libx32
+	/etc/profile.d/
+	/usr/share/byobu/desktop/byobu.desktop.old
+	/var/www/html/academy/public/Modules_files/insight.old.min.js.download
+	/var/www/html/academy/vendor/fzaninotto/faker/.travis/xdebug.sh
+	/var/www/html/academy/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Transport/Esmtp/Auth/NTLMAuthenticatorTest.php:        $password = 'SecREt01';
+/var/www/html/academy/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Transport/Esmtp/Auth/NTLMAuthenticatorTest.php:        $password = 'test1234';
+
+From /var/www/html/academy/.env
+
+	dev:mySup3rP4s5w0rd!!
+
+- Coud reuse password for user cry0l1t3
+
+- Found hash in /var/log/audit.log.3
+https://wiki.gentoo.org/wiki/SELinux/Tutorials/Where_to_find_SELinux_permission_denial_details
+
+	6D7262336E5F41634064336D79210A
+
+	mrb3n:mrb3n_Ac@d3my!
+
+- Could abuse sudo to get root
