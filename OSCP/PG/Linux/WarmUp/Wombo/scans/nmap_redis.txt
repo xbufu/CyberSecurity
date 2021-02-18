@@ -1,0 +1,12 @@
+# Nmap 7.91 scan initiated Wed Feb 17 15:59:17 2021 as: nmap --script redis-info -sV -p 6379 -vvv -oN scans/nmap_redis.txt wombo.pg
+Nmap scan report for wombo.pg (192.168.198.69)
+Host is up, received echo-reply ttl 63 (0.10s latency).
+Scanned at 2021-02-17 15:59:17 CET for 7s
+
+PORT     STATE SERVICE REASON         VERSION
+6379/tcp open  redis   syn-ack ttl 63 Redis key-value store 5.0.9 (64 bits)
+|_redis-info: ERROR: Script execution failed (use -d to debug)
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Feb 17 15:59:24 2021 -- 1 IP address (1 host up) scanned in 7.35 seconds

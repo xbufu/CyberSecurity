@@ -1,0 +1,85 @@
+target:
+  host: 192.168.178.71
+  workgroup: ''
+credentials:
+  user: ''
+  password: ''
+  random_user: yrijaunm
+services:
+  LDAP:
+    port: 389
+    accessible: false
+  LDAPS:
+    port: 636
+    accessible: false
+  SMB:
+    port: 445
+    accessible: true
+  SMB over NetBIOS:
+    port: 139
+    accessible: false
+workgroup: COFFEECORP
+nmblookup: null
+smb1_only: false
+sessions_possible: true
+null_session_possible: true
+user_session_possible: false
+random_user_session_possible: false
+domain_sid: NULL SID
+member_of: workgroup
+os_info:
+  server_type_string: Wk Sv PrQ Unx NT SNT Samba 4.7.6-Ubuntu
+  platform_id: '500'
+  os_version: '6.1'
+  server_type: '0x809a03'
+  os: Linux/Unix (Samba 4.7.6-Ubuntu)
+users: {}
+groups: {}
+shares:
+  backups:
+    type: Disk
+    comment: Share for backups
+    access:
+      mapping: ok
+      listing: ok
+  IPC$:
+    type: IPC
+    comment: IPC Service (Samba 4.7.6-Ubuntu)
+policy:
+  domain_password_information:
+    pw_history_length: None
+    min_pw_length: 5
+    min_pw_age: none
+    max_pw_age: 49710 days 6 hours 21 minutes
+    pw_properties:
+    - DOMAIN_PASSWORD_COMPLEX: false
+    - DOMAIN_PASSWORD_NO_ANON_CHANGE: false
+    - DOMAIN_PASSWORD_NO_CLEAR_CHANGE: false
+    - DOMAIN_PASSWORD_LOCKOUT_ADMINS: false
+    - DOMAIN_PASSWORD_PASSWORD_STORE_CLEARTEXT: false
+    - DOMAIN_PASSWORD_REFUSE_PASSWORD_CHANGE: false
+  domain_lockout_information:
+    lockout_observation_window: 30 minutes
+    lockout_duration: 30 minutes
+    lockout_threshold: None
+  domain_logoff_information:
+    force_logoff_time: 49710 days 6 hours 21 minutes
+printers: {}
+errors:
+  services:
+    enum_services:
+    - 'Could not connect to LDAP on 389/tcp: timed out'
+    - 'Could not connect to LDAPS on 636/tcp: timed out'
+    - 'Could not connect to SMB over NetBIOS on 139/tcp: timed out'
+  nmblookup:
+    enum_netbios:
+    - 'Could not get NetBIOS names information via ''nmblookup'': timed out'
+  workgroup:
+    enum_netbios:
+    - 'Could not get NetBIOS names information via ''nmblookup'': timed out'
+  random_user_session_possible:
+    enum_sessions:
+    - 'Could not establish random user session: STATUS_LOGON_FAILURE'
+  shares:
+    enum_shares:
+    - 'Could not check share: STATUS_OBJECT_NAME_NOT_FOUND'

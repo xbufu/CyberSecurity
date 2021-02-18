@@ -1,0 +1,10 @@
+# Nmap 7.91 scan initiated Wed Feb 17 12:32:22 2021 as: nmap -Pn -vvv -p 1898 --script http-drupal-enum-users -oN scans/nmap_drupal.txt 192.168.198.48
+Nmap scan report for 192.168.198.48
+Host is up, received user-set (0.10s latency).
+Scanned at 2021-02-17 12:32:22 CET for 0s
+
+PORT     STATE SERVICE     REASON
+1898/tcp open  cymtec-port syn-ack ttl 63
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Wed Feb 17 12:32:22 2021 -- 1 IP address (1 host up) scanned in 0.39 seconds

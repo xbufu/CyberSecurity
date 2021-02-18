@@ -1,0 +1,25 @@
+- Nikto v2.1.6
+---------------------------------------------------------------------------
++ Target IP:          192.168.198.69
++ Target Hostname:    wombo.pg
++ Target Port:        8080
++ Start Time:         2021-02-17 15:32:37 (GMT1)
+---------------------------------------------------------------------------
++ Server: No banner retrieved
++ Cookie _csrf created without the httponly flag
++ Retrieved x-powered-by header: NodeBB
++ Uncommon header 'x-dns-prefetch-control' found, with contents: off
++ No CGI Directories found (use '-C all' to force check all possible dirs)
++ Entry '/admin/' in robots.txt returned a non-forbidden or redirect HTTP code (302)
++ Entry '/compose/' in robots.txt returned a non-forbidden or redirect HTTP code ()
++ "robots.txt" contains 3 entries which should be manually viewed.
++ Allowed HTTP Methods: GET, HEAD 
++ OSVDB-3092: /login/: This might be interesting...
++ OSVDB-3092: /register/: This might be interesting...
++ /wp-app.log: Wordpress' wp-app.log may leak application/system details.
++ /wordpresswp-app.log: Wordpress' wp-app.log may leak application/system details.
++ /package.json: Node.js package file found. It may contain sensitive information.
++ 7791 requests: 1 error(s) and 12 item(s) reported on remote host
++ End Time:           2021-02-17 15:47:49 (GMT1) (912 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested

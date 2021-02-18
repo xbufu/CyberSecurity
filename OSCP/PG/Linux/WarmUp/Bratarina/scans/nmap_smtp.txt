@@ -1,0 +1,14 @@
+# Nmap 7.91 scan initiated Thu Feb 18 18:48:10 2021 as: nmap -Pn -p25 -vvv --script smtp-commands,smtp-enum-users -oN scans/nmap_smtp.txt bratarina.pg
+Nmap scan report for bratarina.pg (192.168.178.71)
+Host is up, received user-set (0.11s latency).
+Scanned at 2021-02-18 18:48:10 CET for 6s
+
+PORT   STATE SERVICE REASON
+25/tcp open  smtp    syn-ack ttl 63
+| smtp-commands: bratarina Hello bratarina.pg [192.168.49.178], pleased to meet you, 8BITMIME, ENHANCEDSTATUSCODES, SIZE 36700160, DSN, HELP, 
+|_ 2.0.0 This is OpenSMTPD 2.0.0 To report bugs in the implementation, please contact bugs@openbsd.org 2.0.0 with full details 2.0.0 End of HELP info 
+| smtp-enum-users: 
+|_  RCPT, root
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Thu Feb 18 18:48:16 2021 -- 1 IP address (1 host up) scanned in 6.37 seconds
