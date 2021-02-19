@@ -1,0 +1,216 @@
+target:
+  host: clamav
+  workgroup: ''
+credentials:
+  user: ''
+  password: ''
+  random_user: osxtifsv
+services:
+  LDAP:
+    port: 389
+    accessible: false
+  LDAPS:
+    port: 636
+    accessible: false
+  SMB:
+    port: 445
+    accessible: true
+  SMB over NetBIOS:
+    port: 139
+    accessible: true
+workgroup: WORKGROUP
+nmblookup:
+- 0XBABE          <00> -         B <ACTIVE>  Workstation Service
+- 0XBABE          <03> -         B <ACTIVE>  Messenger Service
+- 0XBABE          <20> -         B <ACTIVE>  File Server Service
+- ..__MSBROWSE__. <01> - <GROUP> B <ACTIVE>  Master Browser
+- WORKGROUP       <00> - <GROUP> B <ACTIVE>  Domain/Workgroup Name
+- WORKGROUP       <1d> -         B <ACTIVE>  Master Browser
+- WORKGROUP       <1e> - <GROUP> B <ACTIVE>  Browser Service Elections
+- MAC Address = 00-00-00-00-00-00
+smb1_only: true
+sessions_possible: true
+null_session_possible: true
+user_session_possible: false
+random_user_session_possible: true
+domain_sid: NULL SID
+member_of: workgroup
+os_info:
+  server_type_string: Wk Sv PrQ Unx NT SNT 0xbabe server (Samba 3.0.14a-Debian) brave pig
+  platform_id: '500'
+  os_version: '4.9'
+  server_type: '0x9a03'
+  os: Linux/Unix (Samba 3.0.14a-Debian) brave pig)
+users:
+  '1010':
+    username: games
+    name: games
+    acb: '0x00000011'
+    description: (null)
+  '501':
+    username: nobody
+    name: nobody
+    acb: '0x00000011'
+    description: (null)
+  '1026':
+    username: proxy
+    name: proxy
+    acb: '0x00000011'
+    description: (null)
+  '1066':
+    username: www-data
+    name: www-data
+    acb: '0x00000011'
+    description: (null)
+  '1000':
+    username: root
+    name: root
+    acb: '0x00000011'
+    description: (null)
+  '1018':
+    username: news
+    name: news
+    acb: '0x00000011'
+    description: (null)
+  '1004':
+    username: bin
+    name: bin
+    acb: '0x00000011'
+    description: (null)
+  '1016':
+    username: mail
+    name: mail
+    acb: '0x00000011'
+    description: (null)
+  '1002':
+    username: daemon
+    name: daemon
+    acb: '0x00000011'
+    description: (null)
+  '3000':
+    username: ryu
+    name: ryu,,,
+    acb: '0x00000011'
+    description: (null)
+  '1012':
+    username: man
+    name: man
+    acb: '0x00000011'
+    description: (null)
+  '1014':
+    username: lp
+    name: lp
+    acb: '0x00000011'
+    description: (null)
+  '1204':
+    username: Debian-exim
+    name: (null)
+    acb: '0x00000011'
+    description: (null)
+  '1082':
+    username: gnats
+    name: Gnats Bug-Reporting System (admin)
+    acb: '0x00000011'
+    description: (null)
+  '1068':
+    username: backup
+    name: backup
+    acb: '0x00000011'
+    description: (null)
+  '1006':
+    username: sys
+    name: sys
+    acb: '0x00000011'
+    description: (null)
+  '1076':
+    username: list
+    name: Mailing List Manager
+    acb: '0x00000011'
+    description: (null)
+  '1078':
+    username: irc
+    name: ircd
+    acb: '0x00000011'
+    description: (null)
+  '1008':
+    username: sync
+    name: sync
+    acb: '0x00000011'
+    description: (null)
+  '1020':
+    username: uucp
+    name: uucp
+    acb: '0x00000011'
+    description: (null)
+groups:
+  '549':
+    groupname: System Operators
+    type: builtin
+  '552':
+    groupname: Replicators
+    type: builtin
+  '546':
+    groupname: Guests
+    type: builtin
+  '547':
+    groupname: Power Users
+    type: builtin
+  '550':
+    groupname: Print Operators
+    type: builtin
+  '544':
+    groupname: Administrators
+    type: builtin
+  '548':
+    groupname: Account Operators
+    type: builtin
+  '551':
+    groupname: Backup Operators
+    type: builtin
+  '545':
+    groupname: Users
+    type: builtin
+shares:
+  print$:
+    type: Disk
+    comment: Printer Drivers
+    access:
+      mapping: ok
+      listing: wrong password
+  IPC$:
+    type: IPC
+    comment: IPC Service (0xbabe server (Samba 3.0.14a-Debian) brave pig)
+    access:
+      mapping: ok
+      listing: not supported
+  ADMIN$:
+    type: IPC
+    comment: IPC Service (0xbabe server (Samba 3.0.14a-Debian) brave pig)
+    access:
+      mapping: ok
+      listing: wrong password
+policy:
+  domain_password_information:
+    pw_history_length: None
+    min_pw_length: 5
+    min_pw_age: none
+    max_pw_age: not set
+    pw_properties:
+    - DOMAIN_PASSWORD_COMPLEX: false
+    - DOMAIN_PASSWORD_NO_ANON_CHANGE: false
+    - DOMAIN_PASSWORD_NO_CLEAR_CHANGE: false
+    - DOMAIN_PASSWORD_LOCKOUT_ADMINS: false
+    - DOMAIN_PASSWORD_PASSWORD_STORE_CLEARTEXT: false
+    - DOMAIN_PASSWORD_REFUSE_PASSWORD_CHANGE: false
+  domain_lockout_information:
+    lockout_observation_window: 30 minutes
+    lockout_duration: 30 minutes
+    lockout_threshold: None
+  domain_logoff_information:
+    force_logoff_time: not set
+printers: {}
+errors:
+  services:
+    enum_services:
+    - 'Could not connect to LDAP on 389/tcp: connection refused'
+    - 'Could not connect to LDAPS on 636/tcp: connection refused'
