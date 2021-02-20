@@ -1,6 +1,0 @@
-403        7l       11w      178c http://192.168.178.71/static/js/
-403        7l       11w      178c http://192.168.178.71/static/css/
-403        7l       11w      178c http://192.168.178.71/static/img/
-403        7l       11w      178c http://192.168.178.71/static/fonts/
-200        1l        2w       14c http://192.168.178.71/static/robots.txt
-200        1l        8w     1150c http://192.168.178.71/static/favicon.ico

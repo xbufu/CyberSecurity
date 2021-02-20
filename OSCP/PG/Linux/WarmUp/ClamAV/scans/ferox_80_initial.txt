@@ -1,5 +1,0 @@
-403       10l       29w        0c http://clamav.pg/.htaccess
-403       10l       29w        0c http://clamav.pg/cgi-bin/
-403       10l       29w        0c http://clamav.pg/doc
-403       10l       29w        0c http://clamav.pg/.htpasswd
-200       11l       31w      289c http://clamav.pg/index
