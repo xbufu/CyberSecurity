@@ -1,0 +1,11 @@
+Automatically increasing ulimit value to 5000.
+Open 192.168.89.91:22
+Open 192.168.89.91:25
+Open 192.168.89.91:80
+Open 192.168.89.91:139
+Open 192.168.89.91:2121
+Open 192.168.89.91:8080
+Open 192.168.89.91:63525
+Starting Script(s)
+Script to be run Some("nmap -vvv -p {{port}} {{ip}}")
+

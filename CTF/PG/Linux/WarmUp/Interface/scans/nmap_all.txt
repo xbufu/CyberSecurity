@@ -1,0 +1,25 @@
+# Nmap 7.91 scan initiated Sat Feb 20 16:37:03 2021 as: nmap -Pn -sC -sV -p- -T4 -vvv --min-rate 1000 --max-retries 3 -oN scans/nmap_all.txt interface
+Nmap scan report for interface (192.168.119.106)
+Host is up, received user-set (0.11s latency).
+Scanned at 2021-02-20 16:37:03 CET for 77s
+Not shown: 65533 closed ports
+Reason: 65533 resets
+PORT   STATE SERVICE REASON         VERSION
+22/tcp open  ssh     syn-ack ttl 63 OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 08:50:f6:e6:aa:44:d6:c4:f1:ca:3c:d1:d9:18:43:4d (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC6456qLI7r2A08BYPnnbyGqVwHsaqw7vFGIE/PMLJZ1JZkKNtZW7WCCcUOPziywvhhZD4RUccmapS3X2ps60MxNgBBC+MD+iCjXpatIZBOGtHcjB0XpA1azzg+gBjDTWIRMD0uTYusnnKg1oH9gbXm5MVJExeW3EF9gElS8LpihG/yQh2hLXqGl27Pd+zstn8RI7rrxivYR/HgujTzshyiCSaQaiiutAKQ/MMErD6pw9/z+v/b4LAZrhDSHL9brhCfKcUFQhmFJHN4D1gKQ5MLK3ssDFDPS1ckKKMaQujDB+Bzyl1QH0luw25jHamzqj1w8pRRTlTgNGkzz5ba4V6r
+|   256 ed:c6:e6:95:88:99:58:31:14:20:38:83:01:e2:e7:15 (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBNY8GcP+DR97hiqOJMe0GDV0JVPMudHUYhVSz19ksZajeQkRoLGDUXn5R2NQ8zvt8lfz6cxM3I0rLaE0djDZUAY=
+|   256 ba:65:96:08:a2:e2:f5:1f:af:88:6e:55:c7:9c:5f:b1 (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMjSU8p0kgIP7x/Idh3s2t+WwMBf6gxF2Hlblcv1oQu0
+80/tcp open  http    syn-ack ttl 63 Node.js Express framework
+|_http-favicon: Unknown favicon MD5: 1FBDF735A0DD3E8321C5E0828A45A4D5
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-title: App
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Feb 20 16:38:20 2021 -- 1 IP address (1 host up) scanned in 77.80 seconds

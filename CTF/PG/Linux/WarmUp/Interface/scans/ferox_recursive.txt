@@ -1,0 +1,2 @@
+200       15l       40w      703c http://interface.pg/index.html
+200        8l       30w      948c http://interface.pg/favicon.ico
