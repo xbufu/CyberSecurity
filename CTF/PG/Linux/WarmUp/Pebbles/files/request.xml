@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE items [
+<!ELEMENT items (item*)>
+<!ATTLIST items burpVersion CDATA "">
+<!ATTLIST items exportTime CDATA "">
+<!ELEMENT item (time, url, host, port, protocol, method, path, extension, request, status, responselength, mimetype, response, comment)>
+<!ELEMENT time (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT host (#PCDATA)>
+<!ATTLIST host ip CDATA "">
+<!ELEMENT port (#PCDATA)>
+<!ELEMENT protocol (#PCDATA)>
+<!ELEMENT method (#PCDATA)>
+<!ELEMENT path (#PCDATA)>
+<!ELEMENT extension (#PCDATA)>
+<!ELEMENT request (#PCDATA)>
+<!ATTLIST request base64 (true|false) "false">
+<!ELEMENT status (#PCDATA)>
+<!ELEMENT responselength (#PCDATA)>
+<!ELEMENT mimetype (#PCDATA)>
+<!ELEMENT response (#PCDATA)>
+<!ATTLIST response base64 (true|false) "false">
+<!ELEMENT comment (#PCDATA)>
+]>
+<items burpVersion="2020.12.1" exportTime="Thu Feb 18 19:37:27 CET 2021">
+  <item>
+    <time>Thu Jan 01 01:00:00 CET 1970</time>
+    <url><![CDATA[http://pebbles.pg/zm/index.php?view=request&request=log&task=query&limit=100]]></url>
+    <host ip="192.168.178.52">pebbles.pg</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method><![CDATA[GET]]></method>
+    <path><![CDATA[/zm/index.php?view=request&request=log&task=query&limit=100]]></path>
+    <extension>php</extension>
+    <request base64="true"><![CDATA[R0VUIC96bS9pbmRleC5waHA/dmlldz1yZXF1ZXN0JnJlcXVlc3Q9bG9nJnRhc2s9cXVlcnkmbGltaXQ9MTAwIEhUVFAvMS4xDQpIb3N0OiBwZWJibGVzLnBnDQpVc2VyLUFnZW50OiBNb3ppbGxhLzUuMCAoWDExOyBMaW51eCB4ODZfNjQ7IHJ2Ojc4LjApIEdlY2tvLzIwMTAwMTAxIEZpcmVmb3gvNzguMA0KQWNjZXB0OiB0ZXh0L2h0bWwsYXBwbGljYXRpb24veGh0bWwreG1sLGFwcGxpY2F0aW9uL3htbDtxPTAuOSxpbWFnZS93ZWJwLCovKjtxPTAuOA0KQWNjZXB0LUxhbmd1YWdlOiBlbi1VUyxlbjtxPTAuNQ0KQWNjZXB0LUVuY29kaW5nOiBnemlwLCBkZWZsYXRlDQpDb25uZWN0aW9uOiBjbG9zZQ0KQ29va2llOiB6bVNraW49Y2xhc3NpYzsgem1DU1M9Y2xhc3NpYzsgWk1TRVNTSUQ9bThpdXQ2M2NwbG5wdG0ydTY4c29mNHJwNDUNClVwZ3JhZGUtSW5zZWN1cmUtUmVxdWVzdHM6IDENCkNhY2hlLUNvbnRyb2w6IG1heC1hZ2U9MA0KDQo=]]></request>
+    <status></status>
+    <responselength></responselength>
+    <mimetype></mimetype>
+    <response base64="true"></response>
+    <comment></comment>
+  </item>
+</items>

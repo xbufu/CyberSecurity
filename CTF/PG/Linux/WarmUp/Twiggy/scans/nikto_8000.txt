@@ -1,0 +1,21 @@
+- Nikto v2.1.6
+---------------------------------------------------------------------------
++ Target IP:          192.168.119.62
++ Target Hostname:    192.168.119.62
++ Target Port:        8000
++ Start Time:         2021-02-19 18:56:01 (GMT1)
+---------------------------------------------------------------------------
++ Server: nginx/1.16.1
++ Retrieved access-control-allow-origin header: *
++ The anti-clickjacking X-Frame-Options header is not present.
++ The X-XSS-Protection header is not defined. This header can hint to the user agent to protect against some forms of XSS
++ Uncommon header 'x-upstream' found, with contents: salt-api/3000-1
++ The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type
++ No CGI Directories found (use '-C all' to force check all possible dirs)
++ Cookie session_id created without the httponly flag
++ Allowed HTTP Methods: GET, HEAD, POST 
++ OSVDB-3092: /login/: This might be interesting...
++ 7917 requests: 0 error(s) and 8 item(s) reported on remote host
++ End Time:           2021-02-19 19:14:00 (GMT1) (1079 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested

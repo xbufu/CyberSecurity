@@ -1,0 +1,72 @@
+Automatically increasing ulimit value to 5000.
+Open 192.168.119.62:22
+Open 192.168.119.62:53
+Open 192.168.119.62:4505
+Open 192.168.119.62:4506
+Starting Script(s)
+Script to be run Some("nmap -vvv -p {{port}} {{ip}}")
+
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-02-19 18:51 CET
+NSE: Loaded 153 scripts for scanning.
+NSE: Script Pre-scanning.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 18:51
+Completed NSE at 18:51, 0.00s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 18:51
+Completed NSE at 18:51, 0.00s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 18:51
+Completed NSE at 18:51, 0.00s elapsed
+Initiating SYN Stealth Scan at 18:51
+Scanning twiggy (192.168.119.62) [4 ports]
+Discovered open port 22/tcp on 192.168.119.62
+Discovered open port 53/tcp on 192.168.119.62
+Discovered open port 4505/tcp on 192.168.119.62
+Discovered open port 4506/tcp on 192.168.119.62
+Completed SYN Stealth Scan at 18:51, 0.18s elapsed (4 total ports)
+Initiating Service scan at 18:51
+Scanning 4 services on twiggy (192.168.119.62)
+Completed Service scan at 18:51, 6.22s elapsed (4 services on 1 host)
+NSE: Script scanning 192.168.119.62.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 18:51
+Completed NSE at 18:51, 8.46s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 18:51
+Completed NSE at 18:51, 0.00s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 18:51
+Completed NSE at 18:51, 0.00s elapsed
+Nmap scan report for twiggy (192.168.119.62)
+Host is up, received user-set (0.11s latency).
+Scanned at 2021-02-19 18:51:29 CET for 15s
+
+PORT     STATE SERVICE REASON         VERSION
+22/tcp   open  ssh     syn-ack ttl 63 OpenSSH 7.4 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 44:7d:1a:56:9b:68:ae:f5:3b:f6:38:17:73:16:5d:75 (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCZz8rKSxgnT5mqHeBPqGlXFj2JJdq21roV/2M8/+0F5/5D1XsaXmbktDpKILFdBcYnLtPxWstxPq+FTbWAJad2uk3BPYWRxidK2dOozE5rKLCyxtkEqs/lO09pM6VKQUi83y5wMwI+9Akkir0AMruuFUSpeCIBt/L98g8OYxzyTsylQATnPxJrrQOWGUQYAvX6jIs25n6d3rmbXk/crg1ZfAVFEHEeR9Y6Bjc2o5YWjMp3XbOZyC4yYseoM6eH2yCSDwu1DzPYrU6cNMfxBf863w1uyhiFk3eIb5jud3kfoxIq6t5JU2DXNhEd4rdXuuinZUSxWiCpHLZ1FCi4tkX5
+|   256 1c:78:9d:83:81:52:f4:b0:1d:8e:32:03:cb:a6:18:93 (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBA1gj1q7mOswnou9RvKwuX8S7WFBhz2NlaSIpYPQmM0I/vqb4T459PgJcMaJOE+WmPiMnDSFsyV3C6YszM754Hc=
+|   256 08:c9:12:d9:7b:98:98:c8:b3:99:7a:19:82:2e:a3:ea (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBzTSyInONbcDxdYULbDvI/HyrQm9m9M5b6Z825jnBEF
+53/tcp   open  domain  syn-ack ttl 63 NLnet Labs NSD
+4505/tcp open  zmtp    syn-ack ttl 63 ZeroMQ ZMTP 2.0
+4506/tcp open  zmtp    syn-ack ttl 63 ZeroMQ ZMTP 2.0
+
+NSE: Script Post-scanning.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 18:51
+Completed NSE at 18:51, 0.00s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 18:51
+Completed NSE at 18:51, 0.00s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 18:51
+Completed NSE at 18:51, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 15.25 seconds
+           Raw packets sent: 4 (176B) | Rcvd: 4 (176B)
+

@@ -1,0 +1,6 @@
+/contact (Status: 200)
+/blog (Status: 200)
+/about (Status: 200)
+/search (Status: 200)
+/gallery (Status: 200)
+/static (Status: 403)

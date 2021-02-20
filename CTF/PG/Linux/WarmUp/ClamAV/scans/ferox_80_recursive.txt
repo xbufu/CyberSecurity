@@ -1,0 +1,3 @@
+403       10l       29w        0c http://clamav.pg/doc
+200       11l       31w      289c http://clamav.pg/index
+200       11l       31w      289c http://clamav.pg/index.html

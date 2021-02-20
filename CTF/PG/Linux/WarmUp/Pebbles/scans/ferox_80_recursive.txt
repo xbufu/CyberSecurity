@@ -1,0 +1,11 @@
+403        9l       28w      275c http://pebbles.pg/cgi-bin/
+403        9l       28w      275c http://pebbles.pg/cgi-bin/.php
+403        9l       28w      275c http://pebbles.pg/cgi-bin/.html
+403        9l       28w      275c http://pebbles.pg/.htaccess
+200      109l      398w     6782c http://pebbles.pg/zm/
+403        9l       28w      275c http://pebbles.pg/.htaccess.php
+403        9l       28w      275c http://pebbles.pg/.htaccess.html
+403        9l       28w      275c http://pebbles.pg/.htaccess.txt
+403        9l       28w      275c http://pebbles.pg/zm/cgi-bin/
+403        9l       28w      275c http://pebbles.pg/zm/cgi-bin/.php
+403        9l       28w      275c http://pebbles.pg/zm/cgi-bin/.html
