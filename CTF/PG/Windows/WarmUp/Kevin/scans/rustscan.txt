@@ -1,0 +1,111 @@
+Automatically increasing ulimit value to 5000.
+Open 192.168.119.45:80
+Open 192.168.119.45:135
+Open 192.168.119.45:445
+Open 192.168.119.45:139
+Starting Script(s)
+Script to be run Some("nmap -vvv -p {{port}} {{ip}}")
+
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-02-21 18:29 CET
+NSE: Loaded 153 scripts for scanning.
+NSE: Script Pre-scanning.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 18:29
+Completed NSE at 18:29, 0.00s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 18:29
+Completed NSE at 18:29, 0.00s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 18:29
+Completed NSE at 18:29, 0.00s elapsed
+Initiating SYN Stealth Scan at 18:29
+Scanning kevin (192.168.119.45) [4 ports]
+Discovered open port 445/tcp on 192.168.119.45
+Discovered open port 135/tcp on 192.168.119.45
+Discovered open port 139/tcp on 192.168.119.45
+Discovered open port 80/tcp on 192.168.119.45
+Completed SYN Stealth Scan at 18:29, 0.13s elapsed (4 total ports)
+Initiating Service scan at 18:29
+Scanning 4 services on kevin (192.168.119.45)
+Completed Service scan at 18:29, 6.42s elapsed (4 services on 1 host)
+NSE: Script scanning 192.168.119.45.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 18:29
+Completed NSE at 18:29, 9.21s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 18:29
+Completed NSE at 18:29, 0.42s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 18:29
+Completed NSE at 18:29, 0.00s elapsed
+Nmap scan report for kevin (192.168.119.45)
+Host is up, received user-set (0.10s latency).
+Scanned at 2021-02-21 18:29:39 CET for 16s
+
+PORT    STATE SERVICE      REASON          VERSION
+80/tcp  open  http         syn-ack ttl 127 GoAhead WebServer
+| http-methods: 
+|_  Supported Methods: GET HEAD
+|_http-server-header: GoAhead-Webs
+| http-title: HP Power Manager
+|_Requested resource was http://kevin/index.asp
+135/tcp open  msrpc        syn-ack ttl 127 Microsoft Windows RPC
+139/tcp open  netbios-ssn  syn-ack ttl 127 Microsoft Windows netbios-ssn
+445/tcp open  microsoft-ds syn-ack ttl 127 Windows 7 Ultimate N 7600 microsoft-ds (workgroup: WORKGROUP)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: 2h40m09s, deviation: 4h37m07s, median: 9s
+| nbstat: NetBIOS name: KEVIN, NetBIOS user: <unknown>, NetBIOS MAC: 00:50:56:bf:56:0e (VMware)
+| Names:
+|   KEVIN<20>            Flags: <unique><active>
+|   KEVIN<00>            Flags: <unique><active>
+|   WORKGROUP<00>        Flags: <group><active>
+|   WORKGROUP<1e>        Flags: <group><active>
+|   WORKGROUP<1d>        Flags: <unique><active>
+|   \x01\x02__MSBROWSE__\x02<01>  Flags: <group><active>
+| Statistics:
+|   00 50 56 bf 56 0e 00 00 00 00 00 00 00 00 00 00 00
+|   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+|_  00 00 00 00 00 00 00 00 00 00 00 00 00 00
+| p2p-conficker: 
+|   Checking for Conficker.C or higher...
+|   Check 1 (port 36228/tcp): CLEAN (Couldn't connect)
+|   Check 2 (port 59030/tcp): CLEAN (Couldn't connect)
+|   Check 3 (port 28340/udp): CLEAN (Timeout)
+|   Check 4 (port 21724/udp): CLEAN (Failed to receive data)
+|_  0/4 checks are positive: Host is CLEAN or ports are blocked
+| smb-os-discovery: 
+|   OS: Windows 7 Ultimate N 7600 (Windows 7 Ultimate N 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::-
+|   Computer name: kevin
+|   NetBIOS computer name: KEVIN\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2021-02-21T09:29:55-08:00
+| smb-security-mode: 
+|   account_used: <blank>
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-02-21T17:29:56
+|_  start_date: 2021-02-21T17:27:57
+
+NSE: Script Post-scanning.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 18:29
+Completed NSE at 18:29, 0.00s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 18:29
+Completed NSE at 18:29, 0.00s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 18:29
+Completed NSE at 18:29, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 16.53 seconds
+           Raw packets sent: 4 (176B) | Rcvd: 4 (176B)
+
