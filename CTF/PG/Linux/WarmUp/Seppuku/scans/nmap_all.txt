@@ -1,0 +1,125 @@
+# Nmap 7.91 scan initiated Sun Feb 21 13:01:12 2021 as: nmap -Pn -sC -sV -p- -T4 -vvv --min-rate 1000 --max-retries 3 -oN nmap_all.txt seppuku
+Nmap scan report for seppuku (192.168.119.90)
+Host is up, received user-set (0.10s latency).
+Scanned at 2021-02-21 13:01:13 CET for 96s
+Not shown: 65527 closed ports
+Reason: 65527 resets
+PORT     STATE SERVICE       REASON         VERSION
+21/tcp   open  ftp           syn-ack ttl 63 vsftpd 3.0.3
+22/tcp   open  ssh           syn-ack ttl 63 OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 cd:55:a8:e4:0f:28:bc:b2:a6:7d:41:76:bb:9f:71:f4 (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDhKnaNVJ/YnScPD1GDZSIfyC/a4jjHhSnoEgi2c/c03kE4JVZbA4cTFeEHGq4PFTyiuchv9w9zNu8XtVIDhILb9K4D38EssujmpekrrAnYkS0yU8Kqas1+3FCY8xjz6a5yVdMk/aQVa4BfFXWnv+rdlio0ZFVdLDaRaG90KMUEVw18Ogzt9lBbnbf7gOR0EGPKW0xzyDyI70u5FJnarDFV9jCZL/flcCL0m+MAycgdFyFqCOTjNxd8Qn2R3rnhgjSER5C9c+qEI/htLmtnXTC0p6AMeTDjO3J57LEB1WFYJ4wkeuEUtPadfhwgDR16XqWmqw2HcBIj1W9H9V47KFfR
+|   256 16:fa:29:e4:e0:8a:2e:7d:37:d2:6f:42:b2:dc:e9:22 (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBC+yj9GRgyn2boC7Dw9un6PEwviM8NZ1CRTjmrHRFiOT+0co+OOwxD5RRQCxuS22zJgsiDIEka8ypTjYWlnJ9T8=
+|   256 bb:74:e8:97:fa:30:8d:da:f9:5c:99:f0:d9:24:8a:d5 (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIESejQ038eElmlRfbqAgaRSK120jvrz9WQ5UcjxJdJ71
+80/tcp   open  http          syn-ack ttl 63 nginx 1.14.2
+| http-auth: 
+| HTTP/1.1 401 Unauthorized\x0D
+|_  Basic realm=Restricted Content
+|_http-server-header: nginx/1.14.2
+|_http-title: 401 Authorization Required
+139/tcp  open  netbios-ssn   syn-ack ttl 63 Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+445/tcp  open  netbios-ssn   syn-ack ttl 63 Samba smbd 4.9.5-Debian (workgroup: WORKGROUP)
+7080/tcp open  ssl/empowerid syn-ack ttl 63 LiteSpeed
+| http-methods: 
+|_  Supported Methods: GET HEAD POST
+|_http-server-header: LiteSpeed
+|_http-title: Did not follow redirect to https://seppuku:7080/
+| ssl-cert: Subject: commonName=seppuku/organizationName=LiteSpeedCommunity/stateOrProvinceName=NJ/countryName=US/localityName=Virtual/name=openlitespeed/initials=CP/emailAddress=mail@seppuku/dnQualifier=openlitespeed/organizationalUnitName=Testing
+| Issuer: commonName=seppuku/organizationName=LiteSpeedCommunity/stateOrProvinceName=NJ/countryName=US/localityName=Virtual/name=openlitespeed/initials=CP/emailAddress=mail@seppuku/dnQualifier=openlitespeed/organizationalUnitName=Testing
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2020-05-13T06:51:35
+| Not valid after:  2022-08-11T06:51:35
+| MD5:   2002 61c4 9f2d 6bfa 21d1 477c 21d9 e703
+| SHA-1: e44a c855 93ba b3f8 b2f3 7ce5 db7f a350 2f49 c7ca
+| -----BEGIN CERTIFICATE-----
+| MIIENTCCAx2gAwIBAgIUTA/1/lqL0wXtcQz9EwctzIvjfkYwDQYJKoZIhvcNAQEL
+| BQAwgccxEDAOBgNVBAMMB3NlcHB1a3UxCzAJBgNVBAYTAlVTMRAwDgYDVQQHDAdW
+| aXJ0dWFsMRswGQYDVQQKDBJMaXRlU3BlZWRDb21tdW5pdHkxEDAOBgNVBAsMB1Rl
+| c3RpbmcxCzAJBgNVBAgMAk5KMRswGQYJKoZIhvcNAQkBFgxtYWlsQHNlcHB1a3Ux
+| FjAUBgNVBCkMDW9wZW5saXRlc3BlZWQxCzAJBgNVBCsMAkNQMRYwFAYDVQQuEw1v
+| cGVubGl0ZXNwZWVkMB4XDTIwMDUxMzA2NTEzNVoXDTIyMDgxMTA2NTEzNVowgccx
+| EDAOBgNVBAMMB3NlcHB1a3UxCzAJBgNVBAYTAlVTMRAwDgYDVQQHDAdWaXJ0dWFs
+| MRswGQYDVQQKDBJMaXRlU3BlZWRDb21tdW5pdHkxEDAOBgNVBAsMB1Rlc3Rpbmcx
+| CzAJBgNVBAgMAk5KMRswGQYJKoZIhvcNAQkBFgxtYWlsQHNlcHB1a3UxFjAUBgNV
+| BCkMDW9wZW5saXRlc3BlZWQxCzAJBgNVBCsMAkNQMRYwFAYDVQQuEw1vcGVubGl0
+| ZXNwZWVkMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA8SVGtfXTfTSO
+| N6Umrvf+GIwkhWZe0KJ37rASVks61rn4yIVuQNzQwDWDBuw1IZD9SHnWWm8ejHmb
+| M84sP4n9OCJYlnWrjFfAouH3IFku40Zx9JyVkGTeNA3HrFNN7WkX6yq2wHDHTqn+
+| SeEX9pax9RAk1mm+DZBfZGqkkiZCu/IO2Ro1kHYTnlnvQmj1y07RkdcumVyVNZzi
+| qJxrIZSl7EIUMEQfmkaX8RYigcfn6RsFkFdWPZ9JanNTBVBNrZptegtW6zH/R/Gu
+| CUk7nbzqDm0u6Cs+6IWwENDkfELUBFkEW0rrDFxYhhJ1NmPa3bnLRYuU8RxGiVyN
+| 9BEXNFg1rwIDAQABoxcwFTATBgNVHSUEDDAKBggrBgEFBQcDATANBgkqhkiG9w0B
+| AQsFAAOCAQEA1n5K+UR3K91RltYeVilcq5/ynOHQiDrUZ5zi+/ZmYIUpoOakXzHv
+| Pz8+gOSQ8fLch1ZUtkkAv8i5zaYJZ/WDMs4V6R80h9w9NOANKNOPCrWB1jWteBGG
+| OSGn2Wbd4Ii0rKYFfmxoEags6MRklyFXE0rQoSlgUFsIQaPiisjv2xnm0GgoVmS8
+| tUfRimAXsoBLgl5ZzT56MlfX5QSrqYy6UAtBeIc7R4C7lWcpay91b8JCXsGspjfX
+| OBnzFQJ3tuMvtsDWD1NBPGWH5LpWRiaLalyz63KvWKdD3pr/5l2OKgU49qOVU/lQ
+| NLEdNCP2sRzfHH/lXlwPhsm5MEtbf5tDKg==
+|_-----END CERTIFICATE-----
+|_ssl-date: 2021-02-21T12:02:50+00:00; +2s from scanner time.
+| tls-alpn: 
+|   h2
+|   spdy/3
+|   spdy/2
+|_  http/1.1
+7601/tcp open  http          syn-ack ttl 63 Apache httpd 2.4.38 ((Debian))
+| http-methods: 
+|_  Supported Methods: GET POST OPTIONS HEAD
+|_http-server-header: Apache/2.4.38 (Debian)
+|_http-title: Seppuku
+8088/tcp open  http          syn-ack ttl 63 LiteSpeed httpd
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: LiteSpeed
+|_http-title: Seppuku
+Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Host script results:
+|_clock-skew: mean: 1h15m01s, deviation: 2h30m00s, median: 0s
+| nbstat: NetBIOS name: SEPPUKU, NetBIOS user: <unknown>, NetBIOS MAC: <unknown> (unknown)
+| Names:
+|   SEPPUKU<00>          Flags: <unique><active>
+|   SEPPUKU<03>          Flags: <unique><active>
+|   SEPPUKU<20>          Flags: <unique><active>
+|   \x01\x02__MSBROWSE__\x02<01>  Flags: <group><active>
+|   WORKGROUP<00>        Flags: <group><active>
+|   WORKGROUP<1d>        Flags: <unique><active>
+|   WORKGROUP<1e>        Flags: <group><active>
+| Statistics:
+|   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+|   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+|_  00 00 00 00 00 00 00 00 00 00 00 00 00 00
+| p2p-conficker: 
+|   Checking for Conficker.C or higher...
+|   Check 1 (port 5314/tcp): CLEAN (Couldn't connect)
+|   Check 2 (port 47462/tcp): CLEAN (Couldn't connect)
+|   Check 3 (port 55160/udp): CLEAN (Failed to receive data)
+|   Check 4 (port 5333/udp): CLEAN (Failed to receive data)
+|_  0/4 checks are positive: Host is CLEAN or ports are blocked
+| smb-os-discovery: 
+|   OS: Windows 6.1 (Samba 4.9.5-Debian)
+|   Computer name: seppuku
+|   NetBIOS computer name: SEPPUKU\x00
+|   Domain name: \x00
+|   FQDN: seppuku
+|_  System time: 2021-02-21T07:02:43-05:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-02-21T12:02:45
+|_  start_date: N/A
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Feb 21 13:02:49 2021 -- 1 IP address (1 host up) scanned in 96.87 seconds

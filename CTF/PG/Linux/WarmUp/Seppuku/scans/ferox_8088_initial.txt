@@ -1,0 +1,16 @@
+200        8l       15w      171c http://seppuku.pg:8088/index.html
+301       14l      109w     1260c http://seppuku.pg:8088/cgi-bin
+200       19l     2772w        0c http://seppuku.pg:8088/index.php
+301       14l      109w     1260c http://seppuku.pg:8088/docs
+200      114l      310w     5472c http://seppuku.pg:8088/docs/index.html
+301       14l      109w     1260c http://seppuku.pg:8088/blocked
+WLD       14l      107w     1227c Got 403 for http://seppuku.pg:8088/blocked/d8c2386817f741808333ea4bd2e17d0a (url length: 32)
+WLD       14l      107w     1227c Got 403 for http://seppuku.pg:8088/blocked/a0eeb487036a467a876452c98b037b78e22fd3cf4a8542059af291c9a36643ecd6df2d58209c4a05a741b8bfa9f267b3 (url length: 96)
+200      186l     1080w    10023c http://seppuku.pg:8088/docs/config.html
+301       14l      109w     1260c http://seppuku.pg:8088/docs/img
+200      183l      716w     8919c http://seppuku.pg:8088/docs/intro.html
+200      161l      927w     9438c http://seppuku.pg:8088/docs/security.html
+200      220l     1008w    10438c http://seppuku.pg:8088/docs/install.html
+200      818l     6061w    40937c http://seppuku.pg:8088/docs/license.html
+301       14l      109w     1260c http://seppuku.pg:8088/docs/css
+200      146l      579w     7529c http://seppuku.pg:8088/docs/admin.html
