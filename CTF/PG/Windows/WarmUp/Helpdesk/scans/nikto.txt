@@ -1,0 +1,47 @@
+- Nikto v2.1.6
+---------------------------------------------------------------------------
++ Target IP:          192.168.119.43
++ Target Hostname:    helpdesk.pg
++ Target Port:        8080
++ Start Time:         2021-02-21 17:22:09 (GMT1)
+---------------------------------------------------------------------------
++ Server: Apache-Coyote/1.1
++ Cookie JSESSIONID created without the httponly flag
++ The anti-clickjacking X-Frame-Options header is not present.
++ The X-XSS-Protection header is not defined. This header can hint to the user agent to protect against some forms of XSS
++ The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type
++ Retrieved x-powered-by header: Servlet 2.4; Tomcat-5.0.28/JBoss-3.2.6 (build: CVSTag=JBoss_3_2_6 date=200410140106)
++ No CGI Directories found (use '-C all' to force check all possible dirs)
++ Allowed HTTP Methods: GET, HEAD, POST, PUT, DELETE, TRACE, OPTIONS 
++ OSVDB-397: HTTP method ('Allow' Header): 'PUT' method could allow clients to save files on the web server.
++ OSVDB-5646: HTTP method ('Allow' Header): 'DELETE' may allow clients to remove files on the web server.
++ Web Server returns a valid response with junk HTTP methods, this may cause false positives.
++ DEBUG HTTP verb may show server debugging information. See http://msdn.microsoft.com/en-us/library/e8z01xdh%28VS.80%29.aspx for details.
++ /servlet/com.unify.servletexec.UploadServlet: This servlet allows attackers to upload files to the server.
++ /servlet/com.livesoftware.jrun.plugins.ssi.SSIFilter: Allaire ColdFusion allows JSP source viewed through a vulnerable SSI call.
++ OSVDB-6196: /servlet/SchedulerTransfer: PeopleSoft SchedulerTransfer servlet found, which may allow remote command execution. See http://www.iss.net/issEn/delivery/xforce/alertdetail.jsp?oid=21999
++ /servlet/sunexamples.BBoardServlet: This default servlet lets attackers execute arbitrary commands.
++ /servlet/SessionManager: IBM WebSphere reconfigure servlet (user=servlet, password=manager). All default code should be removed from servers.
++ /servlet/allaire.jrun.ssi.SSIFilter: Allaire ColdFusion allows JSP source viewed through a vulnerable SSI call, see MPSB01-12 http://www.macromedia.com/devnet/security/security_zone/mpsb01-12.html.
++ OSVDB-3233: /servlet/Counter: JRun default servlet found. All default code should be removed from servers.
++ OSVDB-3233: /servlet/DateServlet: JRun default servlet found. All default code should be removed from servers.
++ OSVDB-3233: /servlet/FingerServlet: JRun default servlet found. All default code should be removed from servers.
++ OSVDB-3233: /servlet/HelloWorldServlet: JRun default servlet found. All default code should be removed from servers.
++ OSVDB-3233: /servlet/SessionServlet: JRun or Netware WebSphere default servlet found. All default code should be removed from servers.
++ OSVDB-3233: /servlet/SimpleServlet: JRun default servlet found (possibly Websphere). All default code should be removed from servers.
++ OSVDB-3233: /servlet/SnoopServlet: JRun, Netware Java Servlet Gateway, or WebSphere default servlet found. All default code should be removed from servers.
++ OSVDB-3233: /servlet/AdminServlet: Netware Web Search Server (adminservlet) found. All default code should be removed from web servers.
++ OSVDB-3233: /servlet/gwmonitor: Netware Gateway monitor found. All default code should be removed from web servers.
++ OSVDB-3233: /servlet/PrintServlet: Novell Netware default servlet found. All default code should be removed from the system.
++ OSVDB-3233: /servlet/SearchServlet: Novell Netware default servlet found. All default code should be removed from the system.
++ OSVDB-3233: /servlet/ServletManager: Netware Java Servlet Gateway found. Default user ID is servlet, default password is manager. All default code should be removed from Internet servers.
++ OSVDB-3233: /servlet/sq1cdsn: Novell Netware default servlet found. All default code should be removed from the system.
++ OSVDB-3233: /servlet/sqlcdsn: Netware SQL connector found. All default code should be removed from web servers.
++ OSVDB-3233: /servlet/webacc: Netware Enterprise and/or GroupWise web access found. All default code should be removed from Internet servers.
++ OSVDB-3233: /servlet/webpub: Netware Web Publisher found. All default code should be removed from web servers.
++ OSVDB-3092: /mc/: This might be interesting... potential country code (Monaco)
++ /debug/: Possible debug directory/program found.
++ 7797 requests: 1 error(s) and 34 item(s) reported on remote host
++ End Time:           2021-02-21 17:37:16 (GMT1) (907 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested
