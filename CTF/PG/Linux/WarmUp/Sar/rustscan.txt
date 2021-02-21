@@ -1,0 +1,69 @@
+Automatically increasing ulimit value to 5000.
+Open 192.168.119.35:22
+Open 192.168.119.35:80
+Starting Script(s)
+Script to be run Some("nmap -vvv -p {{port}} {{ip}}")
+
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-02-21 12:12 CET
+NSE: Loaded 153 scripts for scanning.
+NSE: Script Pre-scanning.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 12:12
+Completed NSE at 12:12, 0.00s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 12:12
+Completed NSE at 12:12, 0.00s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 12:12
+Completed NSE at 12:12, 0.00s elapsed
+Initiating SYN Stealth Scan at 12:12
+Scanning sar (192.168.119.35) [2 ports]
+Discovered open port 80/tcp on 192.168.119.35
+Discovered open port 22/tcp on 192.168.119.35
+Completed SYN Stealth Scan at 12:12, 0.14s elapsed (2 total ports)
+Initiating Service scan at 12:12
+Scanning 2 services on sar (192.168.119.35)
+Completed Service scan at 12:12, 6.21s elapsed (2 services on 1 host)
+NSE: Script scanning 192.168.119.35.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 12:12
+Completed NSE at 12:13, 29.68s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 12:13
+Completed NSE at 12:13, 6.29s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 12:13
+Completed NSE at 12:13, 0.00s elapsed
+Nmap scan report for sar (192.168.119.35)
+Host is up, received user-set (0.10s latency).
+Scanned at 2021-02-21 12:12:45 CET for 43s
+
+PORT   STATE SERVICE REASON         VERSION
+22/tcp open  ssh     syn-ack ttl 63 OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 33:40:be:13:cf:51:7d:d6:a5:9c:64:c8:13:e5:f2:9f (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDHy/WJJHLFdbwbJpTyRYhEyj2jZV024UPWIdXfNHxq45uh08jkihv3znZ98caLP/pz352c0ZYD31We0bTSbHyjQce2bSAJHubDYp13hU/P4tbV5GIJ72W2rWkLTslH/SJoHUSqlManB7ZzgVyU2KQ4fnNx/V1XGJYsshquRqTrXKeeal+yQvTC4gnsr8ENIGMq0yJnYxMAasx6kmSc+S+065Mie65xkyisFXo2MQyxzsFdCu2w1bYmb3pegYDm6Y0c/EJP0sxDizXVwkUOS0XSVdGuk3RUYjt5GQ2fL24ZsML6CwN+HD2ZTnD0FK90PQTLuvlp6BoI/ZWvIenNvu63
+|   256 8a:4e:ab:0b:de:e3:69:40:50:98:98:58:32:8f:71:9e (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBFgxutbLnN4K2tj6ZHzrlzTKS+RRuly+RkA0J63JsQFiwyvz4PqA64w/h0Se3gymZV6zJ9XBpS41b6IoEymeiSA=
+|   256 e6:2f:55:1c:db:d0:bb:46:92:80:dd:5f:8e:a3:0a:41 (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIM+5254x35Vwa2S7X73YLY87Q58qQOD9oQeSKMpmmT0o
+80/tcp open  http    syn-ack ttl 63 Apache httpd 2.4.29 ((Ubuntu))
+|_http-server-header: Apache/2.4.29 (Ubuntu)
+|_http-title: Apache2 Ubuntu Default Page: It works
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+NSE: Script Post-scanning.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 12:13
+Completed NSE at 12:13, 0.00s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 12:13
+Completed NSE at 12:13, 0.00s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 12:13
+Completed NSE at 12:13, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 42.66 seconds
+           Raw packets sent: 2 (88B) | Rcvd: 2 (88B)
+
