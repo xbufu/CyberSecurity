@@ -1,0 +1,30 @@
+# Nmap 7.91 scan initiated Sun Feb 21 19:25:27 2021 as: nmap -p 139,445 --script smb-vuln* -vvv -oN scans/nmap_smb_vuln.txt internal
+Nmap scan report for internal (192.168.119.40)
+Host is up, received timestamp-reply ttl 127 (0.10s latency).
+Scanned at 2021-02-21 19:25:27 CET for 61s
+
+PORT    STATE SERVICE      REASON
+139/tcp open  netbios-ssn  syn-ack ttl 127
+445/tcp open  microsoft-ds syn-ack ttl 127
+
+Host script results:
+| smb-vuln-cve2009-3103: 
+|   VULNERABLE:
+|   SMBv2 exploit (CVE-2009-3103, Microsoft Security Advisory 975497)
+|     State: VULNERABLE
+|     IDs:  CVE:CVE-2009-3103
+|           Array index error in the SMBv2 protocol implementation in srv2.sys in Microsoft Windows Vista Gold, SP1, and SP2,
+|           Windows Server 2008 Gold and SP2, and Windows 7 RC allows remote attackers to execute arbitrary code or cause a
+|           denial of service (system crash) via an & (ampersand) character in a Process ID High header field in a NEGOTIATE
+|           PROTOCOL REQUEST packet, which triggers an attempted dereference of an out-of-bounds memory location,
+|           aka "SMBv2 Negotiation Vulnerability."
+|           
+|     Disclosure date: 2009-09-08
+|     References:
+|       http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3103
+|_      https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3103
+|_smb-vuln-ms10-054: false
+|_smb-vuln-ms10-061: Could not negotiate a connection:SMB: Failed to receive bytes: TIMEOUT
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Sun Feb 21 19:26:28 2021 -- 1 IP address (1 host up) scanned in 60.87 seconds
