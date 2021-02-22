@@ -1,0 +1,64 @@
+# Nmap 7.91 scan initiated Mon Feb 22 18:47:49 2021 as: nmap -Pn -sC -sV -p- -T4 -vvv --min-rate 1000 --max-retries 3 -oN scans/nmap_all.txt algernon
+Nmap scan report for algernon (192.168.119.65)
+Host is up, received user-set (0.10s latency).
+Scanned at 2021-02-22 18:47:50 CET for 188s
+Not shown: 65527 filtered ports
+Reason: 65527 no-responses
+PORT      STATE SERVICE       REASON          VERSION
+21/tcp    open  ftp           syn-ack ttl 127 Microsoft ftpd
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+|_Can't get directory listing: TIMEOUT
+| ftp-syst: 
+|_  SYST: Windows_NT
+80/tcp    open  http          syn-ack ttl 127 Microsoft IIS httpd 10.0
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/10.0
+|_http-title: IIS Windows
+135/tcp   open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+139/tcp   open  netbios-ssn   syn-ack ttl 127 Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds? syn-ack ttl 127
+7680/tcp  open  pando-pub?    syn-ack ttl 127
+9998/tcp  open  http          syn-ack ttl 127 Microsoft IIS httpd 10.0
+|_http-favicon: Unknown favicon MD5: 9D7294CAAB5C2DF4CD916F53653714D5
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: Microsoft-IIS/10.0
+| http-title: Site doesn't have a title (text/html; charset=utf-8).
+|_Requested resource was /interface/root
+| uptime-agent-info: HTTP/1.1 400 Bad Request\x0D
+| Content-Type: text/html; charset=us-ascii\x0D
+| Server: Microsoft-HTTPAPI/2.0\x0D
+| Date: Mon, 22 Feb 2021 17:50:17 GMT\x0D
+| Connection: close\x0D
+| Content-Length: 326\x0D
+| \x0D
+| <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">\x0D
+| <HTML><HEAD><TITLE>Bad Request</TITLE>\x0D
+| <META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>\x0D
+| <BODY><h2>Bad Request - Invalid Verb</h2>\x0D
+| <hr><p>HTTP Error 400. The request verb is invalid.</p>\x0D
+|_</BODY></HTML>\x0D
+17001/tcp open  remoting      syn-ack ttl 127 MS .NET Remoting services
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: 0s
+| p2p-conficker: 
+|   Checking for Conficker.C or higher...
+|   Check 1 (port 63418/tcp): CLEAN (Timeout)
+|   Check 2 (port 21961/tcp): CLEAN (Timeout)
+|   Check 3 (port 19364/udp): CLEAN (Timeout)
+|   Check 4 (port 58326/udp): CLEAN (Timeout)
+|_  0/4 checks are positive: Host is CLEAN or ports are blocked
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-02-22T17:50:19
+|_  start_date: N/A
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Feb 22 18:50:58 2021 -- 1 IP address (1 host up) scanned in 188.22 seconds

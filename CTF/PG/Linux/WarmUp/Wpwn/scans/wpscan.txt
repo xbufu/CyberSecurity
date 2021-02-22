@@ -1,0 +1,115 @@
+_______________________________________________________________
+         __          _______   _____
+         \ \        / /  __ \ / ____|
+          \ \  /\  / /| |__) | (___   ___  __ _ _ __ ®
+           \ \/  \/ / |  ___/ \___ \ / __|/ _` | '_ \
+            \  /\  /  | |     ____) | (__| (_| | | | |
+             \/  \/   |_|    |_____/ \___|\__,_|_| |_|
+
+         WordPress Security Scanner by the WPScan Team
+                         Version 3.8.15
+                               
+       @_WPScan_, @ethicalhack3r, @erwan_lr, @firefart
+_______________________________________________________________
+
+[34m[i][0m Updating the Database ...
+[34m[i][0m Update completed.
+
+[32m[+][0m URL: http://wpwn.pg/wordpress/ [192.168.89.123]
+[32m[+][0m Started: Mon Feb 22 12:29:11 2021
+
+Interesting Finding(s):
+
+[32m[+][0m Headers
+ | Interesting Entry: Server: Apache/2.4.38 (Debian)
+ | Found By: Headers (Passive Detection)
+ | Confidence: 100%
+
+[32m[+][0m XML-RPC seems to be enabled: http://wpwn.pg/wordpress/xmlrpc.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+ | References:
+ |  - http://codex.wordpress.org/XML-RPC_Pingback_API
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_ghost_scanner
+ |  - https://www.rapid7.com/db/modules/auxiliary/dos/http/wordpress_xmlrpc_dos
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_xmlrpc_login
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_pingback_access
+
+[32m[+][0m WordPress readme found: http://wpwn.pg/wordpress/readme.html
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m Upload directory has listing enabled: http://wpwn.pg/wordpress/wp-content/uploads/
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m The external WP-Cron seems to be enabled: http://wpwn.pg/wordpress/wp-cron.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 60%
+ | References:
+ |  - https://www.iplocation.net/defend-wordpress-from-ddos
+ |  - https://github.com/wpscanteam/wpscan/issues/1299
+
+[32m[+][0m WordPress version 5.5 identified (Insecure, released on 2020-08-11).
+ | Found By: Emoji Settings (Passive Detection)
+ |  - http://wpwn.pg/wordpress/, Match: 'wp-includes\/js\/wp-emoji-release.min.js?ver=5.5'
+ | Confirmed By: Meta Generator (Passive Detection)
+ |  - http://wpwn.pg/wordpress/, Match: 'WordPress 5.5'
+
+[34m[i][0m The main theme could not be detected.
+
+[32m[+][0m Enumerating Vulnerable Plugins (via Passive Methods)
+[32m[+][0m Checking Plugin Versions (via Passive and Aggressive Methods)
+
+[34m[i][0m No plugins Found.
+
+[32m[+][0m Enumerating Vulnerable Themes (via Passive and Aggressive Methods)
+
+ Checking Known Locations -: |===================================================================================================|
+
+[34m[i][0m No themes Found.
+
+[32m[+][0m Enumerating Timthumbs (via Passive and Aggressive Methods)
+
+ Checking Known Locations -: |===================================================================================================|
+
+[34m[i][0m No Timthumbs Found.
+
+[32m[+][0m Enumerating Config Backups (via Passive and Aggressive Methods)
+
+ Checking Config Backups -: |====================================================================================================|
+
+[34m[i][0m No Config Backups Found.
+
+[32m[+][0m Enumerating DB Exports (via Passive and Aggressive Methods)
+
+ Checking DB Exports -: |========================================================================================================|
+
+[34m[i][0m No DB Exports Found.
+
+[32m[+][0m Enumerating Medias (via Passive and Aggressive Methods) (Permalink setting must be set to "Plain" for those to be detected)
+
+ Brute Forcing Attachment IDs -: |===============================================================================================|
+
+[34m[i][0m No Medias Found.
+
+[32m[+][0m Enumerating Users (via Passive and Aggressive Methods)
+
+ Brute Forcing Author IDs -: |===================================================================================================|
+
+[34m[i][0m User(s) Identified:
+
+[32m[+][0m admin
+ | Found By: Author Id Brute Forcing - Author Pattern (Aggressive Detection)
+ | Confirmed By: Login Error Messages (Aggressive Detection)
+
+[33m[!][0m No WPScan API Token given, as a result vulnerability data has not been output.
+[33m[!][0m You can get a free API token with 25 daily requests by registering at https://wpscan.com/register
+
+[32m[+][0m Finished: Mon Feb 22 12:31:48 2021
+[32m[+][0m Requests Done: 3125
+[32m[+][0m Cached Requests: 5
+[32m[+][0m Data Sent: 888.044 KB
+[32m[+][0m Data Received: 16.723 MB
+[32m[+][0m Memory used: 247.008 MB
+[32m[+][0m Elapsed time: 00:02:36

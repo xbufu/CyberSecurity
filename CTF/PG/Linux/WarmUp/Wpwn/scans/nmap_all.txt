@@ -1,0 +1,25 @@
+# Nmap 7.91 scan initiated Mon Feb 22 12:26:29 2021 as: nmap -Pn -sC -sV -p- -T4 -vvv --min-rate 1000 --max-retries 3 -oN scans/nmap_all.txt wpwn
+Nmap scan report for wpwn (192.168.89.123)
+Host is up, received user-set (0.10s latency).
+Scanned at 2021-02-22 12:26:30 CET for 77s
+Not shown: 65533 closed ports
+Reason: 65533 resets
+PORT   STATE SERVICE REASON         VERSION
+22/tcp open  ssh     syn-ack ttl 63 OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 59:b7:db:e0:ba:63:76:af:d0:20:03:11:e1:3c:0e:34 (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDMeW+2AyVvlr6ePuYubrIG/bVmu/K0Ids1BYbag6YJINa5mbbPE2ATbqsOnKaBhyRSDCpRr7vdn+jAUhuLhf2VogMckwyBgd5/RLDaBTLrvQwE5KidaCHrPElMcuidzcBCoAmK41o/H/w1zdBpM5Fh8ySMr7WMNCDMON00sKoPecMVxWIxzXmfZXBvSdsSk2zJAP6ds+JGduvsFFCGuoIY4A3tLGW1ZQlALkZIt143KvkQrg4rXRjgVbSvryh6a5GJskvGA3QNpUiebqMHC1zXMrjfBoi/SX944LQ0hVLfuXTriH5QkzRhLxkN+K+lvkrGN5RzAqF3IhGIfJcEp7f1
+|   256 2e:20:56:75:84:ca:35:ce:e3:6a:21:32:1f:e7:f5:9a (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBNe7JLcAbKYhJdELk+ajEn9c68tE7GIr28etvuPibQZZIMFLwM/+Zso6zsYbUOptgjA0+y6YP1geoSoy8CQse9U=
+|   256 0d:02:83:8b:1a:1c:ec:0f:ae:74:cc:7b:da:12:89:9e (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKZdajYQt+tMB0kowHtm64fUkzCdJbSS1dYaS/bWQrWJ
+80/tcp open  http    syn-ack ttl 63 Apache httpd 2.4.38 ((Debian))
+| http-methods: 
+|_  Supported Methods: GET POST OPTIONS HEAD
+|_http-server-header: Apache/2.4.38 (Debian)
+|_http-title: Site doesn't have a title (text/html).
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Feb 22 12:27:47 2021 -- 1 IP address (1 host up) scanned in 77.78 seconds

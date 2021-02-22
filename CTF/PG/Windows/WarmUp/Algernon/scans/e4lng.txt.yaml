@@ -1,0 +1,52 @@
+target:
+  host: algernon
+  workgroup: ''
+credentials:
+  user: ''
+  password: ''
+  random_user: njawgchr
+services:
+  LDAP:
+    port: 389
+    accessible: false
+  LDAPS:
+    port: 636
+    accessible: false
+  SMB:
+    port: 445
+    accessible: true
+  SMB over NetBIOS:
+    port: 139
+    accessible: true
+workgroup: null
+nmblookup: null
+smb1_only: false
+sessions_possible: false
+null_session_possible: false
+user_session_possible: false
+random_user_session_possible: false
+errors:
+  services:
+    enum_services:
+    - 'Could not connect to LDAP on 389/tcp: timed out'
+    - 'Could not connect to LDAPS on 636/tcp: timed out'
+  nmblookup:
+    enum_netbios:
+    - 'Could not get NetBIOS names information via ''nmblookup'': timed out'
+  workgroup:
+    enum_netbios:
+    - 'Could not get NetBIOS names information via ''nmblookup'': timed out'
+  null_session_possible:
+    enum_sessions:
+    - 'Could not establish null session: STATUS_ACCESS_DENIED'
+    - Sessions failed, neither null nor user sessions were possible
+  random_user_session_possible:
+    enum_sessions:
+    - 'Could not establish random user session: STATUS_LOGON_FAILURE'
+    - Sessions failed, neither null nor user sessions were possible
+  sessions_possible:
+    enum_sessions:
+    - Sessions failed, neither null nor user sessions were possible
+  user_session_possible:
+    enum_sessions:
+    - Sessions failed, neither null nor user sessions were possible

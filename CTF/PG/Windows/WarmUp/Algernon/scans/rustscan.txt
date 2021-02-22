@@ -1,0 +1,118 @@
+Automatically increasing ulimit value to 5000.
+Open 192.168.119.65:21
+Open 192.168.119.65:80
+Open 192.168.119.65:135
+Open 192.168.119.65:139
+Open 192.168.119.65:9998
+Open 192.168.119.65:17001
+Starting Script(s)
+Script to be run Some("nmap -vvv -p {{port}} {{ip}}")
+
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-02-22 18:46 CET
+NSE: Loaded 153 scripts for scanning.
+NSE: Script Pre-scanning.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 18:46
+Completed NSE at 18:46, 0.00s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 18:46
+Completed NSE at 18:46, 0.00s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 18:46
+Completed NSE at 18:46, 0.00s elapsed
+Initiating SYN Stealth Scan at 18:46
+Scanning algernon (192.168.119.65) [6 ports]
+Discovered open port 80/tcp on 192.168.119.65
+Discovered open port 21/tcp on 192.168.119.65
+Discovered open port 135/tcp on 192.168.119.65
+Discovered open port 139/tcp on 192.168.119.65
+Discovered open port 17001/tcp on 192.168.119.65
+Discovered open port 9998/tcp on 192.168.119.65
+Completed SYN Stealth Scan at 18:46, 0.14s elapsed (6 total ports)
+Initiating Service scan at 18:46
+Scanning 6 services on algernon (192.168.119.65)
+Completed Service scan at 18:47, 19.76s elapsed (6 services on 1 host)
+NSE: Script scanning 192.168.119.65.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 18:47
+NSE: [ftp-bounce 192.168.119.65:21] PORT response: 501 Server cannot accept argument.
+NSE Timing: About 99.75% done; ETC: 18:47 (0:00:00 remaining)
+Completed NSE at 18:47, 40.99s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 18:47
+Completed NSE at 18:47, 0.76s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 18:47
+Completed NSE at 18:47, 0.00s elapsed
+Nmap scan report for algernon (192.168.119.65)
+Host is up, received user-set (0.10s latency).
+Scanned at 2021-02-22 18:46:48 CET for 61s
+
+PORT      STATE SERVICE     REASON          VERSION
+21/tcp    open  ftp         syn-ack ttl 127 Microsoft ftpd
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+|_Can't get directory listing: TIMEOUT
+| ftp-syst: 
+|_  SYST: Windows_NT
+80/tcp    open  http        syn-ack ttl 127 Microsoft IIS httpd 10.0
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/10.0
+|_http-title: IIS Windows
+135/tcp   open  msrpc       syn-ack ttl 127 Microsoft Windows RPC
+139/tcp   open  netbios-ssn syn-ack ttl 127 Microsoft Windows netbios-ssn
+9998/tcp  open  http        syn-ack ttl 127 Microsoft IIS httpd 10.0
+|_http-favicon: Unknown favicon MD5: 9D7294CAAB5C2DF4CD916F53653714D5
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: Microsoft-IIS/10.0
+| http-title: Site doesn't have a title (text/html; charset=utf-8).
+|_Requested resource was /interface/root
+| uptime-agent-info: HTTP/1.1 400 Bad Request\x0D
+| Content-Type: text/html; charset=us-ascii\x0D
+| Server: Microsoft-HTTPAPI/2.0\x0D
+| Date: Mon, 22 Feb 2021 17:47:16 GMT\x0D
+| Connection: close\x0D
+| Content-Length: 326\x0D
+| \x0D
+| <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">\x0D
+| <HTML><HEAD><TITLE>Bad Request</TITLE>\x0D
+| <META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>\x0D
+| <BODY><h2>Bad Request - Invalid Verb</h2>\x0D
+| <hr><p>HTTP Error 400. The request verb is invalid.</p>\x0D
+|_</BODY></HTML>\x0D
+17001/tcp open  remoting    syn-ack ttl 127 MS .NET Remoting services
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: 0s
+| p2p-conficker: 
+|   Checking for Conficker.C or higher...
+|   Check 1 (port 63418/tcp): CLEAN (Timeout)
+|   Check 2 (port 21961/tcp): CLEAN (Timeout)
+|   Check 3 (port 19364/udp): CLEAN (Timeout)
+|   Check 4 (port 58326/udp): CLEAN (Timeout)
+|_  0/4 checks are positive: Host is CLEAN or ports are blocked
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-02-22T17:47:19
+|_  start_date: N/A
+
+NSE: Script Post-scanning.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 18:47
+Completed NSE at 18:47, 0.00s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 18:47
+Completed NSE at 18:47, 0.00s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 18:47
+Completed NSE at 18:47, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 62.04 seconds
+           Raw packets sent: 6 (264B) | Rcvd: 6 (264B)
+

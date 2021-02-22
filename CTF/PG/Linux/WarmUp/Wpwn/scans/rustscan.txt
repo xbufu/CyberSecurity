@@ -1,0 +1,71 @@
+Automatically increasing ulimit value to 5000.
+Open 192.168.89.123:22
+Open 192.168.89.123:80
+Starting Script(s)
+Script to be run Some("nmap -vvv -p {{port}} {{ip}}")
+
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-02-22 12:26 CET
+NSE: Loaded 153 scripts for scanning.
+NSE: Script Pre-scanning.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 12:26
+Completed NSE at 12:26, 0.00s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 12:26
+Completed NSE at 12:26, 0.00s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 12:26
+Completed NSE at 12:26, 0.00s elapsed
+Initiating SYN Stealth Scan at 12:26
+Scanning wpwn (192.168.89.123) [2 ports]
+Discovered open port 80/tcp on 192.168.89.123
+Discovered open port 22/tcp on 192.168.89.123
+Completed SYN Stealth Scan at 12:26, 0.15s elapsed (2 total ports)
+Initiating Service scan at 12:26
+Scanning 2 services on wpwn (192.168.89.123)
+Completed Service scan at 12:26, 6.21s elapsed (2 services on 1 host)
+NSE: Script scanning 192.168.89.123.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 12:26
+Completed NSE at 12:26, 3.16s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 12:26
+Completed NSE at 12:26, 0.41s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 12:26
+Completed NSE at 12:26, 0.00s elapsed
+Nmap scan report for wpwn (192.168.89.123)
+Host is up, received user-set (0.10s latency).
+Scanned at 2021-02-22 12:26:19 CET for 10s
+
+PORT   STATE SERVICE REASON         VERSION
+22/tcp open  ssh     syn-ack ttl 63 OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 59:b7:db:e0:ba:63:76:af:d0:20:03:11:e1:3c:0e:34 (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDMeW+2AyVvlr6ePuYubrIG/bVmu/K0Ids1BYbag6YJINa5mbbPE2ATbqsOnKaBhyRSDCpRr7vdn+jAUhuLhf2VogMckwyBgd5/RLDaBTLrvQwE5KidaCHrPElMcuidzcBCoAmK41o/H/w1zdBpM5Fh8ySMr7WMNCDMON00sKoPecMVxWIxzXmfZXBvSdsSk2zJAP6ds+JGduvsFFCGuoIY4A3tLGW1ZQlALkZIt143KvkQrg4rXRjgVbSvryh6a5GJskvGA3QNpUiebqMHC1zXMrjfBoi/SX944LQ0hVLfuXTriH5QkzRhLxkN+K+lvkrGN5RzAqF3IhGIfJcEp7f1
+|   256 2e:20:56:75:84:ca:35:ce:e3:6a:21:32:1f:e7:f5:9a (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBNe7JLcAbKYhJdELk+ajEn9c68tE7GIr28etvuPibQZZIMFLwM/+Zso6zsYbUOptgjA0+y6YP1geoSoy8CQse9U=
+|   256 0d:02:83:8b:1a:1c:ec:0f:ae:74:cc:7b:da:12:89:9e (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKZdajYQt+tMB0kowHtm64fUkzCdJbSS1dYaS/bWQrWJ
+80/tcp open  http    syn-ack ttl 63 Apache httpd 2.4.38 ((Debian))
+| http-methods: 
+|_  Supported Methods: GET POST OPTIONS HEAD
+|_http-server-header: Apache/2.4.38 (Debian)
+|_http-title: Site doesn't have a title (text/html).
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+NSE: Script Post-scanning.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 12:26
+Completed NSE at 12:26, 0.00s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 12:26
+Completed NSE at 12:26, 0.00s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 12:26
+Completed NSE at 12:26, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 10.28 seconds
+           Raw packets sent: 2 (88B) | Rcvd: 2 (88B)
+
