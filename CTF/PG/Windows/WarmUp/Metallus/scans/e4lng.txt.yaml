@@ -4,7 +4,7 @@ target:
 credentials:
   user: ''
   password: ''
-  random_user: xdtketkm
+  random_user: azmqbxjl
 services:
   LDAP:
     port: 389

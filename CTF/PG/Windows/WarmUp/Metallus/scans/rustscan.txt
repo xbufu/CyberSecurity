@@ -1,82 +1,74 @@
 Automatically increasing ulimit value to 5000.
-Open 192.168.119.96:135
-Open 192.168.119.96:445
-Open 192.168.119.96:5040
-Open 192.168.119.96:7680
-Open 192.168.119.96:22222
-Open 192.168.119.96:40443
-Open 192.168.119.96:49664
-Open 192.168.119.96:49666
-Open 192.168.119.96:49669
-Open 192.168.119.96:49724
-Open 192.168.119.96:49796
-Open 192.168.119.96:49797
-Open 192.168.119.96:49693
-Open 192.168.119.96:49667
+Open 192.168.90.96:139
+Open 192.168.90.96:445
+Open 192.168.90.96:5040
+Open 192.168.90.96:7680
+Open 192.168.90.96:12000
+Open 192.168.90.96:40443
+Open 192.168.90.96:49666
+Open 192.168.90.96:49664
+Open 192.168.90.96:49669
+Open 192.168.90.96:49693
+Open 192.168.90.96:49724
+Open 192.168.90.96:49796
 Starting Script(s)
 Script to be run Some("nmap -vvv -p {{port}} {{ip}}")
 
-Starting Nmap 7.91 ( https://nmap.org ) at 2021-02-21 20:09 CET
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-02-23 20:33 CET
 NSE: Loaded 153 scripts for scanning.
 NSE: Script Pre-scanning.
 NSE: Starting runlevel 1 (of 3) scan.
-Initiating NSE at 20:09
-Completed NSE at 20:09, 0.00s elapsed
+Initiating NSE at 20:33
+Completed NSE at 20:33, 0.00s elapsed
 NSE: Starting runlevel 2 (of 3) scan.
-Initiating NSE at 20:09
-Completed NSE at 20:09, 0.00s elapsed
+Initiating NSE at 20:33
+Completed NSE at 20:33, 0.00s elapsed
 NSE: Starting runlevel 3 (of 3) scan.
-Initiating NSE at 20:09
-Completed NSE at 20:09, 0.00s elapsed
-Initiating SYN Stealth Scan at 20:09
-Scanning metallus (192.168.119.96) [14 ports]
-Discovered open port 445/tcp on 192.168.119.96
-Discovered open port 49693/tcp on 192.168.119.96
-Discovered open port 135/tcp on 192.168.119.96
-Discovered open port 49667/tcp on 192.168.119.96
-Discovered open port 49669/tcp on 192.168.119.96
-Discovered open port 7680/tcp on 192.168.119.96
-Discovered open port 49796/tcp on 192.168.119.96
-Discovered open port 49666/tcp on 192.168.119.96
-Discovered open port 22222/tcp on 192.168.119.96
-Discovered open port 49797/tcp on 192.168.119.96
-Discovered open port 5040/tcp on 192.168.119.96
-Discovered open port 49664/tcp on 192.168.119.96
-Discovered open port 40443/tcp on 192.168.119.96
-Discovered open port 49724/tcp on 192.168.119.96
-Completed SYN Stealth Scan at 20:09, 0.13s elapsed (14 total ports)
-Initiating Service scan at 20:09
-Scanning 14 services on metallus (192.168.119.96)
-Service scan Timing: About 42.86% done; ETC: 20:11 (0:01:01 remaining)
-Completed Service scan at 20:12, 159.10s elapsed (14 services on 1 host)
-NSE: Script scanning 192.168.119.96.
+Initiating NSE at 20:33
+Completed NSE at 20:33, 0.00s elapsed
+Initiating SYN Stealth Scan at 20:33
+Scanning metallus (192.168.90.96) [12 ports]
+Discovered open port 139/tcp on 192.168.90.96
+Discovered open port 445/tcp on 192.168.90.96
+Discovered open port 40443/tcp on 192.168.90.96
+Discovered open port 49724/tcp on 192.168.90.96
+Discovered open port 49666/tcp on 192.168.90.96
+Discovered open port 12000/tcp on 192.168.90.96
+Discovered open port 49693/tcp on 192.168.90.96
+Discovered open port 49796/tcp on 192.168.90.96
+Discovered open port 49669/tcp on 192.168.90.96
+Discovered open port 5040/tcp on 192.168.90.96
+Discovered open port 49664/tcp on 192.168.90.96
+Discovered open port 7680/tcp on 192.168.90.96
+Completed SYN Stealth Scan at 20:33, 0.15s elapsed (12 total ports)
+Initiating Service scan at 20:33
+Scanning 12 services on metallus (192.168.90.96)
+Service scan Timing: About 41.67% done; ETC: 20:35 (0:01:04 remaining)
+Completed Service scan at 20:36, 161.54s elapsed (12 services on 1 host)
+NSE: Script scanning 192.168.90.96.
 NSE: Starting runlevel 1 (of 3) scan.
-Initiating NSE at 20:12
-NSE Timing: About 99.36% done; ETC: 20:12 (0:00:00 remaining)
-Completed NSE at 20:13, 48.31s elapsed
+Initiating NSE at 20:36
+NSE Timing: About 99.26% done; ETC: 20:36 (0:00:00 remaining)
+Completed NSE at 20:36, 55.95s elapsed
 NSE: Starting runlevel 2 (of 3) scan.
-Initiating NSE at 20:13
-Completed NSE at 20:13, 1.16s elapsed
+Initiating NSE at 20:36
+Completed NSE at 20:36, 1.28s elapsed
 NSE: Starting runlevel 3 (of 3) scan.
-Initiating NSE at 20:13
-Completed NSE at 20:13, 0.00s elapsed
-Nmap scan report for metallus (192.168.119.96)
-Host is up, received user-set (0.10s latency).
-Scanned at 2021-02-21 20:09:38 CET for 209s
+Initiating NSE at 20:36
+Completed NSE at 20:36, 0.00s elapsed
+Nmap scan report for metallus (192.168.90.96)
+Host is up, received user-set (0.11s latency).
+Scanned at 2021-02-23 20:33:19 CET for 219s
 
 PORT      STATE SERVICE       REASON          VERSION
-135/tcp   open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
+139/tcp   open  netbios-ssn   syn-ack ttl 127 Microsoft Windows netbios-ssn
 445/tcp   open  microsoft-ds? syn-ack ttl 127
 5040/tcp  open  unknown       syn-ack ttl 127
 7680/tcp  open  pando-pub?    syn-ack ttl 127
-22222/tcp open  ssh           syn-ack ttl 127 OpenSSH for_Windows_8.1 (protocol 2.0)
-| ssh-hostkey: 
-|   3072 e5:92:a8:a8:57:16:73:42:1a:9b:c2:f2:e3:bd:8a:76 (RSA)
-| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDPRX/k9OawrX2MoDMvpP4AxvlThR+kYfdnKc5cAG1+U8UMoQkVJHlXZtFeFaaCSydgVbydrVQsgsS4IVyo2Fzpb6PM51PIySCrpAjTRum5042XEyO1JaeRHhwM9mP8WRhUl9qvfog58wGnkjqxe9WAgQ3p8SvCPj/uiwIf0sjBQKIb/Adc8nJZNN1RNaFGckd/RAfVbI1YPPu7bG3M2JV9OQg9Pcwf+w458DMQ4XeZzk55VE1WIXSSU9q9OQI/zeRBsyot6LsoSSx1TKl7GFa96DJ7xpsQUrRa31CIrZ81646zX0opA5dNZ5CkhouWCF/4Ja1rR5V9bSnvuoOvW6KO88ICzJRGwd7KhiEf00K5XCpSQr4zPvqHpKoK9yATYRZ9ZE63AuJkBKlMMoqtYbIyHmYPykhkVdPPLviA2+613hryu5PGv36bl6TmTPyi3z9W4ufM1X6zv4DjpyhDIhDEfP8QkvFLaYD8YS5bKvPzu4tNh3lTjqIE2gmWaWjHaik=
-|   256 71:16:46:72:7a:05:c9:77:4e:c5:96:43:96:31:a6:12 (ECDSA)
-| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBJP6P3lKM0ZhbP6fzT5Xsva0PlhH5/9T7Um8xVANBO9d7/BXky0IQE0bLDwVUtIZFCsCNumHea2+WFTh5kMnVas=
-|   256 e3:42:cf:ff:ba:71:ff:27:09:fa:4d:d5:52:99:59:9c (ED25519)
-|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKYI1DU4WSTpKHDyonGLO6VQlMHtmxaEDAH4+4It1CbA
+12000/tcp open  cce4x?        syn-ack ttl 127
+| fingerprint-strings: 
+|   SMBProgNeg: 
+|_    RECONNECT
 40443/tcp open  unknown       syn-ack ttl 127
 | fingerprint-strings: 
 |   GetRequest: 
@@ -87,7 +79,7 @@ PORT      STATE SERVICE       REASON          VERSION
 |     Last-Modified: Tue, 02 Jun 2020 05:43:09 GMT
 |     Content-Type: text/html
 |     Content-Length: 261
-|     Date: Sun, 21 Feb 2021 19:10:03 GMT
+|     Date: Tue, 23 Feb 2021 19:33:34 GMT
 |     Connection: close
 |     Server: AppManager
 |     <!-- $Id$ -->
@@ -107,7 +99,7 @@ PORT      STATE SERVICE       REASON          VERSION
 |     Expires: Thu, 01 Jan 1970 00:00:00 GMT
 |     Content-Type: text/html;charset=UTF-8
 |     Content-Length: 1810
-|     Date: Sun, 21 Feb 2021 19:10:05 GMT
+|     Date: Tue, 23 Feb 2021 19:33:36 GMT
 |     Connection: close
 |     Server: AppManager
 |     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -135,13 +127,12 @@ PORT      STATE SERVICE       REASON          VERSION
 |     Content-Type: text/html;charset=utf-8
 |     Content-Language: en
 |     Content-Length: 2142
-|     Date: Sun, 21 Feb 2021 19:10:05 GMT
+|     Date: Tue, 23 Feb 2021 19:33:36 GMT
 |     Server: AppManager
 |     <!doctype html><html lang="en"><head><title>HTTP Status 505 
 |_    HTTP Version Not Supported</title><style type="text/css">h1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} h2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} h3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} body {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} b {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} p {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;} a {color:black;} a.name {color:black;} .line {height:1px;background-color:#
 49664/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
 49666/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
-49667/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
 49669/tcp open  msrpc         syn-ack ttl 127 Microsoft Windows RPC
 49693/tcp open  java-rmi      syn-ack ttl 127 Java RMI
 49724/tcp open  unknown       syn-ack ttl 127
@@ -149,19 +140,18 @@ PORT      STATE SERVICE       REASON          VERSION
 | fingerprint-strings: 
 |   Kerberos, SMBProgNeg, X11Probe, ms-sql-s: 
 |_    CLOSE_SESSION
-49797/tcp open  unknown       syn-ack ttl 127
-| fingerprint-strings: 
-|   Kerberos, SMBProgNeg, X11Probe, ms-sql-s: 
-|_    CLOSE_SESSION
 3 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port40443-TCP:V=7.91%I=7%D=2/21%Time=6032B000%P=x86_64-pc-linux-gnu%r(G
+SF-Port12000-TCP:V=7.91%I=7%D=2/23%Time=603558D0%P=x86_64-pc-linux-gnu%r(S
+SF:MBProgNeg,16,"\0\0\0\x12\0\tRECONNECT\0\x010\0\0\0\0");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port40443-TCP:V=7.91%I=7%D=2/23%Time=6035588C%P=x86_64-pc-linux-gnu%r(G
 SF:etRequest,246,"HTTP/1\.1\x20200\x20\r\nSet-Cookie:\x20JSESSIONID_APM_40
 SF:443=1A6D3431E8E9C0416631EB031264A51F;\x20Path=/;\x20HttpOnly\r\nAccept-
 SF:Ranges:\x20bytes\r\nETag:\x20W/\"261-1591076589000\"\r\nLast-Modified:\
 SF:x20Tue,\x2002\x20Jun\x202020\x2005:43:09\x20GMT\r\nContent-Type:\x20tex
-SF:t/html\r\nContent-Length:\x20261\r\nDate:\x20Sun,\x2021\x20Feb\x202021\
-SF:x2019:10:03\x20GMT\r\nConnection:\x20close\r\nServer:\x20AppManager\r\n
+SF:t/html\r\nContent-Length:\x20261\r\nDate:\x20Tue,\x2023\x20Feb\x202021\
+SF:x2019:33:34\x20GMT\r\nConnection:\x20close\r\nServer:\x20AppManager\r\n
 SF:\r\n<!--\x20\$Id\$\x20-->\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//W3C//DTD
 SF:\x20HTML\x204\.01\x20Transitional//EN\">\n<html>\n<head>\n<!--\x20This\
 SF:x20comment\x20is\x20for\x20Instant\x20Gratification\x20to\x20work\x20ap
@@ -171,7 +161,7 @@ SF:HTTPOptions,841,"HTTP/1\.1\x20403\x20\r\nSet-Cookie:\x20JSESSIONID_APM_
 SF:40443=BF9C415F97B42D70E2C8EE5A27EB12A0;\x20Path=/;\x20HttpOnly\r\nCache
 SF:-Control:\x20private\r\nExpires:\x20Thu,\x2001\x20Jan\x201970\x2000:00:
 SF:00\x20GMT\r\nContent-Type:\x20text/html;charset=UTF-8\r\nContent-Length
-SF::\x201810\r\nDate:\x20Sun,\x2021\x20Feb\x202021\x2019:10:05\x20GMT\r\nC
+SF::\x201810\r\nDate:\x20Tue,\x2023\x20Feb\x202021\x2019:33:36\x20GMT\r\nC
 SF:onnection:\x20close\r\nServer:\x20AppManager\r\n\r\n<meta\x20http-equiv
 SF:=\"X-UA-Compatible\"\x20content=\"IE=edge\">\n<meta\x20http-equiv=\"Con
 SF:tent-Type\"\x20content=\"UTF-8\">\n<!--\$Id\$-->\n\n\n\n\n\n\n\n\n\n<ht
@@ -186,7 +176,7 @@ SF:000;\x20font-size:8px;\n\t}\n\n\t#header-error\x20h1\n\t{\n\t\tmargin:\
 SF:x200;\x20\x20color:#000;\n\t\tfont-")%r(RTSPRequest,912,"HTTP/1\.1\x205
 SF:05\x20\r\nvary:\x20accept-encoding\r\nContent-Type:\x20text/html;charse
 SF:t=utf-8\r\nContent-Language:\x20en\r\nContent-Length:\x202142\r\nDate:\
-SF:x20Sun,\x2021\x20Feb\x202021\x2019:10:05\x20GMT\r\nServer:\x20AppManage
+SF:x20Tue,\x2023\x20Feb\x202021\x2019:33:36\x20GMT\r\nServer:\x20AppManage
 SF:r\r\n\r\n<!doctype\x20html><html\x20lang=\"en\"><head><title>HTTP\x20St
 SF:atus\x20505\x20\xe2\x80\x93\x20HTTP\x20Version\x20Not\x20Supported</tit
 SF:le><style\x20type=\"text/css\">h1\x20{font-family:Tahoma,Arial,sans-ser
@@ -200,13 +190,7 @@ SF:x20p\x20{font-family:Tahoma,Arial,sans-serif;background:white;color:bla
 SF:ck;font-size:12px;}\x20a\x20{color:black;}\x20a\.name\x20{color:black;}
 SF:\x20\.line\x20{height:1px;background-color:#");
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port49796-TCP:V=7.91%I=7%D=2/21%Time=6032B02B%P=x86_64-pc-linux-gnu%r(K
-SF:erberos,1A,"\0\0\0\x16\0\rCLOSE_SESSION\0\x010\0\0\0\0")%r(SMBProgNeg,1
-SF:A,"\0\0\0\x16\0\rCLOSE_SESSION\0\x010\0\0\0\0")%r(X11Probe,1A,"\0\0\0\x
-SF:16\0\rCLOSE_SESSION\0\x010\0\0\0\0")%r(ms-sql-s,1A,"\0\0\0\x16\0\rCLOSE
-SF:_SESSION\0\x010\0\0\0\0");
-==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port49797-TCP:V=7.91%I=7%D=2/21%Time=6032B02A%P=x86_64-pc-linux-gnu%r(K
+SF-Port49796-TCP:V=7.91%I=7%D=2/23%Time=603558BF%P=x86_64-pc-linux-gnu%r(K
 SF:erberos,1A,"\0\0\0\x16\0\rCLOSE_SESSION\0\x010\0\0\0\0")%r(SMBProgNeg,1
 SF:A,"\0\0\0\x16\0\rCLOSE_SESSION\0\x010\0\0\0\0")%r(X11Probe,1A,"\0\0\0\x
 SF:16\0\rCLOSE_SESSION\0\x010\0\0\0\0")%r(ms-sql-s,1A,"\0\0\0\x16\0\rCLOSE
@@ -214,33 +198,33 @@ SF:_SESSION\0\x010\0\0\0\0");
 Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
 
 Host script results:
-|_clock-skew: 11s
+|_clock-skew: 3s
 | p2p-conficker: 
 |   Checking for Conficker.C or higher...
-|   Check 1 (port 13417/tcp): CLEAN (Timeout)
-|   Check 2 (port 37141/tcp): CLEAN (Timeout)
-|   Check 3 (port 26741/udp): CLEAN (Timeout)
-|   Check 4 (port 43663/udp): CLEAN (Timeout)
+|   Check 1 (port 54654/tcp): CLEAN (Timeout)
+|   Check 2 (port 8964/tcp): CLEAN (Timeout)
+|   Check 3 (port 43023/udp): CLEAN (Timeout)
+|   Check 4 (port 30115/udp): CLEAN (Timeout)
 |_  0/4 checks are positive: Host is CLEAN or ports are blocked
 | smb2-security-mode: 
 |   2.02: 
 |_    Message signing enabled but not required
 | smb2-time: 
-|   date: 2021-02-21T19:12:32
+|   date: 2021-02-23T19:36:09
 |_  start_date: N/A
 
 NSE: Script Post-scanning.
 NSE: Starting runlevel 1 (of 3) scan.
-Initiating NSE at 20:13
-Completed NSE at 20:13, 0.00s elapsed
+Initiating NSE at 20:36
+Completed NSE at 20:36, 0.00s elapsed
 NSE: Starting runlevel 2 (of 3) scan.
-Initiating NSE at 20:13
-Completed NSE at 20:13, 0.00s elapsed
+Initiating NSE at 20:36
+Completed NSE at 20:36, 0.00s elapsed
 NSE: Starting runlevel 3 (of 3) scan.
-Initiating NSE at 20:13
-Completed NSE at 20:13, 0.00s elapsed
+Initiating NSE at 20:36
+Completed NSE at 20:36, 0.00s elapsed
 Read data files from: /usr/bin/../share/nmap
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-Nmap done: 1 IP address (1 host up) scanned in 209.07 seconds
-           Raw packets sent: 14 (616B) | Rcvd: 14 (616B)
+Nmap done: 1 IP address (1 host up) scanned in 219.36 seconds
+           Raw packets sent: 12 (528B) | Rcvd: 12 (528B)
 
