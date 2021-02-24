@@ -1,0 +1,110 @@
+Automatically increasing ulimit value to 5000.
+Open 192.168.90.98:22
+Open 192.168.90.98:445
+Open 192.168.90.98:8080
+Open 192.168.90.98:8081
+Open 192.168.90.98:44091
+Starting Script(s)
+Script to be run Some("nmap -vvv -p {{port}} {{ip}}")
+
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-02-24 15:58 CET
+NSE: Loaded 153 scripts for scanning.
+NSE: Script Pre-scanning.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 15:58
+Completed NSE at 15:58, 0.00s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 15:58
+Completed NSE at 15:58, 0.00s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 15:58
+Completed NSE at 15:58, 0.00s elapsed
+Initiating SYN Stealth Scan at 15:58
+Scanning pelican (192.168.90.98) [5 ports]
+Discovered open port 22/tcp on 192.168.90.98
+Discovered open port 445/tcp on 192.168.90.98
+Discovered open port 8080/tcp on 192.168.90.98
+Discovered open port 44091/tcp on 192.168.90.98
+Discovered open port 8081/tcp on 192.168.90.98
+Completed SYN Stealth Scan at 15:58, 0.15s elapsed (5 total ports)
+Initiating Service scan at 15:58
+Scanning 5 services on pelican (192.168.90.98)
+Completed Service scan at 15:58, 15.73s elapsed (5 services on 1 host)
+NSE: Script scanning 192.168.90.98.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 15:58
+Completed NSE at 15:58, 5.74s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 15:58
+Completed NSE at 15:58, 0.45s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 15:58
+Completed NSE at 15:58, 0.00s elapsed
+Nmap scan report for pelican (192.168.90.98)
+Host is up, received user-set (0.10s latency).
+Scanned at 2021-02-24 15:58:31 CET for 22s
+
+PORT      STATE SERVICE     REASON         VERSION
+22/tcp    open  ssh         syn-ack ttl 63 OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 a8:e1:60:68:be:f5:8e:70:70:54:b4:27:ee:9a:7e:7f (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDssyyACw3AHaTatHhBU1VyBRbKOirrDG8M9IjpJPTf/v8mdIqiXk1HsBdoFZcsmWJVV4OXC7GMcHa+s0tZceTmgGf5TpiCB2yXUYPZre183LjJWM6KQMZVI0LHz9Yd3ji2bdD5jjtVxwnjrdx8GlU1THMGbzZivfSsPF18arMIq3ukYBS09Ov1SIKR4DJ7pjtBRutRBZKI/8/H+uB2u47AQRwbWuVaOmtZyDrfvgL/IqAFRQrbeP1VNQAErzHl8wNuk1vR+yROv0j7smTqoqqc8aB751O63gtBdCvKzpigwFDLyxYuzu8dW1Hh6ZQzaQZgWkw6SZeExAijK7yXSU61
+|   256 bb:99:9a:45:3f:35:0b:b3:49:e6:cf:11:49:87:8d:94 (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBNUPmkVV/Q+iD07j1sFmdFWp7yppofTTgfzAhvMkyGPulIdMDbzFgW/pRAq3R3zZV7aEcWAMfFHgdXfj3W4FUuc=
+|   256 f2:eb:fc:45:d7:e9:80:77:66:a3:93:53:de:00:57:9c (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIPO1eLYoJ0AhVJ5NIDfaSrfUis34Bw5bKMMdFWzHPx0
+445/tcp   open  netbios-ssn syn-ack ttl 63 Samba smbd 4.9.5-Debian (workgroup: WORKGROUP)
+8080/tcp  open  http        syn-ack ttl 63 Jetty 1.0
+|_http-server-header: Jetty(1.0)
+|_http-title: Error 404 Not Found
+8081/tcp  open  http        syn-ack ttl 63 nginx 1.14.2
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: nginx/1.14.2
+|_http-title: Did not follow redirect to http://pelican:8080/exhibitor/v1/ui/index.html
+44091/tcp open  java-rmi    syn-ack ttl 63 Java RMI
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Host script results:
+|_clock-skew: mean: 1h40m01s, deviation: 2h53m12s, median: 1s
+| p2p-conficker: 
+|   Checking for Conficker.C or higher...
+|   Check 1 (port 38529/tcp): CLEAN (Couldn't connect)
+|   Check 2 (port 18419/tcp): CLEAN (Couldn't connect)
+|   Check 3 (port 9950/udp): CLEAN (Timeout)
+|   Check 4 (port 62460/udp): CLEAN (Failed to receive data)
+|_  0/4 checks are positive: Host is CLEAN or ports are blocked
+| smb-os-discovery: 
+|   OS: Windows 6.1 (Samba 4.9.5-Debian)
+|   Computer name: pelican
+|   NetBIOS computer name: PELICAN\x00
+|   Domain name: \x00
+|   FQDN: pelican
+|_  System time: 2021-02-24T09:58:49-05:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-02-24T14:58:51
+|_  start_date: N/A
+
+NSE: Script Post-scanning.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 15:58
+Completed NSE at 15:58, 0.00s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 15:58
+Completed NSE at 15:58, 0.00s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 15:58
+Completed NSE at 15:58, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 22.50 seconds
+           Raw packets sent: 5 (220B) | Rcvd: 22 (4.504KB)
+
