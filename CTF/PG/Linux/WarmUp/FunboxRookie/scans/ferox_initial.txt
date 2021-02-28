@@ -1,0 +1,11 @@
+403        9l       28w      280c http://funboxrookie.pg/.htaccess
+403        9l       28w      280c http://funboxrookie.pg/.htaccess.txt
+403        9l       28w      280c http://funboxrookie.pg/.htaccess.php
+403        9l       28w      280c http://funboxrookie.pg/.htaccess.js
+200        1l        2w       17c http://funboxrookie.pg/robots.txt
+200      375l      964w    10918c http://funboxrookie.pg/index.html
+403        9l       28w      280c http://funboxrookie.pg/.hta
+403        9l       28w      280c http://funboxrookie.pg/.hta.txt
+403        9l       28w      280c http://funboxrookie.pg/.hta.php
+403        9l       28w      280c http://funboxrookie.pg/.hta.js
+403        9l       28w      280c http://funboxrookie.pg/server-status

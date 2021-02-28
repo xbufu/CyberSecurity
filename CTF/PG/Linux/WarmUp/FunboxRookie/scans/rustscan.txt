@@ -1,0 +1,29 @@
+Automatically increasing ulimit value to 5000.
+Open 192.168.98.107:21
+Open 192.168.98.107:22
+Open 192.168.98.107:80
+Starting Script(s)
+Script to be run Some("nmap -vvv -p {{port}} {{ip}}")
+
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-02-28 21:07 CET
+Initiating Ping Scan at 21:07
+Scanning 192.168.98.107 [2 ports]
+Completed Ping Scan at 21:07, 0.10s elapsed (1 total hosts)
+Initiating Connect Scan at 21:07
+Scanning funboxrookie (192.168.98.107) [3 ports]
+Discovered open port 22/tcp on 192.168.98.107
+Discovered open port 80/tcp on 192.168.98.107
+Discovered open port 21/tcp on 192.168.98.107
+Completed Connect Scan at 21:07, 0.10s elapsed (3 total ports)
+Nmap scan report for funboxrookie (192.168.98.107)
+Host is up, received syn-ack (0.10s latency).
+Scanned at 2021-02-28 21:07:40 CET for 0s
+
+PORT   STATE SERVICE REASON
+21/tcp open  ftp     syn-ack
+22/tcp open  ssh     syn-ack
+80/tcp open  http    syn-ack
+
+Read data files from: /usr/bin/../share/nmap
+Nmap done: 1 IP address (1 host up) scanned in 0.25 seconds
+

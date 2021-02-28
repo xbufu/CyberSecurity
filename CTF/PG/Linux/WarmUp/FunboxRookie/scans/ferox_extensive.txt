@@ -1,0 +1,2 @@
+403        9l       28w      280c http://funboxrookie.pg/server-status
+200        1l        2w       17c http://funboxrookie.pg/robots.txt
