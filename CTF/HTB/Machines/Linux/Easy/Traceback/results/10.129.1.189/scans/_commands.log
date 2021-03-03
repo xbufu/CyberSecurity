@@ -1,0 +1,26 @@
+nmap -vv --reason -Pn -sU -A --top-ports=20 --version-all -oN "/home/bufu/CyberSecurity/CTF/HTB/Machines/Linux/Easy/Traceback/results/10.129.1.189/scans/_top_20_udp_nmap.txt" -oX "/home/bufu/CyberSecurity/CTF/HTB/Machines/Linux/Easy/Traceback/results/10.129.1.189/scans/xml/_top_20_udp_nmap.xml" 10.129.1.189
+
+nmap -vv --reason -Pn -sV -sC --version-all -oN "/home/bufu/CyberSecurity/CTF/HTB/Machines/Linux/Easy/Traceback/results/10.129.1.189/scans/_quick_tcp_nmap.txt" -oX "/home/bufu/CyberSecurity/CTF/HTB/Machines/Linux/Easy/Traceback/results/10.129.1.189/scans/xml/_quick_tcp_nmap.xml" 10.129.1.189
+
+nmap -vv --reason -Pn -sC -sV -O --osscan-guess --version-all -p- -oN "/home/bufu/CyberSecurity/CTF/HTB/Machines/Linux/Easy/Traceback/results/10.129.1.189/scans/_full_tcp_nmap.txt" -oX "/home/bufu/CyberSecurity/CTF/HTB/Machines/Linux/Easy/Traceback/results/10.129.1.189/scans/xml/_full_tcp_nmap.xml" 10.129.1.189 --min-rate 1000 --max-retries 3
+
+if [ "False" == "True" ]; then sslscan --show-certificate --no-colour 10.129.1.189:22 2>&1 | tee "/home/bufu/CyberSecurity/CTF/HTB/Machines/Linux/Easy/Traceback/results/10.129.1.189/scans/tcp_22_sslscan.txt"; fi
+
+nmap -vv --reason -Pn -sV -p 22 --script="banner,ssh2-enum-algos,ssh-hostkey,ssh-auth-methods" -oN "/home/bufu/CyberSecurity/CTF/HTB/Machines/Linux/Easy/Traceback/results/10.129.1.189/scans/tcp_22_ssh_nmap.txt" -oX "/home/bufu/CyberSecurity/CTF/HTB/Machines/Linux/Easy/Traceback/results/10.129.1.189/scans/xml/tcp_22_ssh_nmap.xml" 10.129.1.189
+
+if [ "False" == "True" ]; then sslscan --show-certificate --no-colour 10.129.1.189:80 2>&1 | tee "/home/bufu/CyberSecurity/CTF/HTB/Machines/Linux/Easy/Traceback/results/10.129.1.189/scans/tcp_80_sslscan.txt"; fi
+
+nmap -vv --reason -Pn -sV -p 80 --script="banner,(http* or ssl*) and not (brute or broadcast or dos or external or http-slowloris* or fuzzer)" -oN "/home/bufu/CyberSecurity/CTF/HTB/Machines/Linux/Easy/Traceback/results/10.129.1.189/scans/tcp_80_http_nmap.txt" -oX "/home/bufu/CyberSecurity/CTF/HTB/Machines/Linux/Easy/Traceback/results/10.129.1.189/scans/xml/tcp_80_http_nmap.xml" 10.129.1.189
+
+curl -sSik http://10.129.1.189:80/ -m 10 2>&1 | tee "/home/bufu/CyberSecurity/CTF/HTB/Machines/Linux/Easy/Traceback/results/10.129.1.189/scans/tcp_80_http_index.html"
+
+curl -sSik http://10.129.1.189:80/robots.txt -m 10 2>&1 | tee "/home/bufu/CyberSecurity/CTF/HTB/Machines/Linux/Easy/Traceback/results/10.129.1.189/scans/tcp_80_http_robots.txt"
+
+if hash wkhtmltoimage 2> /dev/null; then wkhtmltoimage --format png http://10.129.1.189:80/ /home/bufu/CyberSecurity/CTF/HTB/Machines/Linux/Easy/Traceback/results/10.129.1.189/scans/tcp_80_http_screenshot.png; fi
+
+whatweb --color=never --no-errors -a 3 -v http://10.129.1.189:80 2>&1 | tee "/home/bufu/CyberSecurity/CTF/HTB/Machines/Linux/Easy/Traceback/results/10.129.1.189/scans/tcp_80_http_whatweb.txt"
+
+nikto -ask=no -h http://10.129.1.189:80 2>&1 | tee "/home/bufu/CyberSecurity/CTF/HTB/Machines/Linux/Easy/Traceback/results/10.129.1.189/scans/tcp_80_http_nikto.txt"
+
+feroxbuster -u http://10.129.1.189:80 -w /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-medium.txt -x txt,html,php,asp,aspx,jsp -t 100 -o "/home/bufu/CyberSecurity/CTF/HTB/Machines/Linux/Easy/Traceback/results/10.129.1.189/scans/tcp_80_http_feroxbuster.txt" -n -k
+

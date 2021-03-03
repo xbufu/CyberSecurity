@@ -1,0 +1,31 @@
+# Nmap 7.91 scan initiated Wed Mar  3 22:18:21 2021 as: nmap -vv --reason -Pn -sV -sC --version-all -oN /home/bufu/CyberSecurity/CTF/HTB/Machines/Linux/Easy/Traceback/results/10.129.1.189/scans/_quick_tcp_nmap.txt -oX /home/bufu/CyberSecurity/CTF/HTB/Machines/Linux/Easy/Traceback/results/10.129.1.189/scans/xml/_quick_tcp_nmap.xml 10.129.1.189
+Increasing send delay for 10.129.1.189 from 0 to 5 due to 25 out of 82 dropped probes since last increase.
+Increasing send delay for 10.129.1.189 from 10 to 20 due to 12 out of 38 dropped probes since last increase.
+Increasing send delay for 10.129.1.189 from 20 to 40 due to 50 out of 165 dropped probes since last increase.
+Increasing send delay for 10.129.1.189 from 40 to 80 due to 11 out of 34 dropped probes since last increase.
+Increasing send delay for 10.129.1.189 from 80 to 160 due to 11 out of 22 dropped probes since last increase.
+Increasing send delay for 10.129.1.189 from 160 to 320 due to 58 out of 191 dropped probes since last increase.
+Increasing send delay for 10.129.1.189 from 320 to 640 due to 11 out of 26 dropped probes since last increase.
+Nmap scan report for 10.129.1.189
+Host is up, received user-set (0.041s latency).
+Scanned at 2021-03-03 22:18:21 CET for 128s
+Not shown: 998 closed ports
+Reason: 998 resets
+PORT   STATE SERVICE REASON         VERSION
+22/tcp open  ssh     syn-ack ttl 63 OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 96:25:51:8e:6c:83:07:48:ce:11:4b:1f:e5:6d:8a:28 (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDbMNfxYPZGAdOf2OAbwXhXDi43/QOeh5OwK7Me/l15Bej9yfkZwuLhyslDCYIvi4fh/2ZxB0MecNYHM+Sf4xR/CqPgIjQ+NuyAPI/c9iXDDhzJ+HShRR5WIqsqBHwtsQFrcQXcfQFYlC+NFj5ro9wfl2+UvDO6srTUxl+GaaabePYm2u0mlmfwHqlaQaB8HOUb436IdavyTdvpW7LTz4qKASrCTPaawigDymMEQTRYXY4vSemIGMD1JbfpErh0mrFt0Hu12dmL6LrqNmUcbakxOXvZATisHU5TloxqH/p2iWJSwFi/g0YyR2JZnIB65fGTLjIhZsOohtSG7vrPk+cZ
+|   256 54:bd:46:71:14:bd:b2:42:a1:b6:b0:2d:94:14:3b:0d (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBD2jCEklOC94CKIBj9Lguh3lmTWDFYq41QkI5AtFSx7x+8uOCGaFTqTwphwmfkwZTHL1pzOMoJTrGAN8T7LA2j0=
+|   256 4d:c3:f8:52:b8:85:ec:9c:3e:4d:57:2c:4a:82:fd:86 (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIL4LOW9SgPQeTZubVmd+RsoO3fhSjRSWjps7UtHOc10p
+80/tcp open  http    syn-ack ttl 63 Apache httpd 2.4.29 ((Ubuntu))
+| http-methods: 
+|_  Supported Methods: POST OPTIONS HEAD GET
+|_http-title: Help us
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Mar  3 22:20:29 2021 -- 1 IP address (1 host up) scanned in 128.59 seconds

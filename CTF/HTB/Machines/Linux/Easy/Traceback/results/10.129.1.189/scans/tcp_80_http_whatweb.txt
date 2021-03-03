@@ -1,0 +1,45 @@
+WhatWeb report for http://10.129.1.189:80
+Status    : 200 OK
+Title     : Help us
+IP        : 10.129.1.189
+Country   : RESERVED, ZZ
+
+Summary   : HTML5, HTTPServer[Ubuntu Linux][Apache/2.4.29 (Ubuntu)], Apache[2.4.29]
+
+Detected Plugins:
+[ Apache ]
+	The Apache HTTP Server Project is an effort to develop and 
+	maintain an open-source HTTP server for modern operating 
+	systems including UNIX and Windows NT. The goal of this 
+	project is to provide a secure, efficient and extensible 
+	server that provides HTTP services in sync with the current 
+	HTTP standards. 
+
+	Version      : 2.4.29 (from HTTP Server Header)
+	Google Dorks: (3)
+	Website     : http://httpd.apache.org/
+
+[ HTML5 ]
+	HTML version 5, detected by the doctype declaration 
+
+
+[ HTTPServer ]
+	HTTP server header string. This plugin also attempts to 
+	identify the operating system from the server header. 
+
+	OS           : Ubuntu Linux
+	String       : Apache/2.4.29 (Ubuntu) (from server string)
+
+HTTP Headers:
+	HTTP/1.1 200 OK
+	Date: Wed, 03 Mar 2021 21:20:38 GMT
+	Server: Apache/2.4.29 (Ubuntu)
+	Last-Modified: Tue, 27 Aug 2019 11:29:44 GMT
+	ETag: "459-5911796d5b788-gzip"
+	Accept-Ranges: bytes
+	Vary: Accept-Encoding
+	Content-Encoding: gzip
+	Content-Length: 391
+	Connection: close
+	Content-Type: text/html
+	

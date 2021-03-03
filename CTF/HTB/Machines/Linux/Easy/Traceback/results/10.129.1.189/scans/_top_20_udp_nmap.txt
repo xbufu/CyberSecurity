@@ -1,0 +1,58 @@
+# Nmap 7.91 scan initiated Wed Mar  3 22:18:21 2021 as: nmap -vv --reason -Pn -sU -A --top-ports=20 --version-all -oN /home/bufu/CyberSecurity/CTF/HTB/Machines/Linux/Easy/Traceback/results/10.129.1.189/scans/_top_20_udp_nmap.txt -oX /home/bufu/CyberSecurity/CTF/HTB/Machines/Linux/Easy/Traceback/results/10.129.1.189/scans/xml/_top_20_udp_nmap.xml 10.129.1.189
+adjust_timeouts2: packet supposedly had rtt of -415946 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -416162 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -416162 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -164250 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -164250 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -414520 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -414520 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -414407 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -414407 microseconds.  Ignoring time.
+Nmap scan report for 10.129.1.189
+Host is up, received user-set (0.038s latency).
+Scanned at 2021-03-03 22:18:21 CET for 354s
+
+PORT      STATE         SERVICE      REASON              VERSION
+53/udp    closed        domain       port-unreach ttl 63
+67/udp    closed        dhcps        port-unreach ttl 63
+68/udp    open|filtered dhcpc        no-response
+69/udp    closed        tftp         port-unreach ttl 63
+123/udp   open|filtered ntp          no-response
+135/udp   open|filtered msrpc        no-response
+137/udp   open|filtered netbios-ns   no-response
+138/udp   closed        netbios-dgm  port-unreach ttl 63
+139/udp   closed        netbios-ssn  port-unreach ttl 63
+161/udp   closed        snmp         port-unreach ttl 63
+162/udp   open|filtered snmptrap     no-response
+445/udp   open|filtered microsoft-ds no-response
+500/udp   open|filtered isakmp       no-response
+514/udp   open|filtered syslog       no-response
+520/udp   closed        route        port-unreach ttl 63
+631/udp   open|filtered ipp          no-response
+1434/udp  open|filtered ms-sql-m     no-response
+1900/udp  open|filtered upnp         no-response
+4500/udp  open|filtered nat-t-ike    no-response
+49152/udp open|filtered unknown      no-response
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: remote management|phone|general purpose|webcam|storage-misc
+Running: Avocent embedded, Google Android 2.X, Linux 2.6.X, AXIS embedded, ZyXEL embedded
+OS CPE: cpe:/o:google:android:2.2 cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:2.6.17 cpe:/h:axis:210a_network_camera cpe:/h:axis:211_network_camera cpe:/h:zyxel:nsa-210
+OS details: Avocent/Cyclades ACS 6000, Android 2.2 (Linux 2.6), Linux 2.6.14 - 2.6.34, Linux 2.6.17, Linux 2.6.17 (Mandriva), Linux 2.6.32, AXIS 210A or 211 Network Camera (Linux 2.6.17), ZyXEL NSA-210 NAS device
+TCP/IP fingerprint:
+OS:SCAN(V=7.91%E=4%D=3/3%OT=%CT=%CU=53%PV=Y%DS=2%DC=T%G=N%TM=603FFE7F%P=x86
+OS:_64-pc-linux-gnu)SEQ(CI=Z)T5(R=Y%DF=Y%TG=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=
+OS:)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=O%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A
+OS:=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%TG=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T7(R=Y%
+OS:DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=N)U1(R=Y%DF=N%T=40%IPL=164%U
+OS:N=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=N)
+
+Network Distance: 2 hops
+
+TRACEROUTE (using port 161/udp)
+HOP RTT      ADDRESS
+1   36.85 ms 10.10.14.1
+2   37.07 ms 10.129.1.189
+
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Mar  3 22:24:15 2021 -- 1 IP address (1 host up) scanned in 354.00 seconds

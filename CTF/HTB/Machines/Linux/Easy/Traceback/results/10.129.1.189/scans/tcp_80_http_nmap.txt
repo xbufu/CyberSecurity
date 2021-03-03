@@ -1,0 +1,78 @@
+# Nmap 7.91 scan initiated Wed Mar  3 22:20:29 2021 as: nmap -vv --reason -Pn -sV -p 80 "--script=banner,(http* or ssl*) and not (brute or broadcast or dos or external or http-slowloris* or fuzzer)" -oN /home/bufu/CyberSecurity/CTF/HTB/Machines/Linux/Easy/Traceback/results/10.129.1.189/scans/tcp_80_http_nmap.txt -oX /home/bufu/CyberSecurity/CTF/HTB/Machines/Linux/Easy/Traceback/results/10.129.1.189/scans/xml/tcp_80_http_nmap.xml 10.129.1.189
+Nmap scan report for 10.129.1.189
+Host is up, received user-set (0.038s latency).
+Scanned at 2021-03-03 22:20:30 CET for 89s
+
+PORT   STATE SERVICE REASON         VERSION
+80/tcp open  http    syn-ack ttl 63 Apache httpd 2.4.29 ((Ubuntu))
+|_http-chrono: Request times for /; avg: 3658.17ms; min: 172.38ms; max: 15202.27ms
+| http-comments-displayer: 
+| Spidering limited to: maxdepth=3; maxpagecount=20; withinhost=10.129.1.189
+|     
+|     Path: http://10.129.1.189:80/
+|     Line number: 41
+|     Comment: 
+|_        <!--Some of the best web shells that you might need ;)-->
+|_http-csrf: Couldn't find any CSRF vulnerabilities.
+|_http-date: Wed, 03 Mar 2021 21:20:40 GMT; -2s from local time.
+|_http-devframework: Couldn't determine the underlying framework or CMS. Try increasing 'httpspider.maxpagecount' value to spider more pages.
+|_http-dombased-xss: Couldn't find any DOM based XSS.
+|_http-errors: Couldn't find any error pages.
+|_http-feed: Couldn't find any feeds.
+|_http-fetch: Please enter the complete path of the directory to save data in.
+| http-headers: 
+|   Date: Wed, 03 Mar 2021 21:20:48 GMT
+|   Server: Apache/2.4.29 (Ubuntu)
+|   Last-Modified: Tue, 27 Aug 2019 11:29:44 GMT
+|   ETag: "459-5911796d5b788"
+|   Accept-Ranges: bytes
+|   Content-Length: 1113
+|   Vary: Accept-Encoding
+|   Connection: close
+|   Content-Type: text/html
+|   
+|_  (Request type: GET)
+|_http-jsonp-detection: Couldn't find any JSONP endpoints.
+|_http-litespeed-sourcecode-download: Request with null byte did not work. This web server might not be vulnerable
+|_http-malware-host: Host appears to be clean
+| http-methods: 
+|_  Supported Methods: POST OPTIONS HEAD GET
+|_http-mobileversion-checker: No mobile version detected.
+|_http-php-version: Logo query returned unknown hash f9d9ac294398716c7c30398351e5c545
+|_http-referer-checker: Couldn't find any cross-domain scripts.
+|_http-security-headers: 
+| http-sitemap-generator: 
+|   Directory structure:
+|     /
+|       Other: 1
+|   Longest directory structure:
+|     Depth: 0
+|     Dir: /
+|   Total files found (by extension):
+|_    Other: 1
+|_http-stored-xss: Couldn't find any stored XSS vulnerabilities.
+|_http-title: Help us
+|_http-traceroute: ERROR: Script execution failed (use -d to debug)
+| http-useragent-tester: 
+|   Status for browser useragent: 200
+|   Allowed User Agents: 
+|     Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)
+|     libwww
+|     lwp-trivial
+|     libcurl-agent/1.0
+|     GT::WWW
+|     Snoopy
+|     MFC_Tear_Sample
+|     HTTP::Lite
+|     PHPCrawl
+|     URI::Fetch
+|     Zend_Http_Client
+|_    WWW-Mechanize/1.34
+| http-vhosts: 
+| 40 names had status ERROR
+|_88 names had status 200
+|_http-wordpress-users: [Error] Wordpress installation was not found. We couldn't find wp-login.php
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Mar  3 22:21:59 2021 -- 1 IP address (1 host up) scanned in 90.09 seconds
